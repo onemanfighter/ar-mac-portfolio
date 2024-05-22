@@ -33,7 +33,7 @@ describe('Modal slice', () => {
     expect(result.current.Modal).toMatchSnapshot();
   });
 
-  it.skip('should reset and close modal state on modal data set using closeModal', () => {
+  it('should reset and close modal state on modal data set using closeModal', () => {
     const modalData: ModalState = {
       modalID: ModalIDs.SEARCH,
       onModalClose: onModalCloseMock,
@@ -41,17 +41,13 @@ describe('Modal slice', () => {
     };
     const { result } = renderHook(() => appStore());
 
-    act(() => {
-      result.current.Modal.openModal(modalData);
-      jest.runAllTimers();
-    });
+    result.current.Modal.openModal(modalData);
+
     expect(result.current.Modal.modalID).toEqual(modalData.modalID);
     expect(result.current.Modal.onModalClose).toEqual(modalData.onModalClose);
 
-    act(() => {
-      result.current.Modal.closeModal();
-      jest.runAllTimers();
-    });
+    result.current.Modal.closeModal();
+    jest.runAllTimers();
 
     expect(result.current.Modal.modalID).toEqual(undefined);
     expect(result.current.Modal.onModalClose).toEqual(undefined);

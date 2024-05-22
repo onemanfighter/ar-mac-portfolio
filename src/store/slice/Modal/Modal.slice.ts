@@ -1,3 +1,4 @@
+import { warn } from 'console';
 import { AppStoreSlice } from '../../appStore/types';
 import { ModalState, ModalStateSlice, ModalOpenState, ModalIDs } from './types';
 
@@ -17,14 +18,16 @@ const createModalSlice: AppStoreSlice<ModalStateSlice> = (set) => ({
     });
   },
   closeModal: () => {
+    setTimeout(() => {
+      set((state) => {
+        console.warn('This is a warning message');
+        state.Modal.modalID = initialAlertState.modalID;
+        state.Modal.onModalClose = initialAlertState.onModalClose;
+      });
+    }, 500);
     set((state) => {
       state.Modal.modalOpenState = ModalOpenState.CLOSE;
     });
-    setTimeout(() => {
-      set((state) => {
-        state.Modal.modalOpenState = initialAlertState.modalOpenState;
-      });
-    }, 500 /* 0.5s */);
   },
 });
 
