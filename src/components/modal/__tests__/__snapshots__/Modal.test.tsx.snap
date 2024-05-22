@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component search modal should not render component if isOpen is false 1`] = `<div />`;
+
+exports[`Modal component search modal should render correctly  1`] = `<div />`;
