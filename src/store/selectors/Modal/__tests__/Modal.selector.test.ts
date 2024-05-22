@@ -2,9 +2,6 @@ import { appStore } from '@store';
 import { act, renderHook } from '@testing-library/react';
 import { modalSelector } from '../Modal.selector';
 import { ModalIDs, ModalOpenState, ModalState } from '@store';
-
-jest.useFakeTimers();
-
 describe('Modal selector', () => {
   const onModalCloseMock = jest.fn();
 
@@ -28,14 +25,12 @@ describe('Modal selector', () => {
     };
     const { result } = renderHook(() => appStore(modalSelector));
 
-    act(() => {
-      result.current.openModal(modalData);
-    });
+    result.current.openModal(modalData);
 
     expect(result.current.modalID).toMatchSnapshot();
   });
 
-  it.skip('should reset and close modal state on modal data set using closeModal', () => {
+  it('should reset and close modal state on modal data set using closeModal', () => {
     const modalData: ModalState = {
       modalID: ModalIDs.SEARCH,
       onModalClose: onModalCloseMock,
@@ -43,17 +38,14 @@ describe('Modal selector', () => {
     };
     const { result } = renderHook(() => appStore(modalSelector));
 
-    act(() => {
-      result.current.openModal(modalData);
-    });
+    result.current.openModal(modalData);
     expect(result.current.modalID).toEqual(modalData.modalID);
     expect(result.current.onModalClose).toEqual(modalData.onModalClose);
 
-    act(() => {
-      result.current.closeModal();
-      jest.runAllTimers();
-    });
+    result.current.closeModal();
+    jest.runAllTimers();
 
+    expect(result.current.openState).toEqual(ModalOpenState.CLOSE);
     expect(result.current.modalID).toEqual(undefined);
     expect(result.current.onModalClose).toEqual(undefined);
   });

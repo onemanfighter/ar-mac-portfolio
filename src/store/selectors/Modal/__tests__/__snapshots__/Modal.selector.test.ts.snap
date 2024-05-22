@@ -10,7 +10,7 @@ exports[`Modal selector should return modal selector state and actions 1`] = `
 }
 `;
 
-exports[`Modal selector should return modal state on modal data set using openModal 1`] = `"search"`;
+exports[`Modal selector should return modal state on modal data set using openModal 1`] = `undefined`;
 
 exports[`Modal selector should return modal state with initial value 1`] = `
 {

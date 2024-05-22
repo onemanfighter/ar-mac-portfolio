@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChakraUIProvider should render correctly 1`] = `
+<div>
+  <p
+    class="chakra-text css-0"
+  >
+    App
+  </p>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
