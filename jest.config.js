@@ -19,7 +19,6 @@ module.exports = {
     '!src/**/reportWebVitals.ts',
     '!src/**/setupTests.ts',
   ],
-  exclude: ['**/node_modules/**', '**/dist/**', '**/coverage/**'],
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
   moduleDirectories: ['node_modules', 'src'],
   moduleNameMapper: {
