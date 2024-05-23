@@ -3,31 +3,33 @@
 exports[`Modal slice should return modal selector state and actions 1`] = `
 {
   "Modal": {
-    "closeModal": [Function],
-    "modalID": undefined,
+    "modalData": undefined,
+    "modalID": "none",
     "modalOpenState": "CLOSE",
-    "onModalClose": undefined,
     "openModal": [Function],
+    "resetModalState": [Function],
   },
 }
 `;
 
 exports[`Modal slice should return modal state on modal data set using openModal 1`] = `
 {
-  "closeModal": [Function],
+  "modalData": {
+    "onModalClose": [MockFunction],
+  },
   "modalID": "search",
   "modalOpenState": "OPEN",
-  "onModalClose": [MockFunction],
   "openModal": [Function],
+  "resetModalState": [Function],
 }
 `;
 
 exports[`Modal slice should return modal state with initial value 1`] = `
 {
-  "closeModal": [Function],
-  "modalID": undefined,
+  "modalData": undefined,
+  "modalID": "none",
   "modalOpenState": "CLOSE",
-  "onModalClose": undefined,
   "openModal": [Function],
+  "resetModalState": [Function],
 }
 `;

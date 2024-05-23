@@ -1,12 +1,16 @@
-export enum ModalIDs {
+export enum ModalID {
   NONE = 'none',
   SEARCH = 'search',
 }
 
 export type ModalState = {
-  modalID?: ModalIDs;
-  onModalClose?: () => void;
+  modalID: ModalID;
   modalOpenState: ModalOpenState;
+  modalData?: ModalData;
+};
+
+export type ModalData = {
+  onModalClose: () => void;
 };
 
 export enum ModalOpenState {
@@ -15,8 +19,8 @@ export enum ModalOpenState {
 }
 
 export interface ModalStateAction {
-  openModal: (modalData: ModalState) => void;
-  closeModal: () => void;
+  openModal: (id: ModalID, onModalClose: () => void) => void;
+  resetModalState: () => void;
 }
 
 export type ModalStateSlice = ModalState & ModalStateAction;

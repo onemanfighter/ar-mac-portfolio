@@ -1,12 +1,12 @@
 import { StateCreator } from 'zustand';
 import { ModalStateSlice } from '../slice';
 
-export interface AppStoreState {
+export interface UiStoreState {
   Modal: ModalStateSlice;
 }
 
-export type AppStoreSlice<T> = StateCreator<
-  AppStoreState,
+export type UiStoreSlice<T> = StateCreator<
+  UiStoreState,
   [['zustand/immer', never]],
   [],
   T

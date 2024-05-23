@@ -1,39 +1,38 @@
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
+import { useDisclosure } from '@chakra-ui/react';
 import { ModalComponent } from '@components';
-import { ModalIDs, ModalOpenState, appStore } from '@store';
-import { modalSelector, useShallow } from '@selectors';
+import { ModalOpenState, uiStore } from '@uiStore';
+import { modalDataSelector, useShallow } from '@uiStore/selector';
 
 import { ModalProviderProps } from './types';
-import { useDisclosure } from '@chakra-ui/react';
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const {
-    openState,
-    modalID,
-    onModalClose: onModalCloseHandler,
-    closeModal,
-  } = appStore(useShallow(modalSelector));
+  const { openState, modalID, onModalClose, resetModalState } = uiStore(
+    useShallow(modalDataSelector),
+  );
 
-  const onModalClose = () => {
+  const onModalCloseHandler = useCallback(() => {
+    onModalClose && onModalClose();
     onClose();
-    onModalCloseHandler && onModalCloseHandler();
-    closeModal();
-  };
+    resetModalState();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [onModalClose]);
+
   useEffect(() => {
     if (openState === ModalOpenState.OPEN) {
       onOpen();
     } else {
-      onModalClose();
+      onModalCloseHandler();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [openState, onOpen]);
+  }, [openState]);
 
   return (
     <>
       <ModalComponent
-        modalID={modalID ? modalID : ModalIDs.NONE}
-        onModalClose={onModalClose}
+        modalID={modalID}
+        onModalClose={onModalCloseHandler}
         isOpen={isOpen}
       />
       {children}

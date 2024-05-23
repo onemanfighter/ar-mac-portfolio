@@ -6,9 +6,12 @@ module.exports = {
       '@components': path.resolve(__dirname, './src/components'),
       '@providers': path.resolve(__dirname, './src/providers'),
       '@localization': path.resolve(__dirname, './src/localization'),
-      '@store': path.resolve(__dirname, './src/store'),
-      '@store/slice': path.resolve(__dirname, './src/store/slice'),
-      '@selectors': path.resolve(__dirname, './src/store/selectors'),
+      '@screens': path.resolve(__dirname, './src/screens'),
+      '@uiStore': path.resolve(__dirname, './src/store/uiStore'),
+      '@uiStore/selector': path.resolve(
+        __dirname,
+        './src/store/uiStore/selector',
+      ),
     },
   },
 };

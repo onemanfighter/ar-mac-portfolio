@@ -1,7 +1,7 @@
-import { ModalIDs } from '@store';
+import { ModalID } from 'src/store/uiStore';
 
 export type ModalProps = {
-  modalID: ModalIDs;
+  modalID: ModalID;
   isOpen: boolean;
   onModalClose: () => void;
 };

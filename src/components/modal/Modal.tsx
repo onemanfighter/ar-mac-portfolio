@@ -2,11 +2,11 @@ import { Modal, ModalContent, ModalOverlay } from '@chakra-ui/react';
 import { ModalProps } from './types';
 import { useTranslation } from 'react-i18next';
 import { SearchModal } from './Modals';
-import { ModalIDs } from '@store';
+import { ModalID } from '@uiStore';
 
-const ModalToShow = ({ modalID }: { modalID: ModalIDs }) => {
+const ModalToShow = ({ modalID }: { modalID: ModalID }) => {
   switch (modalID) {
-    case ModalIDs.SEARCH:
+    case ModalID.SEARCH:
       return <SearchModal />;
     default:
       return <></>;
