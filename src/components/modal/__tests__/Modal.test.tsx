@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import ModalComponent from '../Modal';
-import { ModalIDs } from '@store';
-import { on } from 'events';
+import { ModalID } from '@uiStore';
 
 describe('Modal component', () => {
   const onModalClose = jest.fn();
@@ -15,7 +14,7 @@ describe('Modal component', () => {
       const { container } = render(
         <ModalComponent
           isOpen={true}
-          modalID={ModalIDs.SEARCH}
+          modalID={ModalID.SEARCH}
           onModalClose={onModalClose}
         />,
       );
@@ -28,7 +27,7 @@ describe('Modal component', () => {
       const { container } = render(
         <ModalComponent
           isOpen={false}
-          modalID={ModalIDs.SEARCH}
+          modalID={ModalID.SEARCH}
           onModalClose={onModalClose}
         />,
       );
