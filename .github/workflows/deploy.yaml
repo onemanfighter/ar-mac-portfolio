@@ -18,11 +18,11 @@ jobs:
         run: yarn install
       - name: Build
         run: yarn build --if-present
-      # - name: 📂 Sync files
-      # uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      # with:
-      #   server: ftp.telegramonic.com
-      #   username: u392139545.github_deploy
-      #   password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-      #   local-dir: ./build/
-      #   server-dir: ./
+      - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.MAC_AMITRAIKWAR_FTP_SERVER }}
+        username: ${{ secrets.MAC_AMITRAIKWAR_FTP_ACCOUNT }}
+        password: ${{ secrets.MAC_AMITRAIKWAR_FTP_PASSWORD }}
+        local-dir: ./build/
+        server-dir: ./
