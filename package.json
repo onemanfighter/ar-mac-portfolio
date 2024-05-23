@@ -42,7 +42,9 @@
     "eject": "craco eject",
     "lint": "eslint --fix --ext .ts,.tsx ./src",
     "prepare": "husky",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "run-staged-tests": "./scripts/run-staged-tests.sh",
+    "run-pushed-files-tests": "./scripts/run-staged-tests.sh --pushed"
   },
   "eslintConfig": {
     "extends": [
