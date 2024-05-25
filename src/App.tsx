@@ -1,8 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { ChakraUIProvider, ModalProvider } from '@providers';
-import { Text } from '@chakra-ui/react';
+import {
+  ChakraUIProvider,
+  ModalProvider,
+  RouterProviderComponent,
+} from '@providers';
 
 function App() {
   const { t } = useTranslation();
@@ -10,7 +13,7 @@ function App() {
     <ChakraUIProvider>
       <React.StrictMode>
         <ModalProvider>
-          <Text>{t('App')}</Text>
+          <RouterProviderComponent />
         </ModalProvider>
       </React.StrictMode>
     </ChakraUIProvider>

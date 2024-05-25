@@ -1,10 +1,10 @@
-export enum OnState {
+export enum Power {
   OFF = 'off',
   ON = 'on',
 }
 
 export type PowerState = {
-  onState: OnState;
+  onState: Power;
 };
 
 export interface PowerStateAction {
