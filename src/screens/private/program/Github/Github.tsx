@@ -1,11 +1,11 @@
 import { GithubProps } from './type';
 
-const Home = (props: GithubProps) => {
+const Github = (props: GithubProps) => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Github</h1>
     </div>
   );
 };
 
-export default Home;
+export default Github;

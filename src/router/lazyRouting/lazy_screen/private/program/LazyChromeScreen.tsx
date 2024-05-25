@@ -13,4 +13,4 @@ const LazyChromeComponent = () => {
   );
 };
 
-export { LazyChromeComponent as LazyHomeComponent };
+export { LazyChromeComponent };

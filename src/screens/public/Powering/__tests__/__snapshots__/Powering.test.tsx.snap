@@ -4,7 +4,7 @@ exports[`PowerOff should render correctly to match snapshot 1`] = `
 <div>
   <div>
     <h1>
-      PowerOff
+      Powering
     </h1>
   </div>
 </div>

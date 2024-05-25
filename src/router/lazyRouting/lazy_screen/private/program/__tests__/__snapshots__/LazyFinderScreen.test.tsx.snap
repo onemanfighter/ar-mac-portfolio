@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Github should render correctly to match snapshot 1`] = `
+exports[`LazyFinderComponent should render correctly to match snapshot 1`] = `
 <div>
   <div>
     <h1>
-      Github
+      Finder
     </h1>
   </div>
 </div>

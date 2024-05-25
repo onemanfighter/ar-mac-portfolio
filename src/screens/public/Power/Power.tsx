@@ -3,7 +3,7 @@ import { PowerOnProps } from './type';
 const PowerOn = (props: PowerOnProps) => {
   return (
     <div>
-      <h1>PowerOn</h1>
+      <h1>Power</h1>
     </div>
   );
 };

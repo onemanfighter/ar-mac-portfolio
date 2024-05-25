@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Github should render correctly to match snapshot 1`] = `
+exports[`LazyLockComponent should render correctly to match snapshot 1`] = `
 <div>
   <div>
     <h1>
-      Github
+      Lock
     </h1>
   </div>
 </div>
