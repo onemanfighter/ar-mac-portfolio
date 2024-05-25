@@ -23,7 +23,7 @@ module.exports = {
   moduleDirectories: ['node_modules'],
   moduleNameMapper: {
     // '@assets/(.*)': '<rootDir>/src/assets/$1',
-    // '@router': '<rootDir>/src/router',
+    '@router': '<rootDir>/src/router',
     '@screens': '<rootDir>/src/screens',
     '@components': '<rootDir>/src/components',
     '@localization': '<rootDir>/src/localization',

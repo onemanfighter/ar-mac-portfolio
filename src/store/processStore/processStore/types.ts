@@ -1,8 +1,9 @@
 import { StateCreator } from 'zustand';
-import { PowerStateSlice } from '../slice';
+import { LoginStateSlice, PowerStateSlice } from '../slice';
 
 export interface ProcessStoreState {
   Power: PowerStateSlice;
+  Login: LoginStateSlice;
 }
 
 export type ProcessStoreSlice<T> = StateCreator<

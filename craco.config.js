@@ -6,6 +6,7 @@ module.exports = {
       '@components': path.resolve(__dirname, './src/components'),
       '@providers': path.resolve(__dirname, './src/providers'),
       '@localization': path.resolve(__dirname, './src/localization'),
+      '@router': path.resolve(__dirname, './src/router'),
       '@screens': path.resolve(__dirname, './src/screens'),
       // UI store
       '@uiStore': path.resolve(__dirname, './src/store/uiStore'),
