@@ -28,7 +28,7 @@ for file in $changed_files; do
     fi
 done
 
-if [ ${#all_these_files[@]} -gt 0]; then
+if [ ${#all_these_files[@]} -gt 0 ]; then
     yarn test "${all_these_files[@]}"
 else 
     echo "No test files found"
