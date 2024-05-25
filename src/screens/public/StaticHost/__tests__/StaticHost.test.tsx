@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import PowerOff from '../PowerOff';
+import StaticHost from '../StaticHost';
 
-describe('PowerOff', () => {
+describe('StaticHost', () => {
   it('should render correctly to match snapshot', () => {
-    const { container } = render(<PowerOff />);
+    const { container } = render(<StaticHost />);
 
     expect(container).toMatchSnapshot();
   });

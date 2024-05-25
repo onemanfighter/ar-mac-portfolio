@@ -1,9 +1,8 @@
 import { Button } from '@chakra-ui/react';
 import { modalSelector, useShallow } from '@uiStore/selector';
 import { ModalID, uiStore } from '@uiStore';
-import { useCallback } from 'react';
 
-const Screen = () => {
+const Mac = () => {
   const { openModal } = uiStore(useShallow(modalSelector));
 
   const openModalHandler = () => {
@@ -17,4 +16,4 @@ const Screen = () => {
   );
 };
 
-export default Screen;
+export default Mac;

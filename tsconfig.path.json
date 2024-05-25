@@ -5,6 +5,7 @@
       "@localization": ["src/localization"],
       "@components": ["src/components"],
       "@providers": ["src/providers"],
+      "@router": ["src/router"],
       "@screens": ["src/screens"],
       // UI Store
       "@uiStore": ["src/store/uiStore"],
