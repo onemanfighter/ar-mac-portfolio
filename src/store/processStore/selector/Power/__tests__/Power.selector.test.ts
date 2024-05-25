@@ -3,7 +3,7 @@ import { OnState, processStore } from '@processStore';
 import { powerSelector } from '../Power.selector';
 
 describe('Power selector', () => {
-  it('should return default modal state', () => {
+  it('should return default power state', () => {
     const { result } = renderHook(() => processStore(powerSelector));
 
     expect(result.current.onState).toEqual(OnState.OFF);

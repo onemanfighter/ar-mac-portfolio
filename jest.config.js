@@ -34,6 +34,9 @@ module.exports = {
     // Process store
     '@processStore': '<rootDir>/src/store/processStore',
     '@processStore/selector': '<rootDir>/src/store/processStore/selector',
+    // Settings store
+    '@settingsStore': '<rootDir>/src/store/settingsStore',
+    '@settingsStore/selector': '<rootDir>/src/store/settingsStore/selector',
   },
   transform: {
     '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',

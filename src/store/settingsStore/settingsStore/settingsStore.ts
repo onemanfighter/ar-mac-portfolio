@@ -2,13 +2,13 @@ import { create } from 'zustand';
 
 import { immer } from 'zustand/middleware/immer';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { ProcessStoreState } from './types';
-import { createPowerSlice } from '../slice';
+import { SettingsStoreState } from './types';
+import { createWallpaperSlice } from '../slice';
 
-export const processStore = create<ProcessStoreState>()(
+export const settingsStore = create<SettingsStoreState>()(
   persist(
     immer((...api) => ({
-      Power: createPowerSlice(...api),
+      Wallpaper: createWallpaperSlice(...api),
     })),
     {
       name: 'processStore',

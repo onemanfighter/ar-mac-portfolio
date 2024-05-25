@@ -11,7 +11,10 @@
       "@uiStore/selector": ["src/store/uiStore/selector"],
       // Process store
       "@processStore": ["src/store/processStore"],
-      "@processStore/selector": ["src/store/processStore/selector"]
+      "@processStore/selector": ["src/store/processStore/selector"],
+      // Settings store
+      "@settingsStore": ["src/store/settingsStore"],
+      "@settingsStore/selector": ["src/store/settingsStore/selector"]
     }
   }
 }

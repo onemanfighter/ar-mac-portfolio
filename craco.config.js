@@ -19,6 +19,12 @@ module.exports = {
         __dirname,
         './src/store/processStore/selector',
       ),
+      // Settings store
+      '@settingsStore': path.resolve(__dirname, './src/store/settingsStore'),
+      '@settingsStore/selector': path.resolve(
+        __dirname,
+        './src/store/settingsStore/selector',
+      ),
     },
   },
 };
