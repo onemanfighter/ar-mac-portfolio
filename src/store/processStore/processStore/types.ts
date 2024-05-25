@@ -2,7 +2,7 @@ import { StateCreator } from 'zustand';
 import { PowerStateSlice } from '../slice';
 
 export interface ProcessStoreState {
-  MainMac: PowerStateSlice;
+  Power: PowerStateSlice;
 }
 
 export type ProcessStoreSlice<T> = StateCreator<
