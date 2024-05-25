@@ -1,4 +1,4 @@
-import { UiStoreState } from 'src/store/uiStore';
+import { UiStoreState } from '@uiStore';
 
 const modalSelector = (state: UiStoreState) => ({
   openModal: state.Modal.openModal,

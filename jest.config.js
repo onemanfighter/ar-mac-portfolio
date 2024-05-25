@@ -28,8 +28,12 @@ module.exports = {
     '@components': '<rootDir>/src/components',
     '@localization': '<rootDir>/src/localization',
     '@providers': '<rootDir>/src/providers',
+    // UI store
     '@uiStore': '<rootDir>/src/store/uiStore',
     '@uiStore/selector': '<rootDir>/src/store/uiStore/selector',
+    // Process store
+    '@processStore': '<rootDir>/src/store/processStore',
+    '@processStore/selector': '<rootDir>/src/store/processStore/selector',
   },
   transform: {
     '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',
