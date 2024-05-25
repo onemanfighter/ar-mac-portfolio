@@ -7,10 +7,17 @@ module.exports = {
       '@providers': path.resolve(__dirname, './src/providers'),
       '@localization': path.resolve(__dirname, './src/localization'),
       '@screens': path.resolve(__dirname, './src/screens'),
+      // UI store
       '@uiStore': path.resolve(__dirname, './src/store/uiStore'),
       '@uiStore/selector': path.resolve(
         __dirname,
         './src/store/uiStore/selector',
+      ),
+      // Process store
+      '@processStore': path.resolve(__dirname, './src/store/processStore'),
+      '@processStore/selector': path.resolve(
+        __dirname,
+        './src/store/processStore/selector',
       ),
     },
   },

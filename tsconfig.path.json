@@ -6,8 +6,12 @@
       "@components": ["src/components"],
       "@providers": ["src/providers"],
       "@screens": ["src/screens"],
+      // UI Store
       "@uiStore": ["src/store/uiStore"],
-      "@uiStore/selector": ["src/store/uiStore/selector"]
+      "@uiStore/selector": ["src/store/uiStore/selector"],
+      // Process store
+      "@processStore": ["src/store/processStore"],
+      "@processStore/selector": ["src/store/processStore/selector"]
     }
   }
 }
