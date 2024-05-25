@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VsCode should render correctly to match snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+      VsCode
+    </h1>
+  </div>
+</div>
+`;

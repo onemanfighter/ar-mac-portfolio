@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chrome should render correctly to match snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+      Chrome
+    </h1>
+  </div>
+</div>
+`;
