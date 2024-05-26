@@ -4,7 +4,7 @@ import { Box } from '@chakra-ui/react';
 
 const StaticHost = (props: StaticHostProps) => {
   return (
-    <Box>
+    <Box aria-label="static-host-screen">
       <Outlet />
     </Box>
   );
