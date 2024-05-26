@@ -8,6 +8,8 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/jest.js'],
   roots: ['./'],
   testEnvironment: 'jsdom',
+  coverageReporters: ['lcov'],
+  coverageDirectory: './coverage',
   collectCoverageFrom: [
     'src/**/*.ts',
     'src/**/*.tsx',

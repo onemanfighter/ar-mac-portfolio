@@ -2,4 +2,6 @@
 
 exports[`Modal component search modal should not render component if isOpen is false 1`] = `<div />`;
 
+exports[`Modal component search modal should not render for none   1`] = `<div />`;
+
 exports[`Modal component search modal should render correctly  1`] = `<div />`;

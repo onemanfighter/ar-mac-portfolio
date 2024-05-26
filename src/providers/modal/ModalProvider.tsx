@@ -8,9 +8,8 @@ import { ModalProviderProps } from './types';
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { openState, modalID, onModalClose, resetModalState } = uiStore(
-    useShallow(modalDataSelector),
-  );
+  const { openState, modalID, onModalClose, resetModalState } =
+    uiStore(modalDataSelector);
 
   const onModalCloseHandler = useCallback(() => {
     onModalClose && onModalClose();

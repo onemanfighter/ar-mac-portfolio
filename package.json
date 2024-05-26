@@ -97,15 +97,5 @@
   },
   "repository": "git@github.com:onemanfighter/ARMacPortfolio.git",
   "author": "Amit Raikwar",
-  "license": "MIT",
-  "jest": {
-    "collectCoverage": true,
-    "coverageReporters": [
-      "lcov"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.ts*"
-    ],
-    "coverageDirectory": "./"
-  }
+  "license": "MIT"
 }

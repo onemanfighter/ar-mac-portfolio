@@ -2,11 +2,11 @@ import { Box, Progress } from '@chakra-ui/react';
 import { MacIcon } from '@assets';
 import { useEffect, useState } from 'react';
 import { processStore } from '@processStore';
-import { powerSelector, useShallow } from '@processStore/selector';
+import { powerSelector } from '@processStore/selector';
 
 const Powering = () => {
   const [value, setValue] = useState<number>(0);
-  const { turnOn } = processStore(useShallow(powerSelector));
+  const { turnOn } = processStore(powerSelector);
 
   useEffect(() => {
     // Simulate loading
@@ -30,7 +30,7 @@ const Powering = () => {
       bg={'black'}
       display={'flex'}
       flex={1}
-      id="powering-container"
+      aria-label="powering-screen"
       alignItems={'center'}
       height={'100vh'}
       rowGap={100}
@@ -41,7 +41,7 @@ const Powering = () => {
       <Box width={250}>
         <Progress
           value={value}
-          id="powering-progress"
+          aria-label="powering-progress"
           borderRadius={10}
           size="sm"
           color={'gray'}

@@ -2,10 +2,10 @@ import { Box, IconButton } from '@chakra-ui/react';
 import { MacIcon, PowerIcon } from '@assets';
 import { PowerProps } from './type';
 import { processStore } from '@processStore';
-import { powerSelector, useShallow } from '@processStore/selector';
+import { powerSelector } from '@processStore/selector';
 
 const Power = (props: PowerProps) => {
-  const { poweringOn } = processStore(useShallow(powerSelector));
+  const { poweringOn } = processStore(powerSelector);
 
   const powerClickHandler = () => {
     poweringOn();
@@ -18,6 +18,7 @@ const Power = (props: PowerProps) => {
       alignItems={'center'}
       height={'100vh'}
       rowGap={100}
+      aria-label="power-screen"
       justifyContent={'center'}
       flexDirection={'column'}
     >

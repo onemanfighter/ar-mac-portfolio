@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouterProvider should render for lock when power is on but user logged out 1`] = `
+<div>
+  <div
+    aria-label="static-host-screen"
+    class="css-0"
+  >
+    <div>
+      <h1>
+        Lock
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RouterProvider should render for login 1`] = `
+<div>
+  <div
+    aria-label="static-host-screen"
+    class="css-0"
+  >
+    <div>
+      <h1>
+        Lock
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RouterProvider should render for power off 1`] = `
+<div>
+  <div
+    aria-label="static-host-screen"
+    class="css-0"
+  >
+    <div>
+      <h1>
+        Lock
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RouterProvider should render for powering 1`] = `
+<div>
+  <div
+    aria-label="static-host-screen"
+    class="css-0"
+  >
+    <div>
+      <h1>
+        Lock
+      </h1>
+    </div>
+  </div>
+</div>
+`;
