@@ -23,6 +23,19 @@ describe('Modal component', () => {
       expect(screen.getByText('Search')).toBeDefined();
     });
 
+    it('should not render for none  ', () => {
+      const { container } = render(
+        <ModalComponent
+          isOpen={true}
+          modalID={ModalID.NONE}
+          onModalClose={onModalClose}
+        />,
+      );
+
+      expect(container).toMatchSnapshot();
+      expect(screen.queryByText('Search')).toBeNull();
+    });
+
     it('should not render component if isOpen is false', () => {
       const { container } = render(
         <ModalComponent

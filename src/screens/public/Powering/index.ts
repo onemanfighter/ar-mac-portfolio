@@ -1,1 +1,1 @@
-export { default as PowerOff } from './Powering';
+export { default as Powering } from './Powering';

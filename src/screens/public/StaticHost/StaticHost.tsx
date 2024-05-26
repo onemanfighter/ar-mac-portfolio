@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import { StaticHostProps } from './type';
+import { Box } from '@chakra-ui/react';
 
 const StaticHost = (props: StaticHostProps) => {
   return (
-    <div>
-      <h1>StaticHost</h1>
+    <Box aria-label="static-host-screen">
       <Outlet />
-    </div>
+    </Box>
   );
 };
 

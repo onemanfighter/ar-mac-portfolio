@@ -12,26 +12,47 @@ import {
   LazyStaticHostScreen,
 } from '../../lazyRouting';
 
-export const publicRouter = createBrowserRouter(
+export const publicRouterPower = createBrowserRouter(
   createRoutesFromChildren(
     <Route
       path="/"
       element={<LazyProvider children={<LazyStaticHostScreen />} />}
     >
-      <Route path="" element={<Navigate to="/lock" replace />} />
       <Route
-        path="power"
+        path=""
         element={<LazyProvider children={<LazyPowerComponent />} />}
       />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Route>,
+  ),
+);
+
+export const publicRouterPowering = createBrowserRouter(
+  createRoutesFromChildren(
+    <Route
+      path="/"
+      element={<LazyProvider children={<LazyStaticHostScreen />} />}
+    >
       <Route
-        path="powering"
+        path=""
         element={<LazyProvider children={<LazyPoweringComponent />} />}
       />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Route>,
+  ),
+);
+
+export const publicRouterLock = createBrowserRouter(
+  createRoutesFromChildren(
+    <Route
+      path="/"
+      element={<LazyProvider children={<LazyStaticHostScreen />} />}
+    >
       <Route
-        path="lock"
+        path=""
         element={<LazyProvider children={<LazyLockComponent />} />}
       />
-      <Route path="*" element={<Navigate to="/lock" replace />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Route>,
   ),
 );

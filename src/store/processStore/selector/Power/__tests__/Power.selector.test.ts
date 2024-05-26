@@ -1,12 +1,12 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { OnState, processStore } from '@processStore';
+import { Power, processStore } from '@processStore';
 import { powerSelector } from '../Power.selector';
 
 describe('Power selector', () => {
   it('should return default power state', () => {
     const { result } = renderHook(() => processStore(powerSelector));
 
-    expect(result.current.onState).toEqual(OnState.OFF);
+    expect(result.current.powerState).toEqual(Power.OFF);
   });
 
   it('should return on state on calling turnOn', () => {
@@ -14,7 +14,7 @@ describe('Power selector', () => {
 
     result.current.turnOn();
 
-    expect(result.current.onState).toEqual(OnState.ON);
+    expect(result.current.powerState).toEqual(Power.ON);
   });
 
   it('should return off state on calling turnOff', () => {
@@ -22,6 +22,14 @@ describe('Power selector', () => {
 
     result.current.turnOff();
 
-    expect(result.current.onState).toEqual(OnState.OFF);
+    expect(result.current.powerState).toEqual(Power.OFF);
+  });
+
+  it('should return powering state on calling poweringOn', () => {
+    const { result } = renderHook(() => processStore(powerSelector));
+
+    result.current.poweringOn();
+
+    expect(result.current.powerState).toEqual(Power.POWERING);
   });
 });
