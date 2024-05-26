@@ -2,10 +2,8 @@
 
 exports[`StaticHost should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      StaticHost
-    </h1>
-  </div>
+  <div
+    class="css-0"
+  />
 </div>
 `;

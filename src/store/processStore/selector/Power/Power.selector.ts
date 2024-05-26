@@ -1,7 +1,9 @@
 import { ProcessStoreState } from '@processStore';
+import { Power } from '../../slice/Power/types';
 
 const powerSelector = (state: ProcessStoreState) => ({
-  onState: state.Power.onState,
+  powerState: state.Power.onState,
+  poweringOn: state.Power.poweringOn,
   turnOn: state.Power.turnOn,
   turnOff: state.Power.turnOff,
 });

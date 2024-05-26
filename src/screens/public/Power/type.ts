@@ -1,1 +1,1 @@
-export type PowerOnProps = {};
+export type PowerProps = {};

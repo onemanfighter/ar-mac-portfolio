@@ -8,10 +8,17 @@ const defaultPowerState: PowerState = {
 
 const createPowerSlice: ProcessStoreSlice<PowerStateSlice> = (set) => ({
   ...defaultPowerState,
-  turnOn: () => set((state) => void (state.Power.onState = Power.ON)),
+  poweringOn: () => {
+    set((state) => {
+      state.Power.onState = Power.POWERING;
+    });
+  },
+  turnOn: () =>
+    set((state) => {
+      state.Power.onState = Power.ON;
+    }),
   turnOff: () =>
     set((state) => {
-      state.Login.loginState = UserLogin.LOGGED_OUT;
       state.Power.onState = Power.OFF;
     }),
 });

@@ -1,1 +1,5 @@
-export { publicRouter } from './PublicRoutes';
+export {
+  publicRouterLock,
+  publicRouterPower,
+  publicRouterPowering,
+} from './PublicRoutes';

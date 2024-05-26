@@ -1,5 +1,6 @@
 export enum Power {
   OFF = 'off',
+  POWERING = 'powering',
   ON = 'on',
 }
 
@@ -19,6 +20,12 @@ export interface PowerStateAction {
    * @returns void
    */
   turnOff: () => void;
+
+  /**
+   * Powering on
+   * @returns void
+   */
+  poweringOn: () => void;
 }
 
 export type PowerStateSlice = PowerState & PowerStateAction;
