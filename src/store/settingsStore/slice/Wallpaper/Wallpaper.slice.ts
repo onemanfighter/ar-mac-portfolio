@@ -1,8 +1,8 @@
 import { SettingsStoreSlice } from '../../settingsStore/types';
-import { WallpaperState, WallpaperStateSlice, Wallpapers } from './types';
+import { WallpaperState, WallpaperStateSlice, WallpaperEnum } from './types';
 
 const defaultWallpaperState: WallpaperState = {
-  type: Wallpapers.ImageA,
+  type: WallpaperEnum.Wallpaper7,
 };
 
 const createWallpaperSlice: SettingsStoreSlice<WallpaperStateSlice> = (

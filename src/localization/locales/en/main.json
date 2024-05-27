@@ -1,3 +1,9 @@
 {
-  "App": "App made by Amit"
+  "App": "App made by Amit",
+  "LockScreen": {
+    "userName": "Amit Raikwar",
+    "loginPasswordText": "Touch ID or Enter password",
+    "loginPasswordText2": "Your password is required to enable Touch ID",
+    "inputPlaceholder": "Enter Password"
+  }
 }
