@@ -4,6 +4,15 @@
     "userName": "Amit Raikwar",
     "loginPasswordText": "Touch ID or Enter password",
     "loginPasswordText2": "Your password is required to enable Touch ID",
-    "inputPlaceholder": "Enter Password"
+    "inputPlaceholder": "Enter Password",
+    "keyboard": {
+      "type": "ABC - India",
+      "option": {
+        "india": "ABC - India"
+      },
+      "menu": {
+        "others": "Other source inputs"
+      }
+    }
   }
 }

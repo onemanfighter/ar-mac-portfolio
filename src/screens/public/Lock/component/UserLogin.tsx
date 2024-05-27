@@ -54,7 +54,7 @@ const UserLoginComponent = () => {
         width={'64'}
         position={'fixed'}
         bottom={'24%'}
-        px={0}
+        borderRadius={14}
         _hover={{
           transform: 'scale(1.05)',
           shadow: '1px',

@@ -1,20 +1,20 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { wallpaperSelector } from '../Wallpaper.selector';
-import { Wallpapers, settingsStore } from '@settingsStore';
+import { WallpaperEnum, settingsStore } from '@settingsStore';
 
 describe('Wallpaper selector', () => {
   it('should return default wallpaper state', () => {
     const { result } = renderHook(() => settingsStore(wallpaperSelector));
 
-    expect(result.current.wallpaper).toEqual(Wallpapers.ImageA);
+    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper1);
   });
 
   it('should set wallpaper using setWallpaper method', () => {
     const { result } = renderHook(() => settingsStore(wallpaperSelector));
 
-    result.current.setWallpaper(Wallpapers.ImageB);
+    result.current.setWallpaper(WallpaperEnum.Wallpaper2);
 
-    expect(result.current.wallpaper).toEqual(Wallpapers.ImageB);
+    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper2);
   });
 
   it('should reset wallpaper using resetWallpaper method', () => {
@@ -22,6 +22,6 @@ describe('Wallpaper selector', () => {
 
     result.current.resetWallpaper();
 
-    expect(result.current.wallpaper).toEqual(Wallpapers.ImageA);
+    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper1);
   });
 });

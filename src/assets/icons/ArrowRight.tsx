@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArrowRightCircleIcon = (props: React.SVGProps<SVGSVGElement>) => {
+const ArrowRightIcon = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       fill="currentColor"
@@ -17,4 +17,4 @@ const ArrowRightCircleIcon = (props: React.SVGProps<SVGSVGElement>) => {
   );
 };
 
-export { ArrowRightCircleIcon };
+export { ArrowRightIcon };
