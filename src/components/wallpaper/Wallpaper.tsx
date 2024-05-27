@@ -13,8 +13,6 @@ export const WallpaperMap: Record<WallpaperEnum, string> = {
 };
 
 const WallpaperComponent = ({ id }: WallpaperProps) => {
-  console.log('WallpaperComponent', id);
-
   return (
     <Img width={'100%'} height={'100%'} src={WallpaperMap[id]} loading="lazy" />
   );

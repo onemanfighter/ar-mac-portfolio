@@ -3,7 +3,7 @@ import { LockProps } from './type';
 import { WallpaperComponent } from '@components';
 import { settingsStore } from '@settingsStore';
 import { wallpaperSelector } from '@settingsStore/selector';
-import { UserLoginComponent } from './component';
+import { TimeDateComponent, UserLoginComponent } from './component';
 
 const Lock = (props: LockProps) => {
   const { wallpaper } = settingsStore(wallpaperSelector);
@@ -20,6 +20,7 @@ const Lock = (props: LockProps) => {
       >
         <WallpaperComponent id={wallpaper} />
       </Box>
+      <TimeDateComponent />
       <UserLoginComponent />
     </Box>
   );
