@@ -25,7 +25,7 @@ const Power = (props: PowerProps) => {
       <MacIcon />
       <Box>
         <IconButton
-          aria-label="Power Button"
+          aria-label="power-button"
           icon={<PowerIcon />}
           color={'white'}
           _hover={{ bg: 'white', color: 'black', transform: 'scale(1.1)' }}

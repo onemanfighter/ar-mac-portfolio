@@ -29,7 +29,7 @@ exports[`LazyPowerComponent should render correctly to match snapshot 1`] = `
       class="css-0"
     >
       <button
-        aria-label="Power Button"
+        aria-label="power-button"
         class="chakra-button css-vryt08"
         type="button"
       >

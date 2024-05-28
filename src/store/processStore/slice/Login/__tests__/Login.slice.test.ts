@@ -16,6 +16,14 @@ describe('Login slice', () => {
     expect(result.current.Login.loginState).toEqual(UserLogin.LOGGED_IN);
   });
 
+  it('should return logged in state on lock call', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.Login.lockUser();
+
+    expect(result.current.Login.loginState).toEqual(UserLogin.LOCKED);
+  });
+
   it('should return logged out state on logout call', () => {
     const { result } = renderHook(() => processStore());
 

@@ -7,6 +7,9 @@ const defaultLoginState: LoginState = {
 
 const createLoginSlice: ProcessStoreSlice<LoginStateSlice> = (set) => ({
   ...defaultLoginState,
+  lockUser() {
+    set((state) => void (state.Login.loginState = UserLogin.LOCKED));
+  },
   login() {
     set((state) => void (state.Login.loginState = UserLogin.LOGGED_IN));
   },

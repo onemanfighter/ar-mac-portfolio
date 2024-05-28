@@ -42,7 +42,7 @@ module.exports = {
     '@settingsStore/selector': '<rootDir>/src/store/settingsStore/selector',
   },
   transform: {
-    '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',
+    '.+\\.(css|scss|png|jpg|jpeg|svg)$': 'jest-transform-stub',
     '^.+\\.(js|jsx|ts|tsx)$': 'ts-jest',
   },
   coverageThreshold: {

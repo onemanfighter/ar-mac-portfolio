@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallpaper component should return default wallpaper type 1 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper1"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 2 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper2"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 3 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper3"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 4 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper4"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 5 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper5"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 6 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper6"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
+
+exports[`Wallpaper component should return wallpaper for wallpaper 7 1`] = `
+<div>
+  <img
+    aria-label="wallpaper-component-with-wallpaper7"
+    class="chakra-image css-uwwqev"
+    loading="lazy"
+    src=""
+  />
+</div>
+`;
