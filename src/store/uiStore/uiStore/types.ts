@@ -1,8 +1,9 @@
 import { StateCreator } from 'zustand';
-import { ModalStateSlice } from '../slice';
+import { ModalStateSlice, DateTimeSlice } from '../slice';
 
 export interface UiStoreState {
   Modal: ModalStateSlice;
+  DateTime: DateTimeSlice;
 }
 
 export type UiStoreSlice<T> = StateCreator<
