@@ -24,7 +24,13 @@ const WallpaperMap: Record<WallpaperEnum, string> = {
 
 const WallpaperComponent = ({ id }: WallpaperProps) => {
   return (
-    <Img width={'100%'} height={'100%'} src={WallpaperMap[id]} loading="lazy" />
+    <Img
+      width={'100%'}
+      height={'100%'}
+      src={WallpaperMap[id]}
+      loading="lazy"
+      aria-label={`wallpaper-component-with-${id}`}
+    />
   );
 };
 

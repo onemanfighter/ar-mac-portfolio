@@ -1,6 +1,5 @@
 import { Box, Text } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import { DAY_MAP } from './constants';
 import { formatDate } from './utils';
 
 const DateComponent = ({ date }: { date: string }) => {
@@ -39,6 +38,7 @@ const TimeDateComponent = () => {
       display={'flex'}
       flexDirection={'column'}
       zIndex={0}
+      aria-label="time-date-component"
     >
       <MemoisedDateComponent date={date.toDateString().slice(0, 10)} />
       <MemoisedTimeComponent time={date.toLocaleTimeString().slice(0, 5)} />

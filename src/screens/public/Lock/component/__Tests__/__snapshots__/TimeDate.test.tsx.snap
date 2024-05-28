@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeDate should return the default time date component 1`] = `
+<div>
+  <div
+    aria-label="time-date-component"
+    class="css-1ludagc"
+  >
+    <p
+      class="chakra-text css-8dqgwl"
+    >
+      Monday Jun 10
+    </p>
+    <p
+      class="chakra-text css-5lywel"
+    >
+      12:30
+    </p>
+  </div>
+</div>
+`;

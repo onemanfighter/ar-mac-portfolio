@@ -2,10 +2,158 @@
 
 exports[`Lock should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Lock
-    </h1>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-1q3b9iq"
+    >
+      <img
+        aria-label="wallpaper-component-with-undefined"
+        class="chakra-image css-uwwqev"
+        loading="lazy"
+      />
+    </div>
+    <div
+      aria-label="top-right-component"
+      class="css-sikaw0"
+    >
+      <button
+        aria-controls="popover-content-:r1:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="keyboard-icon-button"
+        class="chakra-button css-117sk0y"
+        id="popover-trigger-:r1:"
+        type="button"
+      >
+        ABC - India
+        <span
+          class="chakra-button__icon css-1hzyiq5"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="keyboard-icon"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M14 5a1 1 0 011 1v5a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h12zM2 4a2 2 0 00-2 2v5a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H2z"
+            />
+            <path
+              d="M13 10.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm0-2a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm-5 0A.25.25 0 018.25 8h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 018 8.75v-.5zm2 0a.25.25 0 01.25-.25h1.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-1.5a.25.25 0 01-.25-.25v-.5zm1 2a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm-5-2A.25.25 0 016.25 8h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 016 8.75v-.5zm-2 0A.25.25 0 014.25 8h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 014 8.75v-.5zm-2 0A.25.25 0 012.25 8h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 012 8.75v-.5zm11-2a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm-2 0a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm-2 0A.25.25 0 019.25 6h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 019 6.75v-.5zm-2 0A.25.25 0 017.25 6h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 017 6.75v-.5zm-2 0A.25.25 0 015.25 6h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5A.25.25 0 015 6.75v-.5zm-3 0A.25.25 0 012.25 6h1.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-1.5A.25.25 0 012 6.75v-.5zm0 4a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-.5a.25.25 0 01-.25-.25v-.5zm2 0a.25.25 0 01.25-.25h5.5a.25.25 0 01.25.25v.5a.25.25 0 01-.25.25h-5.5a.25.25 0 01-.25-.25v-.5z"
+            />
+          </svg>
+        </span>
+      </button>
+      <svg
+        aria-label="battery-icon"
+        color="white"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+      >
+        <path
+          d="M2 6h5v4H2V6z"
+        />
+        <path
+          d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
+        />
+      </svg>
+      <svg
+        aria-label="wifi-icon"
+        color="white"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="time-date-component"
+      class="css-1ludagc"
+    >
+      <p
+        class="chakra-text css-8dqgwl"
+      >
+        Monday Jun 10
+      </p>
+      <p
+        class="chakra-text css-5lywel"
+      >
+        12:30
+      </p>
+    </div>
+    <div
+      aria-label="user-login-component"
+      class="css-1dvrt7t"
+    >
+      <button
+        class="chakra-button css-y5bm5g"
+        type="button"
+      >
+        <img
+          alt="Profile"
+          class="chakra-image css-13wtmhl"
+          loading="lazy"
+          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+        />
+        <p
+          class="chakra-text css-1590av0"
+        >
+          Amit Raikwar
+        </p>
+      </button>
+      <div
+        class="chakra-input__group css-139cpa4"
+        data-group="true"
+      >
+        <input
+          class="chakra-input css-1362yyb"
+          maxlength="20"
+          placeholder="Enter Password"
+          type="password"
+          value=""
+        />
+        <div
+          class="chakra-input__right-element css-1ttnbqn"
+        >
+          <button
+            aria-label="Login button"
+            class="chakra-button css-15p997s"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <p
+        class="chakra-text css-1ahyq4l"
+      >
+        Touch ID or Enter password
+      </p>
+    </div>
   </div>
 </div>
 `;

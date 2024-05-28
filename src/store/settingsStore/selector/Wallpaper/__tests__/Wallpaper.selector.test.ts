@@ -6,7 +6,7 @@ describe('Wallpaper selector', () => {
   it('should return default wallpaper state', () => {
     const { result } = renderHook(() => settingsStore(wallpaperSelector));
 
-    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper1);
+    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper7);
   });
 
   it('should set wallpaper using setWallpaper method', () => {
@@ -22,6 +22,6 @@ describe('Wallpaper selector', () => {
 
     result.current.resetWallpaper();
 
-    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper1);
+    expect(result.current.wallpaper).toEqual(WallpaperEnum.Wallpaper7);
   });
 });

@@ -5,6 +5,8 @@ import { act } from '@testing-library/react-hooks';
 
 describe('RouterProvider', () => {
   beforeEach(() => {
+    jest.setSystemTime(new Date(2024, 5, 10, 12, 30, 0, 0));
+
     const { result } = renderHook(() => processStore());
     act(() => {
       result.current.Power.turnOff();

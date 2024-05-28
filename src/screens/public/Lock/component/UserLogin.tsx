@@ -44,6 +44,7 @@ const UserLoginComponent = () => {
       display={'flex'}
       flexDirection={'column'}
       zIndex={0}
+      aria-label="user-login-component"
       gap={2}
     >
       <Button

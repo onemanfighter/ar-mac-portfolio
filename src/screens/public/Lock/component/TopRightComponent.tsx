@@ -33,15 +33,19 @@ const TopRightComponent = () => {
       justifyContent={'flex-end'}
       marginEnd={'10'}
       zIndex={0}
+      aria-label="top-right-component"
       gap={2}
     >
       <Popover>
         <PopoverTrigger>
           <Button
-            rightIcon={<KeyboardIcon color="white" />}
+            rightIcon={
+              <KeyboardIcon color="white" aria-label="keyboard-icon" />
+            }
             size={'xs'}
             variant="none"
             color={'white'}
+            aria-label="keyboard-icon-button"
           >
             {t('LockScreen.keyboard.type')}
           </Button>
@@ -67,8 +71,8 @@ const TopRightComponent = () => {
           </PopoverContent>
         </Portal>
       </Popover>
-      <BatteryIcon color="white" />
-      <WifiIcon color="white" />
+      <BatteryIcon color="white" aria-label="battery-icon" />
+      <WifiIcon color="white" aria-label="wifi-icon" />
     </Box>
   );
 };

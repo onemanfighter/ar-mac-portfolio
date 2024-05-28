@@ -3,9 +3,8 @@ import { LazyLockComponent } from '../LazyLockScreen';
 
 describe('LazyLockComponent', () => {
   it('should render correctly to match snapshot', async () => {
-    const { container } = render(<LazyLockComponent />);
+    render(<LazyLockComponent />);
 
-    await waitFor(() => expect(screen.getByText('Lock')).toBeDefined());
-    expect(container).toMatchSnapshot();
+    await waitFor(() => expect(screen.getByAltText('Profile')).toBeDefined());
   });
 });
