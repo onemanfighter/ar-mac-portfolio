@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuList component should render for default values 1`] = `
+<div>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r1:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div>
+        abc
+      </div>
+    </div>
+  </div>
+</div>
+`;
