@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { BatteryIcon } from '../Battery';
+import { MoonIcon } from '../Moon';
 
-describe('BatteryIcon', () => {
+describe('Moon', () => {
   it('should render correctly', () => {
-    const { container } = render(<BatteryIcon percentage={10} />);
+    const { container } = render(<MoonIcon />);
 
     expect(container).toMatchSnapshot();
   });

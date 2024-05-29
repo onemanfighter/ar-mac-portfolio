@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { BatteryIcon } from '../Battery';
+import { DarkModeIcon } from '../DarkMode';
 
-describe('BatteryIcon', () => {
+describe('DarkMode', () => {
   it('should render correctly', () => {
-    const { container } = render(<BatteryIcon percentage={10} />);
+    const { container } = render(<DarkModeIcon />);
 
     expect(container).toMatchSnapshot();
   });

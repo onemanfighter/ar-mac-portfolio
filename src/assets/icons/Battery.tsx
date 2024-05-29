@@ -2,7 +2,7 @@ import * as React from 'react';
 
 type BatteryProps = {
   percentage: number;
-  props: React.SVGProps<SVGSVGElement>;
+  props?: React.SVGProps<SVGSVGElement>;
 };
 
 const BatteryIcon = ({ percentage, props }: BatteryProps) => {

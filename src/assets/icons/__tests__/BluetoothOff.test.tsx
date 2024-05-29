@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { BatteryIcon } from '../Battery';
+import { BluetoothOffIcon } from '../BluetoothOff';
 
-describe('BatteryIcon', () => {
+describe('BluetoothOff', () => {
   it('should render correctly', () => {
-    const { container } = render(<BatteryIcon percentage={10} />);
+    const { container } = render(<BluetoothOffIcon />);
 
     expect(container).toMatchSnapshot();
   });
