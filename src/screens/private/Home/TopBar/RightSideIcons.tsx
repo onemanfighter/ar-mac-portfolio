@@ -1,18 +1,21 @@
-import { Box, Button } from '@chakra-ui/react';
-import { uiStore } from '@uiStore';
-import { dateTimeSelector } from '@uiStore/selector';
-
-const DateTime = () => {
-  const { time, date } = uiStore(dateTimeSelector);
-
-  return <Button variant={'ghost'}>{time}</Button>;
-};
+import { ButtonGroup } from '@chakra-ui/react';
+import { Battery, DateTimeDrawer, Monitor, User, Wifi } from './Components';
 
 const RightSideIcons = () => {
   return (
-    <Box flex={1} flexDir={'row'} alignContent={'flex-end'}>
-      <DateTime />
-    </Box>
+    <ButtonGroup
+      width={'50%'}
+      display={'flex'}
+      flexDir={'row'}
+      justifyContent={'flex-end'}
+      marginRight={2}
+    >
+      <Monitor />
+      <User />
+      <Battery />
+      <Wifi />
+      <DateTimeDrawer />
+    </ButtonGroup>
   );
 };
 

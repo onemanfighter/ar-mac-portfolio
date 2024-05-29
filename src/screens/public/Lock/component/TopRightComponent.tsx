@@ -3,15 +3,9 @@ import {
   Box,
   Button,
   Divider,
-  IconButton,
-  MenuItem,
-  MenuList,
   Popover,
-  PopoverArrow,
   PopoverBody,
-  PopoverCloseButton,
   PopoverContent,
-  PopoverHeader,
   PopoverTrigger,
   Portal,
   useBoolean,
@@ -71,7 +65,10 @@ const TopRightComponent = () => {
           </PopoverContent>
         </Portal>
       </Popover>
-      <BatteryIcon color="white" aria-label="battery-icon" />
+      <BatteryIcon
+        percentage={0}
+        props={{ color: 'white', 'aria-label': 'battery-icon' }}
+      />
       <WifiIcon color="white" aria-label="wifi-icon" />
     </Box>
   );

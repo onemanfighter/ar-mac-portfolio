@@ -14,5 +14,24 @@
         "others": "Other source inputs"
       }
     }
+  },
+  "TopAppBar": {
+    "user": {
+      "loginWindow": "Login window",
+      "setting": "Users & group settings"
+    },
+    "battery": {
+      "title": "Battery",
+      "batterySettings": "Battery settings..."
+    },
+    "monitor": {
+      "title": "Display",
+      "on": "On",
+      "off": "Off",
+      "darkMode": "Dark mode",
+      "nightShift": "Night Shift",
+      "trueTone": "True Tone",
+      "monitorSettings": "Display settings..."
+    }
   }
 }
