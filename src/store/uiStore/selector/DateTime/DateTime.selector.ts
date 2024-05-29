@@ -16,7 +16,7 @@ const dateTimeSelector = (state: UiStoreState) => ({
 
     return `${time} AM`;
   },
-  init: state.DateTime.init,
+  initTimer: state.DateTime.init,
 });
 
 export { dateTimeSelector };

@@ -9,7 +9,7 @@ const Home = (props: HomeProps) => {
   const { wallpaper } = settingsStore(wallpaperSelector);
 
   return (
-    <Box>
+    <Box aria-label="home">
       <Box
         width={'100vw'}
         height={'100vh'}

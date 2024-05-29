@@ -4,12 +4,18 @@ import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 
 const Mac = () => {
-  const { init } = uiStore(dateTimeSelector);
+  const { initTimer } = uiStore(dateTimeSelector);
 
   useEffect(() => {
-    init();
+    initTimer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  return <Outlet />;
+
+  return (
+    <div aria-label="mac">
+      <Outlet />
+    </div>
+  );
 };
 
 export default Mac;
