@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date time selector should return date time selector state and actions 1`] = `
+{
+  "date": "Thu May 30 2024",
+  "dateWithoutYear": "Thu May 30",
+  "init": [Function],
+  "time": "2:21:57 AM",
+  "timeInAmPm": [Function],
+}
+`;

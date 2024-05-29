@@ -7,7 +7,7 @@ describe('Modal slice', () => {
   it('should return modal selector state and actions', () => {
     const modal = renderHook(() => uiStore()).result.current;
 
-    expect(modal).toMatchSnapshot();
+    expect(modal.Modal).toMatchSnapshot();
   });
 
   it('should return modal state with initial value', () => {

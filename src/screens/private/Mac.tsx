@@ -1,19 +1,20 @@
+import { uiStore } from '@uiStore';
+import { dateTimeSelector } from '@uiStore/selector';
+import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Box, Button } from '@chakra-ui/react';
-import { modalSelector } from '@uiStore/selector';
-import { ModalID, uiStore } from '@uiStore';
 
 const Mac = () => {
-  const { openModal } = uiStore(modalSelector);
+  const { initTimer } = uiStore(dateTimeSelector);
 
-  const openModalHandler = () => {
-    openModal(ModalID.SEARCH, () => {});
-  };
+  useEffect(() => {
+    initTimer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
-    <Box aria-label="mac-screen">
-      <Button onClick={openModalHandler}>Open Modal</Button>
+    <div aria-label="mac">
       <Outlet />
-    </Box>
+    </div>
   );
 };
 

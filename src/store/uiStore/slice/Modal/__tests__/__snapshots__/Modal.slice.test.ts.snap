@@ -2,13 +2,11 @@
 
 exports[`Modal slice should return modal selector state and actions 1`] = `
 {
-  "Modal": {
-    "modalData": undefined,
-    "modalID": "none",
-    "modalOpenState": "CLOSE",
-    "openModal": [Function],
-    "resetModalState": [Function],
-  },
+  "modalData": undefined,
+  "modalID": "none",
+  "modalOpenState": "CLOSE",
+  "openModal": [Function],
+  "resetModalState": [Function],
 }
 `;
 

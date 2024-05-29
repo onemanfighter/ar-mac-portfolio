@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItemComponent should render for default values 1`] = `
+<div>
+  <button
+    aria-label="abc-component"
+    class="chakra-menu__menuitem css-scu16k"
+    data-index="0"
+    id="menu-list-:r1:-menuitem-:r2:"
+    role="menuitem"
+    tabindex="-1"
+    type="button"
+  >
+    abc
+  </button>
+</div>
+`;
+
+exports[`MenuItemComponent should render with search icon 1`] = `
+<div>
+  <button
+    aria-label="abc-component"
+    class="chakra-menu__menuitem css-scu16k"
+    data-index="0"
+    id="menu-list-:r4:-menuitem-:r5:"
+    role="menuitem"
+    tabindex="-1"
+    type="button"
+  >
+    <span
+      class="chakra-menu__icon-wrapper css-17xs0el"
+    >
+      <svg
+        aria-hidden="true"
+        class="chakra-menu__icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+        />
+      </svg>
+    </span>
+    <span
+      style="pointer-events: none; flex: 1;"
+    >
+      abc
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MenuItemComponent should render with search icon 2`] = `
+<div>
+  <button
+    aria-label="abc-component"
+    class="chakra-menu__menuitem css-scu16k"
+    data-index="0"
+    id="menu-list-:r7:-menuitem-:r8:"
+    role="menuitem"
+    tabindex="-1"
+    type="button"
+  >
+    <span
+      class="chakra-menu__icon-wrapper css-17xs0el"
+    >
+      <svg
+        aria-hidden="true"
+        class="chakra-menu__icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+        />
+      </svg>
+    </span>
+    <span
+      style="pointer-events: none; flex: 1;"
+    >
+      abc
+    </span>
+    <span
+      class="chakra-menu__command css-8dknqd"
+    >
+      ctrl + shift + p
+    </span>
+  </button>
+</div>
+`;
