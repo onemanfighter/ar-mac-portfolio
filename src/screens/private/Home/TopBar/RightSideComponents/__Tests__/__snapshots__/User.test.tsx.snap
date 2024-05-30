@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User should open pop-up when User icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r5:"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    aria-label="user-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    data-active=""
+    id="menu-button-:r5:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-0"
+      >
+        Amit Raikwar
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    data-popper-escaped=""
+    data-popper-placement="bottom-start"
+    data-popper-reference-hidden=""
+    style="visibility: visible; position: absolute; min-width: max-content; inset: 0 auto auto 0; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 8px); --popper-transform-origin: top left;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r5:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1pidzr7"
+      >
+        <img
+          alt="Profile"
+          class="chakra-image css-1khlcnb"
+          loading="lazy"
+          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+        />
+        <p
+          class="chakra-text css-1hrkoss"
+        >
+          Amit Raikwar
+        </p>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="0"
+        id="menu-list-:r5:-menuitem-:r6:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Login window...
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="1"
+        id="menu-list-:r5:-menuitem-:r7:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Users & group settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`User should render 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r1:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="user-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    id="menu-button-:r1:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-0"
+      >
+        Amit Raikwar
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r1:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1pidzr7"
+      >
+        <img
+          alt="Profile"
+          class="chakra-image css-1khlcnb"
+          loading="lazy"
+          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+        />
+        <p
+          class="chakra-text css-1hrkoss"
+        >
+          Amit Raikwar
+        </p>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="0"
+        id="menu-list-:r1:-menuitem-:r2:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Login window...
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="1"
+        id="menu-list-:r1:-menuitem-:r3:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Users & group settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;

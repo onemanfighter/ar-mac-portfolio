@@ -75,7 +75,6 @@ const UserLoginComponent = () => {
           loading="lazy"
           transition={'all 1s'}
         />
-
         <Text
           display={passwordFieldVisibility ? 'flex' : 'none'}
           color={'white'}

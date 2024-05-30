@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r3:"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    aria-label="settings-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    data-active=""
+    id="menu-button-:r3:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="white"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.75 12.75h1.5a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM12 6a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 6ZM12 18a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 18ZM3.75 6.75h1.5a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM5.25 18.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5ZM3 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3 12ZM9 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM12.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0ZM9 15.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    data-popper-escaped=""
+    data-popper-placement="bottom-start"
+    data-popper-reference-hidden=""
+    style="visibility: visible; position: absolute; min-width: max-content; inset: 0 auto auto 0; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 8px); --popper-transform-origin: top left;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r3:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-k008qs"
+      >
+        <div
+          class="css-1pidzr7"
+        >
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <div
+              class="chakra-stack css-tl3ftk"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Settings should render 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r1:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="settings-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    id="menu-button-:r1:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="white"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.75 12.75h1.5a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM12 6a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 6ZM12 18a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 18ZM3.75 6.75h1.5a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM5.25 18.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5ZM3 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3 12ZM9 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM12.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0ZM9 15.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r1:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-k008qs"
+      >
+        <div
+          class="css-1pidzr7"
+        >
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <div
+              class="chakra-stack css-tl3ftk"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

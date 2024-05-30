@@ -1,5 +1,13 @@
 import { ButtonGroup } from '@chakra-ui/react';
-import { Battery, DateTimeDrawer, Monitor, User, Wifi } from './Components';
+import {
+  Battery,
+  DateTimeDrawer,
+  Monitor,
+  Settings,
+  User,
+  Wifi,
+  Search,
+} from './RightSideComponents';
 
 const RightSideIcons = () => {
   return (
@@ -14,6 +22,8 @@ const RightSideIcons = () => {
       <User />
       <Battery />
       <Wifi />
+      <Search />
+      <Settings />
       <DateTimeDrawer />
     </ButtonGroup>
   );

@@ -17,8 +17,8 @@
   },
   "TopAppBar": {
     "user": {
-      "loginWindow": "Login window",
-      "setting": "Users & group settings"
+      "loginWindow": "Login window...",
+      "setting": "Users & group settings..."
     },
     "battery": {
       "title": "Battery",
@@ -32,6 +32,18 @@
       "nightShift": "Night Shift",
       "trueTone": "True Tone",
       "monitorSettings": "Display settings..."
+    },
+    "wifi": {
+      "title": "Wi-Fi",
+      "weakSecurity": "Weak Security (WPA)",
+      "wifi1": "Wi-Fi 1",
+      "wifi2": "Wi-Fi 2",
+      "otherNetwork": "Other Network",
+      "wifiSettings": "Wi-Fi settings..."
+    },
+    "appleIcon": {
+      "title": "Apple Icon",
+      "appleIconSettings": "Apple Icon settings..."
     }
   }
 }

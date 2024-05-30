@@ -13,3 +13,4 @@ export { SearchIcon } from './Search';
 export { VolumeIcon } from './Volume';
 export { BrightnessIcon } from './Brightness';
 export { DarkModeIcon } from './DarkMode';
+export { SettingsIcon } from './Settings';
