@@ -15,6 +15,7 @@ const MenuItemComponent = ({
       color={'white'}
       fontSize={'xs'}
       py={1}
+      fontWeight={600}
       onClick={onClick}
       aria-label={ariaLabel}
       command={command}

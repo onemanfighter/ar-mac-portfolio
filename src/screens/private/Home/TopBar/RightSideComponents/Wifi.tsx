@@ -1,0 +1,136 @@
+import { WifiIcon } from '@assets';
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  Menu,
+  MenuDivider,
+  Switch,
+  Text,
+  useBoolean,
+} from '@chakra-ui/react';
+import {
+  MenuItemComponent,
+  MenuListComponent,
+  TopBarButton,
+} from '@components';
+import { useTranslation } from 'react-i18next';
+
+const WifiStack = () => {
+  const { t } = useTranslation();
+  const [wifi1, wifi1Action] = useBoolean();
+  const [wifi2, wifi2Action] = useBoolean();
+  return (
+    <>
+      <Button
+        width={'100%'}
+        leftIcon={
+          <WifiIcon
+            width="1.5em"
+            height="1.5em"
+            color="white"
+            style={{
+              backgroundColor: wifi1 ? 'blue' : '#f0f0f06f',
+              padding: '0.2em',
+              borderRadius: '50%',
+            }}
+          />
+        }
+        aria-label="wifi-1"
+        variant="ghost"
+        display={'flex'}
+        size={'sm'}
+        flexDir={'row'}
+        color={'white'}
+        _hover={{ bg: '#f0f0f06f' }}
+        bg={'transparent'}
+        justifyContent={'flex-start'}
+        onClick={() => {
+          wifi1Action.toggle();
+        }}
+      >
+        {t('TopAppBar.wifi.wifi1')}
+      </Button>
+      <Button
+        width={'100%'}
+        leftIcon={
+          <WifiIcon
+            width="1.5em"
+            height="1.5em"
+            color="white"
+            style={{
+              backgroundColor: wifi2 ? 'blue' : '#f0f0f06f',
+              padding: '0.2em',
+              borderRadius: '50%',
+            }}
+          />
+        }
+        aria-label="wifi-1"
+        variant="ghost"
+        display={'flex'}
+        color={'white'}
+        size={'sm'}
+        _hover={{ bg: '#f0f0f06f' }}
+        bg={'transparent'}
+        flexDir={'row'}
+        justifyContent={'flex-start'}
+        onClick={() => {
+          wifi2Action.toggle();
+        }}
+      >
+        {t('TopAppBar.wifi.wifi2')}
+      </Button>
+    </>
+  );
+};
+
+const Wifi = () => {
+  const { t } = useTranslation();
+  return (
+    <Menu>
+      <TopBarButton
+        text=""
+        onClick={() => {}}
+        ariaLabel="wifi-top-bar-button"
+        icon={<WifiIcon width="1.5em" height="1.5em" color="white" />}
+      />
+      <MenuListComponent>
+        <Box
+          display={'flex'}
+          justifyContent={'space-between'}
+          width={'100%'}
+          flexDirection={'row'}
+          px={3}
+          my={2}
+        >
+          <Text color={'white'} fontSize={14} fontWeight={600}>
+            {t('TopAppBar.wifi.title')}
+          </Text>
+          <Switch size="sm" colorScheme="blue" />
+        </Box>
+        <MenuItemComponent
+          text={t('TopAppBar.wifi.weakSecurity')}
+          ariaLabel="wifi-weak-security"
+          onClick={() => {}}
+        />
+        <MenuDivider p={0} m={0.5} />
+        <WifiStack />
+        <MenuDivider p={0} m={0.5} />
+        <MenuItemComponent
+          text={t('TopAppBar.wifi.otherNetwork')}
+          ariaLabel="new-tab"
+          onClick={() => {}}
+          command=">"
+        />
+        <MenuDivider p={0} m={0.5} />
+        <MenuItemComponent
+          text={t('TopAppBar.wifi.wifiSettings')}
+          ariaLabel="new-tab"
+          onClick={() => {}}
+        />
+      </MenuListComponent>
+    </Menu>
+  );
+};
+
+export default Wifi;
