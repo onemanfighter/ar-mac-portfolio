@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import { HomeProps } from './type';
-import { WallpaperComponent } from '@components';
+import { WallpaperComponent, Window } from '@components';
 import { settingsStore } from '@settingsStore';
 import { wallpaperSelector } from '@settingsStore/selector';
 import { TopBar } from './TopBar';
@@ -9,7 +9,7 @@ const Home = (props: HomeProps) => {
   const { wallpaper } = settingsStore(wallpaperSelector);
 
   return (
-    <Box aria-label="home">
+    <Box aria-label="home" width={'100vw'} height={'100vh'}>
       <Box
         width={'100vw'}
         height={'100vh'}
@@ -21,6 +21,7 @@ const Home = (props: HomeProps) => {
         <WallpaperComponent id={wallpaper} />
       </Box>
       <TopBar />
+      <Window children={<div>AMIT</div>} />
     </Box>
   );
 };
