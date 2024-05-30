@@ -1,13 +1,14 @@
 import Draggable from 'react-draggable';
+
 import { DraggableProps } from './types';
 
-const DraggableProvider = ({ children }: DraggableProps) => {
+const DraggableProvider = ({ children, position }: DraggableProps) => {
   return (
     <Draggable
-      axis="x"
       handle=".handle"
-      defaultPosition={{ x: 0, y: 0 }}
-      grid={[25, 25]}
+      defaultPosition={{ x: 100, y: 200 }}
+      position={position}
+      grid={[1, 1]}
       scale={1}
     >
       {children}

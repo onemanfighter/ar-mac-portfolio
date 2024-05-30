@@ -5,7 +5,7 @@ import { Box } from '@chakra-ui/react';
 describe('Draggable provider', () => {
   it('should render correctly', () => {
     const { container } = render(
-      <DraggableProvider>
+      <DraggableProvider position={{ x: 0, y: 0 }}>
         <Box>test</Box>
       </DraggableProvider>,
     );
