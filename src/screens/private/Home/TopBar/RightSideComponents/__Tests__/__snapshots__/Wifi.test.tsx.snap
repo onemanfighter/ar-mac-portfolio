@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r6:"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    aria-label="wifi-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    data-active=""
+    id="menu-button-:r6:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="white"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    data-popper-escaped=""
+    data-popper-placement="bottom-start"
+    data-popper-reference-hidden=""
+    style="visibility: visible; position: absolute; min-width: max-content; inset: 0 auto auto 0; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 8px); --popper-transform-origin: top left;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r6:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-2mf9n7"
+      >
+        <p
+          class="chakra-text css-1bxpg6e"
+        >
+          Wi-Fi
+        </p>
+        <label
+          class="chakra-switch css-16pgy8f"
+        >
+          <input
+            class="chakra-switch__input"
+            style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+            type="checkbox"
+            value=""
+          />
+          <span
+            aria-hidden="true"
+            class="chakra-switch__track css-14qxnv8"
+          >
+            <span
+              class="chakra-switch__thumb css-0"
+            />
+          </span>
+        </label>
+      </div>
+      <button
+        aria-label="wifi-weak-security"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="0"
+        id="menu-list-:r6:-menuitem-:r7:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Weak Security (WPA)
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="wifi-1"
+        class="chakra-button css-1ihk4dg"
+        type="button"
+      >
+        <span
+          class="chakra-button__icon css-1wh2kri"
+        >
+          <svg
+            aria-hidden="true"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1.5em"
+            style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+            viewBox="0 0 24 24"
+            width="1.5em"
+          >
+            <path
+              d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+            />
+          </svg>
+        </span>
+        Wi-Fi 1
+      </button>
+      <button
+        aria-label="wifi-1"
+        class="chakra-button css-1iz9bnj"
+        type="button"
+      >
+        <span
+          class="chakra-button__icon css-1wh2kri"
+        >
+          <svg
+            aria-hidden="true"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1.5em"
+            style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+            viewBox="0 0 24 24"
+            width="1.5em"
+          >
+            <path
+              d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+            />
+          </svg>
+        </span>
+        Wi-Fi 2
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="1"
+        id="menu-list-:r6:-menuitem-:r8:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          Other Network
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          &gt;
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="2"
+        id="menu-list-:r6:-menuitem-:r9:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Wi-Fi settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Wifi should render 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r1:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="wifi-top-bar-button"
+    class="chakra-menu__menu-button css-qnx1nw"
+    id="menu-button-:r1:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="white"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-wkqcnc"
+      id="menu-list-:r1:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-2mf9n7"
+      >
+        <p
+          class="chakra-text css-1bxpg6e"
+        >
+          Wi-Fi
+        </p>
+        <label
+          class="chakra-switch css-16pgy8f"
+        >
+          <input
+            class="chakra-switch__input"
+            style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+            type="checkbox"
+            value=""
+          />
+          <span
+            aria-hidden="true"
+            class="chakra-switch__track css-14qxnv8"
+          >
+            <span
+              class="chakra-switch__thumb css-0"
+            />
+          </span>
+        </label>
+      </div>
+      <button
+        aria-label="wifi-weak-security"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="0"
+        id="menu-list-:r1:-menuitem-:r2:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Weak Security (WPA)
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="wifi-1"
+        class="chakra-button css-1ihk4dg"
+        type="button"
+      >
+        <span
+          class="chakra-button__icon css-1wh2kri"
+        >
+          <svg
+            aria-hidden="true"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1.5em"
+            style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+            viewBox="0 0 24 24"
+            width="1.5em"
+          >
+            <path
+              d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+            />
+          </svg>
+        </span>
+        Wi-Fi 1
+      </button>
+      <button
+        aria-label="wifi-1"
+        class="chakra-button css-1iz9bnj"
+        type="button"
+      >
+        <span
+          class="chakra-button__icon css-1wh2kri"
+        >
+          <svg
+            aria-hidden="true"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1.5em"
+            style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+            viewBox="0 0 24 24"
+            width="1.5em"
+          >
+            <path
+              d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+            />
+          </svg>
+        </span>
+        Wi-Fi 2
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="1"
+        id="menu-list-:r1:-menuitem-:r3:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          Other Network
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          &gt;
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-1fmk8qx"
+      />
+      <button
+        aria-label="new-tab"
+        class="chakra-menu__menuitem css-pk46t1"
+        data-index="2"
+        id="menu-list-:r1:-menuitem-:r4:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Wi-Fi settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -13,7 +13,7 @@ const User = () => {
       <TopBarButton
         text="Amit Raikwar"
         onClick={() => {}}
-        ariaLabel="search-top-bar-button"
+        ariaLabel="user-top-bar-button"
       />
       <MenuListComponent>
         <Box
