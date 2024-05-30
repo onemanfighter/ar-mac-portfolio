@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Draggable provider should render correctly 1`] = `
+<div>
+  <div
+    class="react-draggable css-0"
+    style="transform: translate(0px,0px);"
+  >
+    test
+  </div>
+</div>
+`;
