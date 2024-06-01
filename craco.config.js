@@ -28,6 +28,12 @@ module.exports = {
         __dirname,
         './src/store/settingsStore/selector',
       ),
+      // App store
+      '@appStore': path.resolve(__dirname, './src/store/appStore'),
+      '@appStore/selector': path.resolve(
+        __dirname,
+        './src/store/appStore/selector',
+      ),
     },
   },
 };
