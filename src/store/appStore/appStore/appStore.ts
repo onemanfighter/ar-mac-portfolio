@@ -10,6 +10,7 @@ import {
   createTerminalSlice,
   createVsCodeSlice,
 } from '../slice';
+import { createSpotifySlice } from '../slice/Spotify';
 
 export const appStore = create<AppStoreState>()(
   persist(
@@ -19,6 +20,7 @@ export const appStore = create<AppStoreState>()(
       Terminal: createTerminalSlice(...api),
       VsCode: createVsCodeSlice(...api),
       Chrome: createChromeSlice(...api),
+      Spotify: createSpotifySlice(...api),
     })),
     {
       name: 'appStore',
