@@ -11,6 +11,7 @@ const TopBarButton = ({
     <MenuButton
       fontSize={'12'}
       px={2}
+      py={0.5}
       color={'white'}
       borderRadius={4}
       fontWeight={'600'}

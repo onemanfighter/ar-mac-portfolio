@@ -41,9 +41,18 @@
       "otherNetwork": "Other Network",
       "wifiSettings": "Wi-Fi settings..."
     },
-    "appleIcon": {
-      "title": "Apple Icon",
-      "appleIconSettings": "Apple Icon settings..."
+    "apple": {
+      "aboutThisMac": "About This Mac",
+      "systemSettings": "System Settings...",
+      "appStore": "App Store...",
+      "updates": "{{count: string}} updates",
+      "recentItems": "Recent Items",
+      "forceQuit": "Force Quit...",
+      "sleep": "Sleep",
+      "restart": "Restart...",
+      "shutDown": "Shut Down...",
+      "lockScreen": "Lock Screen",
+      "logOut": "Log out {{userName: string}}..."
     }
   }
 }

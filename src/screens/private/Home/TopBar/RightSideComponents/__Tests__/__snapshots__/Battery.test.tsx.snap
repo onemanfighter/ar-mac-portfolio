@@ -7,7 +7,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="battery-top-bar-button"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     data-active=""
     id="menu-button-:r4:"
   >
@@ -65,7 +65,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-pk46t1"
+        class="chakra-menu__menuitem css-nxv7i8"
         data-index="0"
         id="menu-list-:r4:-menuitem-:r5:"
         role="menuitem"
@@ -86,7 +86,7 @@ exports[`Battery should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="battery-top-bar-button"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     id="menu-button-:r1:"
   >
     <span
@@ -140,7 +140,7 @@ exports[`Battery should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-pk46t1"
+        class="chakra-menu__menuitem css-nxv7i8"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"

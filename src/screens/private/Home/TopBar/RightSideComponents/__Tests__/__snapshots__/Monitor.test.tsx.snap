@@ -7,7 +7,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="monitor-top-bar-button"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     data-active=""
     id="menu-button-:r5:"
   >
@@ -211,7 +211,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-pk46t1"
+        class="chakra-menu__menuitem css-nxv7i8"
         data-index="0"
         id="menu-list-:r5:-menuitem-:r7:"
         role="menuitem"
@@ -232,7 +232,7 @@ exports[`monitor should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="monitor-top-bar-button"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     id="menu-button-:r1:"
   >
     <span
@@ -432,7 +432,7 @@ exports[`monitor should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-pk46t1"
+        class="chakra-menu__menuitem css-nxv7i8"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"

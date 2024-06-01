@@ -3,5 +3,6 @@ export type MenuItemComponentProps = {
   command?: string;
   icon?: React.ReactElement;
   ariaLabel: string;
+  side?: 'left' | 'right';
   onClick: () => void;
 };

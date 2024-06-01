@@ -6,20 +6,21 @@ const MenuItemComponent = ({
   command,
   icon,
   onClick,
+  side = 'right',
   ariaLabel,
 }: MenuItemComponentProps) => {
   return (
     <MenuItem
       borderRadius={2}
       icon={icon}
+      py={0.2}
       color={'white'}
       fontSize={'xs'}
-      py={1}
       fontWeight={600}
       onClick={onClick}
       aria-label={ariaLabel}
       command={command}
-      _hover={{ bg: '#f0f0f06f' }}
+      _hover={{ bg: side === 'right' ? '#f0f0f06f' : 'blue.500' }}
       bg={'transparent'}
     >
       {text}
