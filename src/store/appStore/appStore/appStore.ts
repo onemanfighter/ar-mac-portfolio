@@ -7,6 +7,7 @@ import {
   createBinSlice,
   createChromeSlice,
   createFinderSlice,
+  createGithubSlice,
   createTerminalSlice,
   createVsCodeSlice,
 } from '../slice';
@@ -21,6 +22,7 @@ export const appStore = create<AppStoreState>()(
       VsCode: createVsCodeSlice(...api),
       Chrome: createChromeSlice(...api),
       Spotify: createSpotifySlice(...api),
+      Github: createGithubSlice(...api),
     })),
     {
       name: 'appStore',
