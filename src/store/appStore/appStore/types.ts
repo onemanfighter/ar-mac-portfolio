@@ -4,6 +4,7 @@ import {
   ChromeStateSlice,
   FinderStateSlice,
   GithubStateSlice,
+  SettingsStateSlice,
   TerminalStateSlice,
   VsCodeStateSlice,
 } from '../slice';
@@ -16,6 +17,7 @@ export interface AppStoreState {
   VsCode: VsCodeStateSlice;
   Chrome: ChromeStateSlice;
   Spotify: SpotifyStateSlice;
+  Settings: SettingsStateSlice;
   Github: GithubStateSlice;
 }
 

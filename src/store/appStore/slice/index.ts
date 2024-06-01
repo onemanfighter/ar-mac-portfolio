@@ -5,3 +5,4 @@ export * from './VsCode';
 export * from './Chrome';
 export * from './Spotify';
 export * from './Github';
+export * from './Settings';

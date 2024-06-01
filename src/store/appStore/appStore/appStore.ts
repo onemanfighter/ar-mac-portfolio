@@ -8,10 +8,11 @@ import {
   createChromeSlice,
   createFinderSlice,
   createGithubSlice,
+  createSettingsSlice,
+  createSpotifySlice,
   createTerminalSlice,
   createVsCodeSlice,
 } from '../slice';
-import { createSpotifySlice } from '../slice/Spotify';
 
 export const appStore = create<AppStoreState>()(
   persist(
@@ -23,6 +24,7 @@ export const appStore = create<AppStoreState>()(
       Chrome: createChromeSlice(...api),
       Spotify: createSpotifySlice(...api),
       Github: createGithubSlice(...api),
+      Settings: createSettingsSlice(...api),
     })),
     {
       name: 'appStore',
