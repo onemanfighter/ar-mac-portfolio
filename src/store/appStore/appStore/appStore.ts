@@ -5,6 +5,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import { AppStoreState } from './types';
 import {
   createBinSlice,
+  createChromeSlice,
   createFinderSlice,
   createTerminalSlice,
   createVsCodeSlice,
@@ -17,6 +18,7 @@ export const appStore = create<AppStoreState>()(
       Bin: createBinSlice(...api),
       Terminal: createTerminalSlice(...api),
       VsCode: createVsCodeSlice(...api),
+      Chrome: createChromeSlice(...api),
     })),
     {
       name: 'appStore',

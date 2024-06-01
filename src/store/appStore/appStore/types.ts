@@ -1,6 +1,7 @@
 import { StateCreator } from 'zustand';
 import {
   BinStateSlice,
+  ChromeStateSlice,
   FinderStateSlice,
   TerminalStateSlice,
   VsCodeStateSlice,
@@ -11,6 +12,7 @@ export interface AppStoreState {
   Bin: BinStateSlice;
   Terminal: TerminalStateSlice;
   VsCode: VsCodeStateSlice;
+  Chrome: ChromeStateSlice;
 }
 
 export type AppStoreSlice<T> = StateCreator<
