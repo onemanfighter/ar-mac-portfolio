@@ -7,7 +7,7 @@ exports[`TopBar button should render for default values 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="abc-component"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     id="menu-button-:r1:"
   >
     <span
@@ -30,7 +30,7 @@ exports[`TopBar button should render with search icon 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="abc-component"
-    class="chakra-menu__menu-button css-qnx1nw"
+    class="chakra-menu__menu-button css-bracgg"
     id="menu-button-:r5:"
   >
     <span

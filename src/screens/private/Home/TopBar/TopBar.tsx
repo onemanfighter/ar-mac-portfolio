@@ -1,6 +1,7 @@
 import { Box, Text } from '@chakra-ui/react';
 import { TopBarProps } from './type';
 import RightSideIcons from './RightSideIcons';
+import LeftSideIcons from './LeftSideIcons';
 
 const TopBar = (props: TopBarProps) => {
   return (
@@ -15,12 +16,10 @@ const TopBar = (props: TopBarProps) => {
       alignContent={'center'}
       alignItems={'center'}
       zIndex={100}
+      px={2}
       top={0}
     >
-      <Box width={'50%'} flexDir={'row'} justifyContent={'flex-start'} gap={2}>
-        {/** Left side icons */}
-        <Text color={'white'}>Left side icons</Text>
-      </Box>
+      <LeftSideIcons />
       <RightSideIcons />
     </Box>
   );
