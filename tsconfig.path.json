@@ -17,7 +17,10 @@
       "@processStore/selector": ["src/store/processStore/selector"],
       // Settings store
       "@settingsStore": ["src/store/settingsStore"],
-      "@settingsStore/selector": ["src/store/settingsStore/selector"]
+      "@settingsStore/selector": ["src/store/settingsStore/selector"],
+      // App store
+      "@appStore": ["src/store/appStore"],
+      "@appStore/selector": ["src/store/appStore/selector"]
     }
   }
 }
