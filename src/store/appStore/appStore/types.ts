@@ -1,12 +1,16 @@
 import { StateCreator } from 'zustand';
-import { FinderStateSlice } from '../slice/Finder/types';
-import { BinStateSlice } from '../slice';
-import { TerminalStateSlice } from '../slice/Terminal';
+import {
+  BinStateSlice,
+  FinderStateSlice,
+  TerminalStateSlice,
+  VsCodeStateSlice,
+} from '../slice';
 
 export interface AppStoreState {
   Finder: FinderStateSlice;
   Bin: BinStateSlice;
   Terminal: TerminalStateSlice;
+  VsCode: VsCodeStateSlice;
 }
 
 export type AppStoreSlice<T> = StateCreator<
