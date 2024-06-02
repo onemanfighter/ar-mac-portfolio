@@ -1,12 +1,11 @@
 import { Box, Progress } from '@chakra-ui/react';
 import { MacIcon } from '@assets';
 import { useEffect, useState } from 'react';
-import { processStore } from '@processStore';
-import { powerSelector } from '@processStore/selector';
+import { processStore, powerSelector, useShallow } from '@processStore';
 
 const Powering = () => {
   const [value, setValue] = useState<number>(0);
-  const { turnOn } = processStore(powerSelector);
+  const { turnOn } = processStore(useShallow(powerSelector));
 
   useEffect(() => {
     // Simulate loading

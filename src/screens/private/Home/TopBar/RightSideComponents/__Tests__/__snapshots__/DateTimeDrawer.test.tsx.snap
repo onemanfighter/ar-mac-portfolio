@@ -1,76 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DateTime drawer should render correctly 1`] = `
+exports[`DateTime drawer should open pop-up when battery icon is tapped 1`] = `
 <div>
   <button
-    aria-controls="menu-list-:r1:"
-    aria-expanded="false"
+    aria-controls="menu-list-:r6:"
+    aria-expanded="true"
     aria-haspopup="menu"
-    aria-label="battery-top-bar-button"
-    class="chakra-menu__menu-button css-qnx1nw"
-    id="menu-button-:r1:"
+    aria-label="date-time-top-bar-button"
+    class="chakra-menu__menu-button css-bracgg"
+    data-active=""
+    id="menu-button-:r6:"
   >
     <span
       class="css-xl71ch"
     >
-      <svg
-        color="white"
-        fill="currentColor"
-        height="2em"
-        viewBox="0 0 16 16"
-        width="2em"
+      <p
+        class="chakra-text css-0"
       >
-        <path
-          d="M2 6h6.7v4H2V6z"
-        />
-        <path
-          d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
-        />
-      </svg>
+        Thu May 14 11:01 AM
+      </p>
     </span>
   </button>
-  <div
-    class="css-0"
-    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+</div>
+`;
+
+exports[`DateTime drawer should render correctly 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r2:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="date-time-top-bar-button"
+    class="chakra-menu__menu-button css-bracgg"
+    id="menu-button-:r2:"
   >
-    <div
-      aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
-      id="menu-list-:r1:"
-      role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
-      tabindex="-1"
+    <span
+      class="css-xl71ch"
     >
-      <div
-        class="css-1kqq1dh"
+      <p
+        class="chakra-text css-0"
       >
-        <p
-          class="chakra-text css-1jueml0"
-        >
-          Battery
-        </p>
-        <p
-          class="chakra-text css-1p1588x"
-        >
-          67%
-        </p>
-      </div>
-      <hr
-        aria-orientation="horizontal"
-        class="chakra-menu__divider css-n5p1w9"
-      />
-      <button
-        aria-label="new-tab"
-        class="chakra-menu__menuitem css-pk46t1"
-        data-index="0"
-        id="menu-list-:r1:-menuitem-:r2:"
-        role="menuitem"
-        tabindex="-1"
-        type="button"
-      >
-        Battery settings...
-      </button>
-    </div>
-  </div>
+        Thu May 14 11:01 AM
+      </p>
+    </span>
+  </button>
 </div>
 `;

@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Mac should render mac  1`] = `<div />`;
+exports[`Mac should render mac  1`] = `
+<div>
+  <div
+    aria-label="mac"
+  />
+</div>
+`;

@@ -1,12 +1,19 @@
 import { render } from '@testing-library/react';
-import Home from '../Home';
 import { renderHook } from '@testing-library/react-hooks';
 import { uiStore } from '@uiStore';
-import { wallpaperSelector } from '@settingsStore/selector';
 import { settingsStore } from '@settingsStore';
+import Home from '../Home';
+import { processStore } from '@processStore';
+import { appStore } from '@appStore';
+
+global.ResizeObserver = jest.fn().mockImplementation(() => ({
+  observe: jest.fn(),
+  unobserve: jest.fn(),
+  disconnect: jest.fn(),
+}));
 
 describe('Home', () => {
-  it.skip('should render correctly to match snapshot', () => {
+  it('should render correctly to match snapshot', () => {
     renderHook(() => settingsStore());
     renderHook(() => uiStore());
 

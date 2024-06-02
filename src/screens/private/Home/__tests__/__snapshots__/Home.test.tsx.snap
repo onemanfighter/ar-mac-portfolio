@@ -2,10 +2,861 @@
 
 exports[`Home should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Home
-    </h1>
+  <div
+    aria-label="home"
+    class="css-1jmej02"
+  >
+    <div
+      class="css-1q3b9iq"
+    >
+      <img
+        aria-label="wallpaper-component-with-wallpaper7"
+        class="chakra-image css-uwwqev"
+        loading="lazy"
+        src=""
+      />
+    </div>
+    <div
+      class="css-18ia66w"
+    >
+      <div
+        class="chakra-button__group css-y7v311"
+        data-orientation="horizontal"
+        role="group"
+      >
+        <button
+          aria-controls="menu-list-:r1:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="apple-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:r1:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <svg
+              color="white"
+              fill="currentColor"
+              height="1.5em"
+              viewBox="0 0 1024 1024"
+              width="1.5em"
+            >
+              <path
+                d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:r1:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="about-this-mac"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="0"
+              id="menu-list-:r1:-menuitem-:r2:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              About This Mac
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="system-settings"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="1"
+              id="menu-list-:r1:-menuitem-:r3:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              System Settings...
+            </button>
+            <button
+              aria-label="app-store"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="2"
+              id="menu-list-:r1:-menuitem-:r4:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              App Store...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="recent-items"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="3"
+              id="menu-list-:r1:-menuitem-:r5:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Recent Items
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="force-quit"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="4"
+              id="menu-list-:r1:-menuitem-:r6:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Force Quit...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="sleep"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="5"
+              id="menu-list-:r1:-menuitem-:r7:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Sleep
+            </button>
+            <button
+              aria-label="restart"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="6"
+              id="menu-list-:r1:-menuitem-:r8:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Restart...
+            </button>
+            <button
+              aria-label="shutDown"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="7"
+              id="menu-list-:r1:-menuitem-:r9:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Shut Down...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="lock-screen"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="8"
+              id="menu-list-:r1:-menuitem-:ra:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Lock Screen
+            </button>
+            <button
+              aria-label="logout"
+              class="chakra-menu__menuitem css-s7lhnt"
+              data-index="9"
+              id="menu-list-:r1:-menuitem-:rb:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Log out {{userName: string}}...
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-button__group css-idd0r2"
+        data-orientation="horizontal"
+        role="group"
+      >
+        <button
+          aria-controls="menu-list-:rd:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="monitor-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:rd:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <svg
+              color="white"
+              fill="currentColor"
+              height="1.5em"
+              viewBox="0 0 24 24"
+              width="1.5em"
+            >
+              <path
+                d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:rd:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <div
+              class="css-1uhz9qn"
+            >
+              <p
+                class="chakra-text css-1jueml0"
+              >
+                Display
+              </p>
+              <div
+                class="chakra-slider css-1j9oeic"
+                style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                tabindex="-1"
+              >
+                <div
+                  class="chakra-slider__track css-q9xlwy"
+                  id="slider-track-:re:"
+                  style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+                >
+                  <div
+                    class="chakra-slider__filled-track css-4fiyi6"
+                    style="position: absolute; top: 50%; transform: translateY(-50%); width: 30%; left: 0%;"
+                  >
+                    <svg
+                      color="black"
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                      width="12"
+                    >
+                      <path
+                        d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  aria-label="slider-ex-1"
+                  aria-orientation="horizontal"
+                  aria-valuemax="100"
+                  aria-valuemin="0"
+                  aria-valuenow="30"
+                  class="chakra-slider__thumb css-1om1vhp"
+                  id="slider-thumb-:re:"
+                  role="slider"
+                  style="position: absolute; user-select: none; left: calc(30% - 0px);"
+                  tabindex="0"
+                />
+                <input
+                  type="hidden"
+                  value="30"
+                />
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-194jiql"
+            >
+              <div
+                class="css-1voambi"
+              >
+                <button
+                  aria-label="increase"
+                  class="chakra-button css-3szl26"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    color="white"
+                    fill="none"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 16a4 4 0 000-8v8z"
+                      fill="currentColor"
+                    />
+                    <path
+                      clip-rule="evenodd"
+                      d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <p
+                  class="chakra-text css-10ks42e"
+                >
+                  Dark mode
+                </p>
+                <p
+                  class="chakra-text css-lla7mv"
+                >
+                  Off
+                </p>
+              </div>
+              <div
+                class="css-1voambi"
+              >
+                <button
+                  aria-label="increase"
+                  class="chakra-button css-3szl26"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    color="white"
+                    fill="none"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 16a4 4 0 000-8v8z"
+                      fill="currentColor"
+                    />
+                    <path
+                      clip-rule="evenodd"
+                      d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <p
+                  class="chakra-text css-10ks42e"
+                >
+                  Night Shift
+                </p>
+                <p
+                  class="chakra-text css-lla7mv"
+                >
+                  Off
+                </p>
+              </div>
+              <div
+                class="css-1voambi"
+              >
+                <button
+                  aria-label="increase"
+                  class="chakra-button css-3szl26"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    color="white"
+                    fill="currentColor"
+                    focusable="false"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                    />
+                  </svg>
+                </button>
+                <p
+                  class="chakra-text css-10ks42e"
+                >
+                  True Tone
+                </p>
+                <p
+                  class="chakra-text css-lla7mv"
+                >
+                  Off
+                </p>
+              </div>
+            </div>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-n5p1w9"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="0"
+              id="menu-list-:rd:-menuitem-:rf:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Display settings...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:rh:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="user-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:rh:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-0"
+            >
+              Amit Raikwar
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:rh:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <div
+              class="css-1pidzr7"
+            >
+              <img
+                alt="Profile"
+                class="chakra-image css-1khlcnb"
+                loading="lazy"
+                src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+              />
+              <p
+                class="chakra-text css-1hrkoss"
+              >
+                Amit Raikwar
+              </p>
+            </div>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="0"
+              id="menu-list-:rh:-menuitem-:ri:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Login window...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="1"
+              id="menu-list-:rh:-menuitem-:rj:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Users & group settings...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:rl:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="battery-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:rl:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <svg
+              color="white"
+              fill="currentColor"
+              height="2em"
+              viewBox="0 0 16 16"
+              width="2em"
+            >
+              <path
+                d="M2 6h6.7v4H2V6z"
+              />
+              <path
+                d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:rl:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <div
+              class="css-1kqq1dh"
+            >
+              <p
+                class="chakra-text css-1jueml0"
+              >
+                Battery
+              </p>
+              <p
+                class="chakra-text css-1p1588x"
+              >
+                67%
+              </p>
+            </div>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-n5p1w9"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="0"
+              id="menu-list-:rl:-menuitem-:rm:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Battery settings...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:ro:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="wifi-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:ro:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <svg
+              color="white"
+              fill="currentColor"
+              height="1.5em"
+              viewBox="0 0 24 24"
+              width="1.5em"
+            >
+              <path
+                d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:ro:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <div
+              class="css-2mf9n7"
+            >
+              <p
+                class="chakra-text css-1bxpg6e"
+              >
+                Wi-Fi
+              </p>
+              <label
+                class="chakra-switch css-16pgy8f"
+              >
+                <input
+                  class="chakra-switch__input"
+                  style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+                  type="checkbox"
+                  value=""
+                />
+                <span
+                  aria-hidden="true"
+                  class="chakra-switch__track css-14qxnv8"
+                >
+                  <span
+                    class="chakra-switch__thumb css-0"
+                  />
+                </span>
+              </label>
+            </div>
+            <button
+              aria-label="wifi-weak-security"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="0"
+              id="menu-list-:ro:-menuitem-:rp:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Weak Security (WPA)
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="wifi-1"
+              class="chakra-button css-1gc3a1y"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  color="white"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1.5em"
+                  style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+                  viewBox="0 0 24 24"
+                  width="1.5em"
+                >
+                  <path
+                    d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                  />
+                </svg>
+              </span>
+              Wi-Fi 1
+            </button>
+            <button
+              aria-label="wifi-1"
+              class="chakra-button css-f3458p"
+              type="button"
+            >
+              <span
+                class="chakra-button__icon css-1wh2kri"
+              >
+                <svg
+                  aria-hidden="true"
+                  color="white"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1.5em"
+                  style="background-color: rgba(240, 240, 240, 0.435); padding: 0.2em; border-radius: 50%;"
+                  viewBox="0 0 24 24"
+                  width="1.5em"
+                >
+                  <path
+                    d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                  />
+                </svg>
+              </span>
+              Wi-Fi 2
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="1"
+              id="menu-list-:ro:-menuitem-:rq:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Other Network
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-1fmk8qx"
+            />
+            <button
+              aria-label="new-tab"
+              class="chakra-menu__menuitem css-nxv7i8"
+              data-index="2"
+              id="menu-list-:ro:-menuitem-:rr:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Wi-Fi settings...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-label="search-top-bar-button"
+          class="chakra-button css-1h066r4"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            color="white"
+            fill="currentColor"
+            focusable="false"
+            height="1.2em"
+            viewBox="0 0 24 24"
+            width="1.2em"
+          >
+            <path
+              d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-controls="menu-list-:rt:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="settings-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:rt:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <svg
+              color="white"
+              fill="currentColor"
+              height="1.5em"
+              viewBox="0 0 24 24"
+              width="1.5em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.75 12.75h1.5a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM12 6a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 6ZM12 18a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 18ZM3.75 6.75h1.5a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM5.25 18.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5ZM3 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3 12ZM9 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM12.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0ZM9 15.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-wkqcnc"
+            id="menu-list-:rt:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <div
+              class="css-k008qs"
+            >
+              <div
+                class="css-1pidzr7"
+              >
+                <div
+                  class="chakra-stack css-1igwmid"
+                >
+                  <div
+                    class="chakra-stack css-tl3ftk"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r10:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="date-time-top-bar-button"
+          class="chakra-menu__menu-button css-bracgg"
+          id="menu-button-:r10:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-0"
+            >
+              Thu May 14 11:01 AM
+            </p>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="react-draggable css-1nbw3ll"
+      style="transform: translate(100px,200px);"
+    >
+      <div
+        class="handle css-y5il39"
+      >
+        <div
+          class="css-bl229y"
+        />
+        <div
+          class="css-6qqns1"
+        />
+        <div
+          class="css-2fxb6m"
+        />
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          AMIT
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

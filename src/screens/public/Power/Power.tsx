@@ -1,11 +1,10 @@
 import { Box, IconButton } from '@chakra-ui/react';
 import { MacIcon, PowerIcon } from '@assets';
 import { PowerProps } from './type';
-import { processStore } from '@processStore';
-import { powerSelector } from '@processStore/selector';
+import { processStore, powerSelector, useShallow } from '@processStore';
 
 const Power = (props: PowerProps) => {
-  const { poweringOn } = processStore(powerSelector);
+  const { poweringOn } = processStore(useShallow(powerSelector));
 
   const powerClickHandler = () => {
     poweringOn();
