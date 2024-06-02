@@ -5,6 +5,6 @@ describe('Github slice', () => {
   it('should return default github state', () => {
     const { result } = renderHook(() => appStore());
 
-    expect(result.current.Github).toEqual({});
+    expect(result.current.Github).toMatchSnapshot();
   });
 });

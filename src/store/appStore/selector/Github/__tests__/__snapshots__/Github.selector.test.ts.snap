@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Github selector should return default github state 1`] = `
+{
+  "currentProfile": "onemanfighter",
+  "defaultProfile": "onemanfighter",
+}
+`;

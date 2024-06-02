@@ -833,7 +833,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable css-1nbw3ll"
+      class="react-draggable css-be4flj"
       style="transform: translate(100px,200px);"
     >
       <div
@@ -848,12 +848,61 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         <div
           class="css-2fxb6m"
         />
+        <div
+          class="css-1bc9bee"
+        />
       </div>
       <div
         class="css-1qx9vnh"
       >
-        <div>
-          AMIT
+        <div
+          aria-label="spotify"
+          class="css-uwwqev"
+        >
+          <div
+            class="css-yecknf"
+          >
+            <button
+              aria-label="back"
+              class="chakra-button css-1kxr5pj"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                color="white"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 512 512"
+                width="24"
+              >
+                <path
+                  d="M249.38 336L170 256l79.38-80M181.03 256H342"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                />
+              </svg>
+            </button>
+            A.R. Rahman
+          </div>
+          <iframe
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            height="100%"
+            loading="lazy"
+            src="https://open.spotify.com/embed/artist/1mYsTxnqsietFxj1OgoGbG?utm_source=generator"
+            title="A.R. Rahman"
+            width="100%"
+          />
         </div>
       </div>
     </div>

@@ -1,20 +1,19 @@
-import { IndianArtist, appStore } from '@appStore';
+import { useShallow, appStore, spotifySelector } from '@appStore';
 import { SpotifyProps } from './type';
-import { useShallow } from 'zustand/react/shallow';
-import { spotifySelector } from '@appStore/selector';
 import { Box, IconButton } from '@chakra-ui/react';
 import { BackIcon } from '@assets';
 
 const Spotify = (props: SpotifyProps) => {
-  const { state, getCurrentPlaylist, closePlaylist, openPlaylist } =
-    appStore(spotifySelector);
+  const { state, getCurrentPlaylist, closePlaylist, openPlaylist } = appStore(
+    useShallow(spotifySelector),
+  );
 
   const a = appStore();
 
   const currentList = getCurrentPlaylist();
 
   return (
-    <Box width={'100%'} height={'100%'}>
+    <Box width={'100%'} height={'100%'} aria-label="spotify">
       <Box
         width={'100%'}
         height={8}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spotify slice should return default spotify state 1`] = `
+{
+  "closePlaylist": [Function],
+  "currentPlaylist": "A.R. Rahman",
+  "openPlaylist": [Function],
+  "state": "playing",
+}
+`;
