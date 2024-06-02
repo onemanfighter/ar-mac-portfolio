@@ -2,7 +2,52 @@ import { DraggableProvider } from '@providers';
 import { WindowProps } from './types';
 import { Box, useBoolean } from '@chakra-ui/react';
 
-const Window = ({ children }: WindowProps) => {
+const WindowCloseControl = ({
+  onClose,
+  onMaximizeClick,
+}: {
+  onClose: () => void;
+  onMaximizeClick: () => void;
+}) => {
+  return (
+    <>
+      <Box
+        width={3}
+        height={3}
+        borderRadius={'full'}
+        bg={'red.500'}
+        onClick={onClose}
+        _hover={{
+          cursor: 'pointer',
+        }}
+      ></Box>
+      <Box
+        width={3}
+        height={3}
+        borderRadius={'full'}
+        bg={'yellow.500'}
+        onClick={() => {}}
+        _hover={{
+          cursor: 'pointer',
+        }}
+      />
+      <Box
+        width={3}
+        height={3}
+        borderRadius={'full'}
+        bg={'green.500'}
+        onClick={() => {
+          onMaximizeClick();
+        }}
+        _hover={{
+          cursor: 'pointer',
+        }}
+      />
+    </>
+  );
+};
+
+const Window = ({ children, topBar }: WindowProps) => {
   const [maximized, setMaximized] = useBoolean(false);
   const onClose = () => {
     console.log('close');
@@ -11,13 +56,15 @@ const Window = ({ children }: WindowProps) => {
   return (
     <DraggableProvider position={maximized ? { x: 0, y: 28 } : undefined}>
       <Box
-        width={maximized ? '99%' : '50%'}
-        height={maximized ? '80%' : '50%'}
+        width={maximized ? '100%' : '50%'}
+        height={maximized ? '82%' : '55%'}
         flex={1}
         justifyContent={'flex-start'}
         alignItems={'flex-start'}
         borderRadius={'6px'}
-        {...(maximized ? { transition: 'all 0.7s' } : {})}
+        {...(maximized
+          ? { transition: 'all 0.2s' }
+          : { transition: 'all 0.08s' })}
       >
         <Box
           {...(!maximized ? { className: 'handle' } : {})}
@@ -28,43 +75,19 @@ const Window = ({ children }: WindowProps) => {
           alignItems={'center'}
           border={'1px solid #666'}
           bg={'#1f1f1fAf'}
+          onDoubleClick={setMaximized.toggle}
           borderTopRadius={6}
           px={3}
           gap={2}
           transition={'none'}
         >
-          <Box
-            width={3}
-            height={3}
-            borderRadius={'full'}
-            bg={'red.500'}
-            onClick={onClose}
-            _hover={{
-              cursor: 'pointer',
-            }}
-          ></Box>
-          <Box
-            width={3}
-            height={3}
-            borderRadius={'full'}
-            bg={'yellow.500'}
-            onClick={onClose}
-            _hover={{
-              cursor: 'pointer',
-            }}
+          <WindowCloseControl
+            onClose={onClose}
+            onMaximizeClick={setMaximized.toggle}
           />
-          <Box
-            width={3}
-            height={3}
-            borderRadius={'full'}
-            bg={'green.500'}
-            onClick={() => {
-              setMaximized.toggle();
-            }}
-            _hover={{
-              cursor: 'pointer',
-            }}
-          />
+          <Box width="100%" height={6}>
+            {topBar}
+          </Box>
         </Box>
         <Box
           width={'100%'}
