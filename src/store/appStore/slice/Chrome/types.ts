@@ -1,4 +1,6 @@
-export type ChromeState = {};
+export type ChromeState = {
+  homepageLink: string;
+};
 
 export interface ChromeAppAction {}
 
