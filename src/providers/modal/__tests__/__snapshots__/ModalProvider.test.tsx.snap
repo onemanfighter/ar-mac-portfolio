@@ -2,10 +2,6 @@
 
 exports[`ModalProvider should render correctly 1`] = `
 <div>
-  <p
-    class="chakra-text css-0"
-  >
-    App
-  </p>
+  App
 </div>
 `;

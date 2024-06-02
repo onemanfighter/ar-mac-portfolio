@@ -1,6 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { appStore } from '../../../../appStore/appStore';
-import { finderSelector } from '../Finder.selector';
+import { appStore, finderSelector } from '@appStore';
 
 describe('Finder selector', () => {
   it('should return default finder state', () => {

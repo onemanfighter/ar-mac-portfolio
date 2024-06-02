@@ -1,8 +1,8 @@
 import { Box } from '@chakra-ui/react';
 import { LockProps } from './type';
 import { WallpaperComponent } from '@components';
-import { settingsStore } from '@settingsStore';
-import { wallpaperSelector } from '@settingsStore/selector';
+import { settingsStore, wallpaperSelector } from '@settingsStore';
+
 import {
   TimeDateComponent,
   TopRightComponent,

@@ -1,8 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import { HomeProps } from './type';
 import { WallpaperComponent, Window } from '@components';
-import { settingsStore } from '@settingsStore';
-import { wallpaperSelector } from '@settingsStore/selector';
+import { settingsStore, wallpaperSelector } from '@settingsStore';
 import { TopBar } from './TopBar';
 
 const Home = (props: HomeProps) => {

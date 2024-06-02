@@ -3,15 +3,7 @@
 exports[`LazyMacComponent should render correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-label="mac-screen"
-    class="css-0"
-  >
-    <button
-      class="chakra-button css-4xx2wk"
-      type="button"
-    >
-      Open Modal
-    </button>
-  </div>
+    aria-label="mac"
+  />
 </div>
 `;

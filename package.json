@@ -33,9 +33,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "jest --config jest.config.js",
-    "test:coverage": "jest --config jest.config.js --coverage ",
-    "test:craco": "craco test --silent --watchAll=false",
+    "test": "TZ=UTC jest --config jest.config.js",
+    "test:coverage": "TZ=UTC jest --config jest.config.js --coverage ",
+    "test:craco": "TZ=UTC craco test --silent --watchAll=false",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prettier:staged": "prettier --write .",

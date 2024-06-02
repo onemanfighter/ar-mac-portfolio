@@ -5,13 +5,17 @@ import {
   publicRouterPower,
   publicRouterPowering,
 } from '@router';
-import { processStore } from '@processStore';
-import { loginSelector, powerSelector } from '@processStore/selector';
+import {
+  processStore,
+  loginSelector,
+  powerSelector,
+  useShallow,
+} from '@processStore';
 import { Power } from '@processStore';
 
 const RouterProviderComponent = () => {
-  const { isLoggedIn } = processStore(loginSelector);
-  const { powerState } = processStore(powerSelector);
+  const { isLoggedIn } = processStore(useShallow(loginSelector));
+  const { powerState } = processStore(useShallow(powerSelector));
 
   if (powerState === Power.OFF) {
     return <RouterProvider router={publicRouterPower} />;

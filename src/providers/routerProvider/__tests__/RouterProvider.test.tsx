@@ -2,6 +2,15 @@ import { render, renderHook, screen, waitFor } from '@testing-library/react';
 import RouterProviderComponent from '../RouterProvider';
 import { processStore } from '@processStore';
 import { act } from '@testing-library/react-hooks';
+import { settingsStore } from '@settingsStore';
+import { uiStore } from '@uiStore';
+import { appStore } from '@appStore';
+
+global.ResizeObserver = jest.fn().mockImplementation(() => ({
+  observe: jest.fn(),
+  unobserve: jest.fn(),
+  disconnect: jest.fn(),
+}));
 
 describe('RouterProvider', () => {
   beforeEach(() => {
@@ -14,51 +23,60 @@ describe('RouterProvider', () => {
     });
   });
 
-  it.skip('should render for power off', async () => {
+  it('should render for power off', async () => {
+    renderHook(() => processStore());
     const { container } = render(<RouterProviderComponent />);
 
     await waitFor(() => {
-      expect(screen.getByLabelText('static-host-screen')).toBeDefined();
-    });
-    await waitFor(() => {
       expect(screen.getByLabelText('power-screen')).toBeDefined();
     });
+
     expect(container).toMatchSnapshot();
   });
 
   it('should render for powering', async () => {
     const { result } = renderHook(() => processStore());
-    result.current.Power.poweringOn();
+    act(() => {
+      result.current.Power.poweringOn();
+    });
 
     const { container } = render(<RouterProviderComponent />);
 
     await waitFor(() => {
-      expect(screen.getByLabelText('static-host-screen')).toBeDefined();
+      expect(screen.getByLabelText('powering-screen')).toBeDefined();
     });
     expect(container).toMatchSnapshot();
   });
 
   it('should render for lock when power is on but user logged out', async () => {
     const { result } = renderHook(() => processStore());
-    result.current.Power.turnOn();
-    result.current.Login.logout();
+    act(() => {
+      result.current.Power.turnOn();
+      result.current.Login.logout();
+    });
 
     const { container } = render(<RouterProviderComponent />);
 
     await waitFor(() => {
-      expect(screen.getByLabelText('static-host-screen')).toBeDefined();
+      expect(screen.getByLabelText('top-right-component')).toBeDefined();
     });
     expect(container).toMatchSnapshot();
   });
 
   it.skip('should render for login', async () => {
     const { result } = renderHook(() => processStore());
+    renderHook(() => settingsStore());
+    renderHook(() => uiStore());
+    renderHook(() => appStore());
+
     const { container } = render(<RouterProviderComponent />);
-    result.current.Power.turnOn();
-    result.current.Login.login();
+    act(() => {
+      result.current.Power.turnOn();
+      result.current.Login.login();
+    });
 
     await waitFor(() => {
-      expect(screen.getByLabelText('mac-screen')).toBeDefined();
+      expect(screen.getByLabelText('home')).toBeDefined();
     });
     expect(container).toMatchSnapshot();
   });

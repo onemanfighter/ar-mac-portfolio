@@ -1,4 +1,4 @@
-import { ArrowRightCircleIcon, PowerIcon } from '@assets';
+import { ArrowRightCircleIcon } from '@assets';
 import {
   Box,
   Button,
@@ -11,15 +11,14 @@ import {
   Text,
   useBoolean,
 } from '@chakra-ui/react';
-import { processStore } from '@processStore';
-import { loginSelector } from '@processStore/selector';
+import { processStore, loginSelector, useShallow } from '@processStore';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const UserLoginComponent = () => {
   const { t } = useTranslation();
   const [password, setPassword] = useState<string>('');
-  const { login, isUserLocked } = processStore(loginSelector);
+  const { login, isUserLocked } = processStore(useShallow(loginSelector));
   const [passwordFieldVisibility, togglePasswordFieldVisibility] = useBoolean();
   const [isLoading, toggleIsLoading] = useBoolean();
 
