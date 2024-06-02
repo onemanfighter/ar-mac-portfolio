@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-
 import { immer } from 'zustand/middleware/immer';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { AppStoreState } from './types';
@@ -29,6 +28,24 @@ export const appStore = create<AppStoreState>()(
     {
       name: 'appStore',
       storage: createJSONStorage(() => localStorage),
+      merge: (persistedState, currentState) =>
+        deepMerge(currentState, persistedState as AppStoreState),
     },
   ),
 );
+
+function deepMerge(
+  currentState: AppStoreState,
+  persistedState: AppStoreState,
+): AppStoreState {
+  return {
+    Github: { ...currentState.Github, ...persistedState.Github },
+    Finder: { ...currentState.Finder, ...persistedState.Finder },
+    Bin: { ...currentState.Bin, ...persistedState.Bin },
+    Terminal: { ...currentState.Terminal, ...persistedState.Terminal },
+    VsCode: { ...currentState.VsCode, ...persistedState.VsCode },
+    Chrome: { ...currentState.Chrome, ...persistedState.Chrome },
+    Spotify: { ...currentState.Spotify, ...persistedState.Spotify },
+    Settings: { ...currentState.Settings, ...persistedState.Settings },
+  };
+}

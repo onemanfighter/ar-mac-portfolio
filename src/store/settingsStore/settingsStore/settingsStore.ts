@@ -13,6 +13,17 @@ export const settingsStore = create<SettingsStoreState>()(
     {
       name: 'processStore',
       storage: createJSONStorage(() => localStorage),
+      merge: (persistedState, currentState) =>
+        deepMerge(currentState, persistedState as SettingsStoreState),
     },
   ),
 );
+
+function deepMerge(
+  currentState: SettingsStoreState,
+  persistedState: SettingsStoreState,
+): SettingsStoreState {
+  return {
+    Wallpaper: { ...currentState.Wallpaper, ...persistedState.Wallpaper },
+  };
+}
