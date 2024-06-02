@@ -16,6 +16,19 @@ export const processStore = create<ProcessStoreState>()(
     {
       name: 'processStore',
       storage: createJSONStorage(() => localStorage),
+      merge: (persistedState, currentState) =>
+        deepMerge(currentState, persistedState as ProcessStoreState),
     },
   ),
 );
+
+function deepMerge(
+  currentState: ProcessStoreState,
+  persistedState: ProcessStoreState,
+): ProcessStoreState {
+  return {
+    Power: { ...currentState.Power, ...persistedState.Power },
+    Login: { ...currentState.Login, ...persistedState.Login },
+    ActiveApp: { ...currentState.ActiveApp, ...persistedState.ActiveApp },
+  };
+}
