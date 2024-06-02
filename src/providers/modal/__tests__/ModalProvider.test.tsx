@@ -4,7 +4,7 @@ import { renderHook } from '@testing-library/react-hooks';
 import { uiStore } from '@uiStore';
 
 describe('ModalProvider', () => {
-  it.skip('should render correctly', () => {
+  it('should render correctly', () => {
     const { result } = renderHook(() => uiStore());
 
     result.current.Modal.resetModalState();

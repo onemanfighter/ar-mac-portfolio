@@ -2,10 +2,10 @@
 
 exports[`Date time selector should return date time selector state and actions 1`] = `
 {
-  "date": "Thu May 30 2024",
-  "dateWithoutYear": "Thu May 30",
-  "init": [Function],
-  "time": "2:21:57 AM",
+  "date": "Thu May 14 2020",
+  "dateWithoutYear": "Thu May 14",
+  "initTimer": [Function],
+  "time": "11:01:58 AM",
   "timeInAmPm": [Function],
 }
 `;

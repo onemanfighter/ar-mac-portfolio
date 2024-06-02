@@ -6,8 +6,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { TopBarButton } from '@components';
-import { uiStore } from '@uiStore';
-import { dateTimeSelector } from '@uiStore/selector';
+import { uiStore, dateTimeSelector } from '@uiStore';
 
 const DateTimeDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

@@ -33,16 +33,12 @@ module.exports = {
     '@providers': '<rootDir>/src/providers',
     // UI store
     '@uiStore': '<rootDir>/src/store/uiStore',
-    '@uiStore/selector': '<rootDir>/src/store/uiStore/selector',
     // Process store
     '@processStore': '<rootDir>/src/store/processStore',
-    '@processStore/selector': '<rootDir>/src/store/processStore/selector',
     // Settings store
     '@settingsStore': '<rootDir>/src/store/settingsStore',
-    '@settingsStore/selector': '<rootDir>/src/store/settingsStore/selector',
     // App store
     '@appStore': '<rootDir>/src/store/appStore',
-    '@appStore/selector': '<rootDir>/src/store/appStore/selector',
   },
   transform: {
     '.+\\.(css|scss|png|jpg|jpeg|svg)$': 'jest-transform-stub',

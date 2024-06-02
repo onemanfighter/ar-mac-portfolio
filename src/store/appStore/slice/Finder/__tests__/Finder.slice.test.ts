@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { appStore } from '../../../../appStore/appStore';
+import { appStore } from '@appStore';
 
 describe('Finder slice', () => {
   it('should return default finder state', () => {
