@@ -1,5 +1,6 @@
 export { PowerIcon } from './PowerIcon';
 export { ArrowRightIcon as ArrowRightCircleIcon } from './ArrowRight';
+export { BackIcon } from './Back';
 export { WifiIcon } from './Wifi';
 export { BatteryIcon } from './Battery';
 export { KeyboardIcon } from './Keyboard';

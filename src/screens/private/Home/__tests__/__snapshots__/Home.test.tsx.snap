@@ -833,7 +833,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable css-1nbw3ll"
+      class="react-draggable css-be4flj"
       style="transform: translate(100px,200px);"
     >
       <div
@@ -848,14 +848,13 @@ exports[`Home should render correctly to match snapshot 1`] = `
         <div
           class="css-2fxb6m"
         />
+        <div
+          class="css-1bc9bee"
+        />
       </div>
       <div
         class="css-1qx9vnh"
-      >
-        <div>
-          AMIT
-        </div>
-      </div>
+      />
     </div>
   </div>
 </div>

@@ -3,6 +3,7 @@ import { HomeProps } from './type';
 import { WallpaperComponent, Window } from '@components';
 import { settingsStore, wallpaperSelector } from '@settingsStore';
 import { TopBar } from './TopBar';
+import { LazyGithubComponent, LazySpotifyComponent } from '@router';
 
 const Home = (props: HomeProps) => {
   const { wallpaper } = settingsStore(wallpaperSelector);
@@ -20,7 +21,7 @@ const Home = (props: HomeProps) => {
         <WallpaperComponent id={wallpaper} />
       </Box>
       <TopBar />
-      <Window children={<div>AMIT</div>} />
+      <Window children={<LazySpotifyComponent />} />
     </Box>
   );
 };

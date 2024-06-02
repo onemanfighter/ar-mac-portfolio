@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chrome slice should return default chrome state 1`] = `
+{
+  "homepageLink": "http://www.google.com/webhp?igu=1",
+}
+`;

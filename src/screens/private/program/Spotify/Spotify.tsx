@@ -1,10 +1,59 @@
+import { useShallow, appStore, spotifySelector } from '@appStore';
 import { SpotifyProps } from './type';
+import { Box, IconButton } from '@chakra-ui/react';
+import { BackIcon } from '@assets';
 
 const Spotify = (props: SpotifyProps) => {
+  const { state, getCurrentPlaylist, closePlaylist, openPlaylist } = appStore(
+    useShallow(spotifySelector),
+  );
+
+  const a = appStore();
+
+  const currentList = getCurrentPlaylist();
+
   return (
-    <div>
-      <h1>Spotify</h1>
-    </div>
+    <Box width={'100%'} height={'100%'} aria-label="spotify">
+      <Box
+        width={'100%'}
+        height={8}
+        border={state === 'playing' ? '1px solid #1DB954' : '1px solid #000000'}
+        display="flex"
+        justifyContent={'center'}
+        alignItems={'center'}
+        color="white"
+        columnGap={2}
+      >
+        <IconButton
+          aria-label="back"
+          size={'xs'}
+          icon={<BackIcon color="white" width={24} height={24} />}
+          _active={{
+            transform: 'scale(0.9)',
+          }}
+          colorScheme="white"
+          onClick={() => {
+            console.log('closePlaylist');
+            closePlaylist();
+          }}
+          // isDisabled={state === 'main'}
+        />
+        {currentList?.name}
+      </Box>
+
+      {state === 'playing' ? (
+        <iframe
+          title={currentList?.name}
+          src={currentList?.url}
+          width={'100%'}
+          height={'100%'}
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      ) : (
+        <Box></Box>
+      )}
+    </Box>
   );
 };
 

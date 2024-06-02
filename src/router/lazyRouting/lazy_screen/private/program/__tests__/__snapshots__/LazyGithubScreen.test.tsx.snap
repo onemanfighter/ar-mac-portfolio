@@ -2,10 +2,11 @@
 
 exports[`LazyGithubComponent should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Github
-    </h1>
-  </div>
+  <iframe
+    aria-label="github"
+    height="100%"
+    src="https://github1s.com/onemanfighter/ar-mac-portfolio"
+    width="100%"
+  />
 </div>
 `;

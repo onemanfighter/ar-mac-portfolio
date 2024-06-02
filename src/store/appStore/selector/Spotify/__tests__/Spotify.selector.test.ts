@@ -6,6 +6,6 @@ describe('Spotify selector', () => {
   it('should return default spotify state', () => {
     const { result } = renderHook(() => appStore(spotifySelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toMatchSnapshot();
   });
 });
