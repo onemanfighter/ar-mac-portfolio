@@ -66,8 +66,13 @@ const TopRightComponent = () => {
         </Portal>
       </Popover>
       <BatteryIcon
-        percentage={0}
-        props={{ color: 'white', 'aria-label': 'battery-icon' }}
+        percentage={67}
+        props={{
+          color: 'white',
+          'aria-label': 'battery-icon',
+          width: 16,
+          height: 16,
+        }}
       />
       <WifiIcon color="white" aria-label="wifi-icon" />
     </Box>
