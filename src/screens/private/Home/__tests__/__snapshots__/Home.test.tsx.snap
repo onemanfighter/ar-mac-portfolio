@@ -856,6 +856,12 @@ exports[`Home should render correctly to match snapshot 1`] = `
         class="css-1qx9vnh"
       />
     </div>
+    <div
+      aria-label="bottom-bar"
+      class="css-zp9zob"
+    >
+      AMIT
+    </div>
   </div>
 </div>
 `;

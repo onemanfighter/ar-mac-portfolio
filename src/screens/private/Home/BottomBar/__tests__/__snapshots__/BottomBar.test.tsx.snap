@@ -2,10 +2,11 @@
 
 exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      BottomBar
-    </h1>
+  <div
+    aria-label="bottom-bar"
+    class="css-zp9zob"
+  >
+    AMIT
   </div>
 </div>
 `;

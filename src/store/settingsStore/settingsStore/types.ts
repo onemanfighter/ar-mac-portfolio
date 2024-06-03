@@ -1,8 +1,9 @@
 import { StateCreator } from 'zustand';
-import { WallpaperStateSlice } from '../slice/Wallpaper/types';
+import { DisplayDockStateSlice, WallpaperStateSlice } from '../slice';
 
 export interface SettingsStoreState {
   Wallpaper: WallpaperStateSlice;
+  DisplayDock: DisplayDockStateSlice;
 }
 
 export type SettingsStoreSlice<T> = StateCreator<
