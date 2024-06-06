@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-
 import { immer } from 'zustand/middleware/immer';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { ProcessStoreState } from './types';

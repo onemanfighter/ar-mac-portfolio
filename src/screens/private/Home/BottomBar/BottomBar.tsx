@@ -1,22 +1,47 @@
 import { Box } from '@chakra-ui/react';
 import { BottomBarProps } from './type';
-import { displayDockSelector, settingsStore, useShallow } from '@settingsStore';
+import { ProgramButton, ProgramType } from './components';
 
 const BottomBar = (props: BottomBarProps) => {
-  const { dockSize } = settingsStore(useShallow(displayDockSelector));
   return (
     <Box
       aria-label="bottom-bar"
-      width={`${dockSize}%`}
-      height={`${dockSize / 10}%`}
-      m={1}
-      bg={'black'}
-      position={'absolute'}
-      bottom={0}
-      left={0}
-      zIndex={-10}
+      w={'100%'}
+      display={'flex'}
+      flexDirection={'column'}
+      justifyContent={'center'}
+      alignContent={'center'}
+      alignItems={'center'}
     >
-      AMIT
+      <Box
+        display={'flex'}
+        height={'auto'}
+        p={1}
+        my={1}
+        mx={'auto'}
+        position={'fixed'}
+        borderRadius={'2xl'}
+        alignItems={'center'}
+        transform={{
+          sm: 'scale(0.8)',
+          md: 'scale(0.9)',
+          lg: 'scale(1)',
+          xl: 'scale(1)',
+          '2xl': 'scale(1)',
+        }}
+        transition={'all 0.3s ease-in-out'}
+        bg={'#1f1f1f6f'}
+        border={'1px solid gray'}
+        dropShadow={'md'}
+        bottom={0}
+        style={{ backdropFilter: 'blur(6px)' }}
+        zIndex={10}
+        gap={4}
+      >
+        {Object.values(ProgramType).map((program) => {
+          return <ProgramButton type={program} key={program} />;
+        })}
+      </Box>
     </Box>
   );
 };

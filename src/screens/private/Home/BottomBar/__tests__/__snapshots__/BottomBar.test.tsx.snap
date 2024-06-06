@@ -4,9 +4,110 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="bottom-bar"
-    class="css-zp9zob"
+    class="css-c60n9a"
   >
-    AMIT
+    <div
+      class="css-1yepr93"
+    >
+      <button
+        aria-label="Finder"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Finder"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="Chrome"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Chrome"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="VsCode"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="VsCode"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="Terminal"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Terminal"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="Spotify"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Spotify"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="Github"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Github"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+      <button
+        aria-label="Settings"
+        class="chakra-button css-u4k77m"
+        type="button"
+      >
+        <img
+          alt="Settings"
+          aria-hidden="true"
+          class="chakra-image css-1570kgy"
+          focusable="false"
+          loading="lazy"
+          src=""
+        />
+      </button>
+    </div>
   </div>
 </div>
 `;
