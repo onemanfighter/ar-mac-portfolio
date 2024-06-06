@@ -12,7 +12,7 @@ export const settingsStore = create<SettingsStoreState>()(
       DisplayDock: createDisplayDockSlice(...api),
     })),
     {
-      name: 'processStore',
+      name: 'settingStore',
       storage: createJSONStorage(() => localStorage),
       merge: (persistedState, currentState) =>
         deepMerge(currentState, persistedState as SettingsStoreState),
