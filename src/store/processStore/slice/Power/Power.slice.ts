@@ -1,5 +1,4 @@
 import { ProcessStoreSlice } from '../../processStore/types';
-import { UserLogin } from '../Login';
 import { PowerStateSlice, PowerState, Power } from './types';
 
 const defaultPowerState: PowerState = {
