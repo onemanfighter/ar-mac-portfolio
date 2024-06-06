@@ -3,12 +3,13 @@ import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { SettingsStoreState } from './types';
-import { createWallpaperSlice } from '../slice';
+import { createDisplayDockSlice, createWallpaperSlice } from '../slice';
 
 export const settingsStore = create<SettingsStoreState>()(
   persist(
     immer((...api) => ({
       Wallpaper: createWallpaperSlice(...api),
+      DisplayDock: createDisplayDockSlice(...api),
     })),
     {
       name: 'settingStore',
@@ -25,5 +26,6 @@ function deepMerge(
 ): SettingsStoreState {
   return {
     Wallpaper: { ...currentState.Wallpaper, ...persistedState.Wallpaper },
+    DisplayDock: { ...currentState.DisplayDock, ...persistedState.DisplayDock },
   };
 }
