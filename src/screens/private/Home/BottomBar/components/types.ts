@@ -9,5 +9,8 @@ export enum ProgramType {
 }
 
 export type IconButtonProps = {
+  id: string;
+  index: number;
+  isActive: boolean;
   type: ProgramType;
 };
