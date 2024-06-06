@@ -9,9 +9,8 @@ import { LazyHomeComponent, LazyMacComponent } from '../../lazyRouting';
 export const privateRouter = createBrowserRouter(
   createRoutesFromChildren(
     <Route path="/" element={<LazyMacComponent />}>
-      <Route path="" element={<Navigate to="home" replace />} />
-      <Route path="home" element={<LazyHomeComponent />} />
-      <Route path="*" element={<Navigate to="/home" replace />} />
+      <Route path="" element={<LazyHomeComponent />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Route>,
   ),
 );
