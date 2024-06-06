@@ -1,8 +1,39 @@
 import { Box } from '@chakra-ui/react';
-import { BottomBarProps } from './type';
+import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
+import { BottomBarProps, ProgramItem } from './type';
 import { ProgramButton, ProgramType } from './components';
+import { useState } from 'react';
+import { reorder } from './utils';
+import PROGRAMS from './components/constants';
 
-const BottomBar = (props: BottomBarProps) => {
+const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
+  (value) => ({
+    type: value[0] as ProgramType,
+    name: value[1].name,
+    id: value[1].name,
+  }),
+);
+
+const BottomBar = (_props: BottomBarProps) => {
+  const [state, setState] = useState<ProgramItem[]>(InitialProgramOrderList);
+
+  function onDragEnd(result: DropResult) {
+    if (!result.destination) {
+      return;
+    }
+
+    if (result.destination.index === result.source.index) {
+      return;
+    }
+
+    const newList = reorder(
+      state,
+      result.source.index,
+      result.destination.index,
+    );
+
+    setState(newList);
+  }
   return (
     <Box
       aria-label="bottom-bar"
@@ -13,35 +44,45 @@ const BottomBar = (props: BottomBarProps) => {
       alignContent={'center'}
       alignItems={'center'}
     >
-      <Box
-        display={'flex'}
-        height={'auto'}
-        p={1}
-        my={1}
-        mx={'auto'}
-        position={'fixed'}
-        borderRadius={'2xl'}
-        alignItems={'center'}
-        transform={{
-          sm: 'scale(0.8)',
-          md: 'scale(0.9)',
-          lg: 'scale(1)',
-          xl: 'scale(1)',
-          '2xl': 'scale(1)',
-        }}
-        transition={'all 0.3s ease-in-out'}
-        bg={'#1f1f1f6f'}
-        border={'1px solid gray'}
-        dropShadow={'md'}
-        bottom={0}
-        style={{ backdropFilter: 'blur(6px)' }}
-        zIndex={10}
-        gap={4}
-      >
-        {Object.values(ProgramType).map((program) => {
-          return <ProgramButton type={program} key={program} />;
-        })}
-      </Box>
+      <DragDropContext onDragEnd={onDragEnd}>
+        <Droppable droppableId="droppable-list" direction="horizontal">
+          {(provided) => (
+            <Box
+              ref={provided.innerRef}
+              {...provided.droppableProps}
+              display={'flex'}
+              height={'auto'}
+              p={1}
+              my={1}
+              mx={'auto'}
+              position={'fixed'}
+              borderRadius={'2xl'}
+              alignItems={'center'}
+              transition={'all 0.3s ease-in-out'}
+              bg={'#1f1f1f6f'}
+              border={'1px solid gray'}
+              dropShadow={'md'}
+              bottom={0}
+              style={{ backdropFilter: 'blur(6px)' }}
+              zIndex={10}
+              gap={4}
+            >
+              {state.map((program, index) => {
+                return (
+                  <ProgramButton
+                    type={program.type}
+                    key={program.name}
+                    id={program.id}
+                    isActive
+                    index={index}
+                  />
+                );
+              })}
+              {provided.placeholder}
+            </Box>
+          )}
+        </Droppable>
+      </DragDropContext>
     </Box>
   );
 };

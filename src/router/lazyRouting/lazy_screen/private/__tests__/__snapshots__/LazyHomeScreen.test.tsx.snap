@@ -911,106 +911,157 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
       class="css-c60n9a"
     >
       <div
-        class="css-1yepr93"
+        class="css-1fa61"
+        data-rbd-droppable-context-id="0"
+        data-rbd-droppable-id="droppable-list"
       >
-        <button
-          aria-label="Finder"
-          class="chakra-button css-u4k77m"
-          type="button"
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Finder"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Finder"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Finder"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="Chrome"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Chrome"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Chrome"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Chrome"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="VsCode"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="VsCode"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="VsCode"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="VsCode"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="Terminal"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Terminal"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Terminal"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Terminal"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="Spotify"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Spotify"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Spotify"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Spotify"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="Github"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Github"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Github"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Github"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
-        <button
-          aria-label="Settings"
-          class="chakra-button css-u4k77m"
-          type="button"
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
+        <div
+          aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          class="css-dvxtzn"
+          data-rbd-drag-handle-context-id="0"
+          data-rbd-drag-handle-draggable-id="Settings"
+          data-rbd-draggable-context-id="0"
+          data-rbd-draggable-id="Settings"
+          draggable="false"
+          role="button"
+          tabindex="0"
         >
           <img
             alt="Settings"
-            aria-hidden="true"
-            class="chakra-image css-1570kgy"
-            focusable="false"
+            class="chakra-image css-h67rfo"
             loading="lazy"
             src=""
           />
-        </button>
+          <div
+            class="css-1es0kgi"
+          />
+        </div>
       </div>
     </div>
   </div>

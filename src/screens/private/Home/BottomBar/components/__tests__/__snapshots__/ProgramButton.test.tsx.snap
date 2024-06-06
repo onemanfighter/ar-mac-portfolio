@@ -2,133 +2,161 @@
 
 exports[`Program button should render chrome correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Chrome"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-1-hidden-text-3"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="1"
+    data-rbd-drag-handle-draggable-id="Chrome"
+    data-rbd-draggable-context-id="1"
+    data-rbd-draggable-id="Chrome"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Chrome"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render finder correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Finder"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="Finder"
+    data-rbd-draggable-context-id="0"
+    data-rbd-draggable-id="Finder"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Finder"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render github correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Github"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-5-hidden-text-15"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="5"
+    data-rbd-drag-handle-draggable-id="Github"
+    data-rbd-draggable-context-id="5"
+    data-rbd-draggable-id="Github"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Github"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render settings correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Settings"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-6-hidden-text-18"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="6"
+    data-rbd-drag-handle-draggable-id="Settings"
+    data-rbd-draggable-context-id="6"
+    data-rbd-draggable-id="Settings"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Settings"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render spotify correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Spotify"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-4-hidden-text-12"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="4"
+    data-rbd-drag-handle-draggable-id="Spotify"
+    data-rbd-draggable-context-id="4"
+    data-rbd-draggable-id="Spotify"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Spotify"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render terminal correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="Terminal"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-3-hidden-text-9"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="3"
+    data-rbd-drag-handle-draggable-id="Terminal"
+    data-rbd-draggable-context-id="3"
+    data-rbd-draggable-id="Terminal"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="Terminal"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
 
 exports[`Program button should render vscode correctly to match snapshot 1`] = `
 <div>
-  <button
-    aria-label="VsCode"
-    class="chakra-button css-u4k77m"
-    type="button"
+  <div
+    aria-describedby="rbd-hidden-text-2-hidden-text-6"
+    class="css-dvxtzn"
+    data-rbd-drag-handle-context-id="2"
+    data-rbd-drag-handle-draggable-id="VsCode"
+    data-rbd-draggable-context-id="2"
+    data-rbd-draggable-id="VsCode"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
     <img
       alt="VsCode"
-      aria-hidden="true"
-      class="chakra-image css-1570kgy"
-      focusable="false"
+      class="chakra-image css-h67rfo"
       loading="lazy"
       src=""
     />
-  </button>
+  </div>
 </div>
 `;
