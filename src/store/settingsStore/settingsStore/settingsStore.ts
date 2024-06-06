@@ -11,7 +11,7 @@ export const settingsStore = create<SettingsStoreState>()(
       Wallpaper: createWallpaperSlice(...api),
     })),
     {
-      name: 'processStore',
+      name: 'settingStore',
       storage: createJSONStorage(() => localStorage),
       merge: (persistedState, currentState) =>
         deepMerge(currentState, persistedState as SettingsStoreState),
