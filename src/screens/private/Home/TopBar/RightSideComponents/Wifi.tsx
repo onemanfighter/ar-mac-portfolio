@@ -2,7 +2,6 @@ import { WifiIcon } from '@assets';
 import {
   Box,
   Button,
-  ButtonGroup,
   Menu,
   MenuDivider,
   Switch,

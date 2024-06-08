@@ -39,7 +39,7 @@ describe('MenuItemComponent', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('should render with search icon', () => {
+  it('should render with command', () => {
     const { container } = render(
       <Menu>
         <MenuItemComponent
