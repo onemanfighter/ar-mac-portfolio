@@ -47,13 +47,13 @@ const User = () => {
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.user.loginWindow')}
-          ariaLabel="new-tab"
+          ariaLabel="login-window"
           onClick={() => {}}
         />
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.user.setting')}
-          ariaLabel="new-tab"
+          ariaLabel="user-setting"
           onClick={() => {}}
         />
       </MenuListComponent>

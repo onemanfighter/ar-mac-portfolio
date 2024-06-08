@@ -15,4 +15,12 @@ describe('Battery', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should open battery settings when battery settings is tapped', () => {
+    const { container } = render(<Battery />);
+
+    fireEvent.click(screen.getByLabelText('battery-settings'));
+
+    expect(container).toMatchSnapshot();
+  });
 });

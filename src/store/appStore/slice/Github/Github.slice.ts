@@ -8,8 +8,11 @@ const defaultGithubState: GithubState = {
 
 const createGithubSlice: AppStoreSlice<GithubStateSlice> = (set) => ({
   ...defaultGithubState,
-  setCurrentProfile: (profile: string) =>
-    set(() => ({ currentProfile: profile })),
+  setCurrentProfile: (profile: string) => {
+    set((state) => {
+      state.Github.currentProfile = profile;
+    });
+  },
 });
 
 export default createGithubSlice;

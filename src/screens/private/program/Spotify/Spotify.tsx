@@ -3,12 +3,10 @@ import { SpotifyProps } from './type';
 import { Box, IconButton } from '@chakra-ui/react';
 import { BackIcon } from '@assets';
 
-const Spotify = (props: SpotifyProps) => {
-  const { state, getCurrentPlaylist, closePlaylist, openPlaylist } = appStore(
+const Spotify = () => {
+  const { state, getCurrentPlaylist, closePlaylist } = appStore(
     useShallow(spotifySelector),
   );
-
-  const a = appStore();
 
   const currentList = getCurrentPlaylist();
 
@@ -25,7 +23,7 @@ const Spotify = (props: SpotifyProps) => {
         columnGap={2}
       >
         <IconButton
-          aria-label="back"
+          aria-label="back-button"
           size={'xs'}
           icon={<BackIcon color="white" width={24} height={24} />}
           _active={{
@@ -33,7 +31,6 @@ const Spotify = (props: SpotifyProps) => {
           }}
           colorScheme="white"
           onClick={() => {
-            console.log('closePlaylist');
             closePlaylist();
           }}
           // isDisabled={state === 'main'}

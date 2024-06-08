@@ -58,7 +58,7 @@ const ModeStack = () => {
         <IconButton
           p={2}
           borderRadius={'full'}
-          aria-label="increase"
+          aria-label="dark-mode-button"
           width={'1em'}
           _hover={{}}
           transition={'all 0.4s ease-in-out'}
@@ -84,7 +84,7 @@ const ModeStack = () => {
         <IconButton
           p={2}
           borderRadius={'full'}
-          aria-label="increase"
+          aria-label="night-shift-button"
           width={'1em'}
           _hover={{}}
           transition={'all 0.4s ease-in-out'}
@@ -110,7 +110,7 @@ const ModeStack = () => {
         <IconButton
           p={2}
           borderRadius={'full'}
-          aria-label="increase"
+          aria-label="true-tone-button"
           width={'1em'}
           _hover={{}}
           transition={'all 0.4s ease-in-out'}
@@ -183,7 +183,7 @@ const Monitor = () => {
         <MenuDivider mx={2} />
         <MenuItemComponent
           text={t('TopAppBar.monitor.monitorSettings')}
-          ariaLabel="new-tab"
+          ariaLabel="monitor-settings"
           onClick={() => {}}
         />
       </MenuListComponent>

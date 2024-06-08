@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Windows should render for default values 1`] = `
+<div>
+  <div
+    class="react-draggable react-resizable"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+  >
+    <div
+      class="css-exz6no"
+    >
+      <div
+        class="handle css-1q7gku6"
+      >
+        <div
+          aria-label="close"
+          class="css-bl229y"
+        />
+        <div
+          aria-label="minimize"
+          class="css-6qqns1"
+        />
+        <div
+          aria-label="maximize"
+          class="css-2fxb6m"
+        />
+        <div
+          class="css-1bc9bee"
+        />
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          Test
+        </div>
+      </div>
+    </div>
+    <span
+      class="react-resizable-handle react-resizable-handle-se"
+    />
+  </div>
+</div>
+`;
+
+exports[`Windows should render with top bar component values 1`] = `
+<div>
+  <div
+    class="react-draggable react-resizable"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+  >
+    <div
+      class="css-exz6no"
+    >
+      <div
+        class="handle css-1q7gku6"
+      >
+        <div
+          aria-label="close"
+          class="css-bl229y"
+        />
+        <div
+          aria-label="minimize"
+          class="css-6qqns1"
+        />
+        <div
+          aria-label="maximize"
+          class="css-2fxb6m"
+        />
+        <div
+          class="css-1bc9bee"
+        >
+          <div>
+            Top bar
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          Test
+        </div>
+      </div>
+    </div>
+    <span
+      class="react-resizable-handle react-resizable-handle-se"
+    />
+  </div>
+</div>
+`;
+
+exports[`Windows should trigger close on close button press 1`] = `
+<div>
+  <div
+    class="react-draggable react-resizable"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+  >
+    <div
+      class="css-exz6no"
+    >
+      <div
+        class="handle css-1q7gku6"
+      >
+        <div
+          aria-label="close"
+          class="css-bl229y"
+        />
+        <div
+          aria-label="minimize"
+          class="css-6qqns1"
+        />
+        <div
+          aria-label="maximize"
+          class="css-2fxb6m"
+        />
+        <div
+          class="css-1bc9bee"
+        />
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          Test
+        </div>
+      </div>
+    </div>
+    <span
+      class="react-resizable-handle react-resizable-handle-se"
+    />
+  </div>
+</div>
+`;
+
+exports[`Windows should trigger maximize on maximize button press 1`] = `
+<div>
+  <div
+    class="react-draggable react-resizable"
+    style="transition: all 0.2s; transform: translate(0px, 28px)translate(0px,0px); width: 1024px; height: 652.8px;"
+  >
+    <div
+      class="css-exz6no"
+    >
+      <div
+        class="css-1q7gku6"
+      >
+        <div
+          aria-label="close"
+          class="css-bl229y"
+        />
+        <div
+          aria-label="minimize"
+          class="css-6qqns1"
+        />
+        <div
+          aria-label="maximize"
+          class="css-2fxb6m"
+        />
+        <div
+          class="css-1bc9bee"
+        />
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          Test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Windows should trigger minimize on minimize button press 1`] = `
+<div>
+  <div
+    class="react-draggable react-resizable"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+  >
+    <div
+      class="css-exz6no"
+    >
+      <div
+        class="handle css-1q7gku6"
+      >
+        <div
+          aria-label="close"
+          class="css-bl229y"
+        />
+        <div
+          aria-label="minimize"
+          class="css-6qqns1"
+        />
+        <div
+          aria-label="maximize"
+          class="css-2fxb6m"
+        />
+        <div
+          class="css-1bc9bee"
+        />
+      </div>
+      <div
+        class="css-1qx9vnh"
+      >
+        <div>
+          Test
+        </div>
+      </div>
+    </div>
+    <span
+      class="react-resizable-handle react-resizable-handle-se"
+    />
+  </div>
+</div>
+`;

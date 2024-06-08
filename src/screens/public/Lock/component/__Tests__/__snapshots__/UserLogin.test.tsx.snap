@@ -1,12 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserLogin should return the default user login component 1`] = `
+exports[`UserLogin should be able to enter password on password field 1`] = `
 <div>
   <div
     aria-label="user-login-component"
     class="css-1dvrt7t"
   >
     <button
+      aria-label="user-button"
       class="chakra-button css-y5bm5g"
       type="button"
     >
@@ -27,17 +28,18 @@ exports[`UserLogin should return the default user login component 1`] = `
       data-group="true"
     >
       <input
+        aria-label="password-text-input"
         class="chakra-input css-1362yyb"
         maxlength="20"
         placeholder="Enter Password"
         type="password"
-        value=""
+        value="password-test-text"
       />
       <div
         class="chakra-input__right-element css-1ttnbqn"
       >
         <button
-          aria-label="Login button"
+          aria-label="login-button"
           class="chakra-button css-15p997s"
           type="button"
         >
@@ -59,6 +61,269 @@ exports[`UserLogin should return the default user login component 1`] = `
     </div>
     <p
       class="chakra-text css-1ahyq4l"
+    >
+      Touch ID or Enter password
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserLogin should be able to enter password on password field 2`] = `
+<div>
+  <div
+    aria-label="user-login-component"
+    class="css-1dvrt7t"
+  >
+    <button
+      aria-label="user-button"
+      class="chakra-button css-y5bm5g"
+      type="button"
+    >
+      <img
+        alt="Profile"
+        class="chakra-image css-13wtmhl"
+        loading="lazy"
+        src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+      />
+      <p
+        class="chakra-text css-1590av0"
+      >
+        Amit Raikwar
+      </p>
+    </button>
+    <div
+      class="chakra-input__group css-139cpa4"
+      data-group="true"
+    >
+      <input
+        aria-label="password-text-input"
+        class="chakra-input css-1362yyb"
+        maxlength="20"
+        placeholder="Enter Password"
+        type="password"
+        value="Amit"
+      />
+      <div
+        class="chakra-input__right-element css-1ttnbqn"
+      >
+        <button
+          aria-label="login-button"
+          class="chakra-button css-15p997s"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-1ahyq4l"
+    >
+      Touch ID or Enter password
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserLogin should return the default user login component 1`] = `
+<div>
+  <div
+    aria-label="user-login-component"
+    class="css-1dvrt7t"
+  >
+    <button
+      aria-label="user-button"
+      class="chakra-button css-y5bm5g"
+      type="button"
+    >
+      <img
+        alt="Profile"
+        class="chakra-image css-13wtmhl"
+        loading="lazy"
+        src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+      />
+      <p
+        class="chakra-text css-1590av0"
+      >
+        Amit Raikwar
+      </p>
+    </button>
+    <div
+      class="chakra-input__group css-139cpa4"
+      data-group="true"
+    >
+      <input
+        aria-label="password-text-input"
+        class="chakra-input css-1362yyb"
+        maxlength="20"
+        placeholder="Enter Password"
+        type="password"
+        value=""
+      />
+      <div
+        class="chakra-input__right-element css-1ttnbqn"
+      >
+        <button
+          aria-label="login-button"
+          class="chakra-button css-15p997s"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-1ahyq4l"
+    >
+      Touch ID or Enter password
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserLogin should show spinner on click on login button 1`] = `
+<div>
+  <div
+    aria-label="user-login-component"
+    class="css-1dvrt7t"
+  >
+    <button
+      aria-label="user-button"
+      class="chakra-button css-y5bm5g"
+      type="button"
+    >
+      <img
+        alt="Profile"
+        class="chakra-image css-13wtmhl"
+        loading="lazy"
+        src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+      />
+      <p
+        class="chakra-text css-1590av0"
+      >
+        Amit Raikwar
+      </p>
+    </button>
+    <div
+      class="chakra-input__group css-139cpa4"
+      data-group="true"
+    >
+      <input
+        aria-label="password-text-input"
+        class="chakra-input css-1362yyb"
+        maxlength="20"
+        placeholder="Enter Password"
+        type="password"
+        value=""
+      />
+      <div
+        class="chakra-input__right-element css-1ttnbqn"
+      >
+        <div
+          aria-label="spinner"
+          class="chakra-spinner css-1y7joxr"
+        >
+          <span
+            class="css-8b45rq"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-1ahyq4l"
+    >
+      Touch ID or Enter password
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserLogin should show spinner on click on login button 2`] = `
+<div>
+  <div
+    aria-label="user-login-component"
+    class="css-1dvrt7t"
+  >
+    <button
+      aria-label="user-button"
+      class="chakra-button css-y5bm5g"
+      type="button"
+    >
+      <img
+        alt="Profile"
+        class="chakra-image css-13wtmhl"
+        loading="lazy"
+        src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+      />
+      <p
+        class="chakra-text css-1s3unn"
+      >
+        Amit Raikwar
+      </p>
+    </button>
+    <div
+      class="chakra-input__group css-1y50hqe"
+      data-group="true"
+    >
+      <input
+        aria-label="password-text-input"
+        class="chakra-input css-1362yyb"
+        maxlength="20"
+        placeholder="Enter Password"
+        type="password"
+        value=""
+      />
+      <div
+        class="chakra-input__right-element css-1ttnbqn"
+      >
+        <button
+          aria-label="login-button"
+          class="chakra-button css-15p997s"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-6az4zj"
     >
       Touch ID or Enter password
     </p>

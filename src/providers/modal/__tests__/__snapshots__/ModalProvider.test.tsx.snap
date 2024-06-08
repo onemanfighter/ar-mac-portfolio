@@ -5,3 +5,11 @@ exports[`ModalProvider should render correctly 1`] = `
   App
 </div>
 `;
+
+exports[`ModalProvider should render correctly with children 1`] = `
+<div>
+  <div>
+    App
+  </div>
+</div>
+`;

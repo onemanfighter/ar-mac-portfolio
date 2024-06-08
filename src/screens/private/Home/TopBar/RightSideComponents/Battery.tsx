@@ -59,7 +59,7 @@ const Battery = () => {
         <MenuDivider mx={2} />
         <MenuItemComponent
           text={t('TopAppBar.battery.batterySettings')}
-          ariaLabel="new-tab"
+          ariaLabel="battery-settings"
           onClick={() => {}}
         />
       </MenuListComponent>

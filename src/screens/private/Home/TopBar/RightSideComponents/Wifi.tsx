@@ -2,7 +2,6 @@ import { WifiIcon } from '@assets';
 import {
   Box,
   Button,
-  ButtonGroup,
   Menu,
   MenuDivider,
   Switch,
@@ -73,7 +72,7 @@ const WifiStack = () => {
             }}
           />
         }
-        aria-label="wifi-1"
+        aria-label="wifi-2"
         variant="ghost"
         display={'flex'}
         color={textColor}
@@ -130,14 +129,14 @@ const Wifi = () => {
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.wifi.otherNetwork')}
-          ariaLabel="new-tab"
+          ariaLabel="other-network"
           onClick={() => {}}
           command=">"
         />
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.wifi.wifiSettings')}
-          ariaLabel="new-tab"
+          ariaLabel="wifi-settings"
           onClick={() => {}}
         />
       </MenuListComponent>

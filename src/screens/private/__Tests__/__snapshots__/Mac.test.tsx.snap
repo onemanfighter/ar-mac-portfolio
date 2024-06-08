@@ -12,3 +12,42 @@ exports[`Mac should render mac  1`] = `
   </div>
 </div>
 `;
+
+exports[`Mac should render mac with different brightness 1`] = `
+<div>
+  <div
+    style="filter: brightness(0.5);"
+  >
+    <div
+      aria-label="mac"
+      style="transition: all 0.4s ease-in-out;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Mac should render mac with different night shift 1`] = `
+<div>
+  <div
+    style="filter: brightness(1);"
+  >
+    <div
+      aria-label="mac"
+      style="transition: all 0.4s ease-in-out; filter: grayscale(50%);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Mac should render mac with different true tone 1`] = `
+<div>
+  <div
+    style="filter: brightness(1);"
+  >
+    <div
+      aria-label="mac"
+      style="transition: all 0.4s ease-in-out; filter: sepia(0.5);"
+    />
+  </div>
+</div>
+`;

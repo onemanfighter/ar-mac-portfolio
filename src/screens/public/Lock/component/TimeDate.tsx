@@ -1,6 +1,8 @@
+import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
 import { formatDate } from './utils';
+import { useShallow } from '@processStore';
+import { dateTimeSelector, uiStore } from '@uiStore';
 
 const DateComponent = ({ date }: { date: string }) => {
   return (
@@ -21,13 +23,7 @@ const MemoisedTimeComponent = React.memo(TimeComponent);
 const MemoisedDateComponent = React.memo(DateComponent);
 
 const TimeDateComponent = () => {
-  const [date, setData] = useState(new Date());
-
-  useEffect(() => {
-    setInterval(() => {
-      setData(new Date());
-    }, 1000);
-  }, []);
+  const { date, time } = uiStore(useShallow(dateTimeSelector));
 
   return (
     <Box
@@ -40,8 +36,8 @@ const TimeDateComponent = () => {
       zIndex={0}
       aria-label="time-date-component"
     >
-      <MemoisedDateComponent date={date.toDateString().slice(0, 10)} />
-      <MemoisedTimeComponent time={date.toLocaleTimeString().slice(0, 5)} />
+      <MemoisedDateComponent date={date?.slice(0, 10) ?? ''} />
+      <MemoisedTimeComponent time={time?.slice(0, 5) ?? ''} />
     </Box>
   );
 };

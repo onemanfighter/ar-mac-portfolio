@@ -47,6 +47,7 @@ const UserLoginComponent = () => {
       gap={2}
     >
       <Button
+        aria-label="user-button"
         padding={1}
         variant={'ghost'}
         colorScheme="gray"
@@ -93,6 +94,7 @@ const UserLoginComponent = () => {
         gap={1}
       >
         <Input
+          aria-label="password-text-input"
           placeholder={t('LockScreen.inputPlaceholder')}
           variant={'solid'}
           type="password"
@@ -113,7 +115,7 @@ const UserLoginComponent = () => {
         />
         <InputRightElement marginRight={1}>
           {isLoading ? (
-            <Spinner size={'sm'} />
+            <Spinner size={'sm'} aria-label="spinner" />
           ) : (
             <IconButton
               height={'5'}
@@ -121,7 +123,7 @@ const UserLoginComponent = () => {
               onClick={onUserLoginHandler}
               icon={<ArrowRightCircleIcon />}
               borderRadius={'full'}
-              aria-label="Login button"
+              aria-label="login-button"
             />
           )}
         </InputRightElement>

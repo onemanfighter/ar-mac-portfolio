@@ -10,7 +10,7 @@ exports[`LazyBinComponent should render correctly to match snapshot 1`] = `
       class="css-yecknf"
     >
       <button
-        aria-label="back"
+        aria-label="back-button"
         class="chakra-button css-1kxr5pj"
         type="button"
       >
