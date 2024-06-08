@@ -1,10 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Spotify selector should return default spotify state 1`] = `
+exports[`Spotify selector should return close playlist 1`] = `"main"`;
+
+exports[`Spotify selector should return current playlist data 1`] = `
 {
-  "closePlaylist": [Function],
-  "getCurrentPlaylist": [Function],
-  "openPlaylist": [Function],
-  "state": "playing",
+  "name": "A.R. Rahman",
+  "url": "https://open.spotify.com/embed/artist/1mYsTxnqsietFxj1OgoGbG?utm_source=generator",
 }
 `;
+
+exports[`Spotify selector should return default spotify state 1`] = `"playing"`;
+
+exports[`Spotify selector should return open playlist 1`] = `[Function]`;
