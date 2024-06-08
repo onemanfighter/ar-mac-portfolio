@@ -4,7 +4,7 @@ exports[`MenuItemComponent should render for default values 1`] = `
 <div>
   <button
     aria-label="abc-component"
-    class="chakra-menu__menuitem css-nxv7i8"
+    class="chakra-menu__menuitem css-n7rl60"
     data-index="0"
     id="menu-list-:r1:-menuitem-:r2:"
     role="menuitem"
@@ -20,7 +20,7 @@ exports[`MenuItemComponent should render with search icon 1`] = `
 <div>
   <button
     aria-label="abc-component"
-    class="chakra-menu__menuitem css-nxv7i8"
+    class="chakra-menu__menuitem css-n7rl60"
     data-index="0"
     id="menu-list-:r4:-menuitem-:r5:"
     role="menuitem"
@@ -55,7 +55,7 @@ exports[`MenuItemComponent should render with search icon 2`] = `
 <div>
   <button
     aria-label="abc-component"
-    class="chakra-menu__menuitem css-nxv7i8"
+    class="chakra-menu__menuitem css-n7rl60"
     data-index="0"
     id="menu-list-:r7:-menuitem-:r8:"
     role="menuitem"

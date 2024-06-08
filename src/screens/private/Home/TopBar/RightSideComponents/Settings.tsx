@@ -1,17 +1,24 @@
 import { SettingsIcon } from '@assets';
 import { Box, HStack, Menu, VStack } from '@chakra-ui/react';
 import { MenuListComponent, TopBarButton } from '@components';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const Settings = () => {
   const { t } = useTranslation();
+  const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
+
   return (
     <Menu>
       <TopBarButton
         text=""
         onClick={() => {}}
         ariaLabel="settings-top-bar-button"
-        icon={<SettingsIcon width="1.5em" height="1.5em" color="white" />}
+        icon={<SettingsIcon width="1.5em" height="1.5em" color={iconColor} />}
       />
       <MenuListComponent>
         <Box display={'flex'}>

@@ -1,12 +1,19 @@
 import { Box, IconButton, Img, Tooltip } from '@chakra-ui/react';
 import { IconButtonProps } from './types';
 import PROGRAMS from './constants';
-import { displayDockSelector, settingsStore, useShallow } from '@settingsStore';
+import {
+  darkModeColorSelector,
+  displayDockSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { getIconSize } from './utils';
 import { Draggable } from 'react-beautiful-dnd';
 
 const ProgramButton = ({ isActive, type, index, id }: IconButtonProps) => {
   const { dockSize } = settingsStore(useShallow(displayDockSelector));
+  const { bottomBarActiveDot, BottomBarTooltipBgColor, textColor } =
+    settingsStore(useShallow(darkModeColorSelector));
   const { name, icon } = PROGRAMS[type] ?? { name: 'Unknown', icon: 'unknown' };
   const size = getIconSize(dockSize);
   return (
@@ -21,6 +28,8 @@ const ProgramButton = ({ isActive, type, index, id }: IconButtonProps) => {
           alignItems={'center'}
         >
           <Tooltip
+            bg={BottomBarTooltipBgColor}
+            color={textColor}
             borderRadius={6}
             label={name}
             hasArrow
@@ -40,7 +49,11 @@ const ProgramButton = ({ isActive, type, index, id }: IconButtonProps) => {
             />
           </Tooltip>
           {isActive ? (
-            <Box boxSize={1} bgColor={'white'} borderRadius={'full'} />
+            <Box
+              boxSize={1}
+              bgColor={bottomBarActiveDot}
+              borderRadius={'full'}
+            />
           ) : null}
         </Box>
       )}

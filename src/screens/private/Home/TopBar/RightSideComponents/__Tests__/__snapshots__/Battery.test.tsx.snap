@@ -7,7 +7,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="battery-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r4:"
   >
@@ -15,7 +15,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="2em"
         viewBox="0 0 16 16"
@@ -39,22 +39,22 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r4:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-1kqq1dh"
+        class="css-ucdv1m"
       >
         <p
-          class="chakra-text css-1jueml0"
+          class="chakra-text css-16c42s3"
         >
           Battery
         </p>
         <p
-          class="chakra-text css-1p1588x"
+          class="chakra-text css-1lj023j"
         >
           67%
         </p>
@@ -65,7 +65,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r4:-menuitem-:r5:"
         role="menuitem"
@@ -86,14 +86,14 @@ exports[`Battery should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="battery-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r1:"
   >
     <span
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="2em"
         viewBox="0 0 16 16"
@@ -114,22 +114,22 @@ exports[`Battery should render 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-1kqq1dh"
+        class="css-ucdv1m"
       >
         <p
-          class="chakra-text css-1jueml0"
+          class="chakra-text css-16c42s3"
         >
           Battery
         </p>
         <p
-          class="chakra-text css-1p1588x"
+          class="chakra-text css-1lj023j"
         >
           67%
         </p>
@@ -140,7 +140,7 @@ exports[`Battery should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"

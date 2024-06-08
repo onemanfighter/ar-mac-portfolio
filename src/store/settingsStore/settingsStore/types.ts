@@ -1,9 +1,14 @@
 import { StateCreator } from 'zustand';
-import { DisplayDockStateSlice, WallpaperStateSlice } from '../slice';
+import {
+  DisplayDockStateSlice,
+  DisplayStateSlice,
+  WallpaperStateSlice,
+} from '../slice';
 
 export interface SettingsStoreState {
   Wallpaper: WallpaperStateSlice;
   DisplayDock: DisplayDockStateSlice;
+  Display: DisplayStateSlice;
 }
 
 export type SettingsStoreSlice<T> = StateCreator<

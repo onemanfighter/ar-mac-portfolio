@@ -14,12 +14,20 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const WifiStack = () => {
   const { t } = useTranslation();
   const [wifi1, wifi1Action] = useBoolean();
   const [wifi2, wifi2Action] = useBoolean();
+  const { iconColor, textColor } = settingsStore(
+    useShallow(darkModeColorSelector),
+  );
   return (
     <>
       <Button
@@ -28,7 +36,7 @@ const WifiStack = () => {
           <WifiIcon
             width="1.5em"
             height="1.5em"
-            color="white"
+            color={iconColor}
             style={{
               backgroundColor: wifi1 ? 'blue' : '#f0f0f06f',
               padding: '0.2em',
@@ -41,7 +49,7 @@ const WifiStack = () => {
         display={'flex'}
         size={'sm'}
         flexDir={'row'}
-        color={'white'}
+        color={textColor}
         _hover={{ bg: '#f0f0f06f' }}
         bg={'transparent'}
         justifyContent={'flex-start'}
@@ -57,7 +65,7 @@ const WifiStack = () => {
           <WifiIcon
             width="1.5em"
             height="1.5em"
-            color="white"
+            color={iconColor}
             style={{
               backgroundColor: wifi2 ? 'blue' : '#f0f0f06f',
               padding: '0.2em',
@@ -68,7 +76,7 @@ const WifiStack = () => {
         aria-label="wifi-1"
         variant="ghost"
         display={'flex'}
-        color={'white'}
+        color={textColor}
         size={'sm'}
         _hover={{ bg: '#f0f0f06f' }}
         bg={'transparent'}
@@ -86,13 +94,16 @@ const WifiStack = () => {
 
 const Wifi = () => {
   const { t } = useTranslation();
+  const { iconColor, textColor } = settingsStore(
+    useShallow(darkModeColorSelector),
+  );
   return (
     <Menu>
       <TopBarButton
         text=""
         onClick={() => {}}
         ariaLabel="wifi-top-bar-button"
-        icon={<WifiIcon width="1.5em" height="1.5em" color="white" />}
+        icon={<WifiIcon width="1.5em" height="1.5em" color={iconColor} />}
       />
       <MenuListComponent>
         <Box
@@ -101,9 +112,10 @@ const Wifi = () => {
           width={'100%'}
           flexDirection={'row'}
           px={3}
+          color={textColor}
           my={2}
         >
-          <Text color={'white'} fontSize={14} fontWeight={600}>
+          <Text fontSize={14} fontWeight={600}>
             {t('TopAppBar.wifi.title')}
           </Text>
           <Switch size="sm" colorScheme="blue" />

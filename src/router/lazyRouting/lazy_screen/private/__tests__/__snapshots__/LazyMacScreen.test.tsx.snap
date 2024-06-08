@@ -3,7 +3,12 @@
 exports[`LazyMacComponent should render correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-label="mac"
-  />
+    style="filter: brightness(1);"
+  >
+    <div
+      aria-label="mac"
+      style="transition: all 0.4s ease-in-out;"
+    />
+  </div>
 </div>
 `;

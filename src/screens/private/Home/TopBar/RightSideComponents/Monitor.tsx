@@ -5,27 +5,40 @@ import {
   IconButton,
   Menu,
   MenuDivider,
-  Radio,
   Slider,
   SliderFilledTrack,
   SliderThumb,
   SliderTrack,
   Text,
-  useBoolean,
 } from '@chakra-ui/react';
 import {
   MenuItemComponent,
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  darkModeColorSelector,
+  displayBrightnessSelector,
+  displayDarkModeSelector,
+  displayNightShiftSelector,
+  displayTrueToneSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const ModeStack = () => {
   const { t } = useTranslation();
-
-  const [darkMode, darkModeAction] = useBoolean();
-  const [nightShift, nightShiftAction] = useBoolean();
-  const [trueTone, trueToneAction] = useBoolean();
+  const { nightShift, toggleNightShift } = settingsStore(
+    useShallow(displayNightShiftSelector),
+  );
+  const { trueTone, toggleTrueTone } = settingsStore(
+    useShallow(displayTrueToneSelector),
+  );
+  const { darkMode, toggleDarkMode } = settingsStore(
+    useShallow(displayDarkModeSelector),
+  );
+  const { textColor } = settingsStore(useShallow(darkModeColorSelector));
 
   return (
     <HStack
@@ -34,6 +47,7 @@ const ModeStack = () => {
       justifyContent={'space-between'}
       flexDirection={'row'}
       px={2}
+      color={textColor}
     >
       <Box
         display={'flex'}
@@ -50,11 +64,11 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={darkMode ? 'white' : '#0f0f0f8f'}
           onClick={() => {
-            darkModeAction.toggle();
+            toggleDarkMode();
           }}
           icon={<DarkModeIcon color={darkMode ? 'black' : 'white'} />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.darkMode')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -76,11 +90,11 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={nightShift ? 'yellow.500' : '#0f0f0f8f'}
           onClick={() => {
-            nightShiftAction.toggle();
+            toggleNightShift();
           }}
           icon={<DarkModeIcon color="white" />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.nightShift')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -102,11 +116,11 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={trueTone ? 'blue.500' : '#0f0f0f8f'}
           onClick={() => {
-            trueToneAction.toggle();
+            toggleTrueTone();
           }}
           icon={<BrightnessIcon color="white" />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.trueTone')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -119,13 +133,18 @@ const ModeStack = () => {
 
 const Monitor = () => {
   const { t } = useTranslation();
+  const { brightness, setBrightness } = settingsStore(
+    useShallow(displayBrightnessSelector),
+  );
+  const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
+
   return (
     <Menu>
       <TopBarButton
         text=""
         onClick={() => {}}
         ariaLabel="monitor-top-bar-button"
-        icon={<MonitorIcon width="1.5em" height="1.5em" color="white" />}
+        icon={<MonitorIcon width="1.5em" height="1.5em" color={iconColor} />}
       />
       <MenuListComponent>
         <Box
@@ -137,7 +156,15 @@ const Monitor = () => {
           <Text color={'white'} fontSize={'xs'} fontWeight={'bold'}>
             {t('TopAppBar.monitor.title')}
           </Text>
-          <Slider aria-label="slider-ex-1" defaultValue={30} my={2}>
+          <Slider
+            aria-label="slider-ex-1"
+            defaultValue={30}
+            my={2}
+            onChange={(value) => {
+              setBrightness(value);
+            }}
+            value={brightness}
+          >
             <SliderTrack height={4} bg={'gray'} borderRadius={'100'}>
               <SliderFilledTrack
                 alignItems={'start'}

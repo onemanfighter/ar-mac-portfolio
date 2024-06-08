@@ -7,7 +7,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="wifi-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r6:"
   >
@@ -15,7 +15,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -36,17 +36,17 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r6:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-2mf9n7"
+        class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1bxpg6e"
+          class="chakra-text css-1c1e297"
         >
           Wi-Fi
         </p>
@@ -71,7 +71,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r6:-menuitem-:r7:"
         role="menuitem"
@@ -86,7 +86,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       />
       <button
         aria-label="wifi-1"
-        class="chakra-button css-1ihk4dg"
+        class="chakra-button css-f9btks"
         type="button"
       >
         <span
@@ -94,7 +94,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
         >
           <svg
             aria-hidden="true"
-            color="white"
+            color="#000000"
             fill="currentColor"
             focusable="false"
             height="1.5em"
@@ -111,7 +111,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       </button>
       <button
         aria-label="wifi-1"
-        class="chakra-button css-1iz9bnj"
+        class="chakra-button css-1cdbecp"
         type="button"
       >
         <span
@@ -119,7 +119,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
         >
           <svg
             aria-hidden="true"
-            color="white"
+            color="#000000"
             fill="currentColor"
             focusable="false"
             height="1.5em"
@@ -140,7 +140,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="1"
         id="menu-list-:r6:-menuitem-:r8:"
         role="menuitem"
@@ -164,7 +164,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="2"
         id="menu-list-:r6:-menuitem-:r9:"
         role="menuitem"
@@ -185,14 +185,14 @@ exports[`Wifi should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="wifi-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r1:"
   >
     <span
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -210,17 +210,17 @@ exports[`Wifi should render 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-2mf9n7"
+        class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1bxpg6e"
+          class="chakra-text css-1c1e297"
         >
           Wi-Fi
         </p>
@@ -245,7 +245,7 @@ exports[`Wifi should render 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"
@@ -260,7 +260,7 @@ exports[`Wifi should render 1`] = `
       />
       <button
         aria-label="wifi-1"
-        class="chakra-button css-1ihk4dg"
+        class="chakra-button css-f9btks"
         type="button"
       >
         <span
@@ -268,7 +268,7 @@ exports[`Wifi should render 1`] = `
         >
           <svg
             aria-hidden="true"
-            color="white"
+            color="#000000"
             fill="currentColor"
             focusable="false"
             height="1.5em"
@@ -285,7 +285,7 @@ exports[`Wifi should render 1`] = `
       </button>
       <button
         aria-label="wifi-1"
-        class="chakra-button css-1iz9bnj"
+        class="chakra-button css-1cdbecp"
         type="button"
       >
         <span
@@ -293,7 +293,7 @@ exports[`Wifi should render 1`] = `
         >
           <svg
             aria-hidden="true"
-            color="white"
+            color="#000000"
             fill="currentColor"
             focusable="false"
             height="1.5em"
@@ -314,7 +314,7 @@ exports[`Wifi should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"
@@ -338,7 +338,7 @@ exports[`Wifi should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="2"
         id="menu-list-:r1:-menuitem-:r4:"
         role="menuitem"
