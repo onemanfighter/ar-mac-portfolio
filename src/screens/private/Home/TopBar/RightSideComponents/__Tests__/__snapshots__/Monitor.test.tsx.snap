@@ -101,7 +101,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="dark-mode-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -139,7 +139,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="night-shift-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -177,7 +177,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="true-tone-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -210,12 +210,233 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         class="chakra-menu__divider css-n5p1w9"
       />
       <button
-        aria-label="new-tab"
+        aria-label="monitor-settings"
         class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r5:-menuitem-:r7:"
         role="menuitem"
         tabindex="-1"
+        type="button"
+      >
+        Display settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`monitor should open setting on monitor settings click 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:rl:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="monitor-top-bar-button"
+    class="chakra-menu__menu-button css-10l0d22"
+    id="menu-button-:rl:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="#000000"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:rl:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1uhz9qn"
+      >
+        <p
+          class="chakra-text css-1jueml0"
+        >
+          Display
+        </p>
+        <div
+          class="chakra-slider css-1j9oeic"
+          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="chakra-slider__track css-q9xlwy"
+            id="slider-track-:rm:"
+            style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+          >
+            <div
+              class="chakra-slider__filled-track css-4fiyi6"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+            >
+              <svg
+                color="black"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                width="12"
+              >
+                <path
+                  d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-label="slider-ex-1"
+            aria-orientation="horizontal"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="100"
+            class="chakra-slider__thumb css-1om1vhp"
+            id="slider-thumb-:rm:"
+            role="slider"
+            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            tabindex="0"
+          />
+          <input
+            type="hidden"
+            value="100"
+          />
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-jqtdn9"
+      >
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="dark-mode-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Dark mode
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="night-shift-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Night Shift
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="true-tone-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            True Tone
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-n5p1w9"
+      />
+      <button
+        aria-label="monitor-settings"
+        class="chakra-menu__menuitem css-n7rl60"
+        data-index="0"
+        id="menu-list-:rl:-menuitem-:rn:"
+        role="menuitem"
+        tabindex="0"
         type="button"
       >
         Display settings...
@@ -322,7 +543,7 @@ exports[`monitor should render 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="dark-mode-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -360,7 +581,7 @@ exports[`monitor should render 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="night-shift-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -398,7 +619,7 @@ exports[`monitor should render 1`] = `
           class="css-1voambi"
         >
           <button
-            aria-label="increase"
+            aria-label="true-tone-button"
             class="chakra-button css-85gq3l"
             type="button"
           >
@@ -431,10 +652,673 @@ exports[`monitor should render 1`] = `
         class="chakra-menu__divider css-n5p1w9"
       />
       <button
-        aria-label="new-tab"
+        aria-label="monitor-settings"
         class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r3:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Display settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r9:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="monitor-top-bar-button"
+    class="chakra-menu__menu-button css-1y18l7u"
+    id="menu-button-:r9:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="#ffffff"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-1qxkg1a"
+      id="menu-list-:r9:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1uhz9qn"
+      >
+        <p
+          class="chakra-text css-1jueml0"
+        >
+          Display
+        </p>
+        <div
+          class="chakra-slider css-1j9oeic"
+          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="chakra-slider__track css-q9xlwy"
+            id="slider-track-:ra:"
+            style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+          >
+            <div
+              class="chakra-slider__filled-track css-4fiyi6"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+            >
+              <svg
+                color="black"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                width="12"
+              >
+                <path
+                  d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-label="slider-ex-1"
+            aria-orientation="horizontal"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="100"
+            class="chakra-slider__thumb css-1om1vhp"
+            id="slider-thumb-:ra:"
+            role="slider"
+            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            tabindex="0"
+          />
+          <input
+            type="hidden"
+            value="100"
+          />
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-1g3k9be"
+      >
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="dark-mode-button"
+            class="chakra-button css-b5gkex"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="black"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Dark mode
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            On
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="night-shift-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Night Shift
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="true-tone-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            True Tone
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-n5p1w9"
+      />
+      <button
+        aria-label="monitor-settings"
+        class="chakra-menu__menuitem css-151tu67"
+        data-index="0"
+        id="menu-list-:r9:-menuitem-:rb:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Display settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`monitor should toggle night shift when night shift icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:rh:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="monitor-top-bar-button"
+    class="chakra-menu__menu-button css-10l0d22"
+    id="menu-button-:rh:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="#000000"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:rh:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1uhz9qn"
+      >
+        <p
+          class="chakra-text css-1jueml0"
+        >
+          Display
+        </p>
+        <div
+          class="chakra-slider css-1j9oeic"
+          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="chakra-slider__track css-q9xlwy"
+            id="slider-track-:ri:"
+            style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+          >
+            <div
+              class="chakra-slider__filled-track css-4fiyi6"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+            >
+              <svg
+                color="black"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                width="12"
+              >
+                <path
+                  d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-label="slider-ex-1"
+            aria-orientation="horizontal"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="100"
+            class="chakra-slider__thumb css-1om1vhp"
+            id="slider-thumb-:ri:"
+            role="slider"
+            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            tabindex="0"
+          />
+          <input
+            type="hidden"
+            value="100"
+          />
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-jqtdn9"
+      >
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="dark-mode-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Dark mode
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="night-shift-button"
+            class="chakra-button css-14xm3gp"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Night Shift
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            On
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="true-tone-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            True Tone
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-n5p1w9"
+      />
+      <button
+        aria-label="monitor-settings"
+        class="chakra-menu__menuitem css-n7rl60"
+        data-index="0"
+        id="menu-list-:rh:-menuitem-:rj:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        Display settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:rd:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="monitor-top-bar-button"
+    class="chakra-menu__menu-button css-10l0d22"
+    id="menu-button-:rd:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="#000000"
+        fill="currentColor"
+        height="1.5em"
+        viewBox="0 0 24 24"
+        width="1.5em"
+      >
+        <path
+          d="M21 16H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:rd:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-1uhz9qn"
+      >
+        <p
+          class="chakra-text css-1jueml0"
+        >
+          Display
+        </p>
+        <div
+          class="chakra-slider css-1j9oeic"
+          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="chakra-slider__track css-q9xlwy"
+            id="slider-track-:re:"
+            style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+          >
+            <div
+              class="chakra-slider__filled-track css-4fiyi6"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+            >
+              <svg
+                color="black"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                width="12"
+              >
+                <path
+                  d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-label="slider-ex-1"
+            aria-orientation="horizontal"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="100"
+            class="chakra-slider__thumb css-1om1vhp"
+            id="slider-thumb-:re:"
+            role="slider"
+            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            tabindex="0"
+          />
+          <input
+            type="hidden"
+            value="100"
+          />
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-jqtdn9"
+      >
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="dark-mode-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Dark mode
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="night-shift-button"
+            class="chakra-button css-85gq3l"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="none"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            Night Shift
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            Off
+          </p>
+        </div>
+        <div
+          class="css-1voambi"
+        >
+          <button
+            aria-label="true-tone-button"
+            class="chakra-button css-1wewfci"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              color="white"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+              />
+            </svg>
+          </button>
+          <p
+            class="chakra-text css-7qcwdg"
+          >
+            True Tone
+          </p>
+          <p
+            class="chakra-text css-lla7mv"
+          >
+            On
+          </p>
+        </div>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-n5p1w9"
+      />
+      <button
+        aria-label="monitor-settings"
+        class="chakra-menu__menuitem css-n7rl60"
+        data-index="0"
+        id="menu-list-:rd:-menuitem-:rf:"
         role="menuitem"
         tabindex="-1"
         type="button"

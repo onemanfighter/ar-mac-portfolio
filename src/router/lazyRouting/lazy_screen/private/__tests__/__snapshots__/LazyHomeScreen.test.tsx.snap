@@ -302,7 +302,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="css-1voambi"
               >
                 <button
-                  aria-label="increase"
+                  aria-label="dark-mode-button"
                   class="chakra-button css-3szl26"
                   type="button"
                 >
@@ -340,7 +340,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="css-1voambi"
               >
                 <button
-                  aria-label="increase"
+                  aria-label="night-shift-button"
                   class="chakra-button css-3szl26"
                   type="button"
                 >
@@ -378,7 +378,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="css-1voambi"
               >
                 <button
-                  aria-label="increase"
+                  aria-label="true-tone-button"
                   class="chakra-button css-3szl26"
                   type="button"
                 >
@@ -411,7 +411,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-n5p1w9"
             />
             <button
-              aria-label="new-tab"
+              aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rd:-menuitem-:rf:"
@@ -473,7 +473,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-1fmk8qx"
             />
             <button
-              aria-label="new-tab"
+              aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rh:-menuitem-:ri:"
@@ -488,7 +488,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-1fmk8qx"
             />
             <button
-              aria-label="new-tab"
+              aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
               id="menu-list-:rh:-menuitem-:rj:"
@@ -558,7 +558,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-n5p1w9"
             />
             <button
-              aria-label="new-tab"
+              aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rl:-menuitem-:rm:"
@@ -674,7 +674,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               Wi-Fi 1
             </button>
             <button
-              aria-label="wifi-1"
+              aria-label="wifi-2"
               class="chakra-button css-qkcrce"
               type="button"
             >
@@ -703,7 +703,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-1fmk8qx"
             />
             <button
-              aria-label="new-tab"
+              aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
               id="menu-list-:ro:-menuitem-:rq:"
@@ -727,7 +727,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__divider css-1fmk8qx"
             />
             <button
-              aria-label="new-tab"
+              aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
               id="menu-list-:ro:-menuitem-:rr:"
@@ -843,12 +843,15 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           class="handle css-1q7gku6"
         >
           <div
+            aria-label="close"
             class="css-bl229y"
           />
           <div
+            aria-label="minimize"
             class="css-6qqns1"
           />
           <div
+            aria-label="maximize"
             class="css-2fxb6m"
           />
           <div
@@ -866,7 +869,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="css-yecknf"
             >
               <button
-                aria-label="back"
+                aria-label="back-button"
                 class="chakra-button css-1kxr5pj"
                 type="button"
               >

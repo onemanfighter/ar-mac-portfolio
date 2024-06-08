@@ -21,6 +21,7 @@ const WindowCloseControl = ({
   return (
     <>
       <Box
+        aria-label="close"
         width={3}
         height={3}
         borderRadius={'full'}
@@ -31,6 +32,7 @@ const WindowCloseControl = ({
         }}
       ></Box>
       <Box
+        aria-label="minimize"
         width={3}
         height={3}
         borderRadius={'full'}
@@ -41,6 +43,7 @@ const WindowCloseControl = ({
         }}
       />
       <Box
+        aria-label="maximize"
         width={3}
         height={3}
         borderRadius={'full'}

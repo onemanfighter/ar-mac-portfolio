@@ -1,5 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Battery should open battery settings when battery settings is tapped 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r7:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="battery-top-bar-button"
+    class="chakra-menu__menu-button css-10l0d22"
+    id="menu-button-:r7:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <svg
+        color="#000000"
+        fill="currentColor"
+        height="2em"
+        viewBox="0 0 16 16"
+        width="2em"
+      >
+        <path
+          d="M2 6h6.7v4H2V6z"
+        />
+        <path
+          d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
+        />
+      </svg>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:r7:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <div
+        class="css-ucdv1m"
+      >
+        <p
+          class="chakra-text css-16c42s3"
+        >
+          Battery
+        </p>
+        <p
+          class="chakra-text css-1lj023j"
+        >
+          67%
+        </p>
+      </div>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-menu__divider css-n5p1w9"
+      />
+      <button
+        aria-label="battery-settings"
+        class="chakra-menu__menuitem css-n7rl60"
+        data-index="0"
+        id="menu-list-:r7:-menuitem-:r8:"
+        role="menuitem"
+        tabindex="0"
+        type="button"
+      >
+        Battery settings...
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Battery should open pop-up when battery icon is tapped 1`] = `
 <div>
   <button
@@ -64,7 +139,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
         class="chakra-menu__divider css-n5p1w9"
       />
       <button
-        aria-label="new-tab"
+        aria-label="battery-settings"
         class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r4:-menuitem-:r5:"
@@ -139,7 +214,7 @@ exports[`Battery should render 1`] = `
         class="chakra-menu__divider css-n5p1w9"
       />
       <button
-        aria-label="new-tab"
+        aria-label="battery-settings"
         class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
