@@ -12,4 +12,14 @@ describe('Draggable provider', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should render correctly with custom position', () => {
+    const { container } = render(
+      <DraggableProvider position={{ x: 10, y: 10 }}>
+        <Box>test</Box>
+      </DraggableProvider>,
+    );
+
+    expect(container).toMatchSnapshot();
+  });
 });

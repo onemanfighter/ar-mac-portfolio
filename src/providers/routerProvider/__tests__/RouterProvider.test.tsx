@@ -63,7 +63,7 @@ describe('RouterProvider', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it.skip('should render for login', async () => {
+  it('should render mac for login', async () => {
     const { result } = renderHook(() => processStore());
     renderHook(() => settingsStore());
     renderHook(() => uiStore());

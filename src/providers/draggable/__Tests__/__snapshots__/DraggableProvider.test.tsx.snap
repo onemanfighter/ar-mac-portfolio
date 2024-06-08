@@ -10,3 +10,14 @@ exports[`Draggable provider should render correctly 1`] = `
   </div>
 </div>
 `;
+
+exports[`Draggable provider should render correctly with custom position 1`] = `
+<div>
+  <div
+    class="react-draggable css-0"
+    style="transform: translate(0px, 28px)translate(10px,10px);"
+  >
+    test
+  </div>
+</div>
+`;

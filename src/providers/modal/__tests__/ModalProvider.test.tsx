@@ -15,4 +15,20 @@ describe('ModalProvider', () => {
     expect(container).toMatchSnapshot();
     expect(screen.getByText('App')).toBeDefined();
   });
+
+  it('should render correctly with children', () => {
+    const { result } = renderHook(() => uiStore());
+
+    result.current.Modal.resetModalState();
+    const { container } = render(
+      <ModalProvider>
+        <div>App</div>
+      </ModalProvider>,
+    );
+
+    jest.runAllTimersAsync();
+
+    expect(container).toMatchSnapshot();
+    expect(screen.getByText('App')).toBeDefined();
+  });
 });
