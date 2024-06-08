@@ -17,7 +17,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-18ia66w"
+      class="css-1qqbak8"
     >
       <div
         class="chakra-button__group css-y7v311"
@@ -29,14 +29,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:r1:"
         >
           <span
             class="css-xl71ch"
           >
             <svg
-              color="white"
+              color="#000000"
               fill="currentColor"
               height="1.5em"
               viewBox="0 0 1024 1024"
@@ -54,7 +54,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r1:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -62,7 +62,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           >
             <button
               aria-label="about-this-mac"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
               id="menu-list-:r1:-menuitem-:r2:"
               role="menuitem"
@@ -77,7 +77,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="system-settings"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
               id="menu-list-:r1:-menuitem-:r3:"
               role="menuitem"
@@ -88,7 +88,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </button>
             <button
               aria-label="app-store"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
               id="menu-list-:r1:-menuitem-:r4:"
               role="menuitem"
@@ -103,7 +103,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="recent-items"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
               id="menu-list-:r1:-menuitem-:r5:"
               role="menuitem"
@@ -127,7 +127,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="force-quit"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
               id="menu-list-:r1:-menuitem-:r6:"
               role="menuitem"
@@ -142,7 +142,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="sleep"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
               id="menu-list-:r1:-menuitem-:r7:"
               role="menuitem"
@@ -153,7 +153,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </button>
             <button
               aria-label="restart"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
               id="menu-list-:r1:-menuitem-:r8:"
               role="menuitem"
@@ -164,7 +164,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </button>
             <button
               aria-label="shutDown"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
               id="menu-list-:r1:-menuitem-:r9:"
               role="menuitem"
@@ -179,7 +179,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="lock-screen"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
               id="menu-list-:r1:-menuitem-:ra:"
               role="menuitem"
@@ -190,7 +190,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </button>
             <button
               aria-label="logout"
-              class="chakra-menu__menuitem css-s7lhnt"
+              class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
               id="menu-list-:r1:-menuitem-:rb:"
               role="menuitem"
@@ -212,14 +212,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:rd:"
         >
           <span
             class="css-xl71ch"
           >
             <svg
-              color="white"
+              color="#000000"
               fill="currentColor"
               height="1.5em"
               viewBox="0 0 24 24"
@@ -237,7 +237,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rd:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -296,7 +296,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               </div>
             </div>
             <div
-              class="chakra-stack css-194jiql"
+              class="chakra-stack css-jqtdn9"
             >
               <div
                 class="css-1voambi"
@@ -326,7 +326,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   </svg>
                 </button>
                 <p
-                  class="chakra-text css-10ks42e"
+                  class="chakra-text css-7qcwdg"
                 >
                   Dark mode
                 </p>
@@ -364,7 +364,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   </svg>
                 </button>
                 <p
-                  class="chakra-text css-10ks42e"
+                  class="chakra-text css-7qcwdg"
                 >
                   Night Shift
                 </p>
@@ -395,7 +395,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   </svg>
                 </button>
                 <p
-                  class="chakra-text css-10ks42e"
+                  class="chakra-text css-7qcwdg"
                 >
                   True Tone
                 </p>
@@ -412,7 +412,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rd:-menuitem-:rf:"
               role="menuitem"
@@ -428,7 +428,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:rh:"
         >
           <span
@@ -447,14 +447,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rh:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
           >
             <div
-              class="css-1pidzr7"
+              class="css-1hdcak2"
             >
               <img
                 alt="Profile"
@@ -463,7 +463,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
               />
               <p
-                class="chakra-text css-1hrkoss"
+                class="chakra-text css-gsdmxf"
               >
                 Amit Raikwar
               </p>
@@ -474,7 +474,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rh:-menuitem-:ri:"
               role="menuitem"
@@ -489,7 +489,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
               id="menu-list-:rh:-menuitem-:rj:"
               role="menuitem"
@@ -505,14 +505,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:rl:"
         >
           <span
             class="css-xl71ch"
           >
             <svg
-              color="white"
+              color="#000000"
               fill="currentColor"
               height="2em"
               viewBox="0 0 16 16"
@@ -533,22 +533,22 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rl:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
           >
             <div
-              class="css-1kqq1dh"
+              class="css-ucdv1m"
             >
               <p
-                class="chakra-text css-1jueml0"
+                class="chakra-text css-16c42s3"
               >
                 Battery
               </p>
               <p
-                class="chakra-text css-1p1588x"
+                class="chakra-text css-1lj023j"
               >
                 67%
               </p>
@@ -559,7 +559,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:rl:-menuitem-:rm:"
               role="menuitem"
@@ -575,14 +575,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:ro:"
         >
           <span
             class="css-xl71ch"
           >
             <svg
-              color="white"
+              color="#000000"
               fill="currentColor"
               height="1.5em"
               viewBox="0 0 24 24"
@@ -600,17 +600,17 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:ro:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
           >
             <div
-              class="css-2mf9n7"
+              class="css-o3czpp"
             >
               <p
-                class="chakra-text css-1bxpg6e"
+                class="chakra-text css-1c1e297"
               >
                 Wi-Fi
               </p>
@@ -635,7 +635,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </div>
             <button
               aria-label="wifi-weak-security"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
               id="menu-list-:ro:-menuitem-:rp:"
               role="menuitem"
@@ -650,7 +650,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="wifi-1"
-              class="chakra-button css-1gc3a1y"
+              class="chakra-button css-vgfzey"
               type="button"
             >
               <span
@@ -658,7 +658,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  color="white"
+                  color="#000000"
                   fill="currentColor"
                   focusable="false"
                   height="1.5em"
@@ -675,7 +675,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </button>
             <button
               aria-label="wifi-1"
-              class="chakra-button css-f3458p"
+              class="chakra-button css-qkcrce"
               type="button"
             >
               <span
@@ -683,7 +683,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  color="white"
+                  color="#000000"
                   fill="currentColor"
                   focusable="false"
                   height="1.5em"
@@ -704,7 +704,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
               id="menu-list-:ro:-menuitem-:rq:"
               role="menuitem"
@@ -728,7 +728,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             />
             <button
               aria-label="new-tab"
-              class="chakra-menu__menuitem css-nxv7i8"
+              class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
               id="menu-list-:ro:-menuitem-:rr:"
               role="menuitem"
@@ -746,7 +746,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <svg
             aria-hidden="true"
-            color="white"
+            color="#000000"
             fill="currentColor"
             focusable="false"
             height="1.2em"
@@ -763,14 +763,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:rt:"
         >
           <span
             class="css-xl71ch"
           >
             <svg
-              color="white"
+              color="#000000"
               fill="currentColor"
               height="1.5em"
               viewBox="0 0 24 24"
@@ -789,7 +789,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         >
           <div
             aria-orientation="vertical"
-            class="chakra-menu__menu-list css-wkqcnc"
+            class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rt:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -817,7 +817,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
-          class="chakra-menu__menu-button css-bracgg"
+          class="chakra-menu__menu-button css-10l0d22"
           id="menu-button-:r10:"
         >
           <span
@@ -840,7 +840,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         class="css-exz6no"
       >
         <div
-          class="handle css-y5il39"
+          class="handle css-1q7gku6"
         >
           <div
             class="css-bl229y"
@@ -918,7 +918,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
       class="css-c60n9a"
     >
       <div
-        class="css-1fa61"
+        class="css-ax28gb"
         data-rbd-droppable-context-id="0"
         data-rbd-droppable-id="droppable-list"
       >
@@ -940,7 +940,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -961,7 +961,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -982,7 +982,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -1003,7 +1003,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -1024,7 +1024,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -1045,7 +1045,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
         <div
@@ -1066,7 +1066,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             src=""
           />
           <div
-            class="css-1es0kgi"
+            class="css-1vukhon"
           />
         </div>
       </div>

@@ -7,7 +7,7 @@ exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="settings-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r3:"
   >
@@ -15,7 +15,7 @@ exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r3:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -70,14 +70,14 @@ exports[`Settings should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="settings-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r1:"
   >
     <span
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ exports[`Settings should render 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"

@@ -10,7 +10,6 @@ import {
   SliderThumb,
   SliderTrack,
   Text,
-  useBoolean,
 } from '@chakra-ui/react';
 import {
   MenuItemComponent,
@@ -18,7 +17,9 @@ import {
   TopBarButton,
 } from '@components';
 import {
+  darkModeColorSelector,
   displayBrightnessSelector,
+  displayDarkModeSelector,
   displayNightShiftSelector,
   displayTrueToneSelector,
   settingsStore,
@@ -34,8 +35,10 @@ const ModeStack = () => {
   const { trueTone, toggleTrueTone } = settingsStore(
     useShallow(displayTrueToneSelector),
   );
-
-  const [darkMode, darkModeAction] = useBoolean();
+  const { darkMode, toggleDarkMode } = settingsStore(
+    useShallow(displayDarkModeSelector),
+  );
+  const { textColor } = settingsStore(useShallow(darkModeColorSelector));
 
   return (
     <HStack
@@ -44,6 +47,7 @@ const ModeStack = () => {
       justifyContent={'space-between'}
       flexDirection={'row'}
       px={2}
+      color={textColor}
     >
       <Box
         display={'flex'}
@@ -60,11 +64,11 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={darkMode ? 'white' : '#0f0f0f8f'}
           onClick={() => {
-            darkModeAction.toggle();
+            toggleDarkMode();
           }}
           icon={<DarkModeIcon color={darkMode ? 'black' : 'white'} />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.darkMode')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -90,7 +94,7 @@ const ModeStack = () => {
           }}
           icon={<DarkModeIcon color="white" />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.nightShift')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -116,7 +120,7 @@ const ModeStack = () => {
           }}
           icon={<BrightnessIcon color="white" />}
         />
-        <Text color={'white'} fontSize={'10'} fontWeight={'bold'}>
+        <Text fontSize={'10'} fontWeight={'bold'}>
           {t('TopAppBar.monitor.trueTone')}
         </Text>
         <Text color={'gray'} fontSize={'10'} fontWeight={'bold'}>
@@ -132,6 +136,7 @@ const Monitor = () => {
   const { brightness, setBrightness } = settingsStore(
     useShallow(displayBrightnessSelector),
   );
+  const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
 
   return (
     <Menu>
@@ -139,7 +144,7 @@ const Monitor = () => {
         text=""
         onClick={() => {}}
         ariaLabel="monitor-top-bar-button"
-        icon={<MonitorIcon width="1.5em" height="1.5em" color="white" />}
+        icon={<MonitorIcon width="1.5em" height="1.5em" color={iconColor} />}
       />
       <MenuListComponent>
         <Box

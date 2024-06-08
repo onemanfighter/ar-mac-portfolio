@@ -7,7 +7,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
     class="css-c60n9a"
   >
     <div
-      class="css-1fa61"
+      class="css-ax28gb"
       data-rbd-droppable-context-id="0"
       data-rbd-droppable-id="droppable-list"
     >
@@ -29,7 +29,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -50,7 +50,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -71,7 +71,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -92,7 +92,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -113,7 +113,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -134,7 +134,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
       <div
@@ -155,7 +155,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           src=""
         />
         <div
-          class="css-1es0kgi"
+          class="css-1vukhon"
         />
       </div>
     </div>

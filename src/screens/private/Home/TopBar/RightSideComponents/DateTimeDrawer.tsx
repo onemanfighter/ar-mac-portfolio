@@ -6,11 +6,13 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { TopBarButton } from '@components';
-import { uiStore, dateTimeSelector } from '@uiStore';
+import { darkModeColorSelector, settingsStore } from '@settingsStore';
+import { uiStore, dateTimeSelector, useShallow } from '@uiStore';
 
 const DateTimeDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { timeInAmPm, dateWithoutYear } = uiStore(dateTimeSelector);
+  const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
 
   return (
     <>
@@ -24,7 +26,7 @@ const DateTimeDrawer = () => {
           <DrawerContent bg={'transparent'} marginTop={7}>
             <Box
               boxSize={'100%'}
-              bg={'#000000af'}
+              bg={iconColor}
               position={'fixed'}
               top={0}
               left={0}

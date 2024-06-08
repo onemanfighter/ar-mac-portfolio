@@ -1,6 +1,8 @@
 import { act, renderHook } from '@testing-library/react-hooks';
 import {
+  darkModeColorSelector,
   displayBrightnessSelector,
+  displayDarkModeSelector,
   displayNightShiftSelector,
   displayTrueToneSelector,
 } from '../Display.selector';
@@ -96,6 +98,76 @@ describe('Display selector', () => {
       });
 
       expect(result.current.trueTone).toEqual(false);
+    });
+  });
+
+  describe('displayDarkModeSelector', () => {
+    it('should return default dark mode support', () => {
+      const { result } = renderHook(() =>
+        settingsStore(displayDarkModeSelector),
+      );
+
+      expect(result.current.darkMode).toEqual(false);
+    });
+
+    it('should toggle dark mode', () => {
+      const { result } = renderHook(() =>
+        settingsStore(displayDarkModeSelector),
+      );
+
+      act(() => {
+        result.current.toggleDarkMode();
+      });
+
+      expect(result.current.darkMode).toEqual(true);
+    });
+
+    it('should toggle dark mode twice', () => {
+      const { result } = renderHook(() =>
+        settingsStore(displayDarkModeSelector),
+      );
+
+      act(() => {
+        result.current.toggleDarkMode();
+        result.current.toggleDarkMode();
+      });
+
+      expect(result.current.darkMode).toEqual(false);
+    });
+  });
+
+  describe('darkModeColorSelector', () => {
+    it('should return default color support', () => {
+      const { result } = renderHook(() => settingsStore(darkModeColorSelector));
+
+      expect(result.current.mainColor).toEqual('#ffffffdf');
+      expect(result.current.windowTabBgColor).toEqual('#f1f1f19f');
+      expect(result.current.menuColor).toEqual('#ffffffbf');
+      expect(result.current.BottomBarTooltipBgColor).toEqual('#ffffffdf');
+      expect(result.current.bottomBarActiveDot).toEqual('#000000');
+      expect(result.current.bottomBarBgColor).toEqual('#f1f1f16f');
+      expect(result.current.textColor).toEqual('#000000');
+      expect(result.current.iconColor).toEqual('#000000');
+    });
+
+    it('should return dark mode color support', () => {
+      const { result } = renderHook(() => settingsStore(darkModeColorSelector));
+      const { result: modeResult } = renderHook(() =>
+        settingsStore(displayDarkModeSelector),
+      );
+
+      act(() => {
+        modeResult.current.toggleDarkMode();
+      });
+
+      expect(result.current.mainColor).toEqual('#000000af');
+      expect(result.current.windowTabBgColor).toEqual('#000000af');
+      expect(result.current.menuColor).toEqual('#000000af');
+      expect(result.current.BottomBarTooltipBgColor).toEqual('#000000df');
+      expect(result.current.bottomBarActiveDot).toEqual('#ffffff');
+      expect(result.current.bottomBarBgColor).toEqual('#1f1f1f6f');
+      expect(result.current.textColor).toEqual('#ffffff');
+      expect(result.current.iconColor).toEqual('#ffffff');
     });
   });
 });

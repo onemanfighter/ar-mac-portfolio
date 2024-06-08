@@ -49,4 +49,21 @@ describe('Chrome slice', () => {
 
     expect(result.current.Display.trueTone).toBe(false);
   });
+
+  it('should toggle dark mode', () => {
+    const { result } = renderHook(() => settingsStore());
+
+    result.current.Display.toggleDarkMode();
+
+    expect(result.current.Display.darkMode).toBe(true);
+  });
+
+  it('should toggle dark mode twice', () => {
+    const { result } = renderHook(() => settingsStore());
+
+    result.current.Display.toggleDarkMode();
+    result.current.Display.toggleDarkMode();
+
+    expect(result.current.Display.darkMode).toBe(false);
+  });
 });

@@ -5,17 +5,24 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const Apple = () => {
   const { t } = useTranslation();
+  const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
+
   return (
     <Menu>
       <TopBarButton
         text=""
         onClick={() => {}}
         ariaLabel="apple-top-bar-button"
-        icon={<AppleIcon width="1.5em" height="1.5em" color="white" />}
+        icon={<AppleIcon width="1.5em" height="1.5em" color={iconColor} />}
       />
       <MenuListComponent>
         <MenuItemComponent

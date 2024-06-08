@@ -1,5 +1,10 @@
 import { MenuItem } from '@chakra-ui/react';
 import { MenuItemComponentProps } from './types';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 
 const MenuItemComponent = ({
   text,
@@ -9,12 +14,14 @@ const MenuItemComponent = ({
   side = 'right',
   ariaLabel,
 }: MenuItemComponentProps) => {
+  const { textColor } = settingsStore(useShallow(darkModeColorSelector));
+
   return (
     <MenuItem
       borderRadius={2}
       icon={icon}
       py={0.2}
-      color={'white'}
+      color={textColor}
       fontSize={'xs'}
       fontWeight={600}
       onClick={onClick}

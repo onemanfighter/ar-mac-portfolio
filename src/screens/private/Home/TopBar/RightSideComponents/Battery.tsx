@@ -12,11 +12,20 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const Battery = () => {
   const batteryPercentage = 67;
   const { t } = useTranslation();
+  const { iconColor, textColor } = settingsStore(
+    useShallow(darkModeColorSelector),
+  );
+
   return (
     <Menu>
       <TopBarButton
@@ -29,7 +38,7 @@ const Battery = () => {
             props={{
               width: '2em',
               height: '2em',
-              color: 'white',
+              color: iconColor,
             }}
           />
         }
@@ -40,13 +49,12 @@ const Battery = () => {
           justifyContent={'space-between'}
           flexDirection={'row'}
           mx={2}
+          color={textColor}
         >
-          <Text color={'white'} fontSize={'xs'} fontWeight={'bold'}>
+          <Text fontSize={'xs'} fontWeight={'bold'}>
             {t('TopAppBar.battery.title')}
           </Text>
-          <Text color={'white'} fontSize={'xs'}>
-            {batteryPercentage + '%'}
-          </Text>
+          <Text fontSize={'xs'}>{batteryPercentage + '%'}</Text>
         </Box>
         <MenuDivider mx={2} />
         <MenuItemComponent

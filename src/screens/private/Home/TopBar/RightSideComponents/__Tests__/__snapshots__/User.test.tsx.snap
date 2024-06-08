@@ -7,7 +7,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="user-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r5:"
   >
@@ -30,14 +30,14 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r5:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-1pidzr7"
+        class="css-1hdcak2"
       >
         <img
           alt="Profile"
@@ -46,7 +46,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
           src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
         />
         <p
-          class="chakra-text css-1hrkoss"
+          class="chakra-text css-gsdmxf"
         >
           Amit Raikwar
         </p>
@@ -57,7 +57,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r5:-menuitem-:r6:"
         role="menuitem"
@@ -72,7 +72,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="1"
         id="menu-list-:r5:-menuitem-:r7:"
         role="menuitem"
@@ -93,7 +93,7 @@ exports[`User should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="user-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r1:"
   >
     <span
@@ -112,14 +112,14 @@ exports[`User should render 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
       tabindex="-1"
     >
       <div
-        class="css-1pidzr7"
+        class="css-1hdcak2"
       >
         <img
           alt="Profile"
@@ -128,7 +128,7 @@ exports[`User should render 1`] = `
           src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
         />
         <p
-          class="chakra-text css-1hrkoss"
+          class="chakra-text css-gsdmxf"
         >
           Amit Raikwar
         </p>
@@ -139,7 +139,7 @@ exports[`User should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"
@@ -154,7 +154,7 @@ exports[`User should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"

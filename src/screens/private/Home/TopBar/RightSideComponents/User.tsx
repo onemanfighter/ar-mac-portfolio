@@ -4,10 +4,17 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const User = () => {
   const { t } = useTranslation();
+  const { textColor } = settingsStore(useShallow(darkModeColorSelector));
+
   return (
     <Menu>
       <TopBarButton
@@ -23,6 +30,7 @@ const User = () => {
           flexDirection={'column'}
           alignItems={'center'}
           py={2}
+          color={textColor}
         >
           <Image
             borderRadius="full"
@@ -32,7 +40,7 @@ const User = () => {
             loading="lazy"
             border={'2px solid white'}
           />
-          <Text color={'white'} fontSize={11} fontWeight={600}>
+          <Text fontSize={11} fontWeight={600}>
             {t('LockScreen.userName')}
           </Text>
         </Box>

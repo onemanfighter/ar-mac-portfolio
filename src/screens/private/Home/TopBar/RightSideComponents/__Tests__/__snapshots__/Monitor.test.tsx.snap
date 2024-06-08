@@ -7,7 +7,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="monitor-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r5:"
   >
@@ -15,7 +15,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -36,7 +36,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r5:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -95,7 +95,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         </div>
       </div>
       <div
-        class="chakra-stack css-194jiql"
+        class="chakra-stack css-jqtdn9"
       >
         <div
           class="css-1voambi"
@@ -125,7 +125,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             Dark mode
           </p>
@@ -163,7 +163,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             Night Shift
           </p>
@@ -194,7 +194,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             True Tone
           </p>
@@ -211,7 +211,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r5:-menuitem-:r7:"
         role="menuitem"
@@ -232,14 +232,14 @@ exports[`monitor should render 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="monitor-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r1:"
   >
     <span
       class="css-xl71ch"
     >
       <svg
-        color="white"
+        color="#000000"
         fill="currentColor"
         height="1.5em"
         viewBox="0 0 24 24"
@@ -257,7 +257,7 @@ exports[`monitor should render 1`] = `
   >
     <div
       aria-orientation="vertical"
-      class="chakra-menu__menu-list css-wkqcnc"
+      class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
@@ -316,7 +316,7 @@ exports[`monitor should render 1`] = `
         </div>
       </div>
       <div
-        class="chakra-stack css-194jiql"
+        class="chakra-stack css-jqtdn9"
       >
         <div
           class="css-1voambi"
@@ -346,7 +346,7 @@ exports[`monitor should render 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             Dark mode
           </p>
@@ -384,7 +384,7 @@ exports[`monitor should render 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             Night Shift
           </p>
@@ -415,7 +415,7 @@ exports[`monitor should render 1`] = `
             </svg>
           </button>
           <p
-            class="chakra-text css-10ks42e"
+            class="chakra-text css-7qcwdg"
           >
             True Tone
           </p>
@@ -432,7 +432,7 @@ exports[`monitor should render 1`] = `
       />
       <button
         aria-label="new-tab"
-        class="chakra-menu__menuitem css-nxv7i8"
+        class="chakra-menu__menuitem css-n7rl60"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"

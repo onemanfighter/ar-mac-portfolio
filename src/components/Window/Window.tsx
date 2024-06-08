@@ -5,6 +5,11 @@ import { ResizableBox, ResizeCallbackData } from 'react-resizable';
 import { useWindowDimensions } from '@hooks';
 import { useState } from 'react';
 import './css/window.css';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 
 const WindowCloseControl = ({
   onClose,
@@ -52,6 +57,7 @@ const WindowCloseControl = ({
 };
 
 const Window = ({ children, topBar }: WindowProps) => {
+  const { windowTabBgColor } = settingsStore(useShallow(darkModeColorSelector));
   const [componentDimension, setComponentDimension] = useState({
     width: 700,
     height: 500,
@@ -101,12 +107,12 @@ const Window = ({ children, topBar }: WindowProps) => {
             justifyContent={'flex-start'}
             alignItems={'center'}
             border={'1px solid #666'}
-            bg={'#1f1f1fAf'}
+            bg={windowTabBgColor}
             onDoubleClick={setMaximized.toggle}
             borderTopRadius={6}
             px={3}
             gap={2}
-            transition={'none'}
+            transition={'all 0.3s ease-in-out'}
           >
             <WindowCloseControl
               onClose={onClose}

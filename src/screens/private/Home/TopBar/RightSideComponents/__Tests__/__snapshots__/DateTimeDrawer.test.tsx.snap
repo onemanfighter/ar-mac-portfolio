@@ -7,7 +7,7 @@ exports[`DateTime drawer should open pop-up when battery icon is tapped 1`] = `
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="date-time-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     data-active=""
     id="menu-button-:r6:"
   >
@@ -31,7 +31,7 @@ exports[`DateTime drawer should render correctly 1`] = `
     aria-expanded="false"
     aria-haspopup="menu"
     aria-label="date-time-top-bar-button"
-    class="chakra-menu__menu-button css-bracgg"
+    class="chakra-menu__menu-button css-10l0d22"
     id="menu-button-:r2:"
   >
     <span

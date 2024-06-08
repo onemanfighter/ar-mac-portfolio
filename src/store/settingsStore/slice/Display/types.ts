@@ -1,5 +1,6 @@
 export type DisplayState = {
   brightness: number;
+  darkMode: boolean;
   nightShift: boolean;
   trueTone: boolean;
 };
@@ -26,6 +27,13 @@ export interface DisplayStateAction {
    * @returns void
    */
   toggleTrueTone: () => void;
+
+  /**
+   * Toggle the dark mode setting.
+   *
+   * @returns void
+   */
+  toggleDarkMode: () => void;
 }
 
 export type DisplayStateSlice = DisplayState & DisplayStateAction;

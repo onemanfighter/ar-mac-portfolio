@@ -5,6 +5,11 @@ import { ProgramButton, ProgramType } from './components';
 import { useState } from 'react';
 import { reorder } from './utils';
 import PROGRAMS from './components/constants';
+import {
+  darkModeColorSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 
 const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
   (value) => ({
@@ -16,6 +21,7 @@ const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
 
 const BottomBar = (_props: BottomBarProps) => {
   const [state, setState] = useState<ProgramItem[]>(InitialProgramOrderList);
+  const { bottomBarBgColor } = settingsStore(useShallow(darkModeColorSelector));
 
   function onDragEnd(result: DropResult) {
     if (!result.destination) {
@@ -56,10 +62,10 @@ const BottomBar = (_props: BottomBarProps) => {
               my={1}
               mx={'auto'}
               position={'fixed'}
-              borderRadius={'2xl'}
               alignItems={'center'}
               transition={'all 0.3s ease-in-out'}
-              bg={'#1f1f1f6f'}
+              bg={bottomBarBgColor}
+              borderRadius={'3xl'}
               border={'1px solid gray'}
               dropShadow={'md'}
               bottom={0}

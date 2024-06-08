@@ -5,6 +5,7 @@ const defaultChromeState: DisplayState = {
   brightness: 100,
   nightShift: false,
   trueTone: false,
+  darkMode: false,
 };
 
 const createDisplaySlice: SettingsStoreSlice<DisplayStateSlice> = (set) => ({
@@ -22,6 +23,11 @@ const createDisplaySlice: SettingsStoreSlice<DisplayStateSlice> = (set) => ({
   toggleTrueTone: () => {
     set((state) => {
       state.Display.trueTone = !state.Display.trueTone;
+    });
+  },
+  toggleDarkMode: () => {
+    set((state) => {
+      state.Display.darkMode = !state.Display.darkMode;
     });
   },
 });
