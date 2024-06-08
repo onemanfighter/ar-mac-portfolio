@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivateRoutes should render the PrivateRoutes component 1`] = `
+[
+  {
+    "Component": undefined,
+    "ErrorBoundary": undefined,
+    "action": undefined,
+    "caseSensitive": undefined,
+    "children": undefined,
+    "element": <LazyHomeComponent />,
+    "errorElement": undefined,
+    "handle": undefined,
+    "hasErrorBoundary": false,
+    "id": "0-0",
+    "index": undefined,
+    "lazy": undefined,
+    "loader": undefined,
+    "path": "",
+    "shouldRevalidate": undefined,
+  },
+  {
+    "Component": undefined,
+    "ErrorBoundary": undefined,
+    "action": undefined,
+    "caseSensitive": undefined,
+    "children": undefined,
+    "element": <Navigate
+      replace={true}
+      to="/"
+    />,
+    "errorElement": undefined,
+    "handle": undefined,
+    "hasErrorBoundary": false,
+    "id": "0-1",
+    "index": undefined,
+    "lazy": undefined,
+    "loader": undefined,
+    "path": "*",
+    "shouldRevalidate": undefined,
+  },
+]
+`;
