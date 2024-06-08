@@ -5,7 +5,6 @@ import {
   IconButton,
   Menu,
   MenuDivider,
-  Radio,
   Slider,
   SliderFilledTrack,
   SliderThumb,
@@ -18,14 +17,25 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
+import {
+  displayBrightnessSelector,
+  displayNightShiftSelector,
+  displayTrueToneSelector,
+  settingsStore,
+  useShallow,
+} from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const ModeStack = () => {
   const { t } = useTranslation();
+  const { nightShift, toggleNightShift } = settingsStore(
+    useShallow(displayNightShiftSelector),
+  );
+  const { trueTone, toggleTrueTone } = settingsStore(
+    useShallow(displayTrueToneSelector),
+  );
 
   const [darkMode, darkModeAction] = useBoolean();
-  const [nightShift, nightShiftAction] = useBoolean();
-  const [trueTone, trueToneAction] = useBoolean();
 
   return (
     <HStack
@@ -76,7 +86,7 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={nightShift ? 'yellow.500' : '#0f0f0f8f'}
           onClick={() => {
-            nightShiftAction.toggle();
+            toggleNightShift();
           }}
           icon={<DarkModeIcon color="white" />}
         />
@@ -102,7 +112,7 @@ const ModeStack = () => {
           transition={'all 0.4s ease-in-out'}
           bg={trueTone ? 'blue.500' : '#0f0f0f8f'}
           onClick={() => {
-            trueToneAction.toggle();
+            toggleTrueTone();
           }}
           icon={<BrightnessIcon color="white" />}
         />
@@ -119,6 +129,10 @@ const ModeStack = () => {
 
 const Monitor = () => {
   const { t } = useTranslation();
+  const { brightness, setBrightness } = settingsStore(
+    useShallow(displayBrightnessSelector),
+  );
+
   return (
     <Menu>
       <TopBarButton
@@ -137,7 +151,15 @@ const Monitor = () => {
           <Text color={'white'} fontSize={'xs'} fontWeight={'bold'}>
             {t('TopAppBar.monitor.title')}
           </Text>
-          <Slider aria-label="slider-ex-1" defaultValue={30} my={2}>
+          <Slider
+            aria-label="slider-ex-1"
+            defaultValue={30}
+            my={2}
+            onChange={(value) => {
+              setBrightness(value);
+            }}
+            value={brightness}
+          >
             <SliderTrack height={4} bg={'gray'} borderRadius={'100'}>
               <SliderFilledTrack
                 alignItems={'start'}
