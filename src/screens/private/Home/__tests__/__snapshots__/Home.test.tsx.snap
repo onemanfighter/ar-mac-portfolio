@@ -833,27 +833,34 @@ exports[`Home should render correctly to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable css-be4flj"
-      style="transform: translate(100px,200px);"
+      class="react-draggable react-resizable"
+      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
     >
       <div
-        class="handle css-y5il39"
+        class="css-exz6no"
       >
         <div
-          class="css-bl229y"
-        />
+          class="handle css-y5il39"
+        >
+          <div
+            class="css-bl229y"
+          />
+          <div
+            class="css-6qqns1"
+          />
+          <div
+            class="css-2fxb6m"
+          />
+          <div
+            class="css-1bc9bee"
+          />
+        </div>
         <div
-          class="css-6qqns1"
-        />
-        <div
-          class="css-2fxb6m"
-        />
-        <div
-          class="css-1bc9bee"
+          class="css-1qx9vnh"
         />
       </div>
-      <div
-        class="css-1qx9vnh"
+      <span
+        class="react-resizable-handle react-resizable-handle-se"
       />
     </div>
     <div

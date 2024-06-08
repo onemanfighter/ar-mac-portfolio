@@ -28,6 +28,7 @@ module.exports = {
     '@assets/*': '<rootDir>/src/assets/*',
     '@router': '<rootDir>/src/router',
     '@screens': '<rootDir>/src/screens',
+    '@hooks': '<rootDir>/src/hooks',
     '@components': '<rootDir>/src/components',
     '@localization': '<rootDir>/src/localization',
     '@providers': '<rootDir>/src/providers',
