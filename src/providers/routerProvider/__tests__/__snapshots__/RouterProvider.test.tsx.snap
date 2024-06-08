@@ -103,6 +103,7 @@ exports[`RouterProvider should render for lock when power is on but user logged 
         class="css-1dvrt7t"
       >
         <button
+          aria-label="user-button"
           class="chakra-button css-y5bm5g"
           type="button"
         >
@@ -123,6 +124,7 @@ exports[`RouterProvider should render for lock when power is on but user logged 
           data-group="true"
         >
           <input
+            aria-label="password-text-input"
             class="chakra-input css-1362yyb"
             maxlength="20"
             placeholder="Enter Password"
@@ -133,7 +135,7 @@ exports[`RouterProvider should render for lock when power is on but user logged 
             class="chakra-input__right-element css-1ttnbqn"
           >
             <button
-              aria-label="Login button"
+              aria-label="login-button"
               class="chakra-button css-15p997s"
               type="button"
             >
