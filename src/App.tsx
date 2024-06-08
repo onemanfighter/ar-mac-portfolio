@@ -11,11 +11,9 @@ function App() {
   const { t } = useTranslation();
   return (
     <ChakraUIProvider>
-      <React.StrictMode>
-        <ModalProvider>
-          <RouterProviderComponent />
-        </ModalProvider>
-      </React.StrictMode>
+      <ModalProvider>
+        <RouterProviderComponent />
+      </ModalProvider>
     </ChakraUIProvider>
   );
 }
