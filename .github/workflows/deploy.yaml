@@ -1,8 +1,8 @@
 name: Deploy job
 
 on:
-  push:
-    branches: ['production']
+  release:
+    types: [published]
 
 jobs:
   setup_and_deploy:
