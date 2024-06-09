@@ -1,4 +1,7 @@
 {
+  "PowerScreen": {
+    "helpText": "For best experience, Press `F10` key to enter full screen mode."
+  },
   "LockScreen": {
     "userName": "Amit Raikwar",
     "loginPasswordText": "Touch ID or Enter password",

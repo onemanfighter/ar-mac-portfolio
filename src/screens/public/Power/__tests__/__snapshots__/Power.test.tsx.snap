@@ -4,7 +4,7 @@ exports[`PowerOn should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="power-screen"
-    class="css-vx62js"
+    class="css-10q2clf"
   >
     <div
       style="color: rgb(255, 255, 255);"
@@ -49,6 +49,325 @@ exports[`PowerOn should render correctly to match snapshot 1`] = `
           />
         </svg>
       </button>
+    </div>
+    <div
+      class="css-nvyghe"
+    >
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        F
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        o
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        r
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        b
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        s
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        t
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        x
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        p
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        r
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        i
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        n
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        c
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        ,
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        P
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        r
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        s
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        s
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        \`
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        F
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        1
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        0
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        \`
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        k
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        y
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        t
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        o
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        n
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        t
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        r
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        f
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        u
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        l
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        l
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        s
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        c
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        r
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        n
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+         
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        m
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        o
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        d
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        e
+      </p>
+      <p
+        class="chakra-text css-x7kxj9"
+      >
+        .
+      </p>
     </div>
   </div>
 </div>
