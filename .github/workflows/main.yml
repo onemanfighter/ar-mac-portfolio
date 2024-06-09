@@ -9,7 +9,6 @@ on:
 jobs:
   build_test_lint:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [16.x]
@@ -24,4 +23,8 @@ jobs:
       - name: Linting
         run: yarn lint
       - name: Test
-        run: yarn test
+        run: yarn test:coverage
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
