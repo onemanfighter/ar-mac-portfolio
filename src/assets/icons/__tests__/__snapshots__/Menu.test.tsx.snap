@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuIcon should render correctly 1`] = `
+<div>
+  <svg
+    fill="currentColor"
+    viewBox="0 0 21 21"
+  >
+    <g
+      fill="currentColor"
+      fill-rule="evenodd"
+    >
+      <path
+        d="M11.5 10.5 A1 1 0 0 1 10.5 11.5 A1 1 0 0 1 9.5 10.5 A1 1 0 0 1 11.5 10.5 z"
+      />
+      <path
+        d="M11.5 5.5 A1 1 0 0 1 10.5 6.5 A1 1 0 0 1 9.5 5.5 A1 1 0 0 1 11.5 5.5 z"
+      />
+      <path
+        d="M11.5 15.5 A1 1 0 0 1 10.5 16.5 A1 1 0 0 1 9.5 15.5 A1 1 0 0 1 11.5 15.5 z"
+      />
+    </g>
+  </svg>
+</div>
+`;

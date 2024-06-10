@@ -1,6 +1,6 @@
 export { PowerIcon } from './PowerIcon';
 export { ArrowRightIcon as ArrowRightCircleIcon } from './ArrowRight';
-export { BackIcon } from './Back';
+export { ArrowLeftIcon } from './ArrowLeft';
 export { WifiIcon } from './Wifi';
 export { BatteryIcon } from './Battery';
 export { KeyboardIcon } from './Keyboard';
@@ -15,3 +15,7 @@ export { VolumeIcon } from './Volume';
 export { BrightnessIcon } from './Brightness';
 export { DarkModeIcon } from './DarkMode';
 export { SettingsIcon } from './Settings';
+export { ForwardIcon } from './Forward';
+export { BackIcon } from './Back';
+export { RefreshIcon } from './Refresh';
+export { MenuIcon } from './Menu';

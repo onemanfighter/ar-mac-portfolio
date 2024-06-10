@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefreshIcon should render correctly 1`] = `
+<div>
+  <svg
+    fill="none"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      stroke="none"
+    />
+    <path
+      d="M4.05 11a8 8 0 11.5 4m-.5 5v-5h5"
+    />
+  </svg>
+</div>
+`;
