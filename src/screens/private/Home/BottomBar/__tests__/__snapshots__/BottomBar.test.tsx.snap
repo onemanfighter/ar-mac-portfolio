@@ -1,5 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`BottomBar should render correctly bin app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly chrome app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly finder app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly github app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly settings app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly spotify app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly terminal app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
 exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
   <div
@@ -13,6 +90,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
     >
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-finder"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Finder"
@@ -31,6 +109,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-chrome"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Chrome"
@@ -49,6 +128,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-vscode"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="VsCode"
@@ -67,6 +147,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-terminal"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Terminal"
@@ -85,6 +166,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-spotify"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Spotify"
@@ -103,6 +185,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-github"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Github"
@@ -121,6 +204,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-settings"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Settings"
@@ -139,6 +223,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-bin"
         class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Bin"
@@ -158,4 +243,26 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`BottomBar should render correctly vscode app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly with props to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
 `;

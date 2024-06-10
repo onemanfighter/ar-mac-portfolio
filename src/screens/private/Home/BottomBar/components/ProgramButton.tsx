@@ -26,6 +26,7 @@ const ProgramButton = ({
     <Draggable draggableId={id} index={index} key={name + '-button'}>
       {(provided) => (
         <Box
+          aria-label={`program-button-${type}`}
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}

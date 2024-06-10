@@ -34,21 +34,18 @@ const BottomBar = (_props: BottomBarProps) => {
   const getActiveApp = processStore(useShallow(activeAppSelector));
 
   function onDragEnd(result: DropResult) {
-    if (!result.destination) {
-      return;
+    if (
+      result.destination &&
+      result.destination.index !== result.source.index
+    ) {
+      const newList = reorder(
+        state,
+        result.source.index,
+        result.destination.index,
+      );
+
+      setState(newList);
     }
-
-    if (result.destination.index === result.source.index) {
-      return;
-    }
-
-    const newList = reorder(
-      state,
-      result.source.index,
-      result.destination.index,
-    );
-
-    setState(newList);
   }
   return (
     <Box

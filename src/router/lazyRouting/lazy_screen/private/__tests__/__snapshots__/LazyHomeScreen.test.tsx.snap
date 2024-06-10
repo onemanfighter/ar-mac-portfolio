@@ -843,6 +843,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
       >
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-finder"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Finder"
@@ -864,6 +865,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-chrome"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Chrome"
@@ -882,6 +884,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-vscode"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="VsCode"
@@ -900,6 +903,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-terminal"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Terminal"
@@ -918,6 +922,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-spotify"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Spotify"
@@ -936,6 +941,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-github"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Github"
@@ -954,6 +960,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-settings"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Settings"
@@ -972,6 +979,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
+          aria-label="program-button-bin"
           class="css-16co9uo"
           data-rbd-drag-handle-context-id="0"
           data-rbd-drag-handle-draggable-id="Bin"
