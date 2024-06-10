@@ -4,7 +4,7 @@ exports[`Windows should render for default values 1`] = `
 <div>
   <div
     class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
       class="css-exz6no"
@@ -14,16 +14,34 @@ exports[`Windows should render for default values 1`] = `
       >
         <div
           aria-label="close"
-          class="css-bl229y"
-        />
+          class="css-apaxy7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            x
+          </p>
+        </div>
         <div
           aria-label="minimize"
-          class="css-6qqns1"
-        />
+          class="css-1oliyf7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            -
+          </p>
+        </div>
         <div
           aria-label="maximize"
-          class="css-2fxb6m"
-        />
+          class="css-18q4sxm"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            o
+          </p>
+        </div>
         <div
           class="css-1bc9bee"
         />
@@ -47,7 +65,7 @@ exports[`Windows should render with top bar component values 1`] = `
 <div>
   <div
     class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
       class="css-exz6no"
@@ -57,16 +75,34 @@ exports[`Windows should render with top bar component values 1`] = `
       >
         <div
           aria-label="close"
-          class="css-bl229y"
-        />
+          class="css-apaxy7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            x
+          </p>
+        </div>
         <div
           aria-label="minimize"
-          class="css-6qqns1"
-        />
+          class="css-1oliyf7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            -
+          </p>
+        </div>
         <div
           aria-label="maximize"
-          class="css-2fxb6m"
-        />
+          class="css-18q4sxm"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            o
+          </p>
+        </div>
         <div
           class="css-1bc9bee"
         >
@@ -94,7 +130,7 @@ exports[`Windows should trigger close on close button press 1`] = `
 <div>
   <div
     class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
       class="css-exz6no"
@@ -104,16 +140,34 @@ exports[`Windows should trigger close on close button press 1`] = `
       >
         <div
           aria-label="close"
-          class="css-bl229y"
-        />
+          class="css-apaxy7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            x
+          </p>
+        </div>
         <div
           aria-label="minimize"
-          class="css-6qqns1"
-        />
+          class="css-1oliyf7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            -
+          </p>
+        </div>
         <div
           aria-label="maximize"
-          class="css-2fxb6m"
-        />
+          class="css-18q4sxm"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            o
+          </p>
+        </div>
         <div
           class="css-1bc9bee"
         />
@@ -137,26 +191,44 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
 <div>
   <div
     class="react-draggable react-resizable"
-    style="transition: all 0.2s; transform: translate(0px, 28px)translate(0px,0px); width: 1024px; height: 652.8px;"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
       class="css-exz6no"
     >
       <div
-        class="css-1q7gku6"
+        class="handle css-1q7gku6"
       >
         <div
           aria-label="close"
-          class="css-bl229y"
-        />
+          class="css-apaxy7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            x
+          </p>
+        </div>
         <div
           aria-label="minimize"
-          class="css-6qqns1"
-        />
+          class="css-1oliyf7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            -
+          </p>
+        </div>
         <div
           aria-label="maximize"
-          class="css-2fxb6m"
-        />
+          class="css-18q4sxm"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            o
+          </p>
+        </div>
         <div
           class="css-1bc9bee"
         />
@@ -169,6 +241,9 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
         </div>
       </div>
     </div>
+    <span
+      class="react-resizable-handle react-resizable-handle-se"
+    />
   </div>
 </div>
 `;
@@ -177,7 +252,7 @@ exports[`Windows should trigger minimize on minimize button press 1`] = `
 <div>
   <div
     class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
       class="css-exz6no"
@@ -187,16 +262,34 @@ exports[`Windows should trigger minimize on minimize button press 1`] = `
       >
         <div
           aria-label="close"
-          class="css-bl229y"
-        />
+          class="css-apaxy7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            x
+          </p>
+        </div>
         <div
           aria-label="minimize"
-          class="css-6qqns1"
-        />
+          class="css-1oliyf7"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            -
+          </p>
+        </div>
         <div
           aria-label="maximize"
-          class="css-2fxb6m"
-        />
+          class="css-18q4sxm"
+        >
+          <p
+            class="chakra-text css-1r0gc73"
+          >
+            o
+          </p>
+        </div>
         <div
           class="css-1bc9bee"
         />

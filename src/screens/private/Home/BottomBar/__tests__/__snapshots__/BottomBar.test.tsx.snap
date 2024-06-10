@@ -1,5 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`BottomBar should render correctly bin app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly chrome app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly finder app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly github app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly settings app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly spotify app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly terminal app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
 exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
   <div
@@ -13,7 +90,8 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
     >
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-finder"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Finder"
         data-rbd-draggable-context-id="0"
@@ -28,13 +106,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-chrome"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Chrome"
         data-rbd-draggable-context-id="0"
@@ -49,13 +125,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-vscode"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="VsCode"
         data-rbd-draggable-context-id="0"
@@ -70,13 +144,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-terminal"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Terminal"
         data-rbd-draggable-context-id="0"
@@ -91,13 +163,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-spotify"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Spotify"
         data-rbd-draggable-context-id="0"
@@ -112,13 +182,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-github"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Github"
         data-rbd-draggable-context-id="0"
@@ -133,13 +201,11 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
-        />
       </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        class="css-dvxtzn"
+        aria-label="program-button-settings"
+        class="css-16co9uo"
         data-rbd-drag-handle-context-id="0"
         data-rbd-drag-handle-draggable-id="Settings"
         data-rbd-draggable-context-id="0"
@@ -154,11 +220,49 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           loading="lazy"
           src=""
         />
-        <div
-          class="css-1vukhon"
+      </div>
+      <div
+        aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-bin"
+        class="css-16co9uo"
+        data-rbd-drag-handle-context-id="0"
+        data-rbd-drag-handle-draggable-id="Bin"
+        data-rbd-draggable-context-id="0"
+        data-rbd-draggable-id="Bin"
+        draggable="false"
+        role="button"
+        tabindex="0"
+      >
+        <img
+          alt="Bin"
+          class="chakra-image css-h67rfo"
+          loading="lazy"
+          src=""
         />
       </div>
     </div>
   </div>
 </div>
+`;
+
+exports[`BottomBar should render correctly vscode app to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
+`;
+
+exports[`BottomBar should render correctly with props to match snapshot 1`] = `
+{
+  "position": {
+    "x": 600,
+    "y": 150,
+  },
+  "size": "default",
+  "zIndex": 0,
+}
 `;

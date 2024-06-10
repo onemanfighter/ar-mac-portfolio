@@ -3,11 +3,12 @@
 exports[`Program button should render chrome correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-1-hidden-text-3"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="1"
+    aria-describedby="rbd-hidden-text-2-hidden-text-6"
+    aria-label="program-button-chrome"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="2"
     data-rbd-drag-handle-draggable-id="Chrome"
-    data-rbd-draggable-context-id="1"
+    data-rbd-draggable-context-id="2"
     data-rbd-draggable-id="Chrome"
     draggable="false"
     role="button"
@@ -27,7 +28,8 @@ exports[`Program button should render finder correctly to match snapshot 1`] = `
 <div>
   <div
     aria-describedby="rbd-hidden-text-0-hidden-text-0"
-    class="css-dvxtzn"
+    aria-label="program-button-finder"
+    class="css-16co9uo"
     data-rbd-drag-handle-context-id="0"
     data-rbd-drag-handle-draggable-id="Finder"
     data-rbd-draggable-context-id="0"
@@ -49,11 +51,12 @@ exports[`Program button should render finder correctly to match snapshot 1`] = `
 exports[`Program button should render github correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-5-hidden-text-15"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="5"
+    aria-describedby="rbd-hidden-text-6-hidden-text-18"
+    aria-label="program-button-github"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="6"
     data-rbd-drag-handle-draggable-id="Github"
-    data-rbd-draggable-context-id="5"
+    data-rbd-draggable-context-id="6"
     data-rbd-draggable-id="Github"
     draggable="false"
     role="button"
@@ -72,11 +75,12 @@ exports[`Program button should render github correctly to match snapshot 1`] = `
 exports[`Program button should render settings correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-6-hidden-text-18"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="6"
+    aria-describedby="rbd-hidden-text-7-hidden-text-21"
+    aria-label="program-button-settings"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="7"
     data-rbd-drag-handle-draggable-id="Settings"
-    data-rbd-draggable-context-id="6"
+    data-rbd-draggable-context-id="7"
     data-rbd-draggable-id="Settings"
     draggable="false"
     role="button"
@@ -95,11 +99,12 @@ exports[`Program button should render settings correctly to match snapshot 1`] =
 exports[`Program button should render spotify correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-4-hidden-text-12"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="4"
+    aria-describedby="rbd-hidden-text-5-hidden-text-15"
+    aria-label="program-button-spotify"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="5"
     data-rbd-drag-handle-draggable-id="Spotify"
-    data-rbd-draggable-context-id="4"
+    data-rbd-draggable-context-id="5"
     data-rbd-draggable-id="Spotify"
     draggable="false"
     role="button"
@@ -118,11 +123,12 @@ exports[`Program button should render spotify correctly to match snapshot 1`] = 
 exports[`Program button should render terminal correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-3-hidden-text-9"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="3"
+    aria-describedby="rbd-hidden-text-4-hidden-text-12"
+    aria-label="program-button-terminal"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="4"
     data-rbd-drag-handle-draggable-id="Terminal"
-    data-rbd-draggable-context-id="3"
+    data-rbd-draggable-context-id="4"
     data-rbd-draggable-id="Terminal"
     draggable="false"
     role="button"
@@ -141,11 +147,12 @@ exports[`Program button should render terminal correctly to match snapshot 1`] =
 exports[`Program button should render vscode correctly to match snapshot 1`] = `
 <div>
   <div
-    aria-describedby="rbd-hidden-text-2-hidden-text-6"
-    class="css-dvxtzn"
-    data-rbd-drag-handle-context-id="2"
+    aria-describedby="rbd-hidden-text-3-hidden-text-9"
+    aria-label="program-button-vscode"
+    class="css-16co9uo"
+    data-rbd-drag-handle-context-id="3"
     data-rbd-drag-handle-draggable-id="VsCode"
-    data-rbd-draggable-context-id="2"
+    data-rbd-draggable-context-id="3"
     data-rbd-draggable-id="VsCode"
     draggable="false"
     role="button"

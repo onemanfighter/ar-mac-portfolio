@@ -1,6 +1,6 @@
 import { DraggableProvider } from '@providers';
 import { WindowProps } from './types';
-import { Box, useBoolean } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { ResizableBox, ResizeCallbackData } from 'react-resizable';
 import { useWindowDimensions } from '@hooks';
 import { useState } from 'react';
@@ -10,75 +10,49 @@ import {
   settingsStore,
   useShallow,
 } from '@settingsStore';
+import {
+  WindowSize,
+  activeAppActionsSelector,
+  activeAppSelector,
+  processStore,
+} from '@processStore';
+import WindowCloseControl from './WindowControl';
 
-const WindowCloseControl = ({
-  onClose,
-  onMaximizeClick,
-}: {
-  onClose: () => void;
-  onMaximizeClick: () => void;
-}) => {
-  return (
-    <>
-      <Box
-        aria-label="close"
-        width={3}
-        height={3}
-        borderRadius={'full'}
-        bg={'red.500'}
-        onClick={onClose}
-        _hover={{
-          cursor: 'pointer',
-        }}
-      ></Box>
-      <Box
-        aria-label="minimize"
-        width={3}
-        height={3}
-        borderRadius={'full'}
-        bg={'yellow.500'}
-        onClick={() => {}}
-        _hover={{
-          cursor: 'pointer',
-        }}
-      />
-      <Box
-        aria-label="maximize"
-        width={3}
-        height={3}
-        borderRadius={'full'}
-        bg={'green.500'}
-        onClick={() => {
-          onMaximizeClick();
-        }}
-        _hover={{
-          cursor: 'pointer',
-        }}
-      />
-    </>
-  );
-};
-
-const Window = ({ children, topBar }: WindowProps) => {
+const Window = ({ children, topBar, app }: WindowProps) => {
   const { windowTabBgColor } = settingsStore(useShallow(darkModeColorSelector));
+  const currentApp = processStore(useShallow(activeAppSelector))(app);
+  const { setWindowSize, updatePosition } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+
   const [componentDimension, setComponentDimension] = useState({
     width: 700,
     height: 500,
   });
   const { width, height } = useWindowDimensions();
 
-  const [maximized, setMaximized] = useBoolean(false);
-  const onClose = () => {
-    console.log('close');
-  };
-
   const onResize = (e: React.SyntheticEvent, { size }: ResizeCallbackData) => {
     const { width, height } = size;
     setComponentDimension({ width, height });
   };
 
+  const maximized = currentApp?.size === WindowSize.MAX ? true : false;
+
+  const onMaximizeClick = () => {
+    const newSize = maximized ? WindowSize.DEFAULT : WindowSize.MAX;
+    setWindowSize(app, newSize);
+  };
+
+  const onPositionChange = (position: { x: number; y: number }) => {
+    updatePosition(app, position);
+  };
+
   return (
-    <DraggableProvider position={maximized ? { x: 0, y: 0 } : undefined}>
+    <DraggableProvider
+      maximized={maximized}
+      position={currentApp?.position ?? { x: 0, y: 0 }}
+      onPositionChange={onPositionChange}
+    >
       <ResizableBox
         width={maximized ? width : componentDimension.width}
         height={maximized ? height : componentDimension.height}
@@ -111,16 +85,13 @@ const Window = ({ children, topBar }: WindowProps) => {
             alignItems={'center'}
             border={'1px solid #666'}
             bg={windowTabBgColor}
-            onDoubleClick={setMaximized.toggle}
+            onDoubleClick={onMaximizeClick}
             borderTopRadius={6}
             px={3}
             gap={2}
             transition={'all 0.3s ease-in-out'}
           >
-            <WindowCloseControl
-              onClose={onClose}
-              onMaximizeClick={setMaximized.toggle}
-            />
+            <WindowCloseControl app={app} onMaximizeClick={onMaximizeClick} />
             <Box width="100%" height={6}>
               {topBar}
             </Box>

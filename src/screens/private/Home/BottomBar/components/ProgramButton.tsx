@@ -10,7 +10,13 @@ import {
 import { getIconSize } from './utils';
 import { Draggable } from 'react-beautiful-dnd';
 
-const ProgramButton = ({ isActive, type, index, id }: IconButtonProps) => {
+const ProgramButton = ({
+  isActive,
+  type,
+  index,
+  id,
+  onClickHandler,
+}: IconButtonProps) => {
   const { dockSize } = settingsStore(useShallow(displayDockSelector));
   const { bottomBarActiveDot, BottomBarTooltipBgColor, textColor } =
     settingsStore(useShallow(darkModeColorSelector));
@@ -20,12 +26,22 @@ const ProgramButton = ({ isActive, type, index, id }: IconButtonProps) => {
     <Draggable draggableId={id} index={index} key={name + '-button'}>
       {(provided) => (
         <Box
+          aria-label={`program-button-${type}`}
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
           display={'flex'}
+          _hover={{
+            cursor: 'pointer',
+          }}
+          _active={{
+            cursor: 'pointer',
+          }}
           flexDir={'column'}
           alignItems={'center'}
+          onClick={() => {
+            onClickHandler(type);
+          }}
         >
           <Tooltip
             bg={BottomBarTooltipBgColor}

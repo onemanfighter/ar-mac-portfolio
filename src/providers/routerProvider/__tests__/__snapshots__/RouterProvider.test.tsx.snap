@@ -609,7 +609,7 @@ exports[`RouterProvider should render mac for login 1`] = `
         class="css-1jmej02"
       >
         <div
-          class="css-1q3b9iq"
+          class="css-1ldksa0"
         >
           <img
             aria-label="wallpaper-component-with-wallpaper7"
@@ -1435,90 +1435,6 @@ exports[`RouterProvider should render mac for login 1`] = `
           </div>
         </div>
         <div
-          class="react-draggable react-resizable"
-          style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-        >
-          <div
-            class="css-exz6no"
-          >
-            <div
-              class="handle css-1q7gku6"
-            >
-              <div
-                aria-label="close"
-                class="css-bl229y"
-              />
-              <div
-                aria-label="minimize"
-                class="css-6qqns1"
-              />
-              <div
-                aria-label="maximize"
-                class="css-2fxb6m"
-              />
-              <div
-                class="css-1bc9bee"
-              />
-            </div>
-            <div
-              class="css-1qx9vnh"
-            >
-              <div
-                aria-label="spotify"
-                class="css-uwwqev"
-              >
-                <div
-                  class="css-yecknf"
-                >
-                  <button
-                    aria-label="back-button"
-                    class="chakra-button css-1kxr5pj"
-                    type="button"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      color="white"
-                      fill="currentColor"
-                      focusable="false"
-                      height="24"
-                      viewBox="0 0 512 512"
-                      width="24"
-                    >
-                      <path
-                        d="M249.38 336L170 256l79.38-80M181.03 256H342"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="32"
-                      />
-                      <path
-                        d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-miterlimit="10"
-                        stroke-width="32"
-                      />
-                    </svg>
-                  </button>
-                  A.R. Rahman
-                </div>
-                <iframe
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  height="100%"
-                  loading="lazy"
-                  src="https://open.spotify.com/embed/artist/1mYsTxnqsietFxj1OgoGbG?utm_source=generator"
-                  title="A.R. Rahman"
-                  width="100%"
-                />
-              </div>
-            </div>
-          </div>
-          <span
-            class="react-resizable-handle react-resizable-handle-se"
-          />
-        </div>
-        <div
           aria-label="bottom-bar"
           class="css-c60n9a"
         >
@@ -1529,7 +1445,8 @@ exports[`RouterProvider should render mac for login 1`] = `
           >
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-finder"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Finder"
               data-rbd-draggable-context-id="0"
@@ -1550,7 +1467,8 @@ exports[`RouterProvider should render mac for login 1`] = `
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-chrome"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Chrome"
               data-rbd-draggable-context-id="0"
@@ -1565,13 +1483,11 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
-              />
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-vscode"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="VsCode"
               data-rbd-draggable-context-id="0"
@@ -1586,13 +1502,11 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
-              />
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-terminal"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Terminal"
               data-rbd-draggable-context-id="0"
@@ -1607,13 +1521,11 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
-              />
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-spotify"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Spotify"
               data-rbd-draggable-context-id="0"
@@ -1628,13 +1540,11 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
-              />
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-github"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Github"
               data-rbd-draggable-context-id="0"
@@ -1649,13 +1559,11 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
-              />
             </div>
             <div
               aria-describedby="rbd-hidden-text-0-hidden-text-0"
-              class="css-dvxtzn"
+              aria-label="program-button-settings"
+              class="css-16co9uo"
               data-rbd-drag-handle-context-id="0"
               data-rbd-drag-handle-draggable-id="Settings"
               data-rbd-draggable-context-id="0"
@@ -1670,11 +1578,85 @@ exports[`RouterProvider should render mac for login 1`] = `
                 loading="lazy"
                 src=""
               />
-              <div
-                class="css-1vukhon"
+            </div>
+            <div
+              aria-describedby="rbd-hidden-text-0-hidden-text-0"
+              aria-label="program-button-bin"
+              class="css-16co9uo"
+              data-rbd-drag-handle-context-id="0"
+              data-rbd-drag-handle-draggable-id="Bin"
+              data-rbd-draggable-context-id="0"
+              data-rbd-draggable-id="Bin"
+              draggable="false"
+              role="button"
+              tabindex="0"
+            >
+              <img
+                alt="Bin"
+                class="chakra-image css-h67rfo"
+                loading="lazy"
+                src=""
               />
             </div>
           </div>
+        </div>
+        <div
+          class="react-draggable react-resizable"
+          style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+        >
+          <div
+            class="css-exz6no"
+          >
+            <div
+              class="handle css-1q7gku6"
+            >
+              <div
+                aria-label="close"
+                class="css-apaxy7"
+              >
+                <p
+                  class="chakra-text css-1r0gc73"
+                >
+                  x
+                </p>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-1oliyf7"
+              >
+                <p
+                  class="chakra-text css-1r0gc73"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-18q4sxm"
+              >
+                <p
+                  class="chakra-text css-1r0gc73"
+                >
+                  o
+                </p>
+              </div>
+              <div
+                class="css-1bc9bee"
+              />
+            </div>
+            <div
+              class="css-1qx9vnh"
+            >
+              <div>
+                <h1>
+                  Finder
+                </h1>
+              </div>
+            </div>
+          </div>
+          <span
+            class="react-resizable-handle react-resizable-handle-se"
+          />
         </div>
       </div>
     </div>

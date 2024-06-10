@@ -1,1 +1,4 @@
-export { activeAppSelector } from './ActiveApp.selector';
+export {
+  activeAppSelector,
+  activeAppActionsSelector,
+} from './ActiveApp.selector';

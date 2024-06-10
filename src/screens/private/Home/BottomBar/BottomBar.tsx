@@ -10,6 +10,12 @@ import {
   settingsStore,
   useShallow,
 } from '@settingsStore';
+import {
+  activeAppActionsSelector,
+  activeAppSelector,
+  processStore,
+  WindowSize,
+} from '@processStore';
 
 const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
   (value) => ({
@@ -22,23 +28,24 @@ const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
 const BottomBar = (_props: BottomBarProps) => {
   const [state, setState] = useState<ProgramItem[]>(InitialProgramOrderList);
   const { bottomBarBgColor } = settingsStore(useShallow(darkModeColorSelector));
+  const { addApp, setWindowSize } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+  const getActiveApp = processStore(useShallow(activeAppSelector));
 
   function onDragEnd(result: DropResult) {
-    if (!result.destination) {
-      return;
+    if (
+      result.destination &&
+      result.destination.index !== result.source.index
+    ) {
+      const newList = reorder(
+        state,
+        result.source.index,
+        result.destination.index,
+      );
+
+      setState(newList);
     }
-
-    if (result.destination.index === result.source.index) {
-      return;
-    }
-
-    const newList = reorder(
-      state,
-      result.source.index,
-      result.destination.index,
-    );
-
-    setState(newList);
   }
   return (
     <Box
@@ -74,13 +81,21 @@ const BottomBar = (_props: BottomBarProps) => {
               gap={4}
             >
               {state.map((program, index) => {
+                const currentApp = getActiveApp(program.type);
                 return (
                   <ProgramButton
                     type={program.type}
                     key={program.name}
                     id={program.id}
-                    isActive
+                    isActive={currentApp !== undefined}
                     index={index}
+                    onClickHandler={(app: ProgramType) => {
+                      !currentApp
+                        ? setTimeout(() => {
+                            addApp(app);
+                          }, 500)
+                        : setWindowSize(app, WindowSize.DEFAULT);
+                    }}
                   />
                 );
               })}

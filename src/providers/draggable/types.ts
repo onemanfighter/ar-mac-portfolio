@@ -5,5 +5,7 @@ export type Position = {
 
 export type DraggableProps = {
   children: React.ReactNode;
-  position: Position | undefined;
+  position: Position;
+  maximized: boolean;
+  onPositionChange: (position: Position) => void;
 };
