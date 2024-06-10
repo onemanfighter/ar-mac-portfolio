@@ -1,7 +1,6 @@
 import { useShallow, appStore, spotifySelector } from '@appStore';
-import { SpotifyProps } from './type';
 import { Box, IconButton } from '@chakra-ui/react';
-import { BackIcon } from '@assets';
+import { ArrowLeftIcon } from '@assets';
 
 const Spotify = () => {
   const { state, getCurrentPlaylist, closePlaylist } = appStore(
@@ -25,7 +24,7 @@ const Spotify = () => {
         <IconButton
           aria-label="back-button"
           size={'xs'}
-          icon={<BackIcon color="white" width={24} height={24} />}
+          icon={<ArrowLeftIcon color="white" width={24} height={24} />}
           _active={{
             transform: 'scale(0.9)',
           }}

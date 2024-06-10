@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { BackIcon } from '../Back';
+import { RefreshIcon } from '../Refresh';
 
-describe('BackIcon', () => {
+describe('RefreshIcon', () => {
   it('should render correctly', () => {
-    const { container } = render(<BackIcon />);
+    const { container } = render(<RefreshIcon />);
 
     expect(container).toMatchSnapshot();
   });

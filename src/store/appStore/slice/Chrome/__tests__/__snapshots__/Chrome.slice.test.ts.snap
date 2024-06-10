@@ -1,7 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Chrome slice should add link to linkStack 1`] = `
+[
+  "http://www.google.com/webhp?igu=1",
+  "https://www.google.com/webhp?igu=1",
+]
+`;
+
+exports[`Chrome slice should clear linkStack 1`] = `
+[
+  "http://www.google.com/webhp?igu=1",
+]
+`;
+
+exports[`Chrome slice should remove link from linkStack 1`] = `
+[
+  "http://www.google.com/webhp?igu=1",
+  "https://www.google.com/webhp?igu=1",
+]
+`;
+
 exports[`Chrome slice should return default chrome state 1`] = `
-{
-  "homepageLink": "http://www.google.com/webhp?igu=1",
-}
+[
+  "http://www.google.com/webhp?igu=1",
+]
 `;

@@ -859,9 +859,6 @@ exports[`Home should render correctly to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-0-hidden-text-0"
@@ -997,58 +994,6 @@ exports[`Home should render correctly to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        />
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
   </div>
 </div>
@@ -1913,9 +1858,6 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-1-hidden-text-10"
@@ -2051,64 +1993,6 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
   </div>
 </div>
@@ -2973,9 +2857,6 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-9-hidden-text-90"
@@ -3114,64 +2995,6 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -4088,9 +3911,6 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-3-hidden-text-30"
@@ -4229,64 +4049,6 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -5388,13 +5150,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
         </div>
         <div
           class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
+        />
       </div>
       <span
         class="react-resizable-handle react-resizable-handle-se"
@@ -6263,9 +6019,6 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-7-hidden-text-70"
@@ -6404,64 +6157,6 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -7378,9 +7073,6 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-8-hidden-text-80"
@@ -7519,64 +7211,6 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -8493,9 +8127,6 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-6-hidden-text-60"
@@ -8634,64 +8265,6 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -9608,9 +9181,6 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-5-hidden-text-50"
@@ -9749,64 +9319,6 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"
@@ -10723,9 +10235,6 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
             loading="lazy"
             src=""
           />
-          <div
-            class="css-1vukhon"
-          />
         </div>
         <div
           aria-describedby="rbd-hidden-text-4-hidden-text-40"
@@ -10864,64 +10373,6 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           />
         </div>
       </div>
-    </div>
-    <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
-    >
-      <div
-        class="css-exz6no"
-      >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            <h1>
-              Finder
-            </h1>
-          </div>
-        </div>
-      </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
     </div>
     <div
       class="react-draggable react-resizable"

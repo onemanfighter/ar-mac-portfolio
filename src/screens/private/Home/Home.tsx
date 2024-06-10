@@ -17,21 +17,13 @@ import { BottomBar } from './BottomBar';
 import {
   ProgramType,
   processStore,
-  activeAppActionsSelector,
   activeAppSelector,
   WindowSize,
 } from '@processStore';
 
-import { useEffect } from 'react';
-
 const Home = (props: HomeProps) => {
   const { wallpaper } = settingsStore(useShallow(wallpaperSelector));
   const activeApp = processStore(useShallow(activeAppSelector));
-  const { addApp } = processStore(useShallow(activeAppActionsSelector));
-
-  useEffect(() => {
-    addApp(ProgramType.FINDER);
-  }, [addApp]);
 
   const shouldShowAppWindow = (app: ProgramType) =>
     activeApp(app) !== undefined && activeApp(app)?.size !== WindowSize.HIDE;
