@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WindowControl should render correctly 1`] = `
+<div>
+  <div
+    aria-label="close"
+    class="css-apaxy7"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      x
+    </p>
+  </div>
+  <div
+    aria-label="minimize"
+    class="css-1oliyf7"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      -
+    </p>
+  </div>
+  <div
+    aria-label="maximize"
+    class="css-18q4sxm"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      o
+    </p>
+  </div>
+</div>
+`;
+
+exports[`WindowControl should trigger mouse enter and leave event 1`] = `
+<div>
+  <div
+    aria-label="close"
+    class="css-apaxy7"
+  >
+    <p
+      class="chakra-text css-ngv0yw"
+    >
+      x
+    </p>
+  </div>
+  <div
+    aria-label="minimize"
+    class="css-1oliyf7"
+  >
+    <p
+      class="chakra-text css-ngv0yw"
+    >
+      -
+    </p>
+  </div>
+  <div
+    aria-label="maximize"
+    class="css-18q4sxm"
+  >
+    <p
+      class="chakra-text css-ngv0yw"
+    >
+      o
+    </p>
+  </div>
+</div>
+`;
+
+exports[`WindowControl should trigger mouse enter and leave event 2`] = `
+<div>
+  <div
+    aria-label="close"
+    class="css-apaxy7"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      x
+    </p>
+  </div>
+  <div
+    aria-label="minimize"
+    class="css-1oliyf7"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      -
+    </p>
+  </div>
+  <div
+    aria-label="maximize"
+    class="css-18q4sxm"
+  >
+    <p
+      class="chakra-text css-1r0gc73"
+    >
+      o
+    </p>
+  </div>
+</div>
+`;

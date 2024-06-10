@@ -6,6 +6,7 @@ export enum ProgramType {
   SPOTIFY = 'spotify',
   GITHUB = 'github',
   SETTINGS = 'settings',
+  BIN = 'bin',
 }
 
 export type IconButtonProps = {
@@ -13,4 +14,5 @@ export type IconButtonProps = {
   index: number;
   isActive: boolean;
   type: ProgramType;
+  onClickHandler: (type: ProgramType) => void;
 };

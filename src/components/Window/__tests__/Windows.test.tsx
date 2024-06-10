@@ -1,6 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Window from '../Window';
 import exp from 'constants';
+import { ProgramType } from '@processStore';
 
 describe('Windows', () => {
   const clickHandler = jest.fn();
@@ -10,7 +11,7 @@ describe('Windows', () => {
 
   it('should render for default values', () => {
     const { container } = render(
-      <Window>
+      <Window app={ProgramType.FINDER}>
         <div>Test</div>
       </Window>,
     );
@@ -20,7 +21,7 @@ describe('Windows', () => {
 
   it('should render with top bar component values', () => {
     const { container } = render(
-      <Window topBar={<div>Top bar</div>}>
+      <Window app={ProgramType.FINDER} topBar={<div>Top bar</div>}>
         <div>Test</div>
       </Window>,
     );
@@ -30,7 +31,7 @@ describe('Windows', () => {
 
   it('should trigger close on close button press', () => {
     const { container } = render(
-      <Window>
+      <Window app={ProgramType.FINDER}>
         <div>Test</div>
       </Window>,
     );
@@ -43,7 +44,7 @@ describe('Windows', () => {
 
   it('should trigger minimize on minimize button press', () => {
     const { container } = render(
-      <Window>
+      <Window app={ProgramType.FINDER}>
         <div>Test</div>
       </Window>,
     );
@@ -56,7 +57,7 @@ describe('Windows', () => {
 
   it('should trigger maximize on maximize button press', () => {
     const { container } = render(
-      <Window>
+      <Window app={ProgramType.FINDER}>
         <div>Test</div>
       </Window>,
     );

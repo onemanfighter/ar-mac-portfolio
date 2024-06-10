@@ -6,6 +6,7 @@ import Terminal from '../../../../../assets/logo/terminal.png';
 import Spotify from '../../../../../assets/logo/spotify.png';
 import Github from '../../../../../assets/logo/github.png';
 import Settings from '../../../../../assets/logo/settings.png';
+import Bin from '../../../../../assets/logo/bin.png';
 
 export const PROGRAMS: Record<ProgramType, { name: string; icon: string }> = {
   [ProgramType.FINDER]: {
@@ -35,6 +36,10 @@ export const PROGRAMS: Record<ProgramType, { name: string; icon: string }> = {
   [ProgramType.SETTINGS]: {
     name: 'Settings',
     icon: Settings,
+  },
+  [ProgramType.BIN]: {
+    name: 'Bin',
+    icon: Bin,
   },
 };
 

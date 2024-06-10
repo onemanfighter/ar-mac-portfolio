@@ -5,7 +5,11 @@ import { Box } from '@chakra-ui/react';
 describe('Draggable provider', () => {
   it('should render correctly', () => {
     const { container } = render(
-      <DraggableProvider position={{ x: 0, y: 0 }}>
+      <DraggableProvider
+        maximized={false}
+        position={{ x: 0, y: 0 }}
+        onPositionChange={jest.fn()}
+      >
         <Box>test</Box>
       </DraggableProvider>,
     );
@@ -15,7 +19,11 @@ describe('Draggable provider', () => {
 
   it('should render correctly with custom position', () => {
     const { container } = render(
-      <DraggableProvider position={{ x: 10, y: 10 }}>
+      <DraggableProvider
+        maximized={false}
+        position={{ x: 10, y: 10 }}
+        onPositionChange={jest.fn()}
+      >
         <Box>test</Box>
       </DraggableProvider>,
     );
