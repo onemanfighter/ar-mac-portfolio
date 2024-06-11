@@ -1,4 +1,5 @@
 export * from './Finder';
+export * from './Notes';
 export * from './Bin';
 export * from './Terminal';
 export * from './VsCode';

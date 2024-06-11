@@ -1,4 +1,5 @@
 export * from './LazyBinScreen';
+export * from './LazyNotesScreen';
 export * from './LazyChromeScreen';
 export * from './LazyFinderScreen';
 export * from './LazyGithubScreen';
