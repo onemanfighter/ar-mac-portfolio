@@ -7,6 +7,7 @@ import {
   createChromeSlice,
   createFinderSlice,
   createGithubSlice,
+  createNotesSlice,
   createSettingsSlice,
   createSpotifySlice,
   createTerminalSlice,
@@ -17,6 +18,7 @@ export const appStore = create<AppStoreState>()(
   persist(
     immer((...api) => ({
       Finder: createFinderSlice(...api),
+      Notes: createNotesSlice(...api),
       Bin: createBinSlice(...api),
       Terminal: createTerminalSlice(...api),
       VsCode: createVsCodeSlice(...api),
@@ -40,6 +42,7 @@ function deepMerge(
 ): AppStoreState {
   return {
     Github: { ...currentState.Github, ...persistedState.Github },
+    Notes: { ...currentState.Notes, ...persistedState.Notes },
     Finder: { ...currentState.Finder, ...persistedState.Finder },
     Bin: { ...currentState.Bin, ...persistedState.Bin },
     Terminal: { ...currentState.Terminal, ...persistedState.Terminal },

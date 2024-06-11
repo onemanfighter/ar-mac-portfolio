@@ -7,11 +7,16 @@ import Spotify from '../../../../../assets/logo/spotify.png';
 import Github from '../../../../../assets/logo/github.png';
 import Settings from '../../../../../assets/logo/settings.png';
 import Bin from '../../../../../assets/logo/bin.png';
+import Notes from '../../../../../assets/logo/notes.png';
 
 export const PROGRAMS: Record<ProgramType, { name: string; icon: string }> = {
   [ProgramType.FINDER]: {
     name: 'Finder',
     icon: Finder,
+  },
+  [ProgramType.NOTES]: {
+    name: 'Notes',
+    icon: Notes,
   },
   [ProgramType.CHROME]: {
     name: 'Chrome',

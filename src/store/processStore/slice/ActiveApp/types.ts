@@ -1,5 +1,6 @@
 export enum ProgramType {
   FINDER = 'finder',
+  NOTES = 'notes',
   CHROME = 'chrome',
   VSCODE = 'vscode',
   TERMINAL = 'terminal',

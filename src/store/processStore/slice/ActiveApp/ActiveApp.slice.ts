@@ -9,6 +9,7 @@ import {
 const defaultActiveState: ActiveAppsState = {
   Apps: {
     [ProgramType.CHROME]: undefined,
+    [ProgramType.NOTES]: undefined,
     [ProgramType.FINDER]: undefined,
     [ProgramType.VSCODE]: undefined,
     [ProgramType.TERMINAL]: undefined,

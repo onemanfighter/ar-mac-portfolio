@@ -4,6 +4,7 @@ import {
   ChromeStateSlice,
   FinderStateSlice,
   GithubStateSlice,
+  NotesStateSlice,
   SettingsStateSlice,
   TerminalStateSlice,
   VsCodeStateSlice,
@@ -12,6 +13,7 @@ import { SpotifyStateSlice } from '../slice/Spotify';
 
 export interface AppStoreState {
   Finder: FinderStateSlice;
+  Notes: NotesStateSlice;
   Bin: BinStateSlice;
   Terminal: TerminalStateSlice;
   VsCode: VsCodeStateSlice;

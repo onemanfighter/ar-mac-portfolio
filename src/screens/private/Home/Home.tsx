@@ -8,6 +8,7 @@ import {
   LazyChromeComponent,
   LazyFinderComponent,
   LazyGithubComponent,
+  LazyNotesComponent,
   LazySettingsComponent,
   LazySpotifyComponent,
   LazyTerminalComponent,
@@ -37,6 +38,9 @@ const Home = (props: HomeProps) => {
 
       {shouldShowAppWindow(ProgramType.FINDER) ? (
         <Window app={ProgramType.FINDER} children={<LazyFinderComponent />} />
+      ) : null}
+      {shouldShowAppWindow(ProgramType.NOTES) ? (
+        <Window app={ProgramType.NOTES} children={<LazyNotesComponent />} />
       ) : null}
       {shouldShowAppWindow(ProgramType.CHROME) ? (
         <Window app={ProgramType.CHROME} children={<LazyChromeComponent />} />
