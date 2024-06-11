@@ -4,6 +4,9 @@ exports[`Github slice should return default github state 1`] = `
 {
   "currentProfile": "onemanfighter",
   "defaultProfile": "onemanfighter",
+  "project": "onemanfighter",
+  "resetCurrentProfile": [Function],
   "setCurrentProfile": [Function],
+  "setProject": [Function],
 }
 `;

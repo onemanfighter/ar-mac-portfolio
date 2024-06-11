@@ -23,4 +23,24 @@ describe('Github slice', () => {
 
     expect(result.current.Github.currentProfile).toBe('github');
   });
+
+  it('should set project', () => {
+    const { result } = renderHook(() => appStore());
+
+    act(() => {
+      result.current.Github.setProject('ar-mac-portfolio');
+    });
+
+    expect(result.current.Github.project).toBe('ar-mac-portfolio');
+  });
+
+  it('should reset current profile', () => {
+    const { result } = renderHook(() => appStore());
+
+    act(() => {
+      result.current.Github.resetCurrentProfile();
+    });
+
+    expect(result.current.Github.currentProfile).toBe('onemanfighter');
+  });
 });

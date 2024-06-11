@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList2 should invoke callback on button press 1`] = `
+<div>
+  <div
+    class="css-19m134u"
+    style="overflow-y: scroll; height: 32vh;"
+  >
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      RaikwarAmit
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      CryptoAtlas
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Courses
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Sorting visualizer
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Trackify
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      React Markdown Demo
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Authentication Firebase
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Some React Concepts
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      React Hooks
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Room Database Module
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Location demo app
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      DSA Practice
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Mini quiz app
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProjectList2 should return default ProjectList1 1`] = `
+<div>
+  <div
+    class="css-19m134u"
+    style="overflow-y: scroll; height: 32vh;"
+  >
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      RaikwarAmit
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      CryptoAtlas
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Courses
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Sorting visualizer
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Trackify
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      React Markdown Demo
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Authentication Firebase
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Some React Concepts
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      React Hooks
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Room Database Module
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Location demo app
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      DSA Practice
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Mini quiz app
+    </button>
+  </div>
+</div>
+`;
