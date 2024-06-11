@@ -2,11 +2,209 @@
 
 exports[`LazyGithubComponent should render correctly to match snapshot 1`] = `
 <div>
-  <iframe
-    aria-label="github"
-    height="100%"
-    src="https://github1s.com/onemanfighter/ar-mac-portfolio"
-    width="100%"
-  />
+  <div
+    class="css-6n4fw9"
+  >
+    <div
+      class="css-7zk9vo"
+    >
+      <div
+        class="chakra-tabs css-79elbk"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="chakra-tabs__tablist css-k008qs"
+          role="tablist"
+        >
+          <button
+            aria-controls="tabs-:r0:--tabpanel-0"
+            aria-disabled="false"
+            aria-label="one-man-fighter-tab"
+            aria-selected="true"
+            class="chakra-tabs__tab css-17t4sgl"
+            data-index="0"
+            id="tabs-:r0:--tab-0"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            OneManFighter
+          </button>
+          <button
+            aria-controls="tabs-:r0:--tabpanel-1"
+            aria-disabled="false"
+            aria-label="raikwar-amit-tab"
+            aria-selected="false"
+            class="chakra-tabs__tab css-17t4sgl"
+            data-index="1"
+            id="tabs-:r0:--tab-1"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            RaikwarAmit
+          </button>
+        </div>
+        <div
+          class="chakra-tabs__tab-panels css-8atqhb"
+        >
+          <div
+            aria-labelledby="tabs-:r0:--tab-0"
+            class="chakra-tabs__tab-panel css-1uaeirk"
+            id="tabs-:r0:--tabpanel-0"
+            role="tabpanel"
+            tabindex="0"
+          >
+            <div
+              class="css-1l4w6pd"
+            >
+              <span
+                class="chakra-avatar css-61kr8"
+              >
+                <div
+                  aria-label="Amit Raikwar"
+                  class="chakra-avatar__initials css-0"
+                  role="img"
+                >
+                  AR
+                </div>
+              </span>
+            </div>
+            <div
+              class="css-1v7y4j0"
+              style="overflow-y: scroll; height: 100%;"
+            >
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                OneManFighter
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Ar Mac Portfolio
+              </button>
+            </div>
+          </div>
+          <div
+            aria-labelledby="tabs-:r0:--tab-1"
+            class="chakra-tabs__tab-panel css-1uaeirk"
+            hidden=""
+            id="tabs-:r0:--tabpanel-1"
+            role="tabpanel"
+            tabindex="0"
+          >
+            <div
+              class="css-1l4w6pd"
+            >
+              <span
+                class="chakra-avatar css-61kr8"
+              >
+                <div
+                  aria-label="Amit Raikwar"
+                  class="chakra-avatar__initials css-0"
+                  role="img"
+                >
+                  AR
+                </div>
+              </span>
+            </div>
+            <div
+              class="css-19m134u"
+              style="overflow-y: scroll; height: 32vh;"
+            >
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                RaikwarAmit
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                CryptoAtlas
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Courses
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Sorting visualizer
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Trackify
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                React Markdown Demo
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Authentication Firebase
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Some React Concepts
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                React Hooks
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Room Database Module
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Location demo app
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                DSA Practice
+              </button>
+              <button
+                class="chakra-button css-wgfsyt"
+                type="button"
+              >
+                Mini quiz app
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe
+      aria-label="github"
+      height="100%"
+      src="https://onemanfighter.github.io/onemanfighter"
+      style="background-color: rgba(255, 255, 255, 0.875);"
+      width="100%"
+    />
+  </div>
 </div>
 `;

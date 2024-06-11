@@ -4,5 +4,9 @@ exports[`Github selector should return default github state 1`] = `
 {
   "currentProfile": "onemanfighter",
   "defaultProfile": "onemanfighter",
+  "getCurrentProject": [Function],
+  "resetCurrentProfile": [Function],
+  "setCurrentProfile": [Function],
+  "setProject": [Function],
 }
 `;

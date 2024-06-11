@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList1 should invoke callback on button press 1`] = `
+<div>
+  <div
+    class="css-1v7y4j0"
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      OneManFighter
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Ar Mac Portfolio
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProjectList1 should return default ProjectList1 1`] = `
+<div>
+  <div
+    class="css-1v7y4j0"
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      OneManFighter
+    </button>
+    <button
+      class="chakra-button css-wgfsyt"
+      type="button"
+    >
+      Ar Mac Portfolio
+    </button>
+  </div>
+</div>
+`;
