@@ -4,10 +4,52 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="notes-app"
+    class="css-1v8gcgw"
   >
-    <h1>
-      Notes
-    </h1>
+    <div
+      class="css-cum3m2"
+    >
+      <button
+        aria-label="add-note"
+        class="chakra-button css-p7mkev"
+        type="button"
+      >
+        <p
+          aria-hidden="true"
+          class="chakra-text css-bk9fzy"
+          focusable="false"
+        >
+          +
+        </p>
+      </button>
+      <button
+        aria-label="delete-note"
+        class="chakra-button css-p7mkev"
+        type="button"
+      >
+        <p
+          aria-hidden="true"
+          class="chakra-text css-bk9fzy"
+          focusable="false"
+        >
+          -
+        </p>
+      </button>
+    </div>
+    <div
+      class="css-1fjg3y4"
+    >
+      <div
+        class="css-1culoml"
+      />
+      <div
+        class="css-1xb7lh4"
+      >
+        <div>
+          Editor
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

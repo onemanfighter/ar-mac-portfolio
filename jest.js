@@ -12,3 +12,9 @@ class MockDate extends Date {
 }
 
 global.Date = MockDate;
+
+// Mocking Draft.js
+jest.mock('draft-js', () => ({
+  ...jest.requireActual('draft-js'),
+  Editor: () => <div>Editor</div>,
+}));
