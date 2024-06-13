@@ -1,7 +1,7 @@
 .PHONY: coverage
 coverage:
 	echo "Running coverage tests"
-	yarn test:coverage
+	yarn test:cov
 	open -a "Google Chrome" coverage/lcov-report/index.html
 
 .PHONY: branch-clean

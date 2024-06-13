@@ -14,7 +14,6 @@ exports[`UserLogin should be able to enter password on password field 1`] = `
       <img
         alt="Profile"
         class="chakra-image css-13wtmhl"
-        loading="lazy"
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
@@ -82,7 +81,6 @@ exports[`UserLogin should be able to enter password on password field 2`] = `
       <img
         alt="Profile"
         class="chakra-image css-13wtmhl"
-        loading="lazy"
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
@@ -150,7 +148,6 @@ exports[`UserLogin should return the default user login component 1`] = `
       <img
         alt="Profile"
         class="chakra-image css-13wtmhl"
-        loading="lazy"
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
@@ -218,7 +215,6 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
       <img
         alt="Profile"
         class="chakra-image css-13wtmhl"
-        loading="lazy"
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
@@ -277,7 +273,6 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
       <img
         alt="Profile"
         class="chakra-image css-13wtmhl"
-        loading="lazy"
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p

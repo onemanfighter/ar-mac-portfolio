@@ -12,6 +12,7 @@ import {
   useBoolean,
 } from '@chakra-ui/react';
 import { processStore, loginSelector, useShallow } from '@processStore';
+import { settingsStore, usersSelector } from '@settingsStore';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -21,18 +22,23 @@ const UserLoginComponent = () => {
   const { login, isUserLocked } = processStore(useShallow(loginSelector));
   const [passwordFieldVisibility, togglePasswordFieldVisibility] = useBoolean();
   const [isLoading, toggleIsLoading] = useBoolean();
+  const {
+    name,
+    password: userPasswordData,
+    profilePicture,
+  } = settingsStore(useShallow(usersSelector)).userData;
 
   const onUserLoginHandler = useCallback(() => {
     toggleIsLoading.on();
     // Add validate logic
     !isLoading &&
       setTimeout(() => {
-        if (password === 'Amit') {
+        if (password === userPasswordData) {
           login();
         }
         toggleIsLoading.off();
       }, 2000);
-  }, [isLoading, login, password, toggleIsLoading]);
+  }, [isLoading, login, password, toggleIsLoading, userPasswordData]);
 
   return (
     <Box
@@ -69,10 +75,9 @@ const UserLoginComponent = () => {
       >
         <Image
           borderRadius="full"
-          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+          src={profilePicture}
           alt="Profile"
           width="48px"
-          loading="lazy"
           transition={'all 1s'}
         />
         <Text
@@ -82,7 +87,7 @@ const UserLoginComponent = () => {
           fontWeight={600}
           transition={'all 1s'}
         >
-          {t('LockScreen.userName')}
+          {name}
         </Text>
       </Button>
 

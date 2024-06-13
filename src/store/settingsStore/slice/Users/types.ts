@@ -1,6 +1,8 @@
 export type UserData = {
   id: string;
   name: string;
+  profilePicture: string;
+  password: string;
   email: string;
   role: string;
   createdAt: string;

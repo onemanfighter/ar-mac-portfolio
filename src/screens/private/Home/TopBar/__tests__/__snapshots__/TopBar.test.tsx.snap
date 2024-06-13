@@ -120,7 +120,16 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
             tabindex="-1"
             type="button"
           >
-            Force Quit...
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              Force Quit...
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              ⌥⌘⎋
+            </span>
           </button>
           <hr
             aria-orientation="horizontal"
@@ -172,7 +181,16 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
             tabindex="-1"
             type="button"
           >
-            Lock Screen
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              Lock Screen
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              ⌃⇧Q
+            </span>
           </button>
           <button
             aria-label="logout"
@@ -183,7 +201,16 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
             tabindex="-1"
             type="button"
           >
-            Log out {{userName: string}}...
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              Log out Amit Raikwar...
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              ⌘⇧Q
+            </span>
           </button>
         </div>
       </div>

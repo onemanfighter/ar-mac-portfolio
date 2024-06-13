@@ -9,12 +9,14 @@ import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
+  usersSelector,
 } from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const Apple = () => {
   const { t } = useTranslation();
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
+  const { name } = settingsStore(useShallow(usersSelector)).userData;
 
   return (
     <Menu>
@@ -58,7 +60,7 @@ const Apple = () => {
           ariaLabel="force-quit"
           onClick={() => {}}
           side="left"
-          command=""
+          command="⌥⌘⎋"
         />
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
@@ -85,12 +87,14 @@ const Apple = () => {
           ariaLabel="lock-screen"
           side="left"
           onClick={() => {}}
+          command="⌃⇧Q"
         />
         <MenuItemComponent
-          text={t('TopAppBar.apple.logOut', { userName: 'Amit Raikwar' })}
+          text={t('TopAppBar.apple.logOut', { userName: name })}
           ariaLabel="logout"
           side="left"
           onClick={() => {}}
+          command="⌘⇧Q"
         />
       </MenuListComponent>
     </Menu>

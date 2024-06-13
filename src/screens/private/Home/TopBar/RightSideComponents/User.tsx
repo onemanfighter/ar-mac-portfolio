@@ -8,17 +8,21 @@ import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
+  usersSelector,
 } from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
 const User = () => {
   const { t } = useTranslation();
   const { textColor } = settingsStore(useShallow(darkModeColorSelector));
+  const { name, profilePicture } = settingsStore(
+    useShallow(usersSelector),
+  ).userData;
 
   return (
     <Menu>
       <TopBarButton
-        text="Amit Raikwar"
+        text={name}
         onClick={() => {}}
         ariaLabel="user-top-bar-button"
       />
@@ -34,14 +38,14 @@ const User = () => {
         >
           <Image
             borderRadius="full"
-            src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+            src={profilePicture}
             alt="Profile"
             width="48px"
             loading="lazy"
             border={'2px solid white'}
           />
           <Text fontSize={11} fontWeight={600}>
-            {t('LockScreen.userName')}
+            {name}
           </Text>
         </Box>
         <MenuDivider p={0} m={0.5} />

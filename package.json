@@ -38,7 +38,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "TZ=UTC jest --config jest.config.js",
-    "test:coverage": "TZ=UTC jest --config jest.config.js --coverage ",
+    "test:cov": "TZ=UTC jest --config jest.config.js --coverage ",
     "test:craco": "TZ=UTC craco test --silent --watchAll=false",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
