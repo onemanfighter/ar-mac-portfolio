@@ -7,10 +7,10 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
     class="css-1v8gcgw"
   >
     <div
-      class="css-1mon4gl"
+      class="css-cum3m2"
     >
       <button
-        aria-label="Add Note"
+        aria-label="add-note"
         class="chakra-button css-p7mkev"
         type="button"
       >
@@ -23,7 +23,7 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
         </p>
       </button>
       <button
-        aria-label="Delete Note"
+        aria-label="delete-note"
         class="chakra-button css-p7mkev"
         type="button"
       >
@@ -37,13 +37,13 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="css-1ed7ime"
+      class="css-1fjg3y4"
     >
       <div
-        class="css-13bnsr6"
+        class="css-1culoml"
       />
       <div
-        class="css-gy73pp"
+        class="css-1xb7lh4"
       >
         <div>
           Editor

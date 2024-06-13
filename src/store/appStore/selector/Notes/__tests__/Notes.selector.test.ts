@@ -9,6 +9,12 @@ describe('Notes selector', () => {
     expect(result.current.notes).toEqual({});
   });
 
+  it('should return default current id', () => {
+    const { result } = renderHook(() => appStore(notesSelector));
+
+    expect(result.current.getCurrentId()).toBe(0);
+  });
+
   it('should add note', () => {
     const { result } = renderHook(() => appStore(notesSelector));
 

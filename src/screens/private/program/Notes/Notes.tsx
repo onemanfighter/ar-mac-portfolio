@@ -4,11 +4,12 @@ import { Box, Card, IconButton, Text } from '@chakra-ui/react';
 
 import { NotesProps } from './type';
 import { appStore, notesSelector, useShallow } from '@appStore';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { getAllStringExceptFirstLine, getFirstLineFromString } from './utils';
 
-const color = '#cc9900';
+const color = '#cc99009f';
 const Notes = (props: NotesProps) => {
+  const editorRef = useRef<Editor>(null);
   const [editorState, setEditorState] = useState(() =>
     EditorState.createEmpty(),
   );
@@ -45,19 +46,19 @@ const Notes = (props: NotesProps) => {
       <Box
         width={'100%'}
         height={'6%'}
-        bg={'#332600'}
+        bg={'neutral.600'}
         borderBottom={'1px solid #000000'}
         display={'flex'}
         flexDir={'row'}
         gap={2}
       >
         <IconButton
-          aria-label="Add Note"
+          aria-label="add-note"
           size={'sm'}
           icon={<Text fontSize={20}>+</Text>}
           onClick={() =>
             addNote({
-              id: (getCurrentId() + 1) as unknown as string,
+              id: (getCurrentId() + 1).toString(),
               title: 'Title',
               description: 'Description',
               date: new Date().toLocaleDateString(),
@@ -65,7 +66,7 @@ const Notes = (props: NotesProps) => {
           }
         />
         <IconButton
-          aria-label="Delete Note"
+          aria-label="delete-note"
           size={'sm'}
           icon={<Text fontSize={20}>-</Text>}
           onClick={() => {
@@ -79,25 +80,27 @@ const Notes = (props: NotesProps) => {
       <Box
         width={'100%'}
         height={'94%'}
-        bg={'#332600'}
         borderBottom={'1px solid #000000'}
         display={'flex'}
         flexDir={'row'}
       >
         <Box
-          width={'20%'}
+          width={'240'}
           height={'100%'}
-          bg={'#1a13009f'}
+          bg={'neutral.600'}
           borderRight={'1px solid #000000'}
           gap={0}
+          overflowY={'auto'}
+          scrollPadding={0}
         >
           {Object.values(notes).map((note) => (
             <>
               <Card
                 key={note.id}
+                aria-label={`note-card-${note.id}`}
                 bg={selectedNoteId === note.id ? color : '#1a13009f'}
                 margin={2}
-                padding={1}
+                padding={2}
                 px={3}
                 onClick={() => {
                   if (selectedNoteId !== '0') {
@@ -120,12 +123,15 @@ const Notes = (props: NotesProps) => {
                 color={'#ffffff'}
                 borderBottom={'1px solid #000000'}
               >
-                <Text variant="h5" noOfLines={1}>
+                <Text fontSize={15} noOfLines={1} fontWeight={'600'}>
                   {note.title}
                 </Text>
-                <Text fontSize={14}>
-                  <Text>{note.date}</Text>
-                  {note.description}
+                <Text fontSize={12} flexDir={'row'} display={'flex'}>
+                  {note.date}
+                  <Text noOfLines={1} color={'neutral.400'}>
+                    {' -> '}
+                    {note.description}
+                  </Text>
                 </Text>
               </Card>
             </>
@@ -134,12 +140,20 @@ const Notes = (props: NotesProps) => {
         <Box
           width={'80%'}
           height={'100%'}
-          padding={3}
+          padding={5}
           bg={'#1a1a1a'}
           overflowY={'auto'}
           color={'white'}
+          onClick={() => {
+            editorRef.current?.focus();
+          }}
+          border={'1px solid #000000'}
         >
-          <Editor editorState={editorState} onChange={setEditorState} />
+          <Editor
+            ref={editorRef}
+            editorState={editorState}
+            onChange={setEditorState}
+          />
         </Box>
       </Box>
     </Box>
