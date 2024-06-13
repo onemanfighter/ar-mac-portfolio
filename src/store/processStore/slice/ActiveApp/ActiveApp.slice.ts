@@ -17,6 +17,9 @@ const defaultActiveState: ActiveAppsState = {
     [ProgramType.GITHUB]: undefined,
     [ProgramType.SETTINGS]: undefined,
     [ProgramType.BIN]: undefined,
+    // Add new app here
+    [ProgramType.APP_STORE]: undefined,
+    [ProgramType.SAFARI]: undefined,
   },
 };
 

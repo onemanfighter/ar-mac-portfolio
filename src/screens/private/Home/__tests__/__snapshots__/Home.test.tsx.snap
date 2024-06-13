@@ -1041,6 +1041,33 @@ exports[`Home should render correctly to match snapshot 1`] = `
         </div>
       </div>
     </div>
+    <div
+      aria-label="launchpad"
+      class="css-1xusoit"
+    >
+      <div
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
+      >
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -1070,12 +1097,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r1l:"
+          aria-controls="menu-list-:r1p:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r1l:"
+          id="menu-button-:r1p:"
         >
           <span
             class="css-xl71ch"
@@ -1100,7 +1127,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r1l:"
+            id="menu-list-:r1p:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1109,7 +1136,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r1l:-menuitem-:r1m:"
+              id="menu-list-:r1p:-menuitem-:r1q:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1124,7 +1151,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r1l:-menuitem-:r1n:"
+              id="menu-list-:r1p:-menuitem-:r1r:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1135,7 +1162,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r1l:-menuitem-:r1o:"
+              id="menu-list-:r1p:-menuitem-:r1s:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1150,7 +1177,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r1l:-menuitem-:r1p:"
+              id="menu-list-:r1p:-menuitem-:r1t:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1174,7 +1201,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r1l:-menuitem-:r1q:"
+              id="menu-list-:r1p:-menuitem-:r1u:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1198,7 +1225,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r1l:-menuitem-:r1r:"
+              id="menu-list-:r1p:-menuitem-:r1v:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1209,7 +1236,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r1l:-menuitem-:r1s:"
+              id="menu-list-:r1p:-menuitem-:r20:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1220,7 +1247,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r1l:-menuitem-:r1t:"
+              id="menu-list-:r1p:-menuitem-:r21:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1235,7 +1262,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r1l:-menuitem-:r1u:"
+              id="menu-list-:r1p:-menuitem-:r22:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1255,7 +1282,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r1l:-menuitem-:r1v:"
+              id="menu-list-:r1p:-menuitem-:r23:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1280,12 +1307,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r21:"
+          aria-controls="menu-list-:r25:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r21:"
+          id="menu-button-:r25:"
         >
           <span
             class="css-xl71ch"
@@ -1310,7 +1337,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r21:"
+            id="menu-list-:r25:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1330,7 +1357,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:r22:"
+                  id="slider-track-:r26:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -1356,7 +1383,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:r22:"
+                  id="slider-thumb-:r26:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -1486,7 +1513,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r21:-menuitem-:r23:"
+              id="menu-list-:r25:-menuitem-:r27:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1496,12 +1523,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r25:"
+          aria-controls="menu-list-:r29:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r25:"
+          id="menu-button-:r29:"
         >
           <span
             class="css-xl71ch"
@@ -1520,7 +1547,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r25:"
+            id="menu-list-:r29:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1548,7 +1575,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r25:-menuitem-:r26:"
+              id="menu-list-:r29:-menuitem-:r2a:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1563,7 +1590,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r25:-menuitem-:r27:"
+              id="menu-list-:r29:-menuitem-:r2b:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1573,12 +1600,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r29:"
+          aria-controls="menu-list-:r2d:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r29:"
+          id="menu-button-:r2d:"
         >
           <span
             class="css-xl71ch"
@@ -1606,7 +1633,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r29:"
+            id="menu-list-:r2d:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1633,7 +1660,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r29:-menuitem-:r2a:"
+              id="menu-list-:r2d:-menuitem-:r2e:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1643,12 +1670,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r2c:"
+          aria-controls="menu-list-:r2g:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r2c:"
+          id="menu-button-:r2g:"
         >
           <span
             class="css-xl71ch"
@@ -1673,7 +1700,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r2c:"
+            id="menu-list-:r2g:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1709,7 +1736,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r2c:-menuitem-:r2d:"
+              id="menu-list-:r2g:-menuitem-:r2h:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1778,7 +1805,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r2c:-menuitem-:r2e:"
+              id="menu-list-:r2g:-menuitem-:r2i:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1802,7 +1829,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:r2c:-menuitem-:r2f:"
+              id="menu-list-:r2g:-menuitem-:r2j:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -1831,12 +1858,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:r2h:"
+          aria-controls="menu-list-:r2l:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r2h:"
+          id="menu-button-:r2l:"
         >
           <span
             class="css-xl71ch"
@@ -1862,7 +1889,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r2h:"
+            id="menu-list-:r2l:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -1885,12 +1912,12 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r2k:"
+          aria-controls="menu-list-:r2o:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r2k:"
+          id="menu-button-:r2o:"
         >
           <span
             class="css-xl71ch"
@@ -2086,6 +2113,33 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
         </div>
       </div>
     </div>
+    <div
+      aria-label="launchpad"
+      class="css-1xusoit"
+    >
+      <div
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
+      >
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -2115,12 +2169,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:rel:"
+          aria-controls="menu-list-:rfp:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rel:"
+          id="menu-button-:rfp:"
         >
           <span
             class="css-xl71ch"
@@ -2145,7 +2199,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rel:"
+            id="menu-list-:rfp:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2154,7 +2208,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:rel:-menuitem-:rem:"
+              id="menu-list-:rfp:-menuitem-:rfq:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2169,7 +2223,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:rel:-menuitem-:ren:"
+              id="menu-list-:rfp:-menuitem-:rfr:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2180,7 +2234,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:rel:-menuitem-:reo:"
+              id="menu-list-:rfp:-menuitem-:rfs:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2195,7 +2249,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:rel:-menuitem-:rep:"
+              id="menu-list-:rfp:-menuitem-:rft:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2219,7 +2273,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:rel:-menuitem-:req:"
+              id="menu-list-:rfp:-menuitem-:rfu:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2243,7 +2297,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:rel:-menuitem-:rer:"
+              id="menu-list-:rfp:-menuitem-:rfv:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2254,7 +2308,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:rel:-menuitem-:res:"
+              id="menu-list-:rfp:-menuitem-:rg0:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2265,7 +2319,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:rel:-menuitem-:ret:"
+              id="menu-list-:rfp:-menuitem-:rg1:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2280,7 +2334,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:rel:-menuitem-:reu:"
+              id="menu-list-:rfp:-menuitem-:rg2:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2300,7 +2354,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:rel:-menuitem-:rev:"
+              id="menu-list-:rfp:-menuitem-:rg3:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2325,12 +2379,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:rf1:"
+          aria-controls="menu-list-:rg5:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rf1:"
+          id="menu-button-:rg5:"
         >
           <span
             class="css-xl71ch"
@@ -2355,7 +2409,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rf1:"
+            id="menu-list-:rg5:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2375,7 +2429,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:rf2:"
+                  id="slider-track-:rg6:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -2401,7 +2455,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:rf2:"
+                  id="slider-thumb-:rg6:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -2531,7 +2585,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rf1:-menuitem-:rf3:"
+              id="menu-list-:rg5:-menuitem-:rg7:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2541,12 +2595,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rf5:"
+          aria-controls="menu-list-:rg9:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rf5:"
+          id="menu-button-:rg9:"
         >
           <span
             class="css-xl71ch"
@@ -2565,7 +2619,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rf5:"
+            id="menu-list-:rg9:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2593,7 +2647,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rf5:-menuitem-:rf6:"
+              id="menu-list-:rg9:-menuitem-:rga:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2608,7 +2662,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rf5:-menuitem-:rf7:"
+              id="menu-list-:rg9:-menuitem-:rgb:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2618,12 +2672,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rf9:"
+          aria-controls="menu-list-:rgd:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rf9:"
+          id="menu-button-:rgd:"
         >
           <span
             class="css-xl71ch"
@@ -2651,7 +2705,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rf9:"
+            id="menu-list-:rgd:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2678,7 +2732,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rf9:-menuitem-:rfa:"
+              id="menu-list-:rgd:-menuitem-:rge:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2688,12 +2742,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rfc:"
+          aria-controls="menu-list-:rgg:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rfc:"
+          id="menu-button-:rgg:"
         >
           <span
             class="css-xl71ch"
@@ -2718,7 +2772,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rfc:"
+            id="menu-list-:rgg:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2754,7 +2808,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rfc:-menuitem-:rfd:"
+              id="menu-list-:rgg:-menuitem-:rgh:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2823,7 +2877,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rfc:-menuitem-:rfe:"
+              id="menu-list-:rgg:-menuitem-:rgi:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2847,7 +2901,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:rfc:-menuitem-:rff:"
+              id="menu-list-:rgg:-menuitem-:rgj:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -2876,12 +2930,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:rfh:"
+          aria-controls="menu-list-:rgl:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rfh:"
+          id="menu-button-:rgl:"
         >
           <span
             class="css-xl71ch"
@@ -2907,7 +2961,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rfh:"
+            id="menu-list-:rgl:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -2930,12 +2984,12 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rfk:"
+          aria-controls="menu-list-:rgo:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rfk:"
+          id="menu-button-:rgo:"
         >
           <span
             class="css-xl71ch"
@@ -3135,56 +3189,31 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -3215,12 +3244,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r4t:"
+          aria-controls="menu-list-:r59:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r4t:"
+          id="menu-button-:r59:"
         >
           <span
             class="css-xl71ch"
@@ -3245,7 +3274,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r4t:"
+            id="menu-list-:r59:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -3254,7 +3283,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r4t:-menuitem-:r4u:"
+              id="menu-list-:r59:-menuitem-:r5a:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3269,7 +3298,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r4t:-menuitem-:r4v:"
+              id="menu-list-:r59:-menuitem-:r5b:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3280,7 +3309,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r4t:-menuitem-:r50:"
+              id="menu-list-:r59:-menuitem-:r5c:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3295,7 +3324,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r4t:-menuitem-:r51:"
+              id="menu-list-:r59:-menuitem-:r5d:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3319,7 +3348,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r4t:-menuitem-:r52:"
+              id="menu-list-:r59:-menuitem-:r5e:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3343,7 +3372,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r4t:-menuitem-:r53:"
+              id="menu-list-:r59:-menuitem-:r5f:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3354,7 +3383,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r4t:-menuitem-:r54:"
+              id="menu-list-:r59:-menuitem-:r5g:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3365,7 +3394,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r4t:-menuitem-:r55:"
+              id="menu-list-:r59:-menuitem-:r5h:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3380,7 +3409,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r4t:-menuitem-:r56:"
+              id="menu-list-:r59:-menuitem-:r5i:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3400,7 +3429,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r4t:-menuitem-:r57:"
+              id="menu-list-:r59:-menuitem-:r5j:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3425,12 +3454,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r59:"
+          aria-controls="menu-list-:r5l:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r59:"
+          id="menu-button-:r5l:"
         >
           <span
             class="css-xl71ch"
@@ -3455,7 +3484,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r59:"
+            id="menu-list-:r5l:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -3475,7 +3504,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:r5a:"
+                  id="slider-track-:r5m:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -3501,7 +3530,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:r5a:"
+                  id="slider-thumb-:r5m:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -3631,7 +3660,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r59:-menuitem-:r5b:"
+              id="menu-list-:r5l:-menuitem-:r5n:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3641,12 +3670,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r5d:"
+          aria-controls="menu-list-:r5p:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r5d:"
+          id="menu-button-:r5p:"
         >
           <span
             class="css-xl71ch"
@@ -3665,7 +3694,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r5d:"
+            id="menu-list-:r5p:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -3693,7 +3722,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r5d:-menuitem-:r5e:"
+              id="menu-list-:r5p:-menuitem-:r5q:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3708,7 +3737,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r5d:-menuitem-:r5f:"
+              id="menu-list-:r5p:-menuitem-:r5r:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3718,12 +3747,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r5h:"
+          aria-controls="menu-list-:r5t:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r5h:"
+          id="menu-button-:r5t:"
         >
           <span
             class="css-xl71ch"
@@ -3751,7 +3780,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r5h:"
+            id="menu-list-:r5t:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -3778,7 +3807,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r5h:-menuitem-:r5i:"
+              id="menu-list-:r5t:-menuitem-:r5u:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3788,12 +3817,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r5k:"
+          aria-controls="menu-list-:r60:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r5k:"
+          id="menu-button-:r60:"
         >
           <span
             class="css-xl71ch"
@@ -3818,7 +3847,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r5k:"
+            id="menu-list-:r60:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -3854,7 +3883,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r5k:-menuitem-:r5l:"
+              id="menu-list-:r60:-menuitem-:r61:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3923,7 +3952,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r5k:-menuitem-:r5m:"
+              id="menu-list-:r60:-menuitem-:r62:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3947,7 +3976,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:r5k:-menuitem-:r5n:"
+              id="menu-list-:r60:-menuitem-:r63:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -3976,12 +4005,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:r5p:"
+          aria-controls="menu-list-:r65:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r5p:"
+          id="menu-button-:r65:"
         >
           <span
             class="css-xl71ch"
@@ -4007,7 +4036,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r5p:"
+            id="menu-list-:r65:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4030,12 +4059,12 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r5s:"
+          aria-controls="menu-list-:r68:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r5s:"
+          id="menu-button-:r68:"
         >
           <span
             class="css-xl71ch"
@@ -4235,56 +4264,31 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -4315,12 +4319,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r39:"
+          aria-controls="menu-list-:r3h:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r39:"
+          id="menu-button-:r3h:"
         >
           <span
             class="css-xl71ch"
@@ -4345,7 +4349,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r39:"
+            id="menu-list-:r3h:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4354,7 +4358,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r39:-menuitem-:r3a:"
+              id="menu-list-:r3h:-menuitem-:r3i:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4369,7 +4373,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r39:-menuitem-:r3b:"
+              id="menu-list-:r3h:-menuitem-:r3j:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4380,7 +4384,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r39:-menuitem-:r3c:"
+              id="menu-list-:r3h:-menuitem-:r3k:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4395,7 +4399,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r39:-menuitem-:r3d:"
+              id="menu-list-:r3h:-menuitem-:r3l:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4419,7 +4423,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r39:-menuitem-:r3e:"
+              id="menu-list-:r3h:-menuitem-:r3m:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4443,7 +4447,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r39:-menuitem-:r3f:"
+              id="menu-list-:r3h:-menuitem-:r3n:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4454,7 +4458,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r39:-menuitem-:r3g:"
+              id="menu-list-:r3h:-menuitem-:r3o:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4465,7 +4469,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r39:-menuitem-:r3h:"
+              id="menu-list-:r3h:-menuitem-:r3p:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4480,7 +4484,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r39:-menuitem-:r3i:"
+              id="menu-list-:r3h:-menuitem-:r3q:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4500,7 +4504,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r39:-menuitem-:r3j:"
+              id="menu-list-:r3h:-menuitem-:r3r:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4525,12 +4529,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r3l:"
+          aria-controls="menu-list-:r3t:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r3l:"
+          id="menu-button-:r3t:"
         >
           <span
             class="css-xl71ch"
@@ -4555,7 +4559,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r3l:"
+            id="menu-list-:r3t:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4575,7 +4579,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:r3m:"
+                  id="slider-track-:r3u:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -4601,7 +4605,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:r3m:"
+                  id="slider-thumb-:r3u:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -4731,7 +4735,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r3l:-menuitem-:r3n:"
+              id="menu-list-:r3t:-menuitem-:r3v:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4741,12 +4745,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r3p:"
+          aria-controls="menu-list-:r41:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r3p:"
+          id="menu-button-:r41:"
         >
           <span
             class="css-xl71ch"
@@ -4765,7 +4769,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r3p:"
+            id="menu-list-:r41:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4793,7 +4797,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r3p:-menuitem-:r3q:"
+              id="menu-list-:r41:-menuitem-:r42:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4808,7 +4812,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r3p:-menuitem-:r3r:"
+              id="menu-list-:r41:-menuitem-:r43:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4818,12 +4822,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r3t:"
+          aria-controls="menu-list-:r45:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r3t:"
+          id="menu-button-:r45:"
         >
           <span
             class="css-xl71ch"
@@ -4851,7 +4855,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r3t:"
+            id="menu-list-:r45:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4878,7 +4882,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r3t:-menuitem-:r3u:"
+              id="menu-list-:r45:-menuitem-:r46:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -4888,12 +4892,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r40:"
+          aria-controls="menu-list-:r48:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r40:"
+          id="menu-button-:r48:"
         >
           <span
             class="css-xl71ch"
@@ -4918,7 +4922,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r40:"
+            id="menu-list-:r48:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -4954,7 +4958,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r40:-menuitem-:r41:"
+              id="menu-list-:r48:-menuitem-:r49:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5023,7 +5027,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r40:-menuitem-:r42:"
+              id="menu-list-:r48:-menuitem-:r4a:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5047,7 +5051,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:r40:-menuitem-:r43:"
+              id="menu-list-:r48:-menuitem-:r4b:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5076,12 +5080,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:r45:"
+          aria-controls="menu-list-:r4d:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r45:"
+          id="menu-button-:r4d:"
         >
           <span
             class="css-xl71ch"
@@ -5107,7 +5111,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r45:"
+            id="menu-list-:r4d:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -5130,12 +5134,12 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r48:"
+          aria-controls="menu-list-:r4g:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r48:"
+          id="menu-button-:r4g:"
         >
           <span
             class="css-xl71ch"
@@ -5335,56 +5339,31 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -5415,12 +5394,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:rbd:"
+          aria-controls="menu-list-:rc9:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rbd:"
+          id="menu-button-:rc9:"
         >
           <span
             class="css-xl71ch"
@@ -5445,7 +5424,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rbd:"
+            id="menu-list-:rc9:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -5454,7 +5433,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:rbd:-menuitem-:rbe:"
+              id="menu-list-:rc9:-menuitem-:rca:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5469,7 +5448,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:rbd:-menuitem-:rbf:"
+              id="menu-list-:rc9:-menuitem-:rcb:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5480,7 +5459,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:rbd:-menuitem-:rbg:"
+              id="menu-list-:rc9:-menuitem-:rcc:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5495,7 +5474,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:rbd:-menuitem-:rbh:"
+              id="menu-list-:rc9:-menuitem-:rcd:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5519,7 +5498,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:rbd:-menuitem-:rbi:"
+              id="menu-list-:rc9:-menuitem-:rce:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5543,7 +5522,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:rbd:-menuitem-:rbj:"
+              id="menu-list-:rc9:-menuitem-:rcf:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5554,7 +5533,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:rbd:-menuitem-:rbk:"
+              id="menu-list-:rc9:-menuitem-:rcg:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5565,7 +5544,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:rbd:-menuitem-:rbl:"
+              id="menu-list-:rc9:-menuitem-:rch:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5580,7 +5559,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:rbd:-menuitem-:rbm:"
+              id="menu-list-:rc9:-menuitem-:rci:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5600,7 +5579,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:rbd:-menuitem-:rbn:"
+              id="menu-list-:rc9:-menuitem-:rcj:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5625,12 +5604,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:rbp:"
+          aria-controls="menu-list-:rcl:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rbp:"
+          id="menu-button-:rcl:"
         >
           <span
             class="css-xl71ch"
@@ -5655,7 +5634,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rbp:"
+            id="menu-list-:rcl:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -5675,7 +5654,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:rbq:"
+                  id="slider-track-:rcm:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -5701,7 +5680,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:rbq:"
+                  id="slider-thumb-:rcm:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -5831,7 +5810,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rbp:-menuitem-:rbr:"
+              id="menu-list-:rcl:-menuitem-:rcn:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5841,12 +5820,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rbt:"
+          aria-controls="menu-list-:rcp:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rbt:"
+          id="menu-button-:rcp:"
         >
           <span
             class="css-xl71ch"
@@ -5865,7 +5844,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rbt:"
+            id="menu-list-:rcp:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -5893,7 +5872,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rbt:-menuitem-:rbu:"
+              id="menu-list-:rcp:-menuitem-:rcq:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5908,7 +5887,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rbt:-menuitem-:rbv:"
+              id="menu-list-:rcp:-menuitem-:rcr:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5918,12 +5897,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rc1:"
+          aria-controls="menu-list-:rct:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rc1:"
+          id="menu-button-:rct:"
         >
           <span
             class="css-xl71ch"
@@ -5951,7 +5930,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rc1:"
+            id="menu-list-:rct:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -5978,7 +5957,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rc1:-menuitem-:rc2:"
+              id="menu-list-:rct:-menuitem-:rcu:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -5988,12 +5967,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rc4:"
+          aria-controls="menu-list-:rd0:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rc4:"
+          id="menu-button-:rd0:"
         >
           <span
             class="css-xl71ch"
@@ -6018,7 +5997,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rc4:"
+            id="menu-list-:rd0:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -6054,7 +6033,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rc4:-menuitem-:rc5:"
+              id="menu-list-:rd0:-menuitem-:rd1:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6123,7 +6102,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rc4:-menuitem-:rc6:"
+              id="menu-list-:rd0:-menuitem-:rd2:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6147,7 +6126,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:rc4:-menuitem-:rc7:"
+              id="menu-list-:rd0:-menuitem-:rd3:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6176,12 +6155,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:rc9:"
+          aria-controls="menu-list-:rd5:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rc9:"
+          id="menu-button-:rd5:"
         >
           <span
             class="css-xl71ch"
@@ -6207,7 +6186,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rc9:"
+            id="menu-list-:rd5:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -6230,12 +6209,12 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rcc:"
+          aria-controls="menu-list-:rd8:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rcc:"
+          id="menu-button-:rd8:"
         >
           <span
             class="css-xl71ch"
@@ -6435,56 +6414,31 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -6515,12 +6469,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
         role="group"
       >
         <button
-          aria-controls="menu-list-:rd1:"
+          aria-controls="menu-list-:re1:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rd1:"
+          id="menu-button-:re1:"
         >
           <span
             class="css-xl71ch"
@@ -6545,7 +6499,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rd1:"
+            id="menu-list-:re1:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -6554,7 +6508,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:rd1:-menuitem-:rd2:"
+              id="menu-list-:re1:-menuitem-:re2:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6569,7 +6523,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:rd1:-menuitem-:rd3:"
+              id="menu-list-:re1:-menuitem-:re3:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6580,7 +6534,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:rd1:-menuitem-:rd4:"
+              id="menu-list-:re1:-menuitem-:re4:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6595,7 +6549,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:rd1:-menuitem-:rd5:"
+              id="menu-list-:re1:-menuitem-:re5:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6619,7 +6573,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:rd1:-menuitem-:rd6:"
+              id="menu-list-:re1:-menuitem-:re6:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6643,7 +6597,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:rd1:-menuitem-:rd7:"
+              id="menu-list-:re1:-menuitem-:re7:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6654,7 +6608,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:rd1:-menuitem-:rd8:"
+              id="menu-list-:re1:-menuitem-:re8:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6665,7 +6619,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:rd1:-menuitem-:rd9:"
+              id="menu-list-:re1:-menuitem-:re9:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6680,7 +6634,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:rd1:-menuitem-:rda:"
+              id="menu-list-:re1:-menuitem-:rea:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6700,7 +6654,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:rd1:-menuitem-:rdb:"
+              id="menu-list-:re1:-menuitem-:reb:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6725,12 +6679,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
         role="group"
       >
         <button
-          aria-controls="menu-list-:rdd:"
+          aria-controls="menu-list-:red:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rdd:"
+          id="menu-button-:red:"
         >
           <span
             class="css-xl71ch"
@@ -6755,7 +6709,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rdd:"
+            id="menu-list-:red:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -6775,7 +6729,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:rde:"
+                  id="slider-track-:ree:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -6801,7 +6755,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:rde:"
+                  id="slider-thumb-:ree:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -6931,7 +6885,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rdd:-menuitem-:rdf:"
+              id="menu-list-:red:-menuitem-:ref:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -6941,12 +6895,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rdh:"
+          aria-controls="menu-list-:reh:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rdh:"
+          id="menu-button-:reh:"
         >
           <span
             class="css-xl71ch"
@@ -6965,7 +6919,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rdh:"
+            id="menu-list-:reh:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -6993,7 +6947,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rdh:-menuitem-:rdi:"
+              id="menu-list-:reh:-menuitem-:rei:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7008,7 +6962,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rdh:-menuitem-:rdj:"
+              id="menu-list-:reh:-menuitem-:rej:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7018,12 +6972,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rdl:"
+          aria-controls="menu-list-:rel:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rdl:"
+          id="menu-button-:rel:"
         >
           <span
             class="css-xl71ch"
@@ -7051,7 +7005,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rdl:"
+            id="menu-list-:rel:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -7078,7 +7032,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rdl:-menuitem-:rdm:"
+              id="menu-list-:rel:-menuitem-:rem:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7088,12 +7042,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rdo:"
+          aria-controls="menu-list-:reo:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rdo:"
+          id="menu-button-:reo:"
         >
           <span
             class="css-xl71ch"
@@ -7118,7 +7072,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rdo:"
+            id="menu-list-:reo:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -7154,7 +7108,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rdo:-menuitem-:rdp:"
+              id="menu-list-:reo:-menuitem-:rep:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7223,7 +7177,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rdo:-menuitem-:rdq:"
+              id="menu-list-:reo:-menuitem-:req:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7247,7 +7201,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:rdo:-menuitem-:rdr:"
+              id="menu-list-:reo:-menuitem-:rer:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7276,12 +7230,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:rdt:"
+          aria-controls="menu-list-:ret:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rdt:"
+          id="menu-button-:ret:"
         >
           <span
             class="css-xl71ch"
@@ -7307,7 +7261,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rdt:"
+            id="menu-list-:ret:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -7330,12 +7284,12 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:re0:"
+          aria-controls="menu-list-:rf0:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:re0:"
+          id="menu-button-:rf0:"
         >
           <span
             class="css-xl71ch"
@@ -7535,56 +7489,31 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -7615,12 +7544,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r9p:"
+          aria-controls="menu-list-:rah:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r9p:"
+          id="menu-button-:rah:"
         >
           <span
             class="css-xl71ch"
@@ -7645,7 +7574,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r9p:"
+            id="menu-list-:rah:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -7654,7 +7583,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r9p:-menuitem-:r9q:"
+              id="menu-list-:rah:-menuitem-:rai:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7669,7 +7598,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r9p:-menuitem-:r9r:"
+              id="menu-list-:rah:-menuitem-:raj:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7680,7 +7609,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r9p:-menuitem-:r9s:"
+              id="menu-list-:rah:-menuitem-:rak:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7695,7 +7624,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r9p:-menuitem-:r9t:"
+              id="menu-list-:rah:-menuitem-:ral:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7719,7 +7648,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r9p:-menuitem-:r9u:"
+              id="menu-list-:rah:-menuitem-:ram:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7743,7 +7672,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r9p:-menuitem-:r9v:"
+              id="menu-list-:rah:-menuitem-:ran:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7754,7 +7683,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r9p:-menuitem-:ra0:"
+              id="menu-list-:rah:-menuitem-:rao:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7765,7 +7694,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r9p:-menuitem-:ra1:"
+              id="menu-list-:rah:-menuitem-:rap:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7780,7 +7709,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r9p:-menuitem-:ra2:"
+              id="menu-list-:rah:-menuitem-:raq:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7800,7 +7729,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r9p:-menuitem-:ra3:"
+              id="menu-list-:rah:-menuitem-:rar:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -7825,12 +7754,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:ra5:"
+          aria-controls="menu-list-:rat:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:ra5:"
+          id="menu-button-:rat:"
         >
           <span
             class="css-xl71ch"
@@ -7855,7 +7784,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:ra5:"
+            id="menu-list-:rat:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -7875,7 +7804,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:ra6:"
+                  id="slider-track-:rau:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -7901,7 +7830,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:ra6:"
+                  id="slider-thumb-:rau:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -8031,7 +7960,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:ra5:-menuitem-:ra7:"
+              id="menu-list-:rat:-menuitem-:rav:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8041,12 +7970,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:ra9:"
+          aria-controls="menu-list-:rb1:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:ra9:"
+          id="menu-button-:rb1:"
         >
           <span
             class="css-xl71ch"
@@ -8065,7 +7994,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:ra9:"
+            id="menu-list-:rb1:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8093,7 +8022,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:ra9:-menuitem-:raa:"
+              id="menu-list-:rb1:-menuitem-:rb2:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8108,7 +8037,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:ra9:-menuitem-:rab:"
+              id="menu-list-:rb1:-menuitem-:rb3:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8118,12 +8047,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rad:"
+          aria-controls="menu-list-:rb5:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rad:"
+          id="menu-button-:rb5:"
         >
           <span
             class="css-xl71ch"
@@ -8151,7 +8080,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rad:"
+            id="menu-list-:rb5:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8178,7 +8107,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rad:-menuitem-:rae:"
+              id="menu-list-:rb5:-menuitem-:rb6:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8188,12 +8117,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rag:"
+          aria-controls="menu-list-:rb8:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rag:"
+          id="menu-button-:rb8:"
         >
           <span
             class="css-xl71ch"
@@ -8218,7 +8147,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:rag:"
+            id="menu-list-:rb8:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8254,7 +8183,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:rag:-menuitem-:rah:"
+              id="menu-list-:rb8:-menuitem-:rb9:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8323,7 +8252,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:rag:-menuitem-:rai:"
+              id="menu-list-:rb8:-menuitem-:rba:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8347,7 +8276,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:rag:-menuitem-:raj:"
+              id="menu-list-:rb8:-menuitem-:rbb:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8376,12 +8305,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:ral:"
+          aria-controls="menu-list-:rbd:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:ral:"
+          id="menu-button-:rbd:"
         >
           <span
             class="css-xl71ch"
@@ -8407,7 +8336,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:ral:"
+            id="menu-list-:rbd:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8430,12 +8359,12 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:rao:"
+          aria-controls="menu-list-:rbg:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:rao:"
+          id="menu-button-:rbg:"
         >
           <span
             class="css-xl71ch"
@@ -8635,56 +8564,31 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -8715,12 +8619,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
         role="group"
       >
         <button
-          aria-controls="menu-list-:r85:"
+          aria-controls="menu-list-:r8p:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r85:"
+          id="menu-button-:r8p:"
         >
           <span
             class="css-xl71ch"
@@ -8745,7 +8649,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r85:"
+            id="menu-list-:r8p:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8754,7 +8658,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r85:-menuitem-:r86:"
+              id="menu-list-:r8p:-menuitem-:r8q:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8769,7 +8673,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r85:-menuitem-:r87:"
+              id="menu-list-:r8p:-menuitem-:r8r:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8780,7 +8684,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r85:-menuitem-:r88:"
+              id="menu-list-:r8p:-menuitem-:r8s:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8795,7 +8699,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r85:-menuitem-:r89:"
+              id="menu-list-:r8p:-menuitem-:r8t:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8819,7 +8723,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r85:-menuitem-:r8a:"
+              id="menu-list-:r8p:-menuitem-:r8u:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8843,7 +8747,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r85:-menuitem-:r8b:"
+              id="menu-list-:r8p:-menuitem-:r8v:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8854,7 +8758,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r85:-menuitem-:r8c:"
+              id="menu-list-:r8p:-menuitem-:r90:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8865,7 +8769,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r85:-menuitem-:r8d:"
+              id="menu-list-:r8p:-menuitem-:r91:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8880,7 +8784,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r85:-menuitem-:r8e:"
+              id="menu-list-:r8p:-menuitem-:r92:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8900,7 +8804,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r85:-menuitem-:r8f:"
+              id="menu-list-:r8p:-menuitem-:r93:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -8925,12 +8829,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
         role="group"
       >
         <button
-          aria-controls="menu-list-:r8h:"
+          aria-controls="menu-list-:r95:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r8h:"
+          id="menu-button-:r95:"
         >
           <span
             class="css-xl71ch"
@@ -8955,7 +8859,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r8h:"
+            id="menu-list-:r95:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -8975,7 +8879,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:r8i:"
+                  id="slider-track-:r96:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -9001,7 +8905,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:r8i:"
+                  id="slider-thumb-:r96:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -9131,7 +9035,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r8h:-menuitem-:r8j:"
+              id="menu-list-:r95:-menuitem-:r97:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9141,12 +9045,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r8l:"
+          aria-controls="menu-list-:r99:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r8l:"
+          id="menu-button-:r99:"
         >
           <span
             class="css-xl71ch"
@@ -9165,7 +9069,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r8l:"
+            id="menu-list-:r99:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -9193,7 +9097,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r8l:-menuitem-:r8m:"
+              id="menu-list-:r99:-menuitem-:r9a:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9208,7 +9112,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r8l:-menuitem-:r8n:"
+              id="menu-list-:r99:-menuitem-:r9b:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9218,12 +9122,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r8p:"
+          aria-controls="menu-list-:r9d:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r8p:"
+          id="menu-button-:r9d:"
         >
           <span
             class="css-xl71ch"
@@ -9251,7 +9155,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r8p:"
+            id="menu-list-:r9d:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -9278,7 +9182,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r8p:-menuitem-:r8q:"
+              id="menu-list-:r9d:-menuitem-:r9e:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9288,12 +9192,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r8s:"
+          aria-controls="menu-list-:r9g:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r8s:"
+          id="menu-button-:r9g:"
         >
           <span
             class="css-xl71ch"
@@ -9318,7 +9222,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r8s:"
+            id="menu-list-:r9g:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -9354,7 +9258,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r8s:-menuitem-:r8t:"
+              id="menu-list-:r9g:-menuitem-:r9h:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9423,7 +9327,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r8s:-menuitem-:r8u:"
+              id="menu-list-:r9g:-menuitem-:r9i:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9447,7 +9351,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:r8s:-menuitem-:r8v:"
+              id="menu-list-:r9g:-menuitem-:r9j:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9476,12 +9380,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:r91:"
+          aria-controls="menu-list-:r9l:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r91:"
+          id="menu-button-:r9l:"
         >
           <span
             class="css-xl71ch"
@@ -9507,7 +9411,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r91:"
+            id="menu-list-:r9l:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -9530,12 +9434,12 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r94:"
+          aria-controls="menu-list-:r9o:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r94:"
+          id="menu-button-:r9o:"
         >
           <span
             class="css-xl71ch"
@@ -9735,56 +9639,31 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -9815,12 +9694,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r6h:"
+          aria-controls="menu-list-:r71:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="apple-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r6h:"
+          id="menu-button-:r71:"
         >
           <span
             class="css-xl71ch"
@@ -9845,7 +9724,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r6h:"
+            id="menu-list-:r71:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -9854,7 +9733,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="about-this-mac"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="0"
-              id="menu-list-:r6h:-menuitem-:r6i:"
+              id="menu-list-:r71:-menuitem-:r72:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9869,7 +9748,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="system-settings"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="1"
-              id="menu-list-:r6h:-menuitem-:r6j:"
+              id="menu-list-:r71:-menuitem-:r73:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9880,7 +9759,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="app-store"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="2"
-              id="menu-list-:r6h:-menuitem-:r6k:"
+              id="menu-list-:r71:-menuitem-:r74:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9895,7 +9774,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="recent-items"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="3"
-              id="menu-list-:r6h:-menuitem-:r6l:"
+              id="menu-list-:r71:-menuitem-:r75:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9919,7 +9798,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="force-quit"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="4"
-              id="menu-list-:r6h:-menuitem-:r6m:"
+              id="menu-list-:r71:-menuitem-:r76:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9943,7 +9822,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="sleep"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="5"
-              id="menu-list-:r6h:-menuitem-:r6n:"
+              id="menu-list-:r71:-menuitem-:r77:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9954,7 +9833,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="restart"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="6"
-              id="menu-list-:r6h:-menuitem-:r6o:"
+              id="menu-list-:r71:-menuitem-:r78:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9965,7 +9844,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="shutDown"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="7"
-              id="menu-list-:r6h:-menuitem-:r6p:"
+              id="menu-list-:r71:-menuitem-:r79:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -9980,7 +9859,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="lock-screen"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="8"
-              id="menu-list-:r6h:-menuitem-:r6q:"
+              id="menu-list-:r71:-menuitem-:r7a:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10000,7 +9879,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="logout"
               class="chakra-menu__menuitem css-1r6ihsa"
               data-index="9"
-              id="menu-list-:r6h:-menuitem-:r6r:"
+              id="menu-list-:r71:-menuitem-:r7b:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10025,12 +9904,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
         role="group"
       >
         <button
-          aria-controls="menu-list-:r6t:"
+          aria-controls="menu-list-:r7d:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="monitor-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r6t:"
+          id="menu-button-:r7d:"
         >
           <span
             class="css-xl71ch"
@@ -10055,7 +9934,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r6t:"
+            id="menu-list-:r7d:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -10075,7 +9954,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               >
                 <div
                   class="chakra-slider__track css-q9xlwy"
-                  id="slider-track-:r6u:"
+                  id="slider-track-:r7e:"
                   style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                 >
                   <div
@@ -10101,7 +9980,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                   aria-valuemin="0"
                   aria-valuenow="100"
                   class="chakra-slider__thumb css-1om1vhp"
-                  id="slider-thumb-:r6u:"
+                  id="slider-thumb-:r7e:"
                   role="slider"
                   style="position: absolute; user-select: none; left: calc(100% - 0px);"
                   tabindex="0"
@@ -10231,7 +10110,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="monitor-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r6t:-menuitem-:r6v:"
+              id="menu-list-:r7d:-menuitem-:r7f:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10241,12 +10120,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r71:"
+          aria-controls="menu-list-:r7h:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="user-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r71:"
+          id="menu-button-:r7h:"
         >
           <span
             class="css-xl71ch"
@@ -10265,7 +10144,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r71:"
+            id="menu-list-:r7h:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -10293,7 +10172,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="login-window"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r71:-menuitem-:r72:"
+              id="menu-list-:r7h:-menuitem-:r7i:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10308,7 +10187,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="user-setting"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r71:-menuitem-:r73:"
+              id="menu-list-:r7h:-menuitem-:r7j:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10318,12 +10197,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r75:"
+          aria-controls="menu-list-:r7l:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="battery-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r75:"
+          id="menu-button-:r7l:"
         >
           <span
             class="css-xl71ch"
@@ -10351,7 +10230,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r75:"
+            id="menu-list-:r7l:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -10378,7 +10257,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="battery-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r75:-menuitem-:r76:"
+              id="menu-list-:r7l:-menuitem-:r7m:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10388,12 +10267,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r78:"
+          aria-controls="menu-list-:r7o:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="wifi-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r78:"
+          id="menu-button-:r7o:"
         >
           <span
             class="css-xl71ch"
@@ -10418,7 +10297,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r78:"
+            id="menu-list-:r7o:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -10454,7 +10333,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="wifi-weak-security"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="0"
-              id="menu-list-:r78:-menuitem-:r79:"
+              id="menu-list-:r7o:-menuitem-:r7p:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10523,7 +10402,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="other-network"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="1"
-              id="menu-list-:r78:-menuitem-:r7a:"
+              id="menu-list-:r7o:-menuitem-:r7q:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10547,7 +10426,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               aria-label="wifi-settings"
               class="chakra-menu__menuitem css-n7rl60"
               data-index="2"
-              id="menu-list-:r78:-menuitem-:r7b:"
+              id="menu-list-:r7o:-menuitem-:r7r:"
               role="menuitem"
               tabindex="-1"
               type="button"
@@ -10576,12 +10455,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </svg>
         </button>
         <button
-          aria-controls="menu-list-:r7d:"
+          aria-controls="menu-list-:r7t:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="settings-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r7d:"
+          id="menu-button-:r7t:"
         >
           <span
             class="css-xl71ch"
@@ -10607,7 +10486,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           <div
             aria-orientation="vertical"
             class="chakra-menu__menu-list css-f6jf1x"
-            id="menu-list-:r7d:"
+            id="menu-list-:r7t:"
             role="menu"
             style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
             tabindex="-1"
@@ -10630,12 +10509,12 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </div>
         </div>
         <button
-          aria-controls="menu-list-:r7g:"
+          aria-controls="menu-list-:r80:"
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="date-time-top-bar-button"
           class="chakra-menu__menu-button css-10l0d22"
-          id="menu-button-:r7g:"
+          id="menu-button-:r80:"
         >
           <span
             class="css-xl71ch"
@@ -10835,56 +10714,31 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="react-draggable react-resizable"
-      style="transition: all 0s; transform: translate(0px, 28px)translate(600px,150px); width: 700px; height: 500px;"
+      aria-label="launchpad"
+      class="css-1xusoit"
     >
       <div
-        class="css-exz6no"
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
       >
-        <div
-          class="handle css-1q7gku6"
-        >
-          <div
-            aria-label="close"
-            class="css-apaxy7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
         />
       </div>
-      <span
-        class="react-resizable-handle react-resizable-handle-se"
-      />
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
     </div>
   </div>
 </div>

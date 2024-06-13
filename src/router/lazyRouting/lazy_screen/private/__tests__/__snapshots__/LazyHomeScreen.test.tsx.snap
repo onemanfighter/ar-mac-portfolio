@@ -1041,6 +1041,33 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
       </div>
     </div>
+    <div
+      aria-label="launchpad"
+      class="css-1xusoit"
+    >
+      <div
+        aria-label="program-button-App Store"
+        class="css-16co9uo"
+      >
+        <img
+          alt="App Store"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+      <div
+        aria-label="program-button-Safari"
+        class="css-16co9uo"
+      >
+        <img
+          alt="Safari"
+          class="chakra-image css-mzgt0a"
+          loading="lazy"
+          src=""
+        />
+      </div>
+    </div>
   </div>
 </div>
 `;

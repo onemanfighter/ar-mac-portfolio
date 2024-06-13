@@ -8,6 +8,9 @@ export enum ProgramType {
   GITHUB = 'github',
   SETTINGS = 'settings',
   BIN = 'bin',
+  // Add new app here
+  APP_STORE = 'appStore',
+  SAFARI = 'safari',
 }
 
 export enum WindowSize {
