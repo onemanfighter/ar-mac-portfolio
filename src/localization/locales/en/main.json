@@ -3,7 +3,6 @@
     "helpText": "For best experience, Press `F10` key to enter full screen mode."
   },
   "LockScreen": {
-    "userName": "Amit Raikwar",
     "loginPasswordText": "Touch ID or Enter password",
     "loginPasswordText2": "Your password is required to enable Touch ID",
     "inputPlaceholder": "Enter Password",
@@ -54,7 +53,7 @@
       "restart": "Restart...",
       "shutDown": "Shut Down...",
       "lockScreen": "Lock Screen",
-      "logOut": "Log out {{userName: string}}..."
+      "logOut": "Log out {{ userName }}..."
     }
   }
 }

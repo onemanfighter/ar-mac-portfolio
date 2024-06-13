@@ -6,6 +6,7 @@ import { SettingsStoreState } from './types';
 import {
   createDisplayDockSlice,
   createDisplaySlice,
+  createUsersSlice,
   createWallpaperSlice,
 } from '../slice';
 
@@ -15,6 +16,7 @@ export const settingsStore = create<SettingsStoreState>()(
       Wallpaper: createWallpaperSlice(...api),
       DisplayDock: createDisplayDockSlice(...api),
       Display: createDisplaySlice(...api),
+      Users: createUsersSlice(...api),
     })),
     {
       name: 'settingStore',
@@ -33,5 +35,6 @@ function deepMerge(
     Wallpaper: { ...currentState.Wallpaper, ...persistedState.Wallpaper },
     DisplayDock: { ...currentState.DisplayDock, ...persistedState.DisplayDock },
     Display: { ...currentState.Display, ...persistedState.Display },
+    Users: { ...currentState.Users, ...persistedState.Users },
   };
 }

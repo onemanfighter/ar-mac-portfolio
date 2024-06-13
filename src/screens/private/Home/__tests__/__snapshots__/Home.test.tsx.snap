@@ -134,7 +134,16 @@ exports[`Home should render correctly to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -186,7 +195,16 @@ exports[`Home should render correctly to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -197,7 +215,16 @@ exports[`Home should render correctly to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -1152,7 +1179,16 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -1204,7 +1240,16 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -1215,7 +1260,16 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -2170,7 +2224,16 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -2222,7 +2285,16 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -2233,7 +2305,16 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -3243,7 +3324,16 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -3295,7 +3385,16 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -3306,7 +3405,16 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -4316,7 +4424,16 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -4368,7 +4485,16 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -4379,7 +4505,16 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -5389,7 +5524,16 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -5441,7 +5585,16 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -5452,7 +5605,16 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -6462,7 +6624,16 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -6514,7 +6685,16 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -6525,7 +6705,16 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -7535,7 +7724,16 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -7587,7 +7785,16 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -7598,7 +7805,16 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -8608,7 +8824,16 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -8660,7 +8885,16 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -8671,7 +8905,16 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
@@ -9681,7 +9924,16 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Force Quit...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Force Quit...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥⌘⎋
+              </span>
             </button>
             <hr
               aria-orientation="horizontal"
@@ -9733,7 +9985,16 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Lock Screen
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Lock Screen
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃⇧Q
+              </span>
             </button>
             <button
               aria-label="logout"
@@ -9744,7 +10005,16 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Log out {{userName: string}}...
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Log out Amit Raikwar...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘⇧Q
+              </span>
             </button>
           </div>
         </div>
