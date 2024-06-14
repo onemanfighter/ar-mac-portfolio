@@ -17,8 +17,6 @@ const DraggableProvider = ({
     : {
         onStop: (e: any, data: any) => {
           const { x, y } = data;
-          console.log('x:', x, 'y:', y);
-
           onPositionChange({ x, y });
         },
       };

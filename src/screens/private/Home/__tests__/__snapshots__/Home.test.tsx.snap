@@ -17,7 +17,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -1092,7 +1092,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -2167,7 +2167,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -3298,7 +3298,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -4429,7 +4429,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -5560,7 +5560,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -6691,7 +6691,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -7822,7 +7822,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -8953,7 +8953,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
@@ -10084,7 +10084,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
       />
     </div>
     <div
-      class="css-gawihm"
+      class="css-mvnwq6"
     >
       <div
         class="css-p0jfvz"
