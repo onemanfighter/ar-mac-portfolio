@@ -3,6 +3,7 @@ import BottomBar from '../BottomBar';
 import { renderHook } from '@testing-library/react-hooks';
 import { processStore } from '@processStore';
 import { ProgramType } from '../components';
+import { LaunchpadContext } from '../../../Mac';
 
 describe('BottomBar', () => {
   beforeEach(() => {
@@ -14,6 +15,21 @@ describe('BottomBar', () => {
     const { container } = render(<BottomBar />);
 
     expect(container).toMatchSnapshot();
+  });
+
+  it('should render invoke onclick on launch pad click', async () => {
+    const setLaunchpad = jest.fn();
+    const { result } = renderHook(() => processStore());
+    render(
+      <LaunchpadContext.Provider value={{ launchpad: false, setLaunchpad }}>
+        <BottomBar />
+      </LaunchpadContext.Provider>,
+    );
+
+    fireEvent.click(screen.getByLabelText('program-button-launchPad'));
+    await jest.advanceTimersByTimeAsync(1000);
+
+    expect(setLaunchpad).toHaveBeenCalled();
   });
 
   it('should render correctly with props to match snapshot', async () => {

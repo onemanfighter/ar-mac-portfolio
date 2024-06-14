@@ -8,8 +8,13 @@ import Github from '../../../../../assets/logo/github.png';
 import Settings from '../../../../../assets/logo/settings.png';
 import Bin from '../../../../../assets/logo/bin.png';
 import Notes from '../../../../../assets/logo/notes.png';
+import Launchpad from '../../../../../assets/logo/launchpad.png';
 
 export const PROGRAMS: Record<ProgramType, { name: string; icon: string }> = {
+  [ProgramType.LAUNCHPAD]: {
+    name: 'Launchpad',
+    icon: Launchpad,
+  },
   [ProgramType.FINDER]: {
     name: 'Finder',
     icon: Finder,

@@ -3,7 +3,7 @@
 exports[`TopBar should render correctly to match snapshot 1`] = `
 <div>
   <div
-    class="css-1qqbak8"
+    class="css-p0jfvz"
   >
     <div
       class="chakra-button__group css-y7v311"

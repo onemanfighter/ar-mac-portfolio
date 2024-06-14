@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramButton should render correctly 1`] = `
+<div>
+  <div
+    aria-label="program-button-Finder"
+    class="css-16co9uo"
+  >
+    <img
+      alt="Finder"
+      class="chakra-image css-mzgt0a"
+      loading="lazy"
+    />
+    <p
+      class="chakra-text css-1d0as8b"
+    >
+      Finder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`ProgramButton should render correctly with active state 1`] = `
+<div>
+  <div
+    aria-label="program-button-Finder"
+    class="css-16co9uo"
+  >
+    <img
+      alt="Finder"
+      class="chakra-image css-mzgt0a"
+      loading="lazy"
+    />
+    <p
+      class="chakra-text css-1d0as8b"
+    >
+      Finder
+    </p>
+    <div
+      class="css-1vukhon"
+    />
+  </div>
+</div>
+`;

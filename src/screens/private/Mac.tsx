@@ -1,3 +1,4 @@
+import { SetStateAction, createContext, useEffect, useState } from 'react';
 import {
   displayBrightnessSelector,
   displayNightShiftSelector,
@@ -5,10 +6,17 @@ import {
   settingsStore,
 } from '@settingsStore';
 import { uiStore, dateTimeSelector, useShallow } from '@uiStore';
-import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 
+type Dispatch<A> = (value: A) => void;
+
+export const LaunchpadContext = createContext({
+  launchpad: false,
+  setLaunchpad: (value: boolean) => {},
+});
+
 const Mac = () => {
+  const [launchpad, setLaunchpad] = useState(true);
   const { initTimer } = uiStore(dateTimeSelector);
   const { brightness } = settingsStore(useShallow(displayBrightnessSelector));
   const { nightShift } = settingsStore(useShallow(displayNightShiftSelector));
@@ -20,21 +28,23 @@ const Mac = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        filter: `brightness(${brightness / 100})`,
-      }}
-    >
+    <LaunchpadContext.Provider value={{ launchpad, setLaunchpad }}>
       <div
-        aria-label="mac"
         style={{
-          filter: `${nightShift ? 'grayscale(50%)' : ''} ${trueTone ? 'sepia(0.5)' : ''}`,
-          transition: 'all 0.4s ease-in-out',
+          filter: `brightness(${brightness / 100})`,
         }}
       >
-        <Outlet />
+        <div
+          aria-label="mac"
+          style={{
+            filter: `${nightShift ? 'grayscale(50%)' : ''} ${trueTone ? 'sepia(0.5)' : ''}`,
+            transition: 'all 0.4s ease-in-out',
+          }}
+        >
+          <Outlet />
+        </div>
       </div>
-    </div>
+    </LaunchpadContext.Provider>
   );
 };
 

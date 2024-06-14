@@ -22,7 +22,7 @@ const TopBar = (props: TopBarProps) => {
       justifyContent={'space-between'}
       alignContent={'center'}
       alignItems={'center'}
-      zIndex={100}
+      zIndex={10}
       px={2}
       top={0}
       transition={'all 0.3s ease-in-out'}
