@@ -1,8 +1,8 @@
-import { Box } from '@chakra-ui/react';
+import { useContext, useState } from 'react';
 import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
+import { Box } from '@chakra-ui/react';
 import { BottomBarProps, ProgramItem } from './type';
 import { ProgramButton, ProgramType } from './components';
-import { useState } from 'react';
 import { reorder } from './utils';
 import PROGRAMS from './components/constants';
 import {
@@ -16,6 +16,7 @@ import {
   processStore,
   WindowSize,
 } from '@processStore';
+import { LaunchpadContext } from '../../Mac';
 
 const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
   (value) => ({
@@ -26,6 +27,7 @@ const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
 );
 
 const BottomBar = (_props: BottomBarProps) => {
+  const { launchpad, setLaunchpad } = useContext(LaunchpadContext);
   const [state, setState] = useState<ProgramItem[]>(InitialProgramOrderList);
   const { bottomBarBgColor } = settingsStore(useShallow(darkModeColorSelector));
   const { addApp, setWindowSize } = processStore(
@@ -51,6 +53,7 @@ const BottomBar = (_props: BottomBarProps) => {
     <Box
       aria-label="bottom-bar"
       w={'100%'}
+      zIndex={900}
       display={'flex'}
       flexDirection={'column'}
       justifyContent={'center'}
@@ -87,9 +90,17 @@ const BottomBar = (_props: BottomBarProps) => {
                     type={program.type}
                     key={program.name}
                     id={program.id}
-                    isActive={currentApp !== undefined}
+                    isActive={
+                      currentApp !== undefined ||
+                      (program.type === ProgramType.LAUNCHPAD &&
+                        launchpad === true)
+                    }
                     index={index}
                     onClickHandler={(app: ProgramType) => {
+                      if (app === ProgramType.LAUNCHPAD) {
+                        setLaunchpad(!launchpad);
+                        return; // Prevents opening app when launchpad is open
+                      }
                       !currentApp
                         ? setTimeout(() => {
                             addApp(app);

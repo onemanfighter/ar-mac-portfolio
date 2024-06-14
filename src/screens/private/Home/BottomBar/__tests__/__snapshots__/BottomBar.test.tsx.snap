@@ -81,13 +81,32 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="bottom-bar"
-    class="css-c60n9a"
+    class="css-1qd8gut"
   >
     <div
       class="css-ax28gb"
       data-rbd-droppable-context-id="0"
       data-rbd-droppable-id="droppable-list"
     >
+      <div
+        aria-describedby="rbd-hidden-text-0-hidden-text-0"
+        aria-label="program-button-launchPad"
+        class="css-16co9uo"
+        data-rbd-drag-handle-context-id="0"
+        data-rbd-drag-handle-draggable-id="Launchpad"
+        data-rbd-draggable-context-id="0"
+        data-rbd-draggable-id="Launchpad"
+        draggable="false"
+        role="button"
+        tabindex="0"
+      >
+        <img
+          alt="Launchpad"
+          class="chakra-image css-h67rfo"
+          loading="lazy"
+          src=""
+        />
+      </div>
       <div
         aria-describedby="rbd-hidden-text-0-hidden-text-0"
         aria-label="program-button-finder"

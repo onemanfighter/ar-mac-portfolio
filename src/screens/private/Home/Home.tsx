@@ -1,3 +1,4 @@
+import { createContext, useContext } from 'react';
 import { Box, useBoolean } from '@chakra-ui/react';
 import { HomeProps } from './type';
 import { WallpaperComponent, Window } from '@components';
@@ -22,11 +23,12 @@ import {
   WindowSize,
 } from '@processStore';
 import { Launchpad } from './Launchpad';
+import { LaunchpadContext } from '../Mac';
 
 const Home = (props: HomeProps) => {
+  const { launchpad } = useContext(LaunchpadContext);
   const { wallpaper } = settingsStore(useShallow(wallpaperSelector));
   const activeApp = processStore(useShallow(activeAppSelector));
-  const [launchpad, setLaunchpad] = useBoolean(true);
 
   const shouldShowAppWindow = (app: ProgramType) =>
     activeApp(app) !== undefined && activeApp(app)?.size !== WindowSize.HIDE;
@@ -35,11 +37,34 @@ const Home = (props: HomeProps) => {
       <Box width={'100vw'} height={'100vh'} position={'absolute'} zIndex={-10}>
         <WallpaperComponent id={wallpaper} />
       </Box>
-      <TopBar />
-      <BottomBar />
-      <Launchpad />
-      {launchpad ? null : (
-        <>
+      <Box
+        width={'100vw'}
+        height={0}
+        position={'absolute'}
+        zIndex={1000}
+        bg={'black'}
+      >
+        <TopBar />
+      </Box>
+      <Box
+        width={'100vw'}
+        height={'10vh'}
+        position={'absolute'}
+        bottom={0}
+        zIndex={950}
+      >
+        <BottomBar />
+      </Box>
+
+      {launchpad ? (
+        <Launchpad />
+      ) : (
+        <Box
+          width={'100vw'}
+          height={'100vh'}
+          position={'absolute'}
+          zIndex={800}
+        >
           {shouldShowAppWindow(ProgramType.FINDER) ? (
             <Window
               app={ProgramType.FINDER}
@@ -88,7 +113,7 @@ const Home = (props: HomeProps) => {
           {shouldShowAppWindow(ProgramType.BIN) ? (
             <Window app={ProgramType.BIN} children={<LazyBinComponent />} />
           ) : null}
-        </>
+        </Box>
       )}
     </Box>
   );

@@ -1,27 +1,6 @@
 import { ProcessStoreSlice } from '../../processStore';
-import {
-  ActiveAppsSlice,
-  ActiveAppsState,
-  ProgramType,
-  WindowSize,
-} from './types';
-
-const defaultActiveState: ActiveAppsState = {
-  Apps: {
-    [ProgramType.CHROME]: undefined,
-    [ProgramType.NOTES]: undefined,
-    [ProgramType.FINDER]: undefined,
-    [ProgramType.VSCODE]: undefined,
-    [ProgramType.TERMINAL]: undefined,
-    [ProgramType.SPOTIFY]: undefined,
-    [ProgramType.GITHUB]: undefined,
-    [ProgramType.SETTINGS]: undefined,
-    [ProgramType.BIN]: undefined,
-    // Add new app here
-    [ProgramType.APP_STORE]: undefined,
-    [ProgramType.SAFARI]: undefined,
-  },
-};
+import { defaultActiveState } from './constants';
+import { ActiveAppsSlice, WindowSize } from './types';
 
 const createActiveAppsSlice: ProcessStoreSlice<ActiveAppsSlice> = (
   set,

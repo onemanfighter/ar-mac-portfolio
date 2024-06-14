@@ -8,6 +8,8 @@ export enum ProgramType {
   GITHUB = 'github',
   SETTINGS = 'settings',
   BIN = 'bin',
+  // Add new app here
+  LAUNCHPAD = 'launchPad',
 }
 
 export type IconButtonProps = {

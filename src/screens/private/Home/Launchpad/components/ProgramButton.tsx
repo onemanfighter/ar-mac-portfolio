@@ -1,4 +1,4 @@
-import { Box, Img, Tooltip } from '@chakra-ui/react';
+import { Box, Img, Text, Tooltip } from '@chakra-ui/react';
 import { ProgramButtonProps } from './types';
 import {
   darkModeColorSelector,
@@ -30,27 +30,20 @@ const ProgramButton = ({
       alignItems={'center'}
       onClick={onClickHandler}
     >
-      <Tooltip
-        bg={BottomBarTooltipBgColor}
-        color={textColor}
-        borderRadius={6}
-        label={name}
-        hasArrow
-        arrowSize={15}
-        top={-4}
-      >
-        <Img
-          boxSize={APP_ICON_SIZE}
-          src={icon}
-          height={APP_ICON_SIZE}
-          width={APP_ICON_SIZE}
-          alt={name}
-          _active={{
-            filter: 'brightness(0.6)',
-          }}
-          loading="lazy"
-        />
-      </Tooltip>
+      <Img
+        boxSize={APP_ICON_SIZE}
+        src={icon}
+        height={APP_ICON_SIZE}
+        width={APP_ICON_SIZE}
+        alt={name}
+        _active={{
+          filter: 'brightness(0.6)',
+        }}
+        loading="lazy"
+      />
+      <Text color={textColor} fontSize={'sm'}>
+        {name}
+      </Text>
       {isActive ? (
         <Box boxSize={1} bgColor={bottomBarActiveDot} borderRadius={'full'} />
       ) : null}
