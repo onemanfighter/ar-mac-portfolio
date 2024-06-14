@@ -19,7 +19,6 @@ const Launchpad = () => {
         height={'100vh'}
         position={'absolute'}
         zIndex={900}
-        transition={'all 3s ease-in-out'}
         filter={'blur(10px) grayscale(0.2) brightness(0.5)'}
       >
         <WallpaperComponent id={wallpaper} />

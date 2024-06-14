@@ -39,7 +39,8 @@ const Home = (props: HomeProps) => {
       </Box>
       <Box
         width={'100vw'}
-        height={0}
+        height={7}
+        top={0}
         position={'absolute'}
         zIndex={1000}
         bg={'black'}

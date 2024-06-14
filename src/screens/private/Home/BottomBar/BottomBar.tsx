@@ -49,6 +49,8 @@ const BottomBar = (_props: BottomBarProps) => {
       setState(newList);
     }
   }
+  console.log('BottomBar', launchpad);
+
   return (
     <Box
       aria-label="bottom-bar"
@@ -101,6 +103,7 @@ const BottomBar = (_props: BottomBarProps) => {
                         setLaunchpad(!launchpad);
                         return; // Prevents opening app when launchpad is open
                       }
+                      setLaunchpad(false); // Close launchpad when opening app
                       !currentApp
                         ? setTimeout(() => {
                             addApp(app);
