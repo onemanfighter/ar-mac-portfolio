@@ -157,7 +157,7 @@ exports[`RouterProvider should render for lock when power is on but user logged 
         <p
           class="chakra-text css-1ahyq4l"
         >
-          Touch ID or Enter password
+          Your password is required to enable Touch ID
         </p>
       </div>
     </div>

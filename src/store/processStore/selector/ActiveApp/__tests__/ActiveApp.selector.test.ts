@@ -109,4 +109,24 @@ describe('Active app selector', () => {
     result.current.makeDefaultAppActive(ProgramType.CHROME);
     expect(result.current.activeAppRunning).toEqual(ProgramType.VSCODE);
   });
+
+  it('should clear all active apps', () => {
+    const { result } = renderHook(() =>
+      processStore((state) => ({
+        getActiveApp: activeAppSelector(state),
+        ...activeAppActionsSelector(state),
+      })),
+    );
+
+    result.current.addApp(ProgramType.CHROME);
+    result.current.addApp(ProgramType.VSCODE);
+
+    expect(result.current.getActiveApp(ProgramType.CHROME)).toBeDefined();
+    expect(result.current.getActiveApp(ProgramType.VSCODE)).toBeDefined();
+
+    result.current.clearAllActiveApps();
+
+    expect(result.current.getActiveApp(ProgramType.CHROME)).not.toBeDefined();
+    expect(result.current.getActiveApp(ProgramType.VSCODE)).not.toBeDefined();
+  });
 });

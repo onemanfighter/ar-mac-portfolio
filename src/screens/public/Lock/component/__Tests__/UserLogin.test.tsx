@@ -28,7 +28,8 @@ describe('UserLogin', () => {
     jest.advanceTimersByTimeAsync(1000);
 
     expect(
-      screen.queryByText('Touch ID or Enter password')?.style.opacity,
+      screen.queryByText('Your password is required to enable Touch ID')?.style
+        .opacity,
     ).toEqual('');
     expect(container).toMatchSnapshot();
   });

@@ -61,6 +61,13 @@ const createActiveAppsSlice: ProcessStoreSlice<ActiveAppsSlice> = (
       });
     }
   },
+
+  clearAllActiveApps: () => {
+    set((state) => {
+      state.ActiveApp.activeApp = DEFAULT_ACTIVE_STATE.activeApp;
+      state.ActiveApp.apps = DEFAULT_ACTIVE_STATE.apps;
+    });
+  },
 });
 
 export default createActiveAppsSlice;

@@ -1,5 +1,6 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, renderHook, screen } from '@testing-library/react';
 import Apple from '../Apple';
+import { processStore } from '@processStore';
 
 describe('Apple', () => {
   it('Should render apple button correctly', () => {
@@ -88,21 +89,23 @@ describe('Apple', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('Should render lock screen correctly', () => {
-    const { container } = render(<Apple />);
+  it('Should render lock screen correctly', async () => {
+    const { result } = renderHook(() => processStore());
+    render(<Apple />);
 
-    fireEvent.click(screen.getByLabelText('apple-top-bar-button'));
     fireEvent.click(screen.getByLabelText('lock-screen'));
+    await jest.advanceTimersByTimeAsync(1000);
 
-    expect(container).toMatchSnapshot();
+    expect(result.current.Login.loginState).toEqual('locked');
   });
 
-  it('Should render log out correctly', () => {
-    const { container } = render(<Apple />);
+  it('Should render log out correctly', async () => {
+    const { result } = renderHook(() => processStore());
+    render(<Apple />);
 
-    fireEvent.click(screen.getByLabelText('apple-top-bar-button'));
     fireEvent.click(screen.getByLabelText('logout'));
+    await jest.advanceTimersByTimeAsync(1000);
 
-    expect(container).toMatchSnapshot();
+    expect(result.current.Login.loginState).toEqual('logged_out');
   });
 });

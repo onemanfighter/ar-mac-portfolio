@@ -109,5 +109,11 @@ export interface ActiveAppsAction {
     type: ProgramType,
     position: { x: number; y: number },
   ) => void;
+
+  /**
+   * Clear all apps
+   * @returns void
+   */
+  clearAllActiveApps: () => void;
 }
 export type ActiveAppsSlice = ActiveAppsState & ActiveAppsAction;

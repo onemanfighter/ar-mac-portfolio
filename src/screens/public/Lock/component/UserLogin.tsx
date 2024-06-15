@@ -142,8 +142,8 @@ const UserLoginComponent = () => {
       >
         {t(
           isUserLocked
-            ? 'LockScreen.loginPasswordText2'
-            : 'LockScreen.loginPasswordText',
+            ? 'LockScreen.loginPasswordText1'
+            : 'LockScreen.loginPasswordText2',
         )}
       </Text>
     </Box>

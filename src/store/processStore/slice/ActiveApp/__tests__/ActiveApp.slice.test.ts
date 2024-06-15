@@ -83,4 +83,26 @@ describe('ActiveApps slice', () => {
 
     expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.VSCODE);
   });
+
+  it('should clear all active apps', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.ActiveApp.addApp(ProgramType.CHROME);
+    result.current.ActiveApp.addApp(ProgramType.VSCODE);
+
+    expect(result.current.ActiveApp.apps).toEqual({
+      chrome: {
+        position: { x: 600, y: 150 },
+        size: WindowSize.DEFAULT,
+      },
+      vscode: {
+        position: { x: 600, y: 150 },
+        size: WindowSize.DEFAULT,
+      },
+    });
+
+    result.current.ActiveApp.clearAllActiveApps();
+
+    expect(result.current.ActiveApp.apps).toEqual({});
+  });
 });
