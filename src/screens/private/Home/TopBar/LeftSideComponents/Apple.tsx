@@ -23,10 +23,10 @@ const Apple = () => {
   const { t } = useTranslation();
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
   const { name } = settingsStore(useShallow(usersSelector)).userData;
-  const { lockUser, logout } = processStore(useShallow(loginSelector));
-  const { clearAllActiveApps } = processStore(
-    useShallow(activeAppActionsSelector),
-  );
+  const { lockUser, logout, clearAllActiveApps } = processStore((state) => ({
+    ...loginSelector(state),
+    ...activeAppActionsSelector(state),
+  }));
 
   return (
     <Menu>
