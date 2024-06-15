@@ -8,14 +8,14 @@ const createActiveAppsSlice: ProcessStoreSlice<ActiveAppsSlice> = (
 ) => ({
   ...DEFAULT_ACTIVE_STATE,
   makeAppActive: (type) => {
-    const appData = get().ActiveApp.apps[type];
-    if (appData !== undefined) {
-      set((state) => {
-        state.ActiveApp.apps[type] = {
-          ...appData,
-        };
-      });
-    }
+    set((state) => {
+      state.ActiveApp.activeApp = type;
+    });
+  },
+  makeDefaultAppActive: (type) => {
+    set((state) => {
+      state.ActiveApp.activeApp = DEFAULT_ACTIVE_STATE.activeApp;
+    });
   },
   addApp: (type) => {
     const appData = get().ActiveApp.apps[type];

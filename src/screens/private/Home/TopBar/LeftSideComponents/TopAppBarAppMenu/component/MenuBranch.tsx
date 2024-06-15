@@ -35,7 +35,7 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                 <MenuItemComponent
                   key={index + '-' + item.title}
                   text={item.title}
-                  ariaLabel={item.title + 'menu-node'}
+                  ariaLabel={item.title.toLowerCase() + '-menu-button'}
                   onClick={item.action}
                   command={item.command}
                   side={'left'}
@@ -51,12 +51,13 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                 <MenuButton
                   width={'100%'}
                   borderRadius={2}
+                  aria-label={`${item.title.toLowerCase()}-menu-button`}
                   _hover={{ bg: 'blue.500' }}
                   _active={{ bg: 'blue.500' }}
                 >
                   <MenuItemComponent
                     text={item.title}
-                    ariaLabel={item.title + 'menu-node'}
+                    ariaLabel={item.title + '-inner-menu-item'}
                     onClick={item.action}
                     command={item.command}
                     side={'left'}
@@ -70,7 +71,9 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                         <MenuItemComponent
                           key={subIndex + '-' + subItem.title + '-sub-item'}
                           text={subItem.title}
-                          ariaLabel={subItem.title + 'menu-node'}
+                          ariaLabel={
+                            subItem.title.toLowerCase() + '-sub-menu-item'
+                          }
                           onClick={subItem.action}
                           command={subItem.command}
                           side={'left'}

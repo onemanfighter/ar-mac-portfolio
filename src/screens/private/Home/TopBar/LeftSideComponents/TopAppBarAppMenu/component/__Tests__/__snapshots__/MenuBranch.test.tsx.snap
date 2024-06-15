@@ -1,0 +1,633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuBranch should render with list open with main type 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r9:"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    aria-label="test-top-bar-button"
+    class="chakra-menu__menu-button css-a89oud"
+    data-active=""
+    id="menu-button-:r9:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-ty7r4z"
+      >
+        Test
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    data-popper-escaped=""
+    data-popper-placement="bottom-start"
+    data-popper-reference-hidden=""
+    style="visibility: visible; position: absolute; min-width: max-content; inset: 0 auto auto 0; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 8px); --popper-transform-origin: top left;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:r9:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <button
+        aria-label="test1-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="0"
+        id="menu-list-:r9:-menuitem-:ra:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test1
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command1
+        </span>
+      </button>
+      <button
+        aria-label="test2-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="1"
+        id="menu-list-:r9:-menuitem-:rb:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test2
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command2
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-15ckxw5"
+      />
+      <button
+        aria-controls="menu-list-:rd:"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        aria-label="test2-menu-button"
+        class="chakra-menu__menu-button css-p03ncx"
+        id="menu-button-:rd:"
+      >
+        <span
+          class="css-xl71ch"
+        >
+          <button
+            aria-label="test2-inner-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="0"
+            id="menu-list-:rd:-menuitem-:re:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              test2
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              command2
+            </span>
+          </button>
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-9li2h0"
+      />
+      <div
+        class="css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <div
+          aria-orientation="vertical"
+          class="chakra-menu__menu-list css-f6jf1x"
+          id="menu-list-:rd:"
+          role="menu"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          tabindex="-1"
+        >
+          <button
+            aria-label="subtreetest1-sub-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="1"
+            id="menu-list-:rd:-menuitem-:rf:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              subTreeTest1
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              subTreeCommand3
+            </span>
+          </button>
+          <hr
+            aria-orientation="horizontal"
+            class="chakra-divider css-15ckxw5"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MenuBranch should render with list open with normal type 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:rp:"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    aria-label="test-top-bar-button"
+    class="chakra-menu__menu-button css-a89oud"
+    data-active=""
+    id="menu-button-:rp:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-10rvbm3"
+      >
+        Test
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    data-popper-escaped=""
+    data-popper-placement="bottom-start"
+    data-popper-reference-hidden=""
+    style="visibility: visible; position: absolute; min-width: max-content; inset: 0 auto auto 0; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 8px); --popper-transform-origin: top left;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:rp:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <button
+        aria-label="test1-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="0"
+        id="menu-list-:rp:-menuitem-:rq:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test1
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command1
+        </span>
+      </button>
+      <button
+        aria-label="test2-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="1"
+        id="menu-list-:rp:-menuitem-:rr:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test2
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command2
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-15ckxw5"
+      />
+      <button
+        aria-controls="menu-list-:rt:"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        aria-label="test2-menu-button"
+        class="chakra-menu__menu-button css-p03ncx"
+        id="menu-button-:rt:"
+      >
+        <span
+          class="css-xl71ch"
+        >
+          <button
+            aria-label="test2-inner-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="0"
+            id="menu-list-:rt:-menuitem-:ru:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              test2
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              command2
+            </span>
+          </button>
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-9li2h0"
+      />
+      <div
+        class="css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <div
+          aria-orientation="vertical"
+          class="chakra-menu__menu-list css-f6jf1x"
+          id="menu-list-:rt:"
+          role="menu"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          tabindex="-1"
+        >
+          <button
+            aria-label="subtreetest1-sub-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="1"
+            id="menu-list-:rt:-menuitem-:rv:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              subTreeTest1
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              subTreeCommand3
+            </span>
+          </button>
+          <hr
+            aria-orientation="horizontal"
+            class="chakra-divider css-15ckxw5"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MenuBranch should render with main type 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:r1:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="test-top-bar-button"
+    class="chakra-menu__menu-button css-a89oud"
+    id="menu-button-:r1:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-ty7r4z"
+      >
+        Test
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:r1:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <button
+        aria-label="test1-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="0"
+        id="menu-list-:r1:-menuitem-:r2:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test1
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command1
+        </span>
+      </button>
+      <button
+        aria-label="test2-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="1"
+        id="menu-list-:r1:-menuitem-:r3:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test2
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command2
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-15ckxw5"
+      />
+      <button
+        aria-controls="menu-list-:r5:"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        aria-label="test2-menu-button"
+        class="chakra-menu__menu-button css-p03ncx"
+        id="menu-button-:r5:"
+      >
+        <span
+          class="css-xl71ch"
+        >
+          <button
+            aria-label="test2-inner-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="0"
+            id="menu-list-:r5:-menuitem-:r6:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              test2
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              command2
+            </span>
+          </button>
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-9li2h0"
+      />
+      <div
+        class="css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <div
+          aria-orientation="vertical"
+          class="chakra-menu__menu-list css-f6jf1x"
+          id="menu-list-:r5:"
+          role="menu"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          tabindex="-1"
+        >
+          <button
+            aria-label="subtreetest1-sub-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="1"
+            id="menu-list-:r5:-menuitem-:r7:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              subTreeTest1
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              subTreeCommand3
+            </span>
+          </button>
+          <hr
+            aria-orientation="horizontal"
+            class="chakra-divider css-15ckxw5"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MenuBranch should render with normal type 1`] = `
+<div>
+  <button
+    aria-controls="menu-list-:rh:"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-label="test-top-bar-button"
+    class="chakra-menu__menu-button css-a89oud"
+    id="menu-button-:rh:"
+  >
+    <span
+      class="css-xl71ch"
+    >
+      <p
+        class="chakra-text css-10rvbm3"
+      >
+        Test
+      </p>
+    </span>
+  </button>
+  <div
+    class="css-0"
+    style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+  >
+    <div
+      aria-orientation="vertical"
+      class="chakra-menu__menu-list css-f6jf1x"
+      id="menu-list-:rh:"
+      role="menu"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      tabindex="-1"
+    >
+      <button
+        aria-label="test1-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="0"
+        id="menu-list-:rh:-menuitem-:ri:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test1
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command1
+        </span>
+      </button>
+      <button
+        aria-label="test2-menu-button"
+        class="chakra-menu__menuitem css-sfzsdj"
+        data-index="1"
+        id="menu-list-:rh:-menuitem-:rj:"
+        role="menuitem"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          style="pointer-events: none; flex: 1;"
+        >
+          test2
+        </span>
+        <span
+          class="chakra-menu__command css-8dknqd"
+        >
+          command2
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-15ckxw5"
+      />
+      <button
+        aria-controls="menu-list-:rl:"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        aria-label="test2-menu-button"
+        class="chakra-menu__menu-button css-p03ncx"
+        id="menu-button-:rl:"
+      >
+        <span
+          class="css-xl71ch"
+        >
+          <button
+            aria-label="test2-inner-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="0"
+            id="menu-list-:rl:-menuitem-:rm:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              test2
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              command2
+            </span>
+          </button>
+        </span>
+      </button>
+      <hr
+        aria-orientation="horizontal"
+        class="chakra-divider css-9li2h0"
+      />
+      <div
+        class="css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <div
+          aria-orientation="vertical"
+          class="chakra-menu__menu-list css-f6jf1x"
+          id="menu-list-:rl:"
+          role="menu"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          tabindex="-1"
+        >
+          <button
+            aria-label="subtreetest1-sub-menu-item"
+            class="chakra-menu__menuitem css-sfzsdj"
+            data-index="1"
+            id="menu-list-:rl:-menuitem-:rn:"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              style="pointer-events: none; flex: 1;"
+            >
+              subTreeTest1
+            </span>
+            <span
+              class="chakra-menu__command css-8dknqd"
+            >
+              subTreeCommand3
+            </span>
+          </button>
+          <hr
+            aria-orientation="horizontal"
+            class="chakra-divider css-15ckxw5"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

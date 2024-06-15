@@ -63,4 +63,24 @@ describe('ActiveApps slice', () => {
       y: 200,
     });
   });
+
+  it('should make app active', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.ActiveApp.addApp(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.CHROME);
+  });
+
+  it('should make default app active', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.ActiveApp.addApp(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.CHROME);
+
+    result.current.ActiveApp.makeDefaultAppActive(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.VSCODE);
+  });
 });

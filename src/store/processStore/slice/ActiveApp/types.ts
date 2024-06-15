@@ -73,6 +73,12 @@ export interface ActiveAppsAction {
   makeAppActive: (type: ProgramType) => void;
 
   /**
+   * Make default app active
+   * @param type - type of app
+   */
+  makeDefaultAppActive: (type: ProgramType) => void;
+
+  /**
    * Add app to active apps
    * @param type - type of app
    * @returns void

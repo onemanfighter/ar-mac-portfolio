@@ -8,7 +8,9 @@ import { MenuBranch } from './component';
 import { TopAppBarAppMenuDatMap } from './constants';
 
 const TopAppBarAppMenu = () => {
-  const activeApp = processStore(useShallow(activeAppRunningSelector));
+  const { activeAppRunning } = processStore(
+    useShallow(activeAppRunningSelector),
+  );
 
   return (
     <Box
@@ -17,7 +19,7 @@ const TopAppBarAppMenu = () => {
       justifyContent={'flex-start'}
       alignItems={'center'}
     >
-      {Object.values(TopAppBarAppMenuDatMap[activeApp].menuTree).map(
+      {Object.values(TopAppBarAppMenuDatMap[activeAppRunning].menuTree).map(
         (app, index) => {
           return (
             <MenuBranch

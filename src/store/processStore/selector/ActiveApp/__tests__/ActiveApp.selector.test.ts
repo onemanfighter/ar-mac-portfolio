@@ -1,6 +1,7 @@
 import { renderHook } from '@testing-library/react-hooks';
 import {
   activeAppActionsSelector,
+  activeAppRunningSelector,
   activeAppSelector,
 } from '../ActiveApp.selector';
 import { ProgramType, WindowSize, processStore } from '@processStore';
@@ -89,5 +90,23 @@ describe('Active app selector', () => {
       x: 100,
       y: 100,
     });
+  });
+
+  it('should make app active', () => {
+    const { result } = renderHook(() => processStore(activeAppRunningSelector));
+
+    result.current.makeAppActive(ProgramType.CHROME);
+
+    expect(result.current.activeAppRunning).toEqual(ProgramType.CHROME);
+  });
+
+  it('should make default app active', () => {
+    const { result } = renderHook(() => processStore(activeAppRunningSelector));
+
+    result.current.makeAppActive(ProgramType.CHROME);
+    expect(result.current.activeAppRunning).toEqual(ProgramType.CHROME);
+
+    result.current.makeDefaultAppActive(ProgramType.CHROME);
+    expect(result.current.activeAppRunning).toEqual(ProgramType.VSCODE);
   });
 });
