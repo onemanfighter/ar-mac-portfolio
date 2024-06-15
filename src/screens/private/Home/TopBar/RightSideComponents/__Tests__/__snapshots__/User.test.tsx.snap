@@ -53,7 +53,7 @@ exports[`User should open login window on login window item clicked 1`] = `
       />
       <button
         aria-label="login-window"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="0"
         id="menu-list-:rd:-menuitem-:re:"
         role="menuitem"
@@ -68,7 +68,7 @@ exports[`User should open login window on login window item clicked 1`] = `
       />
       <button
         aria-label="user-setting"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="1"
         id="menu-list-:rd:-menuitem-:rf:"
         role="menuitem"
@@ -139,7 +139,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
       />
       <button
         aria-label="login-window"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="0"
         id="menu-list-:r5:-menuitem-:r6:"
         role="menuitem"
@@ -154,7 +154,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
       />
       <button
         aria-label="user-setting"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="1"
         id="menu-list-:r5:-menuitem-:r7:"
         role="menuitem"
@@ -221,7 +221,7 @@ exports[`User should open user settings on user setting item clicked 1`] = `
       />
       <button
         aria-label="login-window"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="0"
         id="menu-list-:r9:-menuitem-:ra:"
         role="menuitem"
@@ -236,7 +236,7 @@ exports[`User should open user settings on user setting item clicked 1`] = `
       />
       <button
         aria-label="user-setting"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="1"
         id="menu-list-:r9:-menuitem-:rb:"
         role="menuitem"
@@ -303,7 +303,7 @@ exports[`User should render 1`] = `
       />
       <button
         aria-label="login-window"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"
@@ -318,7 +318,7 @@ exports[`User should render 1`] = `
       />
       <button
         aria-label="user-setting"
-        class="chakra-menu__menuitem css-n7rl60"
+        class="chakra-menu__menuitem css-1mh30fn"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"

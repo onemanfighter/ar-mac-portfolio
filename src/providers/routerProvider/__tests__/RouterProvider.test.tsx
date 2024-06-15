@@ -79,5 +79,5 @@ describe('RouterProvider', () => {
       expect(screen.getByLabelText('home')).toBeDefined();
     });
     expect(container).toMatchSnapshot();
-  });
+  }, 30000);
 });

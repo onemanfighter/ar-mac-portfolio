@@ -48,7 +48,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         >
           <button
             aria-label="about-this-mac"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="0"
             id="menu-list-:r1:-menuitem-:r2:"
             role="menuitem"
@@ -63,7 +63,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="system-settings"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:r1:-menuitem-:r3:"
             role="menuitem"
@@ -74,7 +74,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </button>
           <button
             aria-label="app-store"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="2"
             id="menu-list-:r1:-menuitem-:r4:"
             role="menuitem"
@@ -89,7 +89,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="recent-items"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="3"
             id="menu-list-:r1:-menuitem-:r5:"
             role="menuitem"
@@ -113,7 +113,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="force-quit"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="4"
             id="menu-list-:r1:-menuitem-:r6:"
             role="menuitem"
@@ -137,7 +137,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="sleep"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="5"
             id="menu-list-:r1:-menuitem-:r7:"
             role="menuitem"
@@ -148,7 +148,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </button>
           <button
             aria-label="restart"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="6"
             id="menu-list-:r1:-menuitem-:r8:"
             role="menuitem"
@@ -159,7 +159,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </button>
           <button
             aria-label="shutDown"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="7"
             id="menu-list-:r1:-menuitem-:r9:"
             role="menuitem"
@@ -174,7 +174,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="lock-screen"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="8"
             id="menu-list-:r1:-menuitem-:ra:"
             role="menuitem"
@@ -194,7 +194,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </button>
           <button
             aria-label="logout"
-            class="chakra-menu__menuitem css-1r6ihsa"
+            class="chakra-menu__menuitem css-sfzsdj"
             data-index="9"
             id="menu-list-:r1:-menuitem-:rb:"
             role="menuitem"
@@ -214,6 +214,2561 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </button>
         </div>
       </div>
+      <div
+        class="css-1yae3jf"
+      >
+        <button
+          aria-controls="menu-list-:rd:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="code-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:rd:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-ty7r4z"
+            >
+              Code
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:rd:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="About Visual Studio Codemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:rd:-menuitem-:re:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              About Visual Studio Code
+            </button>
+            <button
+              aria-label="Check for Updates...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:rd:-menuitem-:rf:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Check for Updates...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-controls="menu-list-:rh:"
+              aria-expanded="false"
+              aria-haspopup="menu"
+              class="chakra-menu__menu-button css-p03ncx"
+              id="menu-button-:rh:"
+            >
+              <span
+                class="css-xl71ch"
+              >
+                <button
+                  aria-label="Settingsmenu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="0"
+                  id="menu-list-:rh:-menuitem-:ri:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Settings
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    &gt;
+                  </span>
+                </button>
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-9li2h0"
+            />
+            <div
+              class="css-0"
+              style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+            >
+              <div
+                aria-orientation="vertical"
+                class="chakra-menu__menu-list css-f6jf1x"
+                id="menu-list-:rh:"
+                role="menu"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                tabindex="-1"
+              >
+                <button
+                  aria-label="settingsmenu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="1"
+                  id="menu-list-:rh:-menuitem-:rj:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  settings
+                </button>
+                <button
+                  aria-label="Profilesmenu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="2"
+                  id="menu-list-:rh:-menuitem-:rk:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Profiles
+                </button>
+                <button
+                  aria-label="extensionsmenu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="3"
+                  id="menu-list-:rh:-menuitem-:rl:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  extensions
+                </button>
+              </div>
+            </div>
+            <button
+              aria-label="Hide Visual Studio Codemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:rd:-menuitem-:rm:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Hide Visual Studio Code
+            </button>
+            <button
+              aria-label="Hide Othersmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:rd:-menuitem-:rn:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Hide Others
+            </button>
+            <button
+              aria-label="Show Allmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:rd:-menuitem-:ro:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Show All
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Quit Visual Studio Codemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:rd:-menuitem-:rp:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Quit Visual Studio Code
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:rr:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="file-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:rr:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              File
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:rr:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="New Filemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:rr:-menuitem-:rs:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                New File
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘N
+              </span>
+            </button>
+            <button
+              aria-label="New Windowmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:rr:-menuitem-:rt:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                New Window
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧⌘N
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Open File...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:rr:-menuitem-:ru:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Open File...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘O
+              </span>
+            </button>
+            <button
+              aria-label="Open Folder...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:rr:-menuitem-:rv:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open Folder...
+            </button>
+            <button
+              aria-label="Open Workspace from file...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:rr:-menuitem-:r10:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open Workspace from file...
+            </button>
+            <button
+              aria-label="Open Recentmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:rr:-menuitem-:r11:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open Recent
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Savemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:rr:-menuitem-:r12:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Save
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘S
+              </span>
+            </button>
+            <button
+              aria-label="Save As...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:rr:-menuitem-:r13:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Save As...
+            </button>
+            <button
+              aria-label="Save Allmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:rr:-menuitem-:r14:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Save All
+            </button>
+            <button
+              aria-label="Auto Savemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:rr:-menuitem-:r15:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Auto Save
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Close Windowmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:rr:-menuitem-:r16:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Close Window
+            </button>
+            <button
+              aria-label="Close Foldermenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:rr:-menuitem-:r17:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Close Folder
+            </button>
+            <button
+              aria-label="Close Workspacemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:rr:-menuitem-:r18:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Close Workspace
+            </button>
+            <button
+              aria-label="Close Editormenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:rr:-menuitem-:r19:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Close Editor
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Exitmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="14"
+              id="menu-list-:rr:-menuitem-:r1a:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Exit
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r1c:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="edit-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r1c:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Edit
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r1c:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Undomenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r1c:-menuitem-:r1d:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Undo
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ Z
+              </span>
+            </button>
+            <button
+              aria-label="Redomenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r1c:-menuitem-:r1e:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Redo
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ Z
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Cutmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r1c:-menuitem-:r1f:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Cut
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ X
+              </span>
+            </button>
+            <button
+              aria-label="Copymenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r1c:-menuitem-:r1g:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Copy
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ C
+              </span>
+            </button>
+            <button
+              aria-label="Pastemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r1c:-menuitem-:r1h:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Paste
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ V
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Find in Filesmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r1c:-menuitem-:r1i:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Find in Files
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ H
+              </span>
+            </button>
+            <button
+              aria-label="Replace in Filesmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r1c:-menuitem-:r1j:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Replace in Files
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Toggle Line Commentmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r1c:-menuitem-:r1k:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Toggle Line Comment
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ /
+              </span>
+            </button>
+            <button
+              aria-label="Toggle Block Commentmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r1c:-menuitem-:r1l:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Toggle Block Comment
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌥ A
+              </span>
+            </button>
+            <button
+              aria-label="Emmet: Expand Abbreviationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r1c:-menuitem-:r1m:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Emmet: Expand Abbreviation
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇥
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-controls="menu-list-:r1o:"
+              aria-expanded="false"
+              aria-haspopup="menu"
+              class="chakra-menu__menu-button css-p03ncx"
+              id="menu-button-:r1o:"
+            >
+              <span
+                class="css-xl71ch"
+              >
+                <button
+                  aria-label="Auto Fillmenu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="0"
+                  id="menu-list-:r1o:-menuitem-:r1p:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Auto Fill
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    &gt;
+                  </span>
+                </button>
+              </span>
+            </button>
+            <div
+              class="css-0"
+              style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+            >
+              <div
+                aria-orientation="vertical"
+                class="chakra-menu__menu-list css-f6jf1x"
+                id="menu-list-:r1o:"
+                role="menu"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                tabindex="-1"
+              >
+                <button
+                  aria-label="Contact...menu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="1"
+                  id="menu-list-:r1o:-menuitem-:r1q:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Contact...
+                </button>
+                <button
+                  aria-label="Passwords...menu-node"
+                  class="chakra-menu__menuitem css-sfzsdj"
+                  data-index="2"
+                  id="menu-list-:r1o:-menuitem-:r1r:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Passwords...
+                </button>
+              </div>
+            </div>
+            <button
+              aria-label="Start Dictationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r1c:-menuitem-:r1s:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Start Dictation
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                🎤
+              </span>
+            </button>
+            <button
+              aria-label="Emoji & Symbolsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r1c:-menuitem-:r1t:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Emoji & Symbols
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                🙂
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r1v:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="selection-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r1v:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Selection
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r1v:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Select Allmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r1v:-menuitem-:r20:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Select All
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ A
+              </span>
+            </button>
+            <button
+              aria-label="Expand Selectionmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r1v:-menuitem-:r21:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Expand Selection
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ ⌘ →
+              </span>
+            </button>
+            <button
+              aria-label="Shrink Selectionmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r1v:-menuitem-:r22:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Shrink Selection
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ ⌘ ←
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Copy Line Upmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r1v:-menuitem-:r23:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Copy Line Up
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌥ ↑
+              </span>
+            </button>
+            <button
+              aria-label="Copy Line Downmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r1v:-menuitem-:r24:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Copy Line Down
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌥ ↓
+              </span>
+            </button>
+            <button
+              aria-label="Move Line Upmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r1v:-menuitem-:r25:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Move Line Up
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥ ↑
+              </span>
+            </button>
+            <button
+              aria-label="Move Line Downmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r1v:-menuitem-:r26:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Move Line Down
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥ ↓
+              </span>
+            </button>
+            <button
+              aria-label="Duplicate Selectionmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r1v:-menuitem-:r27:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Duplicate Selection
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Add Cursor Abovemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r1v:-menuitem-:r28:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Add Cursor Above
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥ ⌘ ↑
+              </span>
+            </button>
+            <button
+              aria-label="Add Cursor Belowmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r1v:-menuitem-:r29:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Add Cursor Below
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥ ⌘ ↓
+              </span>
+            </button>
+            <button
+              aria-label="Add Cursor to Line Endmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r1v:-menuitem-:r2a:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Add Cursor to Line End
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ →
+              </span>
+            </button>
+            <button
+              aria-label="Add Next Occurrencemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r1v:-menuitem-:r2b:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Add Next Occurrence
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ D
+              </span>
+            </button>
+            <button
+              aria-label="Add Previous Occurrencemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:r1v:-menuitem-:r2c:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Add Previous Occurrence
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ D
+              </span>
+            </button>
+            <button
+              aria-label="Select All Occurrencesmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:r1v:-menuitem-:r2d:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Select All Occurrences
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ F2
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Switch to Cmd+Click for Multi-Cursormenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="14"
+              id="menu-list-:r1v:-menuitem-:r2e:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Switch to Cmd+Click for Multi-Cursor
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r2g:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="view-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r2g:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              View
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r2g:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Command Palette...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r2g:-menuitem-:r2h:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Command Palette...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧⌘P
+              </span>
+            </button>
+            <button
+              aria-label="Open View...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r2g:-menuitem-:r2i:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open View...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Appearancemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r2g:-menuitem-:r2j:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Appearance
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <button
+              aria-label="Editor Layoutmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r2g:-menuitem-:r2k:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Editor Layout
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Explorermenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r2g:-menuitem-:r2l:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Explorer
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ E
+              </span>
+            </button>
+            <button
+              aria-label="Searchmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r2g:-menuitem-:r2m:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Search
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ F
+              </span>
+            </button>
+            <button
+              aria-label="Source Controlmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r2g:-menuitem-:r2n:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Source Control
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ G
+              </span>
+            </button>
+            <button
+              aria-label="Runmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r2g:-menuitem-:r2o:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Run
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ D
+              </span>
+            </button>
+            <button
+              aria-label="Extensionsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r2g:-menuitem-:r2p:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Extensions
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ X
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Problemsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r2g:-menuitem-:r2q:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Problems
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ M
+              </span>
+            </button>
+            <button
+              aria-label="Outputmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r2g:-menuitem-:r2r:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Output
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ U
+              </span>
+            </button>
+            <button
+              aria-label="Debug Consolemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r2g:-menuitem-:r2s:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Debug Console
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ D
+              </span>
+            </button>
+            <button
+              aria-label="Terminalmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:r2g:-menuitem-:r2t:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Terminal
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ \`
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Word Wrapmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:r2g:-menuitem-:r2u:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Word Wrap
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌥ Z
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r30:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="go-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r30:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Go
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r30:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Backmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r30:-menuitem-:r31:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Back
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ -
+              </span>
+            </button>
+            <button
+              aria-label="Forwardmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r30:-menuitem-:r32:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Forward
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ -
+              </span>
+            </button>
+            <button
+              aria-label="Last Edit Locationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r30:-menuitem-:r33:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Last Edit Location
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ -
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Switch Editormenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r30:-menuitem-:r34:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Switch Editor
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <button
+              aria-label="Switch Groupmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r30:-menuitem-:r35:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Switch Group
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                &gt;
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Go to File...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r30:-menuitem-:r36:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to File...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ P
+              </span>
+            </button>
+            <button
+              aria-label="Go to Symbol in workspace...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r30:-menuitem-:r37:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Symbol in workspace...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ O
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Go to Symbol in Editor...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r30:-menuitem-:r38:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Symbol in Editor...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ T
+              </span>
+            </button>
+            <button
+              aria-label="Go to Definitionmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r30:-menuitem-:r39:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Definition
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F12
+              </span>
+            </button>
+            <button
+              aria-label="Go to Declarationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r30:-menuitem-:r3a:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Go to Declaration
+            </button>
+            <button
+              aria-label="Go to Type Definitionmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r30:-menuitem-:r3b:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Go to Type Definition
+            </button>
+            <button
+              aria-label="Go to Implementationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r30:-menuitem-:r3c:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Implementation
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ F12
+              </span>
+            </button>
+            <button
+              aria-label="Go to Referencesmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:r30:-menuitem-:r3d:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to References
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ F12
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Go to Line...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:r30:-menuitem-:r3e:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Line...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ G
+              </span>
+            </button>
+            <button
+              aria-label="Go to Bracketmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="14"
+              id="menu-list-:r30:-menuitem-:r3f:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Go to Bracket
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ \\
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Next Problemmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="15"
+              id="menu-list-:r30:-menuitem-:r3g:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Next Problem
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F8
+              </span>
+            </button>
+            <button
+              aria-label="Previous Problemmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="16"
+              id="menu-list-:r30:-menuitem-:r3h:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Previous Problem
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ F8
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Next Changemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="17"
+              id="menu-list-:r30:-menuitem-:r3i:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Next Change
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ M
+              </span>
+            </button>
+            <button
+              aria-label="Previous Changemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="18"
+              id="menu-list-:r30:-menuitem-:r3j:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Previous Change
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ ⇧ M
+              </span>
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r3l:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="run-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r3l:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Run
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r3l:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Start Debuggingmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r3l:-menuitem-:r3m:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Start Debugging
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F5
+              </span>
+            </button>
+            <button
+              aria-label="Run Without Debuggingmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r3l:-menuitem-:r3n:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Run Without Debugging
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃F5
+              </span>
+            </button>
+            <button
+              aria-label="Stop Debuggingmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r3l:-menuitem-:r3o:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Stop Debugging
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧F5
+              </span>
+            </button>
+            <button
+              aria-label="Open Configurationsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r3l:-menuitem-:r3p:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open Configurations
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Add Configuration...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r3l:-menuitem-:r3q:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Add Configuration...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Step Overmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r3l:-menuitem-:r3r:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Step Over
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F10
+              </span>
+            </button>
+            <button
+              aria-label="Step Intomenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r3l:-menuitem-:r3s:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Step Into
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F11
+              </span>
+            </button>
+            <button
+              aria-label="Step Outmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r3l:-menuitem-:r3t:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Step Out
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧F11
+              </span>
+            </button>
+            <button
+              aria-label="Continuemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r3l:-menuitem-:r3u:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Continue
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F5
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Toggle Breakpointmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r3l:-menuitem-:r3v:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Toggle Breakpoint
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                F9
+              </span>
+            </button>
+            <button
+              aria-label="Add Breakpoint...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r3l:-menuitem-:r40:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Add Breakpoint...
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Enable All Breakpointsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r3l:-menuitem-:r41:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Enable All Breakpoints
+            </button>
+            <button
+              aria-label="Disable All Breakpointsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:r3l:-menuitem-:r42:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Disable All Breakpoints
+            </button>
+            <button
+              aria-label="Remove All Breakpointsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:r3l:-menuitem-:r43:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Remove All Breakpoints
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Install Additional Debuggers...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="14"
+              id="menu-list-:r3l:-menuitem-:r44:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Install Additional Debuggers...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r46:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="terminal-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r46:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Terminal
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r46:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="New Terminalmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r46:-menuitem-:r47:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                New Terminal
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌃ \`
+              </span>
+            </button>
+            <button
+              aria-label="Split Terminalmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r46:-menuitem-:r48:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Split Terminal
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘ /
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Run Task...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r46:-menuitem-:r49:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Run Task...
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⇧ ⌘ B
+              </span>
+            </button>
+            <button
+              aria-label="Run Build Task...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r46:-menuitem-:r4a:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Run Build Task...
+            </button>
+            <button
+              aria-label="Run Active Filemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r46:-menuitem-:r4b:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Run Active File
+            </button>
+            <button
+              aria-label="Run Selected Textmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r46:-menuitem-:r4c:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Run Selected Text
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Show Running Tasksmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r46:-menuitem-:r4d:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Show Running Tasks
+            </button>
+            <button
+              aria-label="Restart Running Taskmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r46:-menuitem-:r4e:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Restart Running Task
+            </button>
+            <button
+              aria-label="Terminate Taskmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r46:-menuitem-:r4f:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Terminate Task
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Configure Tasks...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r46:-menuitem-:r4g:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Configure Tasks...
+            </button>
+            <button
+              aria-label="Configure Default Build Task...menu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r46:-menuitem-:r4h:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Configure Default Build Task...
+            </button>
+          </div>
+        </div>
+        <button
+          aria-controls="menu-list-:r4j:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="help-top-bar-button"
+          class="chakra-menu__menu-button css-a89oud"
+          id="menu-button-:r4j:"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <p
+              class="chakra-text css-10rvbm3"
+            >
+              Help
+            </p>
+          </span>
+        </button>
+        <div
+          class="css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-f6jf1x"
+            id="menu-list-:r4j:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              aria-label="Welcomemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="0"
+              id="menu-list-:r4j:-menuitem-:r4k:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Welcome
+            </button>
+            <button
+              aria-label="Show All Commandsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="1"
+              id="menu-list-:r4j:-menuitem-:r4l:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Show All Commands
+            </button>
+            <button
+              aria-label="Documentationmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="2"
+              id="menu-list-:r4j:-menuitem-:r4m:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Documentation
+            </button>
+            <button
+              aria-label="Editor Playgroundmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="3"
+              id="menu-list-:r4j:-menuitem-:r4n:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Editor Playground
+            </button>
+            <button
+              aria-label="Show Release Notesmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="4"
+              id="menu-list-:r4j:-menuitem-:r4o:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Show Release Notes
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Keyboard Shortcuts Referencemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="5"
+              id="menu-list-:r4j:-menuitem-:r4p:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Keyboard Shortcuts Reference
+              </span>
+              <span
+                class="chakra-menu__command css-8dknqd"
+              >
+                ⌘K ⌘S
+              </span>
+            </button>
+            <button
+              aria-label="Video and Tutorialsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="6"
+              id="menu-list-:r4j:-menuitem-:r4q:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Video and Tutorials
+            </button>
+            <button
+              aria-label="Tips and Tricksmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="7"
+              id="menu-list-:r4j:-menuitem-:r4r:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Tips and Tricks
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Join us on Youtubemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="8"
+              id="menu-list-:r4j:-menuitem-:r4s:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Join us on Youtube
+            </button>
+            <button
+              aria-label="Search Feature Requestsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="9"
+              id="menu-list-:r4j:-menuitem-:r4t:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Search Feature Requests
+            </button>
+            <button
+              aria-label="Report Issuemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="10"
+              id="menu-list-:r4j:-menuitem-:r4u:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Report Issue
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="View Licensemenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="11"
+              id="menu-list-:r4j:-menuitem-:r4v:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              View License
+            </button>
+            <button
+              aria-label="Privacy Statementmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="12"
+              id="menu-list-:r4j:-menuitem-:r50:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Privacy Statement
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-15ckxw5"
+            />
+            <button
+              aria-label="Toggle Developer Toolsmenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="13"
+              id="menu-list-:r4j:-menuitem-:r51:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Toggle Developer Tools
+            </button>
+            <button
+              aria-label="Open Process Explorermenu-node"
+              class="chakra-menu__menuitem css-sfzsdj"
+              data-index="14"
+              id="menu-list-:r4j:-menuitem-:r52:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              Open Process Explorer
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <div
       class="chakra-button__group css-idd0r2"
@@ -221,12 +2776,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
       role="group"
     >
       <button
-        aria-controls="menu-list-:rd:"
+        aria-controls="menu-list-:r54:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="monitor-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:rd:"
+        id="menu-button-:r54:"
       >
         <span
           class="css-xl71ch"
@@ -251,7 +2806,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         <div
           aria-orientation="vertical"
           class="chakra-menu__menu-list css-f6jf1x"
-          id="menu-list-:rd:"
+          id="menu-list-:r54:"
           role="menu"
           style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
           tabindex="-1"
@@ -271,7 +2826,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
             >
               <div
                 class="chakra-slider__track css-q9xlwy"
-                id="slider-track-:re:"
+                id="slider-track-:r55:"
                 style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
               >
                 <div
@@ -297,7 +2852,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
                 aria-valuemin="0"
                 aria-valuenow="100"
                 class="chakra-slider__thumb css-1om1vhp"
-                id="slider-thumb-:re:"
+                id="slider-thumb-:r55:"
                 role="slider"
                 style="position: absolute; user-select: none; left: calc(100% - 0px);"
                 tabindex="0"
@@ -425,9 +2980,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="monitor-settings"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="0"
-            id="menu-list-:rd:-menuitem-:rf:"
+            id="menu-list-:r54:-menuitem-:r56:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -437,12 +2992,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         </div>
       </div>
       <button
-        aria-controls="menu-list-:rh:"
+        aria-controls="menu-list-:r58:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="user-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:rh:"
+        id="menu-button-:r58:"
       >
         <span
           class="css-xl71ch"
@@ -461,7 +3016,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         <div
           aria-orientation="vertical"
           class="chakra-menu__menu-list css-f6jf1x"
-          id="menu-list-:rh:"
+          id="menu-list-:r58:"
           role="menu"
           style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
           tabindex="-1"
@@ -487,9 +3042,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="login-window"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="0"
-            id="menu-list-:rh:-menuitem-:ri:"
+            id="menu-list-:r58:-menuitem-:r59:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -502,9 +3057,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="user-setting"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="1"
-            id="menu-list-:rh:-menuitem-:rj:"
+            id="menu-list-:r58:-menuitem-:r5a:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -514,12 +3069,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         </div>
       </div>
       <button
-        aria-controls="menu-list-:rl:"
+        aria-controls="menu-list-:r5c:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="battery-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:rl:"
+        id="menu-button-:r5c:"
       >
         <span
           class="css-xl71ch"
@@ -547,7 +3102,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         <div
           aria-orientation="vertical"
           class="chakra-menu__menu-list css-f6jf1x"
-          id="menu-list-:rl:"
+          id="menu-list-:r5c:"
           role="menu"
           style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
           tabindex="-1"
@@ -572,9 +3127,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="battery-settings"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="0"
-            id="menu-list-:rl:-menuitem-:rm:"
+            id="menu-list-:r5c:-menuitem-:r5d:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -584,12 +3139,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         </div>
       </div>
       <button
-        aria-controls="menu-list-:ro:"
+        aria-controls="menu-list-:r5f:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="wifi-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:ro:"
+        id="menu-button-:r5f:"
       >
         <span
           class="css-xl71ch"
@@ -614,7 +3169,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         <div
           aria-orientation="vertical"
           class="chakra-menu__menu-list css-f6jf1x"
-          id="menu-list-:ro:"
+          id="menu-list-:r5f:"
           role="menu"
           style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
           tabindex="-1"
@@ -648,9 +3203,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           </div>
           <button
             aria-label="wifi-weak-security"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="0"
-            id="menu-list-:ro:-menuitem-:rp:"
+            id="menu-list-:r5f:-menuitem-:r5g:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -717,9 +3272,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="other-network"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="1"
-            id="menu-list-:ro:-menuitem-:rq:"
+            id="menu-list-:r5f:-menuitem-:r5h:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -741,9 +3296,9 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
           />
           <button
             aria-label="wifi-settings"
-            class="chakra-menu__menuitem css-n7rl60"
+            class="chakra-menu__menuitem css-1mh30fn"
             data-index="2"
-            id="menu-list-:ro:-menuitem-:rr:"
+            id="menu-list-:r5f:-menuitem-:r5i:"
             role="menuitem"
             tabindex="-1"
             type="button"
@@ -772,12 +3327,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         </svg>
       </button>
       <button
-        aria-controls="menu-list-:rt:"
+        aria-controls="menu-list-:r5k:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="settings-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:rt:"
+        id="menu-button-:r5k:"
       >
         <span
           class="css-xl71ch"
@@ -803,7 +3358,7 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         <div
           aria-orientation="vertical"
           class="chakra-menu__menu-list css-f6jf1x"
-          id="menu-list-:rt:"
+          id="menu-list-:r5k:"
           role="menu"
           style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
           tabindex="-1"
@@ -826,12 +3381,12 @@ exports[`TopBar should render correctly to match snapshot 1`] = `
         </div>
       </div>
       <button
-        aria-controls="menu-list-:r10:"
+        aria-controls="menu-list-:r5n:"
         aria-expanded="false"
         aria-haspopup="menu"
         aria-label="date-time-top-bar-button"
         class="chakra-menu__menu-button css-10l0d22"
-        id="menu-button-:r10:"
+        id="menu-button-:r5n:"
       >
         <span
           class="css-xl71ch"

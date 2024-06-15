@@ -4,7 +4,6 @@ import {
   activeAppSelector,
 } from '../ActiveApp.selector';
 import { ProgramType, WindowSize, processStore } from '@processStore';
-import { position } from '@chakra-ui/react';
 
 describe('Active app selector', () => {
   it('should return default active apps state', () => {
@@ -30,7 +29,6 @@ describe('Active app selector', () => {
 
     expect(result.current.getActiveApp(ProgramType.CHROME)).toEqual({
       position: { x: 600, y: 150 },
-      zIndex: 0,
       size: WindowSize.DEFAULT,
     });
   });
@@ -69,22 +67,6 @@ describe('Active app selector', () => {
     expect(result.current.getActiveApp(ProgramType.CHROME)?.size).toEqual(
       WindowSize.HIDE,
     );
-  });
-
-  it('should get app on top', () => {
-    const { result } = renderHook(() =>
-      processStore((state) => ({
-        getActiveApp: activeAppSelector(state),
-        ...activeAppActionsSelector(state),
-      })),
-    );
-
-    result.current.addApp(ProgramType.CHROME);
-    expect(result.current.getActiveApp(ProgramType.CHROME)?.zIndex).toEqual(0);
-
-    result.current.getAppOnTop(ProgramType.CHROME);
-
-    expect(result.current.getActiveApp(ProgramType.CHROME)?.zIndex).toEqual(10);
   });
 
   it('should update position', () => {

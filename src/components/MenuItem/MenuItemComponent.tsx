@@ -20,7 +20,7 @@ const MenuItemComponent = ({
     <MenuItem
       borderRadius={2}
       icon={icon}
-      py={0.2}
+      py={0.4}
       color={textColor}
       fontSize={'xs'}
       fontWeight={600}

@@ -1,5 +1,6 @@
 import { ButtonGroup } from '@chakra-ui/react';
 import { Apple } from './LeftSideComponents';
+import { TopAppBarAppMenu } from './LeftSideComponents/TopAppBarAppMenu';
 
 const LeftSideIcons = () => {
   return (
@@ -11,6 +12,7 @@ const LeftSideIcons = () => {
       marginRight={2}
     >
       <Apple />
+      <TopAppBarAppMenu />
     </ButtonGroup>
   );
 };
