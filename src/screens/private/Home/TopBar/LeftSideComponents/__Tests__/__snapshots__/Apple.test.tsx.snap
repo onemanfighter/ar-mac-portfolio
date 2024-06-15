@@ -43,7 +43,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:rp:-menuitem-:rq:"
         role="menuitem"
@@ -58,7 +58,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:rp:-menuitem-:rr:"
         role="menuitem"
@@ -69,7 +69,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:rp:-menuitem-:rs:"
         role="menuitem"
@@ -84,7 +84,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:rp:-menuitem-:rt:"
         role="menuitem"
@@ -108,7 +108,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:rp:-menuitem-:ru:"
         role="menuitem"
@@ -132,7 +132,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:rp:-menuitem-:rv:"
         role="menuitem"
@@ -143,7 +143,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:rp:-menuitem-:r10:"
         role="menuitem"
@@ -154,7 +154,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:rp:-menuitem-:r11:"
         role="menuitem"
@@ -169,7 +169,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:rp:-menuitem-:r12:"
         role="menuitem"
@@ -189,7 +189,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:rp:-menuitem-:r13:"
         role="menuitem"
@@ -255,7 +255,7 @@ exports[`Apple Should render app store correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r1h:-menuitem-:r1i:"
         role="menuitem"
@@ -270,7 +270,7 @@ exports[`Apple Should render app store correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r1h:-menuitem-:r1j:"
         role="menuitem"
@@ -281,7 +281,7 @@ exports[`Apple Should render app store correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r1h:-menuitem-:r1k:"
         role="menuitem"
@@ -296,7 +296,7 @@ exports[`Apple Should render app store correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r1h:-menuitem-:r1l:"
         role="menuitem"
@@ -320,7 +320,7 @@ exports[`Apple Should render app store correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r1h:-menuitem-:r1m:"
         role="menuitem"
@@ -344,7 +344,7 @@ exports[`Apple Should render app store correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r1h:-menuitem-:r1n:"
         role="menuitem"
@@ -355,7 +355,7 @@ exports[`Apple Should render app store correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r1h:-menuitem-:r1o:"
         role="menuitem"
@@ -366,7 +366,7 @@ exports[`Apple Should render app store correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r1h:-menuitem-:r1p:"
         role="menuitem"
@@ -381,7 +381,7 @@ exports[`Apple Should render app store correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r1h:-menuitem-:r1q:"
         role="menuitem"
@@ -401,7 +401,7 @@ exports[`Apple Should render app store correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r1h:-menuitem-:r1r:"
         role="menuitem"
@@ -464,7 +464,7 @@ exports[`Apple Should render apple button correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"
@@ -479,7 +479,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"
@@ -490,7 +490,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r1:-menuitem-:r4:"
         role="menuitem"
@@ -505,7 +505,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r1:-menuitem-:r5:"
         role="menuitem"
@@ -529,7 +529,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r1:-menuitem-:r6:"
         role="menuitem"
@@ -553,7 +553,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r1:-menuitem-:r7:"
         role="menuitem"
@@ -564,7 +564,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r1:-menuitem-:r8:"
         role="menuitem"
@@ -575,7 +575,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r1:-menuitem-:r9:"
         role="menuitem"
@@ -590,7 +590,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r1:-menuitem-:ra:"
         role="menuitem"
@@ -610,7 +610,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r1:-menuitem-:rb:"
         role="menuitem"
@@ -677,7 +677,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:rd:-menuitem-:re:"
         role="menuitem"
@@ -692,7 +692,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:rd:-menuitem-:rf:"
         role="menuitem"
@@ -703,7 +703,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:rd:-menuitem-:rg:"
         role="menuitem"
@@ -718,7 +718,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:rd:-menuitem-:rh:"
         role="menuitem"
@@ -742,7 +742,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:rd:-menuitem-:ri:"
         role="menuitem"
@@ -766,7 +766,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:rd:-menuitem-:rj:"
         role="menuitem"
@@ -777,7 +777,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:rd:-menuitem-:rk:"
         role="menuitem"
@@ -788,7 +788,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:rd:-menuitem-:rl:"
         role="menuitem"
@@ -803,7 +803,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:rd:-menuitem-:rm:"
         role="menuitem"
@@ -823,7 +823,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:rd:-menuitem-:rn:"
         role="menuitem"
@@ -889,7 +889,7 @@ exports[`Apple Should render force quit correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r29:-menuitem-:r2a:"
         role="menuitem"
@@ -904,7 +904,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r29:-menuitem-:r2b:"
         role="menuitem"
@@ -915,7 +915,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r29:-menuitem-:r2c:"
         role="menuitem"
@@ -930,7 +930,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r29:-menuitem-:r2d:"
         role="menuitem"
@@ -954,7 +954,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r29:-menuitem-:r2e:"
         role="menuitem"
@@ -978,7 +978,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r29:-menuitem-:r2f:"
         role="menuitem"
@@ -989,7 +989,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r29:-menuitem-:r2g:"
         role="menuitem"
@@ -1000,7 +1000,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r29:-menuitem-:r2h:"
         role="menuitem"
@@ -1015,7 +1015,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r29:-menuitem-:r2i:"
         role="menuitem"
@@ -1035,7 +1035,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r29:-menuitem-:r2j:"
         role="menuitem"
@@ -1101,7 +1101,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r3p:-menuitem-:r3q:"
         role="menuitem"
@@ -1116,7 +1116,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r3p:-menuitem-:r3r:"
         role="menuitem"
@@ -1127,7 +1127,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r3p:-menuitem-:r3s:"
         role="menuitem"
@@ -1142,7 +1142,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r3p:-menuitem-:r3t:"
         role="menuitem"
@@ -1166,7 +1166,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r3p:-menuitem-:r3u:"
         role="menuitem"
@@ -1190,7 +1190,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r3p:-menuitem-:r3v:"
         role="menuitem"
@@ -1201,7 +1201,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r3p:-menuitem-:r40:"
         role="menuitem"
@@ -1212,7 +1212,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r3p:-menuitem-:r41:"
         role="menuitem"
@@ -1227,7 +1227,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r3p:-menuitem-:r42:"
         role="menuitem"
@@ -1247,7 +1247,7 @@ exports[`Apple Should render lock screen correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r3p:-menuitem-:r43:"
         role="menuitem"
@@ -1313,7 +1313,7 @@ exports[`Apple Should render log out correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r45:-menuitem-:r46:"
         role="menuitem"
@@ -1328,7 +1328,7 @@ exports[`Apple Should render log out correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r45:-menuitem-:r47:"
         role="menuitem"
@@ -1339,7 +1339,7 @@ exports[`Apple Should render log out correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r45:-menuitem-:r48:"
         role="menuitem"
@@ -1354,7 +1354,7 @@ exports[`Apple Should render log out correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r45:-menuitem-:r49:"
         role="menuitem"
@@ -1378,7 +1378,7 @@ exports[`Apple Should render log out correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r45:-menuitem-:r4a:"
         role="menuitem"
@@ -1402,7 +1402,7 @@ exports[`Apple Should render log out correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r45:-menuitem-:r4b:"
         role="menuitem"
@@ -1413,7 +1413,7 @@ exports[`Apple Should render log out correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r45:-menuitem-:r4c:"
         role="menuitem"
@@ -1424,7 +1424,7 @@ exports[`Apple Should render log out correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r45:-menuitem-:r4d:"
         role="menuitem"
@@ -1439,7 +1439,7 @@ exports[`Apple Should render log out correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r45:-menuitem-:r4e:"
         role="menuitem"
@@ -1459,7 +1459,7 @@ exports[`Apple Should render log out correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r45:-menuitem-:r4f:"
         role="menuitem"
@@ -1525,7 +1525,7 @@ exports[`Apple Should render recent items correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r1t:-menuitem-:r1u:"
         role="menuitem"
@@ -1540,7 +1540,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r1t:-menuitem-:r1v:"
         role="menuitem"
@@ -1551,7 +1551,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r1t:-menuitem-:r20:"
         role="menuitem"
@@ -1566,7 +1566,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r1t:-menuitem-:r21:"
         role="menuitem"
@@ -1590,7 +1590,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r1t:-menuitem-:r22:"
         role="menuitem"
@@ -1614,7 +1614,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r1t:-menuitem-:r23:"
         role="menuitem"
@@ -1625,7 +1625,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r1t:-menuitem-:r24:"
         role="menuitem"
@@ -1636,7 +1636,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r1t:-menuitem-:r25:"
         role="menuitem"
@@ -1651,7 +1651,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r1t:-menuitem-:r26:"
         role="menuitem"
@@ -1671,7 +1671,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r1t:-menuitem-:r27:"
         role="menuitem"
@@ -1737,7 +1737,7 @@ exports[`Apple Should render restart correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r31:-menuitem-:r32:"
         role="menuitem"
@@ -1752,7 +1752,7 @@ exports[`Apple Should render restart correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r31:-menuitem-:r33:"
         role="menuitem"
@@ -1763,7 +1763,7 @@ exports[`Apple Should render restart correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r31:-menuitem-:r34:"
         role="menuitem"
@@ -1778,7 +1778,7 @@ exports[`Apple Should render restart correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r31:-menuitem-:r35:"
         role="menuitem"
@@ -1802,7 +1802,7 @@ exports[`Apple Should render restart correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r31:-menuitem-:r36:"
         role="menuitem"
@@ -1826,7 +1826,7 @@ exports[`Apple Should render restart correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r31:-menuitem-:r37:"
         role="menuitem"
@@ -1837,7 +1837,7 @@ exports[`Apple Should render restart correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r31:-menuitem-:r38:"
         role="menuitem"
@@ -1848,7 +1848,7 @@ exports[`Apple Should render restart correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r31:-menuitem-:r39:"
         role="menuitem"
@@ -1863,7 +1863,7 @@ exports[`Apple Should render restart correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r31:-menuitem-:r3a:"
         role="menuitem"
@@ -1883,7 +1883,7 @@ exports[`Apple Should render restart correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r31:-menuitem-:r3b:"
         role="menuitem"
@@ -1949,7 +1949,7 @@ exports[`Apple Should render shut down correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r3d:-menuitem-:r3e:"
         role="menuitem"
@@ -1964,7 +1964,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r3d:-menuitem-:r3f:"
         role="menuitem"
@@ -1975,7 +1975,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r3d:-menuitem-:r3g:"
         role="menuitem"
@@ -1990,7 +1990,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r3d:-menuitem-:r3h:"
         role="menuitem"
@@ -2014,7 +2014,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r3d:-menuitem-:r3i:"
         role="menuitem"
@@ -2038,7 +2038,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r3d:-menuitem-:r3j:"
         role="menuitem"
@@ -2049,7 +2049,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r3d:-menuitem-:r3k:"
         role="menuitem"
@@ -2060,7 +2060,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r3d:-menuitem-:r3l:"
         role="menuitem"
@@ -2075,7 +2075,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r3d:-menuitem-:r3m:"
         role="menuitem"
@@ -2095,7 +2095,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r3d:-menuitem-:r3n:"
         role="menuitem"
@@ -2161,7 +2161,7 @@ exports[`Apple Should render sleep correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r2l:-menuitem-:r2m:"
         role="menuitem"
@@ -2176,7 +2176,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r2l:-menuitem-:r2n:"
         role="menuitem"
@@ -2187,7 +2187,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r2l:-menuitem-:r2o:"
         role="menuitem"
@@ -2202,7 +2202,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r2l:-menuitem-:r2p:"
         role="menuitem"
@@ -2226,7 +2226,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r2l:-menuitem-:r2q:"
         role="menuitem"
@@ -2250,7 +2250,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r2l:-menuitem-:r2r:"
         role="menuitem"
@@ -2261,7 +2261,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r2l:-menuitem-:r2s:"
         role="menuitem"
@@ -2272,7 +2272,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r2l:-menuitem-:r2t:"
         role="menuitem"
@@ -2287,7 +2287,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r2l:-menuitem-:r2u:"
         role="menuitem"
@@ -2307,7 +2307,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r2l:-menuitem-:r2v:"
         role="menuitem"
@@ -2373,7 +2373,7 @@ exports[`Apple Should render system settings correctly 1`] = `
     >
       <button
         aria-label="about-this-mac"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r15:-menuitem-:r16:"
         role="menuitem"
@@ -2388,7 +2388,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       />
       <button
         aria-label="system-settings"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r15:-menuitem-:r17:"
         role="menuitem"
@@ -2399,7 +2399,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       </button>
       <button
         aria-label="app-store"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="2"
         id="menu-list-:r15:-menuitem-:r18:"
         role="menuitem"
@@ -2414,7 +2414,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       />
       <button
         aria-label="recent-items"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="3"
         id="menu-list-:r15:-menuitem-:r19:"
         role="menuitem"
@@ -2438,7 +2438,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       />
       <button
         aria-label="force-quit"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="4"
         id="menu-list-:r15:-menuitem-:r1a:"
         role="menuitem"
@@ -2462,7 +2462,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       />
       <button
         aria-label="sleep"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="5"
         id="menu-list-:r15:-menuitem-:r1b:"
         role="menuitem"
@@ -2473,7 +2473,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       </button>
       <button
         aria-label="restart"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="6"
         id="menu-list-:r15:-menuitem-:r1c:"
         role="menuitem"
@@ -2484,7 +2484,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       </button>
       <button
         aria-label="shutDown"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="7"
         id="menu-list-:r15:-menuitem-:r1d:"
         role="menuitem"
@@ -2499,7 +2499,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       />
       <button
         aria-label="lock-screen"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="8"
         id="menu-list-:r15:-menuitem-:r1e:"
         role="menuitem"
@@ -2519,7 +2519,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       </button>
       <button
         aria-label="logout"
-        class="chakra-menu__menuitem css-1r6ihsa"
+        class="chakra-menu__menuitem css-sfzsdj"
         data-index="9"
         id="menu-list-:r15:-menuitem-:r1f:"
         role="menuitem"

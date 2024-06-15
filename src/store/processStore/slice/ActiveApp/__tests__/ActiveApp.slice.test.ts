@@ -6,7 +6,7 @@ describe('ActiveApps slice', () => {
   it('should return default ActiveApp state', () => {
     const { result } = renderHook(() => processStore());
 
-    expect(result.current.ActiveApp.Apps).toEqual({});
+    expect(result.current.ActiveApp.apps).toEqual({});
   });
 
   it('should add app', () => {
@@ -14,9 +14,8 @@ describe('ActiveApps slice', () => {
 
     result.current.ActiveApp.addApp(ProgramType.CHROME);
 
-    expect(result.current.ActiveApp.Apps.chrome).toEqual({
+    expect(result.current.ActiveApp.apps.chrome).toEqual({
       position: { x: 600, y: 150 },
-      zIndex: 0,
       size: WindowSize.DEFAULT,
     });
   });
@@ -25,42 +24,31 @@ describe('ActiveApps slice', () => {
     const { result } = renderHook(() => processStore());
 
     result.current.ActiveApp.addApp(ProgramType.CHROME);
-    expect(result.current.ActiveApp.Apps.chrome).not.toBeUndefined();
+    expect(result.current.ActiveApp.apps.chrome).not.toBeUndefined();
 
     result.current.ActiveApp.removeApp(ProgramType.CHROME);
 
-    expect(result.current.ActiveApp.Apps.chrome).toBeUndefined();
+    expect(result.current.ActiveApp.apps.chrome).toBeUndefined();
   });
 
   it('should set window size', () => {
     const { result } = renderHook(() => processStore());
 
     result.current.ActiveApp.addApp(ProgramType.CHROME);
-    expect(result.current.ActiveApp.Apps.chrome?.size).toEqual(
+    expect(result.current.ActiveApp.apps.chrome?.size).toEqual(
       WindowSize.DEFAULT,
     );
 
     result.current.ActiveApp.setWindowSize(ProgramType.CHROME, WindowSize.HIDE);
 
-    expect(result.current.ActiveApp.Apps.chrome?.size).toEqual(WindowSize.HIDE);
-  });
-
-  it('should get app on top', () => {
-    const { result } = renderHook(() => processStore());
-
-    result.current.ActiveApp.addApp(ProgramType.CHROME);
-    expect(result.current.ActiveApp.Apps.chrome?.zIndex).toEqual(0);
-
-    result.current.ActiveApp.getAppOnTop(ProgramType.CHROME);
-
-    expect(result.current.ActiveApp.Apps.chrome?.zIndex).toEqual(10);
+    expect(result.current.ActiveApp.apps.chrome?.size).toEqual(WindowSize.HIDE);
   });
 
   it('should update position', () => {
     const { result } = renderHook(() => processStore());
 
     result.current.ActiveApp.addApp(ProgramType.CHROME);
-    expect(result.current.ActiveApp.Apps.chrome?.position).toEqual({
+    expect(result.current.ActiveApp.apps.chrome?.position).toEqual({
       x: 600,
       y: 150,
     });
@@ -70,9 +58,29 @@ describe('ActiveApps slice', () => {
       y: 200,
     });
 
-    expect(result.current.ActiveApp.Apps.chrome?.position).toEqual({
+    expect(result.current.ActiveApp.apps.chrome?.position).toEqual({
       x: 500,
       y: 200,
     });
+  });
+
+  it('should make app active', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.ActiveApp.addApp(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.CHROME);
+  });
+
+  it('should make default app active', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.ActiveApp.addApp(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.CHROME);
+
+    result.current.ActiveApp.makeDefaultAppActive(ProgramType.CHROME);
+
+    expect(result.current.ActiveApp.activeApp).toEqual(ProgramType.VSCODE);
   });
 });

@@ -39,7 +39,7 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-finder'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.FINDER]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.FINDER]).toMatchSnapshot();
   });
 
   it('should render correctly finder app to match snapshot', async () => {
@@ -49,7 +49,7 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-finder'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.FINDER]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.FINDER]).toMatchSnapshot();
   });
 
   it('should render correctly chrome app to match snapshot', async () => {
@@ -59,7 +59,7 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-chrome'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.CHROME]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.CHROME]).toMatchSnapshot();
   });
 
   it('should render correctly spotify app to match snapshot', async () => {
@@ -70,7 +70,7 @@ describe('BottomBar', () => {
     await jest.advanceTimersByTimeAsync(1000);
 
     expect(
-      result.current.ActiveApp.Apps[ProgramType.SPOTIFY],
+      result.current.ActiveApp.apps[ProgramType.SPOTIFY],
     ).toMatchSnapshot();
   });
 
@@ -82,7 +82,7 @@ describe('BottomBar', () => {
     await jest.advanceTimersByTimeAsync(1000);
 
     expect(
-      result.current.ActiveApp.Apps[ProgramType.TERMINAL],
+      result.current.ActiveApp.apps[ProgramType.TERMINAL],
     ).toMatchSnapshot();
   });
 
@@ -93,7 +93,7 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-vscode'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.VSCODE]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.VSCODE]).toMatchSnapshot();
   });
 
   it('should render correctly github app to match snapshot', async () => {
@@ -103,7 +103,7 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-github'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.GITHUB]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.GITHUB]).toMatchSnapshot();
   });
 
   it('should render correctly settings app to match snapshot', async () => {
@@ -114,7 +114,7 @@ describe('BottomBar', () => {
     await jest.advanceTimersByTimeAsync(1000);
 
     expect(
-      result.current.ActiveApp.Apps[ProgramType.SETTINGS],
+      result.current.ActiveApp.apps[ProgramType.SETTINGS],
     ).toMatchSnapshot();
   });
 
@@ -125,6 +125,6 @@ describe('BottomBar', () => {
     fireEvent.click(screen.getByLabelText('program-button-bin'));
     await jest.advanceTimersByTimeAsync(1000);
 
-    expect(result.current.ActiveApp.Apps[ProgramType.BIN]).toMatchSnapshot();
+    expect(result.current.ActiveApp.apps[ProgramType.BIN]).toMatchSnapshot();
   });
 });

@@ -52,7 +52,6 @@ export enum WindowSize {
 }
 
 export type AppState = {
-  zIndex: number;
   size: WindowSize;
   position: {
     x: number;
@@ -61,10 +60,24 @@ export type AppState = {
 };
 
 export type ActiveAppsState = {
-  Apps: Record<ProgramType, AppState | undefined>;
+  activeApp: ProgramType;
+  apps: Record<ProgramType, AppState | undefined>;
 };
 
 export interface ActiveAppsAction {
+  /**
+   * Make app active
+   * @param type - type of app
+   * @returns void
+   */
+  makeAppActive: (type: ProgramType) => void;
+
+  /**
+   * Make default app active
+   * @param type - type of app
+   */
+  makeDefaultAppActive: (type: ProgramType) => void;
+
   /**
    * Add app to active apps
    * @param type - type of app
@@ -86,13 +99,6 @@ export interface ActiveAppsAction {
    * @returns void
    */
   setWindowSize: (type: ProgramType, size: WindowSize) => void;
-
-  /**
-   * Update zIndex of app
-   * @param type - type of app
-   * @returns void
-   */
-  getAppOnTop: (type: ProgramType) => void;
 
   /**
    * Update position of app

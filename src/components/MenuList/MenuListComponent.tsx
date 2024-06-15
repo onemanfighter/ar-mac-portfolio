@@ -5,7 +5,13 @@ import {
   useShallow,
 } from '@settingsStore';
 
-const MenuListComponent = ({ children }: { children: any }) => {
+const MenuListComponent = ({
+  children,
+  orientation = 'vertical',
+}: {
+  children: any;
+  orientation?: 'vertical' | 'horizontal';
+}) => {
   const { menuColor } = settingsStore(useShallow(darkModeColorSelector));
   return (
     <MenuList
@@ -15,6 +21,7 @@ const MenuListComponent = ({ children }: { children: any }) => {
       filter={{
         backdropFilter: 'blur(5px)',
       }}
+      aria-orientation={orientation}
     >
       {children}
     </MenuList>
