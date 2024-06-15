@@ -153,7 +153,7 @@ exports[`Lock should render correctly to match snapshot 1`] = `
       <p
         class="chakra-text css-1ahyq4l"
       >
-        Touch ID or Enter password
+        Your password is required to enable Touch ID
       </p>
     </div>
   </div>

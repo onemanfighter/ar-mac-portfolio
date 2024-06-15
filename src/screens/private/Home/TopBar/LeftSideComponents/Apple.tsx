@@ -6,6 +6,12 @@ import {
   TopBarButton,
 } from '@components';
 import {
+  activeAppActionsSelector,
+  activeAppSelector,
+  loginSelector,
+  processStore,
+} from '@processStore';
+import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
@@ -17,6 +23,10 @@ const Apple = () => {
   const { t } = useTranslation();
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
   const { name } = settingsStore(useShallow(usersSelector)).userData;
+  const { lockUser, logout } = processStore(useShallow(loginSelector));
+  const { clearAllActiveApps } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
 
   return (
     <Menu>
@@ -86,14 +96,23 @@ const Apple = () => {
           text={t('TopAppBar.apple.lockScreen')}
           ariaLabel="lock-screen"
           side="left"
-          onClick={() => {}}
+          onClick={() => {
+            setTimeout(() => {
+              lockUser();
+            }, 500);
+          }}
           command="⌃⇧Q"
         />
         <MenuItemComponent
           text={t('TopAppBar.apple.logOut', { userName: name })}
           ariaLabel="logout"
           side="left"
-          onClick={() => {}}
+          onClick={() => {
+            clearAllActiveApps();
+            setTimeout(() => {
+              logout();
+            }, 1000);
+          }}
           command="⌘⇧Q"
         />
       </MenuListComponent>

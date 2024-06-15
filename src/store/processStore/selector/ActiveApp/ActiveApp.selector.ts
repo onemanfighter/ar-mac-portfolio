@@ -16,6 +16,7 @@ const activeAppActionsSelector = (state: ProcessStoreState) => ({
   removeApp: state.ActiveApp.removeApp,
   setWindowSize: state.ActiveApp.setWindowSize,
   updatePosition: state.ActiveApp.updatePosition,
+  clearAllActiveApps: state.ActiveApp.clearAllActiveApps,
 });
 
 export {

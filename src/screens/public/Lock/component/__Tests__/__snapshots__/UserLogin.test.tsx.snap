@@ -61,7 +61,7 @@ exports[`UserLogin should be able to enter password on password field 1`] = `
     <p
       class="chakra-text css-1ahyq4l"
     >
-      Touch ID or Enter password
+      Your password is required to enable Touch ID
     </p>
   </div>
 </div>
@@ -128,7 +128,7 @@ exports[`UserLogin should be able to enter password on password field 2`] = `
     <p
       class="chakra-text css-1ahyq4l"
     >
-      Touch ID or Enter password
+      Your password is required to enable Touch ID
     </p>
   </div>
 </div>
@@ -195,7 +195,7 @@ exports[`UserLogin should return the default user login component 1`] = `
     <p
       class="chakra-text css-1ahyq4l"
     >
-      Touch ID or Enter password
+      Your password is required to enable Touch ID
     </p>
   </div>
 </div>
@@ -253,7 +253,7 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
     <p
       class="chakra-text css-1ahyq4l"
     >
-      Touch ID or Enter password
+      Your password is required to enable Touch ID
     </p>
   </div>
 </div>
@@ -320,7 +320,7 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
     <p
       class="chakra-text css-6az4zj"
     >
-      Touch ID or Enter password
+      Your password is required to enable Touch ID
     </p>
   </div>
 </div>
