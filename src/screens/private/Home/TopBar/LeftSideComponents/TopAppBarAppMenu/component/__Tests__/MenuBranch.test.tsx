@@ -28,7 +28,7 @@ const dummyData: Record<string, MenuTreeNode> = {
     hasDivider: true,
     subSubtree: [
       {
-        title: 'subTreeTest1',
+        title: 'subTree Test1',
         command: 'subTreeCommand3',
         action: actionMockTest4,
         hasDivider: true,
@@ -86,7 +86,7 @@ describe('MenuBranch', () => {
       <MenuBranch title={'Test'} type={'normal'} items={dummyData} />,
     );
 
-    fireEvent.click(screen.getByLabelText('test1-menu-button'));
+    fireEvent.click(screen.getByLabelText('test-1-menu-button'));
 
     expect(actionMockTest1).toHaveBeenCalledTimes(1);
   });
@@ -96,7 +96,7 @@ describe('MenuBranch', () => {
       <MenuBranch title={'Test'} type={'normal'} items={dummyData} />,
     );
 
-    fireEvent.click(screen.getByLabelText('subtreetest1-sub-menu-item'));
+    fireEvent.click(screen.getByLabelText('subtree-test-1-sub-menu-item'));
 
     expect(actionMockTest4).toHaveBeenCalledTimes(1);
   });
