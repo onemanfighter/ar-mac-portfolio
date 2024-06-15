@@ -6,6 +6,7 @@ import {
   settingsStore,
   useShallow,
 } from '@settingsStore';
+import _ from 'lodash';
 
 const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
@@ -23,7 +24,7 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
         _active={{
           bg: '#ffffff4f',
         }}
-        aria-label={`${title.toLowerCase()}-top-bar-button`}
+        aria-label={`${_.kebabCase(title.toLowerCase())}-top-bar-button`}
       >
         <Text fontWeight={type === 'main' ? 800 : 500}>{title}</Text>
       </MenuButton>
@@ -35,7 +36,9 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                 <MenuItemComponent
                   key={index + '-' + item.title}
                   text={item.title}
-                  ariaLabel={item.title.toLowerCase() + '-menu-button'}
+                  ariaLabel={
+                    _.kebabCase(item.title.toLowerCase()) + '-menu-button'
+                  }
                   onClick={item.action}
                   command={item.command}
                   side={'left'}
@@ -51,7 +54,7 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                 <MenuButton
                   width={'100%'}
                   borderRadius={2}
-                  aria-label={`${item.title.toLowerCase()}-menu-button`}
+                  aria-label={`${_.kebabCase(item.title.toLowerCase())}-menu-button`}
                   _hover={{ bg: 'blue.500' }}
                   _active={{ bg: 'blue.500' }}
                 >
@@ -72,7 +75,8 @@ const MenuBranch = ({ title, type, items }: MenuTreeBranch) => {
                           key={subIndex + '-' + subItem.title + '-sub-item'}
                           text={subItem.title}
                           ariaLabel={
-                            subItem.title.toLowerCase() + '-sub-menu-item'
+                            _.kebabCase(subItem.title.toLowerCase()) +
+                            '-sub-menu-item'
                           }
                           onClick={subItem.action}
                           command={subItem.command}

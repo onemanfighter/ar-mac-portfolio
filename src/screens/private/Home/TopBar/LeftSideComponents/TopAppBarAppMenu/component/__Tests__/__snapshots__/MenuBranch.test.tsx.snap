@@ -37,7 +37,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
       tabindex="-1"
     >
       <button
-        aria-label="test1-menu-button"
+        aria-label="test-1-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r9:-menuitem-:ra:"
@@ -57,7 +57,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
         </span>
       </button>
       <button
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r9:-menuitem-:rb:"
@@ -84,7 +84,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
         aria-controls="menu-list-:rd:"
         aria-expanded="false"
         aria-haspopup="menu"
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menu-button css-p03ncx"
         id="menu-button-:rd:"
       >
@@ -130,7 +130,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtreetest1-sub-menu-item"
+            aria-label="subtree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rd:-menuitem-:rf:"
@@ -141,7 +141,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
             <span
               style="pointer-events: none; flex: 1;"
             >
-              subTreeTest1
+              subTree Test1
             </span>
             <span
               class="chakra-menu__command css-8dknqd"
@@ -197,7 +197,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
       tabindex="-1"
     >
       <button
-        aria-label="test1-menu-button"
+        aria-label="test-1-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:rp:-menuitem-:rq:"
@@ -217,7 +217,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
         </span>
       </button>
       <button
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:rp:-menuitem-:rr:"
@@ -244,7 +244,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
         aria-controls="menu-list-:rt:"
         aria-expanded="false"
         aria-haspopup="menu"
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menu-button css-p03ncx"
         id="menu-button-:rt:"
       >
@@ -290,7 +290,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtreetest1-sub-menu-item"
+            aria-label="subtree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rt:-menuitem-:rv:"
@@ -301,7 +301,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
             <span
               style="pointer-events: none; flex: 1;"
             >
-              subTreeTest1
+              subTree Test1
             </span>
             <span
               class="chakra-menu__command css-8dknqd"
@@ -353,7 +353,7 @@ exports[`MenuBranch should render with main type 1`] = `
       tabindex="-1"
     >
       <button
-        aria-label="test1-menu-button"
+        aria-label="test-1-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
@@ -373,7 +373,7 @@ exports[`MenuBranch should render with main type 1`] = `
         </span>
       </button>
       <button
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
@@ -400,7 +400,7 @@ exports[`MenuBranch should render with main type 1`] = `
         aria-controls="menu-list-:r5:"
         aria-expanded="false"
         aria-haspopup="menu"
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menu-button css-p03ncx"
         id="menu-button-:r5:"
       >
@@ -446,7 +446,7 @@ exports[`MenuBranch should render with main type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtreetest1-sub-menu-item"
+            aria-label="subtree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:r5:-menuitem-:r7:"
@@ -457,7 +457,7 @@ exports[`MenuBranch should render with main type 1`] = `
             <span
               style="pointer-events: none; flex: 1;"
             >
-              subTreeTest1
+              subTree Test1
             </span>
             <span
               class="chakra-menu__command css-8dknqd"
@@ -509,7 +509,7 @@ exports[`MenuBranch should render with normal type 1`] = `
       tabindex="-1"
     >
       <button
-        aria-label="test1-menu-button"
+        aria-label="test-1-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="0"
         id="menu-list-:rh:-menuitem-:ri:"
@@ -529,7 +529,7 @@ exports[`MenuBranch should render with normal type 1`] = `
         </span>
       </button>
       <button
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menuitem css-sfzsdj"
         data-index="1"
         id="menu-list-:rh:-menuitem-:rj:"
@@ -556,7 +556,7 @@ exports[`MenuBranch should render with normal type 1`] = `
         aria-controls="menu-list-:rl:"
         aria-expanded="false"
         aria-haspopup="menu"
-        aria-label="test2-menu-button"
+        aria-label="test-2-menu-button"
         class="chakra-menu__menu-button css-p03ncx"
         id="menu-button-:rl:"
       >
@@ -602,7 +602,7 @@ exports[`MenuBranch should render with normal type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtreetest1-sub-menu-item"
+            aria-label="subtree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rl:-menuitem-:rn:"
@@ -613,7 +613,7 @@ exports[`MenuBranch should render with normal type 1`] = `
             <span
               style="pointer-events: none; flex: 1;"
             >
-              subTreeTest1
+              subTree Test1
             </span>
             <span
               class="chakra-menu__command css-8dknqd"
