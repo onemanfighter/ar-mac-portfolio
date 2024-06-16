@@ -302,7 +302,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Settings-inner-menu-item"
+                      aria-label="settings-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:rh:-menuitem-:ri:"
@@ -922,7 +922,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Auto Fill-inner-menu-item"
+                      aria-label="auto-fill-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:r1o:-menuitem-:r1p:"
@@ -3934,7 +3934,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Settings-inner-menu-item"
+                      aria-label="settings-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:r6u:-menuitem-:r6v:"
@@ -4554,7 +4554,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Auto Fill-inner-menu-item"
+                      aria-label="auto-fill-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:r85:-menuitem-:r86:"
@@ -15504,7 +15504,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Settings-inner-menu-item"
+                      aria-label="settings-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:rgn:-menuitem-:rgo:"
@@ -16124,7 +16124,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Auto Fill-inner-menu-item"
+                      aria-label="auto-fill-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:rhu:-menuitem-:rhv:"

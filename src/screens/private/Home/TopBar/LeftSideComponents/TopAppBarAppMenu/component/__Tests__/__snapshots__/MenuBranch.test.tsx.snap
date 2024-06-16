@@ -92,7 +92,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
           class="css-xl71ch"
         >
           <button
-            aria-label="test2-inner-menu-item"
+            aria-label="test-2-inner-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="0"
             id="menu-list-:rd:-menuitem-:re:"
@@ -130,7 +130,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtree-test-1-sub-menu-item"
+            aria-label="sub-tree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rd:-menuitem-:rf:"
@@ -252,7 +252,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
           class="css-xl71ch"
         >
           <button
-            aria-label="test2-inner-menu-item"
+            aria-label="test-2-inner-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="0"
             id="menu-list-:rt:-menuitem-:ru:"
@@ -290,7 +290,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtree-test-1-sub-menu-item"
+            aria-label="sub-tree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rt:-menuitem-:rv:"
@@ -408,7 +408,7 @@ exports[`MenuBranch should render with main type 1`] = `
           class="css-xl71ch"
         >
           <button
-            aria-label="test2-inner-menu-item"
+            aria-label="test-2-inner-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="0"
             id="menu-list-:r5:-menuitem-:r6:"
@@ -446,7 +446,7 @@ exports[`MenuBranch should render with main type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtree-test-1-sub-menu-item"
+            aria-label="sub-tree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:r5:-menuitem-:r7:"
@@ -564,7 +564,7 @@ exports[`MenuBranch should render with normal type 1`] = `
           class="css-xl71ch"
         >
           <button
-            aria-label="test2-inner-menu-item"
+            aria-label="test-2-inner-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="0"
             id="menu-list-:rl:-menuitem-:rm:"
@@ -602,7 +602,7 @@ exports[`MenuBranch should render with normal type 1`] = `
           tabindex="-1"
         >
           <button
-            aria-label="subtree-test-1-sub-menu-item"
+            aria-label="sub-tree-test-1-sub-menu-item"
             class="chakra-menu__menuitem css-sfzsdj"
             data-index="1"
             id="menu-list-:rl:-menuitem-:rn:"

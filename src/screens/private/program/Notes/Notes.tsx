@@ -85,7 +85,7 @@ const Notes = (props: NotesProps) => {
         flexDir={'row'}
       >
         <Box
-          width={'240'}
+          width={'240px'}
           height={'100%'}
           bg={'neutral.600'}
           borderRight={'1px solid #000000'}

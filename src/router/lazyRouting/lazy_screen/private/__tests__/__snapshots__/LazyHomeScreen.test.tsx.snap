@@ -302,7 +302,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Settings-inner-menu-item"
+                      aria-label="settings-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:rh:-menuitem-:ri:"
@@ -922,7 +922,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="Auto Fill-inner-menu-item"
+                      aria-label="auto-fill-inner-menu-item"
                       class="chakra-menu__menuitem css-sfzsdj"
                       data-index="0"
                       id="menu-list-:r1o:-menuitem-:r1p:"

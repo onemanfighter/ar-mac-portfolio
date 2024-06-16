@@ -96,7 +96,7 @@ describe('MenuBranch', () => {
       <MenuBranch title={'Test'} type={'normal'} items={dummyData} />,
     );
 
-    fireEvent.click(screen.getByLabelText('subtree-test-1-sub-menu-item'));
+    fireEvent.click(screen.getByLabelText('sub-tree-test-1-sub-menu-item'));
 
     expect(actionMockTest4).toHaveBeenCalledTimes(1);
   });
