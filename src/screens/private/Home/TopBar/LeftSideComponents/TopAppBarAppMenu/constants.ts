@@ -1,5 +1,5 @@
 import { ProgramType } from '@processStore';
-import { VS_CODE as VS_CODE_MENU } from './menuData';
+import { NOTES, VS_CODE as VS_CODE_MENU } from './menuData';
 import { TopAppMenuTreeStructure } from './types';
 
 export const TopAppBarAppMenuDatMap: Record<
@@ -11,10 +11,7 @@ export const TopAppBarAppMenuDatMap: Record<
     id: '',
     menuTree: [],
   },
-  [ProgramType.NOTES]: {
-    id: '',
-    menuTree: [],
-  },
+  [ProgramType.NOTES]: NOTES,
   [ProgramType.CHROME]: {
     id: '',
     menuTree: [],

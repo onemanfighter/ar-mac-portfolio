@@ -40,7 +40,7 @@ exports[`Notes should invoke add note on clicking add note button 1`] = `
       class="css-1fjg3y4"
     >
       <div
-        class="css-1culoml"
+        class="css-1myg2cv"
       >
         <div
           aria-label="note-card-1"
@@ -116,7 +116,7 @@ exports[`Notes should invoke delete note on clicking delete note button 1`] = `
       class="css-1fjg3y4"
     >
       <div
-        class="css-1culoml"
+        class="css-1myg2cv"
       />
       <div
         class="css-1xb7lh4"
@@ -170,7 +170,7 @@ exports[`Notes should render correctly to match snapshot 1`] = `
       class="css-1fjg3y4"
     >
       <div
-        class="css-1culoml"
+        class="css-1myg2cv"
       />
       <div
         class="css-1xb7lh4"
@@ -224,7 +224,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
       class="css-1fjg3y4"
     >
       <div
-        class="css-1culoml"
+        class="css-1myg2cv"
       >
         <div
           aria-label="note-card-1"
