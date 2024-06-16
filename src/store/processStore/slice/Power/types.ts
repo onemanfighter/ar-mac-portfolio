@@ -1,7 +1,8 @@
 export enum Power {
   OFF = 'off',
-  POWERING = 'powering',
   ON = 'on',
+  POWERING = 'powering',
+  SLEEP = 'sleep',
 }
 
 export type PowerState = {
@@ -26,6 +27,12 @@ export interface PowerStateAction {
    * @returns void
    */
   poweringOn: () => void;
+
+  /**
+   * Put the system to sleep
+   * @returns void
+   */
+  sleep: () => void;
 }
 
 export type PowerStateSlice = PowerState & PowerStateAction;

@@ -7,8 +7,8 @@ import {
 } from '@components';
 import {
   activeAppActionsSelector,
-  activeAppSelector,
   loginSelector,
+  powerSelector,
   processStore,
 } from '@processStore';
 import {
@@ -23,10 +23,12 @@ const Apple = () => {
   const { t } = useTranslation();
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
   const { name } = settingsStore(useShallow(usersSelector)).userData;
-  const { lockUser, logout, clearAllActiveApps } = processStore((state) => ({
-    ...loginSelector(state),
-    ...activeAppActionsSelector(state),
-  }));
+  const { lockUser, logout, sleep, turnOff, restart } = processStore(
+    (state) => ({
+      ...loginSelector(state),
+      ...powerSelector(state),
+    }),
+  );
 
   return (
     <Menu>
@@ -77,42 +79,33 @@ const Apple = () => {
           text={t('TopAppBar.apple.sleep')}
           ariaLabel="sleep"
           side="left"
-          onClick={() => {}}
+          onClick={sleep}
         />
         <MenuItemComponent
           text={t('TopAppBar.apple.restart')}
           ariaLabel="restart"
           side="left"
-          onClick={() => {}}
+          onClick={restart}
         />
         <MenuItemComponent
           text={t('TopAppBar.apple.shutDown')}
           ariaLabel="shutDown"
           side="left"
-          onClick={() => {}}
+          onClick={turnOff}
         />
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.apple.lockScreen')}
           ariaLabel="lock-screen"
           side="left"
-          onClick={() => {
-            setTimeout(() => {
-              lockUser();
-            }, 500);
-          }}
+          onClick={lockUser}
           command="⌃⇧Q"
         />
         <MenuItemComponent
           text={t('TopAppBar.apple.logOut', { userName: name })}
           ariaLabel="logout"
           side="left"
-          onClick={() => {
-            clearAllActiveApps();
-            setTimeout(() => {
-              logout();
-            }, 1000);
-          }}
+          onClick={logout}
           command="⌘⇧Q"
         />
       </MenuListComponent>

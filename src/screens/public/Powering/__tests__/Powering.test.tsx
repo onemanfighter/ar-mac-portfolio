@@ -18,7 +18,8 @@ describe('PowerOff', () => {
   it('should render correctly to match snapshot after six second', () => {
     const { container } = render(<Powering />);
 
-    jest.advanceTimersByTime(6000);
+    jest.advanceTimersByTime(10000);
+
     expect(container).toMatchSnapshot();
   });
 

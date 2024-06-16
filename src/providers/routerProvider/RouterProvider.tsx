@@ -17,7 +17,7 @@ const RouterProviderComponent = () => {
   const { isLoggedIn } = processStore(useShallow(loginSelector));
   const { powerState } = processStore(useShallow(powerSelector));
 
-  if (powerState === Power.OFF) {
+  if (powerState === Power.OFF || powerState === Power.SLEEP) {
     return <RouterProvider router={publicRouterPower} />;
   }
 

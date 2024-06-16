@@ -5,8 +5,17 @@ const loginSelector = (state: ProcessStoreState) => ({
   isUserLocked: state.Login.loginState === UserLogin.LOCKED,
   isLoggedOut: state.Login.loginState === UserLogin.LOCKED,
   login: state.Login.login,
-  logout: state.Login.logout,
-  lockUser: state.Login.lockUser,
+  logout: () => {
+    state.ActiveApp.clearAllActiveApps();
+    setTimeout(() => {
+      state.Login.logout();
+    }, 1000);
+  },
+  lockUser: () => {
+    setTimeout(() => {
+      state.Login.logout();
+    }, 500);
+  },
 });
 
 export { loginSelector };

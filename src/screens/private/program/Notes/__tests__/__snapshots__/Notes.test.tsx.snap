@@ -65,6 +65,7 @@ exports[`Notes should invoke add note on clicking add note button 1`] = `
         </div>
       </div>
       <div
+        aria-label="note-editor-box"
         class="css-1xb7lh4"
       >
         <div>
@@ -119,6 +120,7 @@ exports[`Notes should invoke delete note on clicking delete note button 1`] = `
         class="css-1myg2cv"
       />
       <div
+        aria-label="note-editor-box"
         class="css-1xb7lh4"
       >
         <div>
@@ -173,6 +175,84 @@ exports[`Notes should render correctly to match snapshot 1`] = `
         class="css-1myg2cv"
       />
       <div
+        aria-label="note-editor-box"
+        class="css-1xb7lh4"
+      >
+        <div>
+          Editor
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notes should select all on clicking select all 1`] = `
+<div>
+  <div
+    aria-label="notes-app"
+    class="css-1v8gcgw"
+  >
+    <div
+      class="css-cum3m2"
+    >
+      <button
+        aria-label="add-note"
+        class="chakra-button css-p7mkev"
+        type="button"
+      >
+        <p
+          aria-hidden="true"
+          class="chakra-text css-bk9fzy"
+          focusable="false"
+        >
+          +
+        </p>
+      </button>
+      <button
+        aria-label="delete-note"
+        class="chakra-button css-p7mkev"
+        type="button"
+      >
+        <p
+          aria-hidden="true"
+          class="chakra-text css-bk9fzy"
+          focusable="false"
+        >
+          -
+        </p>
+      </button>
+    </div>
+    <div
+      class="css-1fjg3y4"
+    >
+      <div
+        class="css-1culoml"
+      >
+        <div
+          aria-label="note-card-1"
+          class="chakra-card css-6capty"
+        >
+          <p
+            class="chakra-text css-1i664ua"
+          >
+            Title
+          </p>
+          <p
+            class="chakra-text css-d050u0"
+          >
+            5/14/2020
+            <p
+              class="chakra-text css-116pnhr"
+            >
+               -&gt; 
+              Description
+            </p>
+          </p>
+        </div>
+      </div>
+      <div
+        aria-label="note-editor-box"
         class="css-1xb7lh4"
       >
         <div>
@@ -270,6 +350,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
         </div>
       </div>
       <div
+        aria-label="note-editor-box"
         class="css-1xb7lh4"
       >
         <div>
