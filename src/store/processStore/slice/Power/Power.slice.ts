@@ -20,6 +20,10 @@ const createPowerSlice: ProcessStoreSlice<PowerStateSlice> = (set) => ({
     set((state) => {
       state.Power.onState = Power.OFF;
     }),
+  sleep: () =>
+    set((state) => {
+      state.Power.onState = Power.SLEEP;
+    }),
 });
 
 export default createPowerSlice;

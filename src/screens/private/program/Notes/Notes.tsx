@@ -139,6 +139,7 @@ const Notes = (props: NotesProps) => {
         </Box>
         <Box
           width={'80%'}
+          aria-label="note-editor-box"
           height={'100%'}
           padding={5}
           bg={'#1a1a1a'}

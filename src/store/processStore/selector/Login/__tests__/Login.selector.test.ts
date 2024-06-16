@@ -17,7 +17,7 @@ describe('Login selector', () => {
     expect(result.current.isLoggedIn).toEqual(true);
   });
 
-  it('should return false state on logout call', () => {
+  it('should return false state on logout call', async () => {
     const { result } = renderHook(() => processStore(loginSelector));
 
     // Log in
@@ -26,6 +26,7 @@ describe('Login selector', () => {
 
     // Log out
     result.current.logout();
+    await jest.advanceTimersByTimeAsync(2000);
     expect(result.current.isLoggedIn).toEqual(false);
   });
 });

@@ -15,15 +15,15 @@ describe('Chrome', () => {
     fireEvent.click(screen.getByLabelText('chrome-back'));
   });
 
-  // it('should invoke click handler ', () => {
-  //   const { container } = render(<Chrome />);
+  it('should invoke click handler ', () => {
+    const { container } = render(<Chrome />);
 
-  //   fireEvent.change(screen.getByLabelText('chrome-input'), {
-  //     target: { value: 'https://www.google.com' },
-  //   });
+    fireEvent.change(screen.getByLabelText('chrome-input'), {
+      target: { value: 'https://www.google.com' },
+    });
 
-  //   expect(container).toMatchSnapshot();
-  // });
+    expect(container).toMatchSnapshot();
+  });
 
   it('should invoke click handler on forward press', () => {
     const { container } = render(<Chrome />);

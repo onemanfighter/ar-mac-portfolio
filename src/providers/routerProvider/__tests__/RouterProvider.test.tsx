@@ -34,6 +34,20 @@ describe('RouterProvider', () => {
     expect(container).toMatchSnapshot();
   });
 
+  it('should render for power off', async () => {
+    const { result } = renderHook(() => processStore());
+    act(() => {
+      result.current.Power.sleep();
+    });
+    const { container } = render(<RouterProviderComponent />);
+
+    await waitFor(() => {
+      expect(screen.getByLabelText('power-screen')).toBeDefined();
+    });
+
+    expect(container).toMatchSnapshot();
+  });
+
   it('should render for powering', async () => {
     const { result } = renderHook(() => processStore());
     act(() => {

@@ -50,4 +50,16 @@ describe('Notes', () => {
     // Card 1 is selected
     expect(container).toMatchSnapshot();
   });
+
+  it('should select all on clicking select all', () => {
+    const { result } = renderHook(() => appStore());
+    const { container } = render(<Notes />);
+    // Adding notes
+    fireEvent.click(screen.getByLabelText('add-note'));
+    // Clicking on text area to get focus on editor
+    fireEvent.click(screen.getByLabelText('note-editor-box'));
+
+    // Card 1 is selected
+    expect(container).toMatchSnapshot();
+  });
 });

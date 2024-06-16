@@ -23,4 +23,20 @@ describe('Power slice', () => {
 
     expect(result.current.Power.onState).toEqual(Power.OFF);
   });
+
+  it('should return on stat powering on calling poweringOn', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.Power.poweringOn();
+
+    expect(result.current.Power.onState).toEqual(Power.POWERING);
+  });
+
+  it('should return on stat sleep calling sleep', () => {
+    const { result } = renderHook(() => processStore());
+
+    result.current.Power.sleep();
+
+    expect(result.current.Power.onState).toEqual(Power.SLEEP);
+  });
 });
