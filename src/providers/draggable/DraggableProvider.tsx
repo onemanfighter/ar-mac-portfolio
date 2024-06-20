@@ -10,8 +10,6 @@ const DraggableProvider = ({
 }: DraggableProps) => {
   const { width, height } = useWindowDimensions();
 
-  console.log(position);
-
   const positionHandler = maximized
     ? {}
     : {

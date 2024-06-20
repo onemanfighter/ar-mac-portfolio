@@ -1,9 +1,9 @@
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
-import { Box } from '@chakra-ui/react';
+import { Box, Divider } from '@chakra-ui/react';
 import { BottomBarProps, ProgramItem } from './type';
-import { ProgramButton, ProgramType } from './components';
-import { reorder } from './utils';
+import { ProgramButtonDraggable } from './components';
+import { getAllAppOtherThanBottomBarApps, reorder } from './utils';
 import PROGRAMS from './components/constants';
 import {
   darkModeColorSelector,
@@ -12,15 +12,21 @@ import {
 } from '@settingsStore';
 import {
   activeAppActionsSelector,
+  activeAppRunningSelector,
   activeAppSelector,
+  allActiveAppsSelector,
   processStore,
+  ProgramType,
   WindowSize,
 } from '@processStore';
 import { LaunchpadContext } from '../../Mac';
+import { ProgramButton } from '../common';
+import { LaunchpadProgramsList } from '../Launchpad/constants';
+import { BottomBarProgramType } from './components/types';
 
 const InitialProgramOrderList: ProgramItem[] = Object.entries(PROGRAMS).map(
   (value) => ({
-    type: value[0] as ProgramType,
+    type: value[0] as BottomBarProgramType,
     name: value[1].name,
     id: value[1].name,
   }),
@@ -33,7 +39,18 @@ const BottomBar = (_props: BottomBarProps) => {
   const { addApp, setWindowSize } = processStore(
     useShallow(activeAppActionsSelector),
   );
-  const getActiveApp = processStore(useShallow(activeAppSelector));
+  const { allActiveApps, getActiveApp, activeAppRunning } = processStore(
+    useShallow((state) => ({
+      getActiveApp: activeAppSelector(state),
+      allActiveApps: allActiveAppsSelector(state),
+      ...activeAppRunningSelector(state),
+    })),
+  );
+  console.log(allActiveApps);
+
+  const runningMiddleApps = getAllAppOtherThanBottomBarApps(
+    allActiveApps as ProgramType[],
+  ).slice(-3);
 
   function onDragEnd(result: DropResult) {
     if (
@@ -49,7 +66,18 @@ const BottomBar = (_props: BottomBarProps) => {
       setState(newList);
     }
   }
-  console.log('BottomBar', launchpad);
+
+  const binCurrentAppState =
+    getActiveApp(BottomBarProgramType.FINDER as unknown as ProgramType) ??
+    undefined;
+
+  useEffect(() => {
+    if (activeAppRunning !== ProgramType.LAUNCHPAD) {
+      setLaunchpad(false);
+      return;
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeAppRunning, setLaunchpad]);
 
   return (
     <Box
@@ -65,56 +93,101 @@ const BottomBar = (_props: BottomBarProps) => {
       <DragDropContext onDragEnd={onDragEnd}>
         <Droppable droppableId="droppable-list" direction="horizontal">
           {(provided) => (
-            <Box
-              ref={provided.innerRef}
-              {...provided.droppableProps}
-              display={'flex'}
-              height={'auto'}
-              p={1}
-              my={1}
-              mx={'auto'}
-              position={'fixed'}
-              alignItems={'center'}
-              transition={'all 0.3s ease-in-out'}
-              bg={bottomBarBgColor}
-              borderRadius={'3xl'}
-              border={'1px solid gray'}
-              dropShadow={'md'}
-              bottom={0}
-              style={{ backdropFilter: 'blur(6px)' }}
-              zIndex={10}
-              gap={4}
-            >
-              {state.map((program, index) => {
-                const currentApp = getActiveApp(program.type);
-                return (
-                  <ProgramButton
-                    type={program.type}
-                    key={program.name}
-                    id={program.id}
-                    isActive={
-                      currentApp !== undefined ||
-                      (program.type === ProgramType.LAUNCHPAD &&
-                        launchpad === true)
-                    }
-                    index={index}
-                    onClickHandler={(app: ProgramType) => {
-                      if (app === ProgramType.LAUNCHPAD) {
-                        setLaunchpad(!launchpad);
-                        return; // Prevents opening app when launchpad is open
+            <>
+              <Box
+                ref={provided.innerRef}
+                {...provided.droppableProps}
+                display={'flex'}
+                height={'auto'}
+                p={1}
+                my={1}
+                mx={'auto'}
+                position={'fixed'}
+                alignItems={'center'}
+                transition={'all 0.3s ease-in-out'}
+                bg={bottomBarBgColor}
+                borderRadius={'3xl'}
+                border={'1px solid gray'}
+                dropShadow={'md'}
+                bottom={0}
+                style={{ backdropFilter: 'blur(6px)' }}
+                zIndex={10}
+                gap={4}
+              >
+                {state.map((program, index) => {
+                  const currentApp = getActiveApp(
+                    program.type as unknown as ProgramType,
+                  );
+                  return (
+                    <ProgramButtonDraggable
+                      type={program.type}
+                      key={program.name}
+                      id={program.id}
+                      isActive={
+                        currentApp !== undefined ||
+                        (program.type === BottomBarProgramType.LAUNCHPAD &&
+                          launchpad === true)
                       }
-                      setLaunchpad(false); // Close launchpad when opening app
-                      !currentApp
-                        ? setTimeout(() => {
-                            addApp(app);
-                          }, 500)
-                        : setWindowSize(app, WindowSize.DEFAULT);
-                    }}
-                  />
-                );
-              })}
-              {provided.placeholder}
-            </Box>
+                      index={index}
+                      onClickHandler={(app: BottomBarProgramType) => {
+                        if (app === BottomBarProgramType.LAUNCHPAD) {
+                          setLaunchpad(!launchpad);
+                          return; // Prevents opening app when launchpad is open
+                        }
+                        setLaunchpad(false); // Close launchpad when opening app
+                        !currentApp
+                          ? setTimeout(() => {
+                              addApp(app as unknown as ProgramType);
+                            }, 500)
+                          : setWindowSize(
+                              app as unknown as ProgramType,
+                              WindowSize.DEFAULT,
+                            );
+                      }}
+                    />
+                  );
+                })}
+                {provided.placeholder}
+                {runningMiddleApps.length !== 0 ? (
+                  <>
+                    <Divider orientation="vertical" height={' 16'} />
+                    {runningMiddleApps.map((app) => {
+                      const currentApp = getActiveApp(app);
+                      return (
+                        <ProgramButton
+                          name={app.valueOf().toString()}
+                          key={app}
+                          variant="bottomBar"
+                          icon={LaunchpadProgramsList[app].icon}
+                          isActive={currentApp !== undefined}
+                          onClickHandler={() => {
+                            !currentApp
+                              ? setTimeout(() => {
+                                  addApp(app);
+                                }, 500)
+                              : setWindowSize(app, WindowSize.DEFAULT);
+                          }}
+                        />
+                      );
+                    })}
+                  </>
+                ) : null}
+                <Divider orientation="vertical" height={'16'} />
+                <ProgramButton
+                  name="Bin"
+                  variant="bottomBar"
+                  icon={LaunchpadProgramsList['bin'].icon}
+                  isActive={binCurrentAppState !== undefined}
+                  onClickHandler={() => {
+                    !binCurrentAppState
+                      ? setTimeout(() => {
+                          addApp(ProgramType.BIN);
+                        }, 500)
+                      : setWindowSize(ProgramType.BIN, WindowSize.DEFAULT);
+                  }}
+                />
+              </Box>
+            </>
           )}
         </Droppable>
       </DragDropContext>

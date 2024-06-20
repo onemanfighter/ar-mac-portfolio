@@ -10,6 +10,9 @@ const activeAppRunningSelector = (state: ProcessStoreState) => ({
   makeDefaultAppActive: state.ActiveApp.makeDefaultAppActive,
 });
 
+const allActiveAppsSelector = (state: ProcessStoreState) =>
+  Object.keys(state.ActiveApp.apps).filter((app) => app !== undefined);
+
 const activeAppActionsSelector = (state: ProcessStoreState) => ({
   makeAppActive: state.ActiveApp.makeAppActive,
   addApp: state.ActiveApp.addApp,
@@ -21,6 +24,7 @@ const activeAppActionsSelector = (state: ProcessStoreState) => ({
 
 export {
   activeAppSelector,
+  allActiveAppsSelector,
   activeAppActionsSelector,
   activeAppRunningSelector,
 };

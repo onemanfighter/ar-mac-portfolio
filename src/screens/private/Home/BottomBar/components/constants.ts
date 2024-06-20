@@ -1,4 +1,4 @@
-import { ProgramType } from './types';
+import { BottomBarProgramType } from './types';
 import Finder from '../../../../../assets/logo/finder.png';
 import Chrome from '../../../../../assets/logo/chrome.png';
 import VsCode from '../../../../../assets/logo/vscode.png';
@@ -10,46 +10,45 @@ import Bin from '../../../../../assets/logo/bin.png';
 import Notes from '../../../../../assets/logo/notes.png';
 import Launchpad from '../../../../../assets/logo/launchpad.png';
 
-export const PROGRAMS: Record<ProgramType, { name: string; icon: string }> = {
-  [ProgramType.LAUNCHPAD]: {
+export const PROGRAMS: Record<
+  BottomBarProgramType,
+  { name: string; icon: string }
+> = {
+  [BottomBarProgramType.LAUNCHPAD]: {
     name: 'Launchpad',
     icon: Launchpad,
   },
-  [ProgramType.FINDER]: {
+  [BottomBarProgramType.FINDER]: {
     name: 'Finder',
     icon: Finder,
   },
-  [ProgramType.NOTES]: {
+  [BottomBarProgramType.NOTES]: {
     name: 'Notes',
     icon: Notes,
   },
-  [ProgramType.CHROME]: {
+  [BottomBarProgramType.CHROME]: {
     name: 'Chrome',
     icon: Chrome,
   },
-  [ProgramType.VSCODE]: {
+  [BottomBarProgramType.VSCODE]: {
     name: 'VsCode',
     icon: VsCode,
   },
-  [ProgramType.TERMINAL]: {
+  [BottomBarProgramType.TERMINAL]: {
     name: 'Terminal',
     icon: Terminal,
   },
-  [ProgramType.SPOTIFY]: {
+  [BottomBarProgramType.SPOTIFY]: {
     name: 'Spotify',
     icon: Spotify,
   },
-  [ProgramType.GITHUB]: {
+  [BottomBarProgramType.GITHUB]: {
     name: 'Github',
     icon: Github,
   },
-  [ProgramType.SETTINGS]: {
+  [BottomBarProgramType.SETTINGS]: {
     name: 'Settings',
     icon: Settings,
-  },
-  [ProgramType.BIN]: {
-    name: 'Bin',
-    icon: Bin,
   },
 };
 

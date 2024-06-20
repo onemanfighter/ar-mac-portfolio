@@ -13,6 +13,7 @@ describe('ProgramButton', () => {
     const { container } = render(
       <ProgramButton
         name={'Finder'}
+        variant="default"
         icon={dummyIcon}
         isActive={false}
         onClickHandler={onClickHandler}
@@ -26,6 +27,7 @@ describe('ProgramButton', () => {
     const { container } = render(
       <ProgramButton
         name={'Finder'}
+        variant="default"
         icon={dummyIcon}
         isActive={true}
         onClickHandler={onClickHandler}
@@ -39,6 +41,7 @@ describe('ProgramButton', () => {
     render(
       <ProgramButton
         name={'Finder'}
+        variant="default"
         icon={dummyIcon}
         isActive={false}
         onClickHandler={onClickHandler}

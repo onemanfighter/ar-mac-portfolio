@@ -7,3 +7,5 @@ export type ProgramData = {
   icon: string;
   programType: ProgramType;
 };
+
+export type ProgramDataRecord = Record<ProgramType, ProgramData>;

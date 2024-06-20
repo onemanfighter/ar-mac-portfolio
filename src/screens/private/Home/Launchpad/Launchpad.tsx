@@ -1,11 +1,23 @@
 import { WallpaperComponent } from '@components';
-import { ProgramButton } from './components';
+import { ProgramButton } from '../common';
 import { LaunchpadProgramsList } from './constants';
 import { Box } from '@chakra-ui/react';
 import { settingsStore, useShallow, wallpaperSelector } from '@settingsStore';
+import {
+  WindowSize,
+  activeAppActionsSelector,
+  activeAppSelector,
+  processStore,
+} from '@processStore';
 
 const Launchpad = () => {
   const { wallpaper } = settingsStore(useShallow(wallpaperSelector));
+  const { getActiveApp, addApp, setWindowSize } = processStore(
+    useShallow((state) => ({
+      getActiveApp: activeAppSelector(state),
+      ...activeAppActionsSelector(state),
+    })),
+  );
 
   return (
     <Box
@@ -23,7 +35,13 @@ const Launchpad = () => {
       >
         <WallpaperComponent id={wallpaper} />
       </Box>
-      <Box height={'85%'} position={'absolute'} zIndex={1001} overflow={'auto'}>
+      <Box
+        height={'85%'}
+        top={7}
+        position={'absolute'}
+        zIndex={1001}
+        overflow={'auto'}
+      >
         <Box
           px={24}
           pt={16}
@@ -35,14 +53,21 @@ const Launchpad = () => {
           alignItems={'center'}
           justifyContent={'flex-start'}
         >
-          {LaunchpadProgramsList.map((program, index) => {
+          {Object.values(LaunchpadProgramsList).map((program, index) => {
+            const currentApp = getActiveApp(program.programType);
             return (
               <ProgramButton
                 key={index}
                 name={program.name}
                 icon={program.icon}
                 isActive={false}
-                onClickHandler={() => {}}
+                onClickHandler={() => {
+                  !currentApp
+                    ? setTimeout(() => {
+                        addApp(program.programType);
+                      }, 500)
+                    : setWindowSize(program.programType, WindowSize.DEFAULT);
+                }}
               />
             );
           })}

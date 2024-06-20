@@ -1,4 +1,4 @@
-import { Box, IconButton, Img, Tooltip } from '@chakra-ui/react';
+import { Box, Img, Tooltip } from '@chakra-ui/react';
 import { IconButtonProps } from './types';
 import PROGRAMS from './constants';
 import {
@@ -7,10 +7,10 @@ import {
   settingsStore,
   useShallow,
 } from '@settingsStore';
-import { getIconSize } from './utils';
 import { Draggable } from 'react-beautiful-dnd';
+import { getIconSize } from '../../common';
 
-const ProgramButton = ({
+const ProgramButtonDraggable = ({
   isActive,
   type,
   index,
@@ -77,4 +77,4 @@ const ProgramButton = ({
   );
 };
 
-export default ProgramButton;
+export default ProgramButtonDraggable;

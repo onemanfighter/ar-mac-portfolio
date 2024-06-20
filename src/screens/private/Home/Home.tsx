@@ -24,6 +24,7 @@ import {
 } from '@processStore';
 import { Launchpad } from './Launchpad';
 import { LaunchpadContext } from '../Mac';
+import WindowAppMap from './AppMap';
 
 const Home = (props: HomeProps) => {
   const { launchpad } = useContext(LaunchpadContext);
@@ -66,54 +67,17 @@ const Home = (props: HomeProps) => {
           position={'absolute'}
           zIndex={800}
         >
-          {shouldShowAppWindow(ProgramType.FINDER) ? (
-            <Window
-              app={ProgramType.FINDER}
-              children={<LazyFinderComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.NOTES) ? (
-            <Window app={ProgramType.NOTES} children={<LazyNotesComponent />} />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.CHROME) ? (
-            <Window
-              app={ProgramType.CHROME}
-              children={<LazyChromeComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.GITHUB) ? (
-            <Window
-              app={ProgramType.GITHUB}
-              children={<LazyGithubComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.SETTINGS) ? (
-            <Window
-              app={ProgramType.SETTINGS}
-              children={<LazySettingsComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.SPOTIFY) ? (
-            <Window
-              app={ProgramType.SPOTIFY}
-              children={<LazySpotifyComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.TERMINAL) ? (
-            <Window
-              app={ProgramType.TERMINAL}
-              children={<LazyTerminalComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.VSCODE) ? (
-            <Window
-              app={ProgramType.VSCODE}
-              children={<LazyVsCodeComponent />}
-            />
-          ) : null}
-          {shouldShowAppWindow(ProgramType.BIN) ? (
-            <Window app={ProgramType.BIN} children={<LazyBinComponent />} />
-          ) : null}
+          {Object.values(ProgramType).map((app) => {
+            return (
+              shouldShowAppWindow(app) && (
+                <Window
+                  key={app}
+                  app={app}
+                  children={WindowAppMap[app as ProgramType] ?? null}
+                />
+              )
+            );
+          })}
         </Box>
       )}
     </Box>
