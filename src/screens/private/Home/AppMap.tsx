@@ -9,6 +9,7 @@ import {
   LazyTerminalComponent,
   LazyVsCodeComponent,
   LazyBinComponent,
+  LazyCalendarComponent,
 } from '@router';
 
 const WindowAppMap: Record<ProgramType, JSX.Element | undefined> = {
@@ -26,7 +27,7 @@ const WindowAppMap: Record<ProgramType, JSX.Element | undefined> = {
   [ProgramType.SAFARI]: undefined,
   [ProgramType.MAILS]: undefined,
   [ProgramType.CONTACTS]: undefined,
-  [ProgramType.CALENDAR]: undefined,
+  [ProgramType.CALENDAR]: <LazyCalendarComponent />,
   [ProgramType.REMINDERS]: undefined,
   [ProgramType.FACE_TIME]: undefined,
   [ProgramType.MESSAGES]: undefined,

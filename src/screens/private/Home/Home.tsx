@@ -1,20 +1,9 @@
-import { createContext, useContext } from 'react';
-import { Box, useBoolean } from '@chakra-ui/react';
+import { useContext } from 'react';
+import { Box } from '@chakra-ui/react';
 import { HomeProps } from './type';
 import { WallpaperComponent, Window } from '@components';
 import { settingsStore, useShallow, wallpaperSelector } from '@settingsStore';
 import { TopBar } from './TopBar';
-import {
-  LazyBinComponent,
-  LazyChromeComponent,
-  LazyFinderComponent,
-  LazyGithubComponent,
-  LazyNotesComponent,
-  LazySettingsComponent,
-  LazySpotifyComponent,
-  LazyTerminalComponent,
-  LazyVsCodeComponent,
-} from '@router';
 import { BottomBar } from './BottomBar';
 import {
   ProgramType,
