@@ -17,7 +17,7 @@ exports[`Launchpad should render correctly 1`] = `
       />
     </div>
     <div
-      class="css-129x2jn"
+      class="css-t8dfm6"
     >
       <div
         class="css-1f0kwap"
@@ -84,6 +84,150 @@ exports[`Launchpad should render correctly 1`] = `
             class="chakra-text css-1d0as8b"
           >
             Contacts
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Finder"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Finder"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Finder
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Notes"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Notes"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Notes
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Chrome"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Chrome"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Chrome
+          </p>
+        </div>
+        <div
+          aria-label="program-button-VsCode"
+          class="css-16co9uo"
+        >
+          <img
+            alt="VsCode"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            VsCode
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Terminal"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Terminal"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Terminal
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Spotify"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Spotify"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Spotify
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Github"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Github"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Github
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Settings"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Settings"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Settings
+          </p>
+        </div>
+        <div
+          aria-label="program-button-Bin"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Bin"
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          >
+            Bin
           </p>
         </div>
         <div
@@ -517,6 +661,34 @@ exports[`Launchpad should render correctly 1`] = `
           >
             Xcode
           </p>
+        </div>
+        <div
+          aria-label="program-button-"
+          class="css-16co9uo"
+        >
+          <img
+            alt=""
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          />
+        </div>
+        <div
+          aria-label="program-button-"
+          class="css-16co9uo"
+        >
+          <img
+            alt=""
+            class="chakra-image css-mzgt0a"
+            loading="lazy"
+            src=""
+          />
+          <p
+            class="chakra-text css-1d0as8b"
+          />
         </div>
       </div>
     </div>

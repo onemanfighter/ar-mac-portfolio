@@ -51,8 +51,6 @@ const createActiveAppsSlice: ProcessStoreSlice<ActiveAppsSlice> = (
   updatePosition: (type, position) => {
     const appData = get().ActiveApp.apps[type];
     if (appData !== undefined) {
-      console.log('position:', position);
-
       set((state) => {
         state.ActiveApp.apps[type] = {
           ...appData,

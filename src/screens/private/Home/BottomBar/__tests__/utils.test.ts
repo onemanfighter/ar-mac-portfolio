@@ -1,25 +1,25 @@
-import { ProgramType } from '../components';
+import { BottomBarProgramType } from '../components';
 import { ProgramItem } from '../type';
 import { reorder } from '../utils';
 
 const dummyData: ProgramItem[] = [
   {
-    type: ProgramType.SPOTIFY,
+    type: BottomBarProgramType.SPOTIFY,
     name: 'Spotify',
     id: '1',
   },
   {
-    type: ProgramType.CHROME,
+    type: BottomBarProgramType.CHROME,
     name: 'Chrome',
     id: '2',
   },
   {
-    type: ProgramType.FINDER,
+    type: BottomBarProgramType.FINDER,
     name: 'Finder',
     id: '3',
   },
   {
-    type: ProgramType.GITHUB,
+    type: BottomBarProgramType.GITHUB,
     name: 'Github',
     id: '4',
   },
@@ -31,22 +31,22 @@ describe('utils', () => {
 
     expect(data).toEqual([
       {
-        type: ProgramType.CHROME,
+        type: BottomBarProgramType.CHROME,
         name: 'Chrome',
         id: '2',
       },
       {
-        type: ProgramType.FINDER,
+        type: BottomBarProgramType.FINDER,
         name: 'Finder',
         id: '3',
       },
       {
-        type: ProgramType.GITHUB,
+        type: BottomBarProgramType.GITHUB,
         name: 'Github',
         id: '4',
       },
       {
-        type: ProgramType.SPOTIFY,
+        type: BottomBarProgramType.SPOTIFY,
         name: 'Spotify',
         id: '1',
       },

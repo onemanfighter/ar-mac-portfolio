@@ -3603,17 +3603,50 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               src=""
             />
           </div>
+          <hr
+            aria-orientation="vertical"
+            class="chakra-divider css-kkwhzg"
+          />
           <div
-            aria-describedby="rbd-hidden-text-0-hidden-text-0"
-            aria-label="program-button-bin"
+            aria-label="program-button-numbers"
             class="css-16co9uo"
-            data-rbd-drag-handle-context-id="0"
-            data-rbd-drag-handle-draggable-id="Bin"
-            data-rbd-draggable-context-id="0"
-            data-rbd-draggable-id="Bin"
-            draggable="false"
-            role="button"
-            tabindex="0"
+          >
+            <img
+              alt="numbers"
+              class="chakra-image css-h67rfo"
+              loading="lazy"
+              src=""
+            />
+          </div>
+          <div
+            aria-label="program-button-pages"
+            class="css-16co9uo"
+          >
+            <img
+              alt="pages"
+              class="chakra-image css-h67rfo"
+              loading="lazy"
+              src=""
+            />
+          </div>
+          <div
+            aria-label="program-button-xcode"
+            class="css-16co9uo"
+          >
+            <img
+              alt="xcode"
+              class="chakra-image css-h67rfo"
+              loading="lazy"
+              src=""
+            />
+          </div>
+          <hr
+            aria-orientation="vertical"
+            class="chakra-divider css-kkwhzg"
+          />
+          <div
+            aria-label="program-button-Bin"
+            class="css-16co9uo"
           >
             <img
               alt="Bin"

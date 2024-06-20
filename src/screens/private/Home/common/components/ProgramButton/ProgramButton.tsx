@@ -2,19 +2,25 @@ import { Box, Img, Text, Tooltip } from '@chakra-ui/react';
 import { ProgramButtonProps } from './types';
 import {
   darkModeColorSelector,
+  displayDockSelector,
   settingsStore,
   useShallow,
 } from '@settingsStore';
 import { APP_ICON_SIZE } from './constants';
+import { getIconSize } from './utils';
 
 const ProgramButton = ({
   icon,
   name,
   isActive,
+  variant = 'default',
   onClickHandler,
 }: ProgramButtonProps) => {
-  const { bottomBarActiveDot, BottomBarTooltipBgColor, textColor } =
-    settingsStore(useShallow(darkModeColorSelector));
+  const { dockSize } = settingsStore(useShallow(displayDockSelector));
+  const size = variant === 'bottomBar' ? getIconSize(dockSize) : APP_ICON_SIZE;
+  const { bottomBarActiveDot, textColor } = settingsStore(
+    useShallow(darkModeColorSelector),
+  );
   return (
     <Box
       key={name + '-button'}
@@ -31,19 +37,21 @@ const ProgramButton = ({
       onClick={onClickHandler}
     >
       <Img
-        boxSize={APP_ICON_SIZE}
+        boxSize={size}
         src={icon}
-        height={APP_ICON_SIZE}
-        width={APP_ICON_SIZE}
+        height={size}
+        width={size}
         alt={name}
         _active={{
           filter: 'brightness(0.6)',
         }}
         loading="lazy"
       />
-      <Text color={textColor} fontSize={'sm'}>
-        {name}
-      </Text>
+      {variant === 'default' ? (
+        <Text color={textColor} fontSize={'sm'}>
+          {name}
+        </Text>
+      ) : null}
       {isActive ? (
         <Box boxSize={1} bgColor={bottomBarActiveDot} borderRadius={'full'} />
       ) : null}

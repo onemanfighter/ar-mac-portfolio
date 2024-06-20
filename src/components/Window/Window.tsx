@@ -3,7 +3,7 @@ import { WindowProps } from './types';
 import { Box } from '@chakra-ui/react';
 import { ResizableBox, ResizeCallbackData } from 'react-resizable';
 import { useWindowDimensions } from '@hooks';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './css/window.css';
 import {
   darkModeColorSelector,
@@ -111,4 +111,6 @@ const Window = ({ children, topBar, app }: WindowProps) => {
   );
 };
 
-export default Window;
+export default React.memo(Window, (prevProps, nextProps) => {
+  return prevProps.children === nextProps.children;
+});

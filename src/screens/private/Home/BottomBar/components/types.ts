@@ -1,4 +1,4 @@
-export enum ProgramType {
+export enum BottomBarProgramType {
   FINDER = 'finder',
   NOTES = 'notes',
   CHROME = 'chrome',
@@ -7,7 +7,6 @@ export enum ProgramType {
   SPOTIFY = 'spotify',
   GITHUB = 'github',
   SETTINGS = 'settings',
-  BIN = 'bin',
   // Add new app here
   LAUNCHPAD = 'launchPad',
 }
@@ -16,6 +15,6 @@ export type IconButtonProps = {
   id: string;
   index: number;
   isActive: boolean;
-  type: ProgramType;
-  onClickHandler: (type: ProgramType) => void;
+  type: BottomBarProgramType;
+  onClickHandler: (type: BottomBarProgramType) => void;
 };

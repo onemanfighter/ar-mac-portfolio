@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import ProgramButton from '../ProgramButton';
-import { ProgramType } from '../types';
+import ProgramButtonDraggable from '../ProgramButton';
+import { BottomBarProgramType } from '../types';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 
 describe('Program button', () => {
@@ -15,8 +15,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.FINDER}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.FINDER}
               id={'Finder'}
               index={0}
               isActive={false}
@@ -35,8 +35,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.FINDER}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.FINDER}
               id={'Finder'}
               index={0}
               isActive={false}
@@ -49,7 +49,7 @@ describe('Program button', () => {
 
     fireEvent.click(screen.getByLabelText('program-button-finder'));
 
-    expect(onClickHandler).toHaveBeenCalledWith(ProgramType.FINDER);
+    expect(onClickHandler).toHaveBeenCalledWith(BottomBarProgramType.FINDER);
   });
 
   it('should render chrome correctly to match snapshot', () => {
@@ -57,8 +57,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.CHROME}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.CHROME}
               id={'Chrome'}
               index={0}
               isActive={false}
@@ -77,8 +77,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.VSCODE}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.VSCODE}
               id={'VsCode'}
               index={0}
               isActive={false}
@@ -97,8 +97,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.TERMINAL}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.TERMINAL}
               id={'Terminal'}
               index={0}
               isActive={false}
@@ -117,8 +117,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.SPOTIFY}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.SPOTIFY}
               id={'Spotify'}
               index={0}
               isActive={false}
@@ -137,8 +137,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.GITHUB}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.GITHUB}
               id={'Github'}
               index={0}
               isActive={false}
@@ -157,8 +157,8 @@ describe('Program button', () => {
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (
-            <ProgramButton
-              type={ProgramType.SETTINGS}
+            <ProgramButtonDraggable
+              type={BottomBarProgramType.SETTINGS}
               id={'Settings'}
               index={0}
               isActive={false}
