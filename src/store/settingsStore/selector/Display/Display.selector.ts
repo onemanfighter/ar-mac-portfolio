@@ -1,4 +1,3 @@
-import { BottomBar } from 'src/screens/private/Home/BottomBar';
 import { SettingsStoreState } from '../../settingsStore';
 
 const displayBrightnessSelector = (state: SettingsStoreState) => ({

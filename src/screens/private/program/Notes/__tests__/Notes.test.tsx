@@ -38,7 +38,7 @@ describe('Notes', () => {
   });
 
   it('should select and deselect on clicking on card', () => {
-    const { result } = renderHook(() => appStore());
+    renderHook(() => appStore());
     const { container } = render(<Notes />);
 
     fireEvent.click(screen.getByLabelText('add-note'));
@@ -52,7 +52,7 @@ describe('Notes', () => {
   });
 
   it('should select all on clicking select all', () => {
-    const { result } = renderHook(() => appStore());
+    renderHook(() => appStore());
     const { container } = render(<Notes />);
     // Adding notes
     fireEvent.click(screen.getByLabelText('add-note'));

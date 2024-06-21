@@ -19,7 +19,7 @@ describe('BottomBar', () => {
 
   it('should render invoke onclick on launch pad click', async () => {
     const setLaunchpad = jest.fn();
-    const { result } = renderHook(() => processStore());
+    renderHook(() => processStore());
     render(
       <LaunchpadContext.Provider value={{ launchpad: false, setLaunchpad }}>
         <BottomBar />

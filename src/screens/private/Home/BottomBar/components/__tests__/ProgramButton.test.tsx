@@ -31,7 +31,7 @@ describe('Program button', () => {
   });
 
   it('should invoke click handler on program button press', () => {
-    const { container } = render(
+    render(
       <DragDropContext onDragEnd={jest.fn()}>
         <Droppable droppableId="list" direction="horizontal">
           {() => (

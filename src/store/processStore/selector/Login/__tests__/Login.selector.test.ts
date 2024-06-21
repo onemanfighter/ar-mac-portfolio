@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { Power, processStore } from '@processStore';
+import { processStore } from '@processStore';
 import { loginSelector } from '../Login.selector';
 
 describe('Login selector', () => {

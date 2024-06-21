@@ -1,4 +1,4 @@
-import { Button, MenuButton, Text } from '@chakra-ui/react';
+import { MenuButton, Text } from '@chakra-ui/react';
 import { TopBarButtonProps } from './types';
 import {
   darkModeColorSelector,

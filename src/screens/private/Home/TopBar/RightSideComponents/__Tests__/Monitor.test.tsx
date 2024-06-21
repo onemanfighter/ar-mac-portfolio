@@ -2,7 +2,6 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import Monitor from '../Monitor';
 import { renderHook } from '@testing-library/react-hooks';
 import {
-  displayBrightnessSelector,
   displayDarkModeSelector,
   displayNightShiftSelector,
   displayTrueToneSelector,

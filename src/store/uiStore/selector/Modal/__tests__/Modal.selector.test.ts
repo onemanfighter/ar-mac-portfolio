@@ -18,13 +18,6 @@ describe('Modal selector', () => {
   });
 
   it('should return modal state on modal data set using openModal', () => {
-    const modalData: ModalState = {
-      modalID: ModalID.SEARCH,
-      modalData: {
-        onModalClose: onModalCloseMock,
-      },
-      modalOpenState: ModalOpenState.OPEN,
-    };
     const { result: modalResult } = renderHook(() => uiStore(modalSelector));
     const { result: dataResult } = renderHook(() => uiStore(modalDataSelector));
 

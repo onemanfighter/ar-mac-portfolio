@@ -82,9 +82,7 @@ describe('MenuBranch', () => {
   });
 
   it('should trigger item action on clicking with normal type', () => {
-    const { container } = render(
-      <MenuBranch title={'Test'} type={'normal'} items={dummyData} />,
-    );
+    render(<MenuBranch title={'Test'} type={'normal'} items={dummyData} />);
 
     fireEvent.click(screen.getByLabelText('test-1-menu-button'));
 
@@ -92,9 +90,7 @@ describe('MenuBranch', () => {
   });
 
   it('should trigger item action when inner menu is clicked with normal type', () => {
-    const { container } = render(
-      <MenuBranch title={'Test'} type={'normal'} items={dummyData} />,
-    );
+    render(<MenuBranch title={'Test'} type={'normal'} items={dummyData} />);
 
     fireEvent.click(screen.getByLabelText('sub-tree-test-1-sub-menu-item'));
 

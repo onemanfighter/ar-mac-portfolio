@@ -1,12 +1,7 @@
 import { useCallback, useEffect } from 'react';
 import { useDisclosure } from '@chakra-ui/react';
 import { ModalComponent } from '@components';
-import {
-  ModalOpenState,
-  uiStore,
-  modalDataSelector,
-  useShallow,
-} from '@uiStore';
+import { ModalOpenState, uiStore, modalDataSelector } from '@uiStore';
 
 import { ModalProviderProps } from './types';
 

@@ -5,7 +5,7 @@ import { renderHook } from '@testing-library/react-hooks';
 
 describe('LazyPoweringComponent', () => {
   it('should render correctly to match snapshot', async () => {
-    const { result } = renderHook(() => uiStore());
+    renderHook(() => uiStore());
     const { container } = render(<LazyPoweringComponent />);
 
     await waitFor(() =>

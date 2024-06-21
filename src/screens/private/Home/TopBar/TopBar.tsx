@@ -1,4 +1,4 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { TopBarProps } from './type';
 import RightSideIcons from './RightSideIcons';
 import LeftSideIcons from './LeftSideIcons';

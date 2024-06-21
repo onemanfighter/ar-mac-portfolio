@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Window from '../Window';
-import exp from 'constants';
 import { ProgramType } from '@processStore';
 
 describe('Windows', () => {

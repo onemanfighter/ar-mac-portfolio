@@ -1,6 +1,5 @@
-import { render, renderHook } from '@testing-library/react';
+import { renderHook } from '@testing-library/react';
 import { privateRouter } from '../PrivateRoutes';
-import { BrowserRouter, RouterProvider } from 'react-router-dom';
 
 describe('PrivateRoutes', () => {
   it('should render the PrivateRoutes component', () => {

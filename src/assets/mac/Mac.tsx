@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 import { MAC_SVG } from './constants';
 
 const MacIcon = () => {
