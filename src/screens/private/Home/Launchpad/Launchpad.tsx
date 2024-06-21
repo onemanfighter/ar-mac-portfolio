@@ -51,6 +51,7 @@ const Launchpad = () => {
           flexWrap={'wrap'}
           flexDirection={'row'}
           alignItems={'center'}
+          paddingBottom={20}
           justifyContent={'flex-start'}
         >
           {Object.values(LaunchpadProgramsList).map((program, index) => {
