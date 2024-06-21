@@ -40,7 +40,6 @@ module.exports = {
     '@settingsStore': '<rootDir>/src/store/settingsStore',
     // App store
     '@appStore': '<rootDir>/src/store/appStore',
-    '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.ts',
   },
   transform: {
     '.+\\.(css|scss|png|jpg|jpeg|svg)$': 'jest-transform-stub',

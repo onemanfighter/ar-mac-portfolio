@@ -54,6 +54,26 @@ describe('Home', () => {
     });
   });
 
+  it('should render correctly with calendar app to match snapshot', () => {
+    renderHook(() => settingsStore());
+    renderHook(() => uiStore());
+    renderHook(() => appStore());
+    const { result } = renderHook(() => processStore());
+
+    act(() => {
+      result.current.ActiveApp.addApp(ProgramType.CALENDAR);
+    });
+
+    const { container } = render(<Home />);
+
+    expect(container).toMatchSnapshot();
+
+    // cleanup
+    act(() => {
+      result.current.ActiveApp.removeApp(ProgramType.CALENDAR);
+    });
+  });
+
   it('should render correctly with chrome app to match snapshot', () => {
     renderHook(() => settingsStore());
     renderHook(() => uiStore());
