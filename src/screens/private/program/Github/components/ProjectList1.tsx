@@ -1,5 +1,5 @@
 import { GithubState, appStore, githubSelector } from '@appStore';
-import { Box, Button, ButtonGroup } from '@chakra-ui/react';
+import { Box, Button } from '@chakra-ui/react';
 import { useShallow } from 'zustand/react/shallow';
 
 const projectList = [

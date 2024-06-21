@@ -5,12 +5,7 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
-import {
-  activeAppActionsSelector,
-  loginSelector,
-  powerSelector,
-  processStore,
-} from '@processStore';
+import { loginSelector, powerSelector, processStore } from '@processStore';
 import {
   darkModeColorSelector,
   settingsStore,

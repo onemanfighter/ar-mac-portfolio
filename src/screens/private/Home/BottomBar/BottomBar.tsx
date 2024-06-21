@@ -46,7 +46,6 @@ const BottomBar = (_props: BottomBarProps) => {
       ...activeAppRunningSelector(state),
     })),
   );
-  console.log(allActiveApps);
 
   const runningMiddleApps = getAllAppOtherThanBottomBarApps(
     allActiveApps as ProgramType[],

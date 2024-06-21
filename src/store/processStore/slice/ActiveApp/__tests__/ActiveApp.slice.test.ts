@@ -1,6 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { ProgramType, WindowSize, processStore } from '@processStore';
-import { position } from '@chakra-ui/react';
 
 describe('ActiveApps slice', () => {
   it('should return default ActiveApp state', () => {

@@ -1,7 +1,5 @@
-import { fireEvent, render, renderHook, screen } from '@testing-library/react';
-import Battery from '../Battery';
+import { fireEvent, render, screen } from '@testing-library/react';
 import DateTimeDrawer from '../DateTimeDrawer';
-import { uiStore } from '@uiStore';
 
 describe('DateTime drawer', () => {
   it('should render correctly', () => {

@@ -1,12 +1,5 @@
-import { BatteryIcon, MacIcon, SearchIcon } from '@assets';
-import {
-  Box,
-  Menu,
-  MenuDivider,
-  MenuItem,
-  MenuList,
-  Text,
-} from '@chakra-ui/react';
+import { BatteryIcon } from '@assets';
+import { Box, Menu, MenuDivider, Text } from '@chakra-ui/react';
 import {
   MenuItemComponent,
   MenuListComponent,

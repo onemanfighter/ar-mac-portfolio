@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Spotify from '../Spotify';
-import { act, renderHook } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react-hooks';
 import { appStore, spotifySelector } from '@appStore';
 
 describe('Spotify', () => {

@@ -31,7 +31,7 @@ describe('WindowControl', () => {
   });
 
   it('should trigger maximize on maximize button press', () => {
-    const { container } = render(
+    render(
       <WindowControl
         app={ProgramType.FINDER}
         onMaximizeClick={maximizeClickHandler}

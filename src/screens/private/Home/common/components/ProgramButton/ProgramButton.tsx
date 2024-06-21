@@ -1,4 +1,4 @@
-import { Box, Img, Text, Tooltip } from '@chakra-ui/react';
+import { Box, Img, Text } from '@chakra-ui/react';
 import { ProgramButtonProps } from './types';
 import {
   darkModeColorSelector,

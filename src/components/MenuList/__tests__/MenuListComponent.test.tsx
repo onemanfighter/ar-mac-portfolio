@@ -1,6 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { Menu } from '@chakra-ui/react';
-import { SearchIcon } from '@assets';
 import MenuListComponent from '../MenuListComponent';
 
 describe('MenuList component', () => {

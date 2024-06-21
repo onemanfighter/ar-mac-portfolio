@@ -1,15 +1,13 @@
-import { SettingsIcon } from '@assets';
 import { Box, HStack, Menu, VStack } from '@chakra-ui/react';
+import { SettingsIcon } from '@assets';
 import { MenuListComponent, TopBarButton } from '@components';
 import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
 } from '@settingsStore';
-import { useTranslation } from 'react-i18next';
 
 const Settings = () => {
-  const { t } = useTranslation();
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
 
   return (

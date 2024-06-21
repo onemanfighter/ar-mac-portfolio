@@ -1,6 +1,5 @@
-import { render, renderHook } from '@testing-library/react';
+import { renderHook } from '@testing-library/react';
 
-import { BrowserRouter, RouterProvider } from 'react-router-dom';
 import { publicRouterPower, publicRouterPowering } from '../PublicRoutes';
 
 describe('Public router', () => {

@@ -1,6 +1,5 @@
-import { AppState, ProgramType } from '@processStore';
+import { ProgramType } from '@processStore';
 import { ProgramItem } from './type';
-import { BottomBarProgramType } from './components';
 
 export const reorder = (
   list: ProgramItem[],

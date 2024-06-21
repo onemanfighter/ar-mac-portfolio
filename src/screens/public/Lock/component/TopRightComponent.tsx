@@ -8,13 +8,11 @@ import {
   PopoverContent,
   PopoverTrigger,
   Portal,
-  useBoolean,
 } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 
 const TopRightComponent = () => {
   const { t } = useTranslation();
-  const [keyboard, keyBoardToggle] = useBoolean();
 
   return (
     <Box

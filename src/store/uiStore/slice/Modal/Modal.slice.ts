@@ -1,4 +1,3 @@
-import { warn } from 'console';
 import { UiStoreSlice } from '../../uiStore/types';
 import { ModalState, ModalStateSlice, ModalOpenState, ModalID } from './types';
 

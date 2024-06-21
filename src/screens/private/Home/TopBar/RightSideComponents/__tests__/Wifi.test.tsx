@@ -1,7 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Wifi from '../Wifi';
-import { settingsStore } from '@settingsStore';
-import { renderHook } from '@testing-library/react-hooks';
 
 describe('Wifi', () => {
   it('should render', () => {
