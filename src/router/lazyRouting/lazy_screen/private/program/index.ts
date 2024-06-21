@@ -7,3 +7,6 @@ export * from './LazySettingsScreen';
 export * from './LazySpotifyScreen';
 export * from './LazyTerminalScreen';
 export * from './LazyVsCodeScreen';
+
+// Other apps
+export * from './LazyCalendarScreen';
