@@ -40,6 +40,7 @@ import Github from '../../../../assets/logo/github.png';
 import Settings from '../../../../assets/logo/settings.png';
 import Bin from '../../../../assets/logo/bin.png';
 import Notes from '../../../../assets/logo/notes.png';
+import News from '../../../../assets/logo/news.png';
 
 export const LaunchpadProgramsList: ProgramDataRecord = {
   [ProgramType.APP_STORE]: {
@@ -249,7 +250,7 @@ export const LaunchpadProgramsList: ProgramDataRecord = {
   },
   [ProgramType.NEWS]: {
     name: '',
-    icon: '',
+    icon: News,
     programType: ProgramType.NEWS,
   },
 };
