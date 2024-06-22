@@ -1,6 +1,6 @@
 {
   "name": "ARMacPortfolio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This is a mac simulator portfolio website for Amit Raikwar",
   "main": "index.tsx",
   "dependencies": {
