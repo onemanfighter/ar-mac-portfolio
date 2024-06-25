@@ -1,1 +1,1 @@
-export { WifiSelector as binSelector } from './Wifi.selector';
+export { wifiSelector } from './Wifi.selector';

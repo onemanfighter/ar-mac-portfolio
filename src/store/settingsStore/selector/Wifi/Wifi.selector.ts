@@ -1,5 +1,5 @@
 import { SettingsStoreState } from '../../settingsStore';
 
-const WifiSelector = (state: SettingsStoreState) => ({});
+const wifiSelector = (state: SettingsStoreState) => ({});
 
-export { WifiSelector };
+export { wifiSelector };

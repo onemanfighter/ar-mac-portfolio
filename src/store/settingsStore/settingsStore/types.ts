@@ -1,5 +1,6 @@
 import { StateCreator } from 'zustand';
 import {
+  BluetoothStateSlice,
   DisplayDockStateSlice,
   DisplayStateSlice,
   UsersStateSlice,
@@ -9,6 +10,7 @@ import {
 
 export interface SettingsStoreState {
   Wifi: WifiStateSlice;
+  Bluetooth: BluetoothStateSlice;
   Wallpaper: WallpaperStateSlice;
   DisplayDock: DisplayDockStateSlice;
   Display: DisplayStateSlice;
