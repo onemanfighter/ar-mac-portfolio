@@ -17,5 +17,11 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "cypress", "cypress.config.ts", "__mocks__"]
+  "include": [
+    "src",
+    "cypress",
+    "cypress.config.ts",
+    "__mocks__",
+    "src/store/settingsStore/selector/General/General.selector.ts"
+  ]
 }
