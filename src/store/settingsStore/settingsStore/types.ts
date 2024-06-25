@@ -3,6 +3,7 @@ import {
   BluetoothStateSlice,
   DisplayDockStateSlice,
   DisplayStateSlice,
+  NetworkStateSlice,
   UsersStateSlice,
   WallpaperStateSlice,
   WifiStateSlice,
@@ -11,6 +12,7 @@ import {
 export interface SettingsStoreState {
   Wifi: WifiStateSlice;
   Bluetooth: BluetoothStateSlice;
+  Network: NetworkStateSlice;
   Wallpaper: WallpaperStateSlice;
   DisplayDock: DisplayDockStateSlice;
   Display: DisplayStateSlice;

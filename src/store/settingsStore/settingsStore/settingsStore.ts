@@ -7,6 +7,7 @@ import {
   createBluetoothSlice,
   createDisplayDockSlice,
   createDisplaySlice,
+  createNetworkSlice,
   createUsersSlice,
   createWallpaperSlice,
   createWifiSlice,
@@ -17,6 +18,7 @@ export const settingsStore = create<SettingsStoreState>()(
     immer((...api) => ({
       Wifi: createWifiSlice(...api),
       Bluetooth: createBluetoothSlice(...api),
+      Network: createNetworkSlice(...api),
       Wallpaper: createWallpaperSlice(...api),
       DisplayDock: createDisplayDockSlice(...api),
       Display: createDisplaySlice(...api),
@@ -38,6 +40,7 @@ function deepMerge(
   return {
     Wifi: { ...currentState.Wifi, ...persistedState.Wifi },
     Bluetooth: { ...currentState.Bluetooth, ...persistedState.Bluetooth },
+    Network: { ...currentState.Network, ...persistedState.Network },
     Wallpaper: { ...currentState.Wallpaper, ...persistedState.Wallpaper },
     DisplayDock: { ...currentState.DisplayDock, ...persistedState.DisplayDock },
     Display: { ...currentState.Display, ...persistedState.Display },
