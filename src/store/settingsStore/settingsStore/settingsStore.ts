@@ -8,11 +8,13 @@ import {
   createDisplaySlice,
   createUsersSlice,
   createWallpaperSlice,
+  createWifiSlice,
 } from '../slice';
 
 export const settingsStore = create<SettingsStoreState>()(
   persist(
     immer((...api) => ({
+      Wifi: createWifiSlice(...api),
       Wallpaper: createWallpaperSlice(...api),
       DisplayDock: createDisplayDockSlice(...api),
       Display: createDisplaySlice(...api),
@@ -32,6 +34,7 @@ function deepMerge(
   persistedState: SettingsStoreState,
 ): SettingsStoreState {
   return {
+    Wifi: { ...currentState.Wifi, ...persistedState.Wifi },
     Wallpaper: { ...currentState.Wallpaper, ...persistedState.Wallpaper },
     DisplayDock: { ...currentState.DisplayDock, ...persistedState.DisplayDock },
     Display: { ...currentState.Display, ...persistedState.Display },
