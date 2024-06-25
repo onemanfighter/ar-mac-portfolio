@@ -1,5 +1,7 @@
 import { StateCreator } from 'zustand';
 import {
+  AccessibilityState,
+  AppearanceStateSlice,
   BluetoothStateSlice,
   DisplayDockStateSlice,
   DisplayStateSlice,
@@ -15,6 +17,8 @@ export interface SettingsStoreState {
   Bluetooth: BluetoothStateSlice;
   Network: NetworkStateSlice;
   General: GeneralStateSlice;
+  Appearance: AppearanceStateSlice;
+  Accessibility: AccessibilityState;
   Wallpaper: WallpaperStateSlice;
   DisplayDock: DisplayDockStateSlice;
   Display: DisplayStateSlice;
