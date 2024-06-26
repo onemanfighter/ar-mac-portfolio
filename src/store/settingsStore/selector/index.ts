@@ -9,4 +9,6 @@ export * from './Accessibility';
 export * from './Wallpaper';
 export * from './DisplayDock';
 export * from './Display';
+export * from './ScreenSaver';
+export * from './Battery';
 export * from './Users';

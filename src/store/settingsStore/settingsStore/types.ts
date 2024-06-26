@@ -2,11 +2,13 @@ import { StateCreator } from 'zustand';
 import {
   AccessibilityState,
   AppearanceStateSlice,
+  BatteryStateSlice,
   BluetoothStateSlice,
   DisplayDockStateSlice,
   DisplayStateSlice,
   GeneralStateSlice,
   NetworkStateSlice,
+  ScreenSaverStateSlice,
   UsersStateSlice,
   WallpaperStateSlice,
   WifiStateSlice,
@@ -19,9 +21,11 @@ export interface SettingsStoreState {
   General: GeneralStateSlice;
   Appearance: AppearanceStateSlice;
   Accessibility: AccessibilityState;
-  Wallpaper: WallpaperStateSlice;
   DisplayDock: DisplayDockStateSlice;
   Display: DisplayStateSlice;
+  Wallpaper: WallpaperStateSlice;
+  ScreenSaver: ScreenSaverStateSlice;
+  Battery: BatteryStateSlice;
   Users: UsersStateSlice;
 }
 
