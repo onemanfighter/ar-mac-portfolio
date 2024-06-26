@@ -22,6 +22,7 @@
     "cypress",
     "cypress.config.ts",
     "__mocks__",
-    "src/store/settingsStore/selector/General/General.selector.ts"
+    "src/store/settingsStore/selector/General/General.selector.ts",
+    "src/store/settingsStore/slice/Sound/Sound.slice.ts"
   ]
 }

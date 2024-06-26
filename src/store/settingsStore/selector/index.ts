@@ -3,6 +3,7 @@ export { useShallow } from 'zustand/react/shallow';
 export * from './Wifi';
 export * from './Bluetooth';
 export * from './Network';
+export * from './Sound';
 export * from './General';
 export * from './Appearance';
 export * from './Accessibility';

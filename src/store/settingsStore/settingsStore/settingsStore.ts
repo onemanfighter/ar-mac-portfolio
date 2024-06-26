@@ -6,6 +6,7 @@ import { SettingsStoreState } from './types';
 import {
   createAccessibilitySlice,
   createAppearanceSlice,
+  createAppleIdSlice,
   createBatterySlice,
   createBluetoothSlice,
   createDisplayDockSlice,
@@ -13,6 +14,7 @@ import {
   createGeneralSlice,
   createNetworkSlice,
   createScreenSaverSlice,
+  createSoundSlice,
   createUsersSlice,
   createWallpaperSlice,
   createWifiSlice,
@@ -21,9 +23,11 @@ import {
 export const settingsStore = create<SettingsStoreState>()(
   persist(
     immer((...api) => ({
+      AppleId: createAppleIdSlice(...api),
       Wifi: createWifiSlice(...api),
       Bluetooth: createBluetoothSlice(...api),
       Network: createNetworkSlice(...api),
+      Sound: createSoundSlice(...api),
       General: createGeneralSlice(...api),
       Appearance: createAppearanceSlice(...api),
       Accessibility: createAccessibilitySlice(...api),
@@ -48,9 +52,11 @@ function deepMerge(
   persistedState: SettingsStoreState,
 ): SettingsStoreState {
   return {
+    AppleId: { ...currentState.AppleId, ...persistedState.AppleId },
     Wifi: { ...currentState.Wifi, ...persistedState.Wifi },
     Bluetooth: { ...currentState.Bluetooth, ...persistedState.Bluetooth },
     Network: { ...currentState.Network, ...persistedState.Network },
+    Sound: { ...currentState.Sound, ...persistedState.Sound },
     General: { ...currentState.General, ...persistedState.General },
     Appearance: { ...currentState.Appearance, ...persistedState.Appearance },
     Accessibility: {

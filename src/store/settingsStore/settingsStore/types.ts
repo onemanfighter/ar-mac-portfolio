@@ -2,6 +2,7 @@ import { StateCreator } from 'zustand';
 import {
   AccessibilityState,
   AppearanceStateSlice,
+  AppleIdStateSlice,
   BatteryStateSlice,
   BluetoothStateSlice,
   DisplayDockStateSlice,
@@ -13,11 +14,14 @@ import {
   WallpaperStateSlice,
   WifiStateSlice,
 } from '../slice';
+import { SoundStateSlice } from '../slice/Sound';
 
 export interface SettingsStoreState {
+  AppleId: AppleIdStateSlice;
   Wifi: WifiStateSlice;
   Bluetooth: BluetoothStateSlice;
   Network: NetworkStateSlice;
+  Sound: SoundStateSlice;
   General: GeneralStateSlice;
   Appearance: AppearanceStateSlice;
   Accessibility: AccessibilityState;
