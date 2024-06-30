@@ -3328,7 +3328,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-1h066r4"
+            class="chakra-button css-900rwl"
             type="button"
           >
             <svg

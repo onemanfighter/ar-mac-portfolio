@@ -20,7 +20,7 @@ describe('Modal component', () => {
       );
 
       expect(container).toMatchSnapshot();
-      expect(screen.getByText('Search')).toBeDefined();
+      expect(screen.getByLabelText('search-modal')).toBeDefined();
     });
 
     it('should not render for none  ', () => {
