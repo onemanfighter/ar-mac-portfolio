@@ -1,3 +1,4 @@
+import { act } from 'react';
 import { render } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hooks';
 import { uiStore } from '@uiStore';
@@ -5,7 +6,6 @@ import { settingsStore } from '@settingsStore';
 import Home from '../Home';
 import { ProgramType, processStore } from '@processStore';
 import { appStore } from '@appStore';
-import { act } from 'react';
 
 global.ResizeObserver = jest.fn().mockImplementation(() => ({
   observe: jest.fn(),

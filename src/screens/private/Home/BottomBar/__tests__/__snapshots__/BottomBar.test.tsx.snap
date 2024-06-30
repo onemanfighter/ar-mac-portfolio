@@ -74,10 +74,10 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="bottom-bar"
-    class="css-1qd8gut"
+    class="css-9xph1p"
   >
     <div
-      class="css-ax28gb"
+      class="css-1l6f575"
       data-rbd-droppable-context-id="0"
       data-rbd-droppable-id="droppable-list"
     >
@@ -97,7 +97,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Launchpad"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -116,7 +116,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Finder"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -135,7 +135,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Notes"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -154,7 +154,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Chrome"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -173,7 +173,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="VsCode"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -192,7 +192,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Terminal"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -211,7 +211,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Spotify"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -230,7 +230,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Github"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -249,7 +249,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Settings"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <hr
@@ -264,7 +264,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="numbers"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -275,7 +275,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="pages"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <div
@@ -286,7 +286,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="xcode"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
       <hr
@@ -301,7 +301,7 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
           alt="Bin"
           class="chakra-image css-h67rfo"
           loading="lazy"
-          src=""
+          src="[object Object]"
         />
       </div>
     </div>

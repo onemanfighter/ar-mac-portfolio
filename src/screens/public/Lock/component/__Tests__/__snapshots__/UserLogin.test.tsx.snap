@@ -17,7 +17,7 @@ exports[`UserLogin should be able to enter password on password field 1`] = `
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
-        class="chakra-text css-1590av0"
+        class="chakra-text css-af64t0"
       >
         Amit Raikwar
       </p>
@@ -35,7 +35,7 @@ exports[`UserLogin should be able to enter password on password field 1`] = `
         value="password-test-text"
       />
       <div
-        class="chakra-input__right-element css-1ttnbqn"
+        class="chakra-input__right-element css-13xlvjg"
       >
         <button
           aria-label="login-button"
@@ -84,7 +84,7 @@ exports[`UserLogin should be able to enter password on password field 2`] = `
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
-        class="chakra-text css-1590av0"
+        class="chakra-text css-af64t0"
       >
         Amit Raikwar
       </p>
@@ -102,7 +102,7 @@ exports[`UserLogin should be able to enter password on password field 2`] = `
         value="Amit"
       />
       <div
-        class="chakra-input__right-element css-1ttnbqn"
+        class="chakra-input__right-element css-13xlvjg"
       >
         <button
           aria-label="login-button"
@@ -151,7 +151,7 @@ exports[`UserLogin should return the default user login component 1`] = `
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
-        class="chakra-text css-1590av0"
+        class="chakra-text css-af64t0"
       >
         Amit Raikwar
       </p>
@@ -169,7 +169,7 @@ exports[`UserLogin should return the default user login component 1`] = `
         value=""
       />
       <div
-        class="chakra-input__right-element css-1ttnbqn"
+        class="chakra-input__right-element css-13xlvjg"
       >
         <button
           aria-label="login-button"
@@ -218,7 +218,7 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
-        class="chakra-text css-1590av0"
+        class="chakra-text css-af64t0"
       >
         Amit Raikwar
       </p>
@@ -236,7 +236,7 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
         value=""
       />
       <div
-        class="chakra-input__right-element css-1ttnbqn"
+        class="chakra-input__right-element css-13xlvjg"
       >
         <div
           aria-label="spinner"
@@ -276,7 +276,7 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
         src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
       />
       <p
-        class="chakra-text css-1s3unn"
+        class="chakra-text css-9c9c74"
       >
         Amit Raikwar
       </p>
@@ -294,7 +294,7 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
         value=""
       />
       <div
-        class="chakra-input__right-element css-1ttnbqn"
+        class="chakra-input__right-element css-13xlvjg"
       >
         <button
           aria-label="login-button"
@@ -318,7 +318,7 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
       </div>
     </div>
     <p
-      class="chakra-text css-6az4zj"
+      class="chakra-text css-c3slyd"
     >
       Your password is required to enable Touch ID
     </p>

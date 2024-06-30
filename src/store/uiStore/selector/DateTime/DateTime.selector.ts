@@ -2,6 +2,7 @@ import { UiStoreState } from '../../uiStore';
 import _ from 'lodash';
 
 const dateTimeSelector = (state: UiStoreState) => ({
+  dateObject: state.DateTime.date?.toUTCString(),
   date: state.DateTime.date?.toDateString(),
   dateWithoutYear: state.DateTime.date?.toDateString().slice(0, -5),
   time: state.DateTime.date?.toLocaleTimeString(),
