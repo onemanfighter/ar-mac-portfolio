@@ -18,3 +18,9 @@ jest.mock('draft-js', () => ({
   ...jest.requireActual('draft-js'),
   Editor: () => <div>Editor</div>,
 }));
+
+jest.mock('react-clock', () => {
+  return function MockClock() {
+    return <div aria-label="mock-clock"></div>;
+  };
+});

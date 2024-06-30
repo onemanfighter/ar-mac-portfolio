@@ -42,7 +42,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -67,7 +67,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:rq:-menuitem-:rr:"
         role="menuitem"
@@ -136,7 +136,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:rq:-menuitem-:rs:"
         role="menuitem"
@@ -160,7 +160,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:rq:-menuitem-:rt:"
         role="menuitem"
@@ -220,7 +220,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -245,7 +245,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:r6:-menuitem-:r7:"
         role="menuitem"
@@ -314,7 +314,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:r6:-menuitem-:r8:"
         role="menuitem"
@@ -338,7 +338,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:r6:-menuitem-:r9:"
         role="menuitem"
@@ -394,7 +394,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -419,7 +419,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:rv:-menuitem-:r10:"
         role="menuitem"
@@ -488,7 +488,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:rv:-menuitem-:r11:"
         role="menuitem"
@@ -512,7 +512,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:rv:-menuitem-:r12:"
         role="menuitem"
@@ -568,7 +568,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -593,7 +593,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:rl:-menuitem-:rm:"
         role="menuitem"
@@ -662,7 +662,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:rl:-menuitem-:rn:"
         role="menuitem"
@@ -686,7 +686,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:rl:-menuitem-:ro:"
         role="menuitem"
@@ -742,7 +742,7 @@ exports[`Wifi should render 1`] = `
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -767,7 +767,7 @@ exports[`Wifi should render 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:r1:-menuitem-:r2:"
         role="menuitem"
@@ -836,7 +836,7 @@ exports[`Wifi should render 1`] = `
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:r1:-menuitem-:r3:"
         role="menuitem"
@@ -860,7 +860,7 @@ exports[`Wifi should render 1`] = `
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:r1:-menuitem-:r4:"
         role="menuitem"
@@ -916,7 +916,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -941,7 +941,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:rb:-menuitem-:rc:"
         role="menuitem"
@@ -1010,7 +1010,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:rb:-menuitem-:rd:"
         role="menuitem"
@@ -1034,7 +1034,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:rb:-menuitem-:re:"
         role="menuitem"
@@ -1090,7 +1090,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
         class="css-o3czpp"
       >
         <p
-          class="chakra-text css-1c1e297"
+          class="chakra-text css-z6yejm"
         >
           Wi-Fi
         </p>
@@ -1115,7 +1115,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
       </div>
       <button
         aria-label="wifi-weak-security"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="0"
         id="menu-list-:rg:-menuitem-:rh:"
         role="menuitem"
@@ -1184,7 +1184,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
       />
       <button
         aria-label="other-network"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="1"
         id="menu-list-:rg:-menuitem-:ri:"
         role="menuitem"
@@ -1208,7 +1208,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
       />
       <button
         aria-label="wifi-settings"
-        class="chakra-menu__menuitem css-1mh30fn"
+        class="chakra-menu__menuitem css-cvp33l"
         data-index="2"
         id="menu-list-:rg:-menuitem-:rj:"
         role="menuitem"

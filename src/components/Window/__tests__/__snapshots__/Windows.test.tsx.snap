@@ -7,7 +7,7 @@ exports[`Windows should render for default values 1`] = `
     style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
-      class="css-exz6no"
+      class="css-fjdgft"
     >
       <div
         class="handle css-1q7gku6"
@@ -68,7 +68,7 @@ exports[`Windows should render with top bar component values 1`] = `
     style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
-      class="css-exz6no"
+      class="css-fjdgft"
     >
       <div
         class="handle css-1q7gku6"
@@ -133,7 +133,7 @@ exports[`Windows should trigger close on close button press 1`] = `
     style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
-      class="css-exz6no"
+      class="css-fjdgft"
     >
       <div
         class="handle css-1q7gku6"
@@ -194,7 +194,7 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
     style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
-      class="css-exz6no"
+      class="css-fjdgft"
     >
       <div
         class="handle css-1q7gku6"
@@ -255,7 +255,7 @@ exports[`Windows should trigger minimize on minimize button press 1`] = `
     style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
   >
     <div
-      class="css-exz6no"
+      class="css-fjdgft"
     >
       <div
         class="handle css-1q7gku6"

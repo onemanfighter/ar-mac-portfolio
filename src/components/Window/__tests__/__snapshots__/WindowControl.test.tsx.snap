@@ -42,7 +42,7 @@ exports[`WindowControl should trigger mouse enter and leave event 1`] = `
     class="css-apaxy7"
   >
     <p
-      class="chakra-text css-ngv0yw"
+      class="chakra-text css-s3z63p"
     >
       x
     </p>
@@ -52,7 +52,7 @@ exports[`WindowControl should trigger mouse enter and leave event 1`] = `
     class="css-1oliyf7"
   >
     <p
-      class="chakra-text css-ngv0yw"
+      class="chakra-text css-s3z63p"
     >
       -
     </p>
@@ -62,7 +62,7 @@ exports[`WindowControl should trigger mouse enter and leave event 1`] = `
     class="css-18q4sxm"
   >
     <p
-      class="chakra-text css-ngv0yw"
+      class="chakra-text css-s3z63p"
     >
       o
     </p>

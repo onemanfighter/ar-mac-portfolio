@@ -3,6 +3,7 @@
 exports[`Date time selector should return date time selector state and actions 1`] = `
 {
   "date": "Thu May 14 2020",
+  "dateObject": "Thu, 14 May 2020 11:01:58 GMT",
   "dateWithoutYear": "Thu May 14",
   "initTimer": [Function],
   "time": "11:01:58 AM",

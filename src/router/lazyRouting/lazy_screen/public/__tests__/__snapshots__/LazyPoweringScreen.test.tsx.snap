@@ -4,7 +4,7 @@ exports[`LazyPoweringComponent should render correctly to match snapshot 1`] = `
 <div>
   <div
     aria-label="powering-screen"
-    class="css-vx62js"
+    class="css-10uwxsz"
   >
     <div
       style="color: rgb(255, 255, 255);"

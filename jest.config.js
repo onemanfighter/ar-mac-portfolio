@@ -40,6 +40,8 @@ module.exports = {
     '@settingsStore': '<rootDir>/src/store/settingsStore',
     // App store
     '@appStore': '<rootDir>/src/store/appStore',
+    '^.+.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
+      'jest-transform-stub',
   },
   transform: {
     '.+\\.(css|scss|png|jpg|jpeg|svg)$': 'jest-transform-stub',

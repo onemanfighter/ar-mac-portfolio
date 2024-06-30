@@ -1,4 +1,4 @@
-export { default as DateTimeDrawer } from './DateTimeDrawer';
+export { default as DateTimeDrawer } from './DateTimeDrawer/DateTimeDrawer';
 export { default as Battery } from './Battery';
 export { default as Wifi } from './Wifi';
 export { default as Monitor } from './Monitor';
