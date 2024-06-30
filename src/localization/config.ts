@@ -4,6 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import common from './locales/en/common.json';
 import error from './locales/en/error.json';
 import main from './locales/en/main.json';
+import modal from './locales/en/modal.json';
 
 i18next
   .use(LanguageDetector)
@@ -18,6 +19,7 @@ i18next
           ...main,
           ...common,
           ...error,
+          ...modal,
         },
       },
     },
