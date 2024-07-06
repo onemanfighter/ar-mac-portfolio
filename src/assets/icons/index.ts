@@ -19,3 +19,4 @@ export { ForwardIcon } from './Forward';
 export { BackIcon } from './Back';
 export { RefreshIcon } from './Refresh';
 export { MenuIcon } from './Menu';
+export { InfoIcon } from './InfoIcon';
