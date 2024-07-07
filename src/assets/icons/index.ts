@@ -20,3 +20,10 @@ export { BackIcon } from './Back';
 export { RefreshIcon } from './Refresh';
 export { MenuIcon } from './Menu';
 export { InfoIcon } from './InfoIcon';
+
+// Social icons
+export { LinkedInIcon } from './LinkedIn';
+export { InstagramIcon } from './Instagram';
+export { GithubIcon } from './Github';
+export { MediumIcon } from './Medium';
+export { YoutubeIcon } from './Youtube';

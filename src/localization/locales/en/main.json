@@ -1,6 +1,13 @@
 {
   "PowerScreen": {
-    "helpText": "For best experience, Press `F10` key to enter full screen mode."
+    "helpText": "For best experience, Press `F10` key to enter full screen mode.",
+    "sidebar": {
+      "socialLinks": {
+        "title": "--------Social links---------"
+      },
+      "bottomText": "Made with ❤️ by Amit Raikwar",
+      "copyRight": "© 2021 Amit Raikwar. All rights reserved."
+    }
   },
   "LockScreen": {
     "loginPasswordText1": "Touch ID or Enter password",
