@@ -8,6 +8,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import SocialButtons from './SocialButtons';
+import AboutProject from './AboutProject';
 
 const FloatingButton = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -52,6 +53,7 @@ const FloatingButton = () => {
               right={5}
               top={5}
             />
+            <AboutProject />
             <SocialButtons />
           </Box>
         </DrawerContent>
