@@ -2,11 +2,18 @@
   "PowerScreen": {
     "helpText": "For best experience, Press `F10` key to enter full screen mode.",
     "sidebar": {
+      "version": "v{{version}}",
+      "header": "Apple mac OS simulator",
+      "button": {
+        "starOnGithub": "⭐️ Star on GitHub",
+        "sponsor": "💖 Sponsor"
+      },
+      "aboutProject": "This is an open-source project to simulate the Apple mac OS interface. This project is built using ReactJS. You can contribute to this project by giving a star on GitHub.",
       "socialLinks": {
         "title": "--------Social links---------"
       },
       "bottomText": "Made with ❤️ by Amit Raikwar",
-      "copyRight": "© 2021 Amit Raikwar. All rights reserved."
+      "copyRight": "© 2024 Amit Raikwar. All rights reserved."
     }
   },
   "LockScreen": {
