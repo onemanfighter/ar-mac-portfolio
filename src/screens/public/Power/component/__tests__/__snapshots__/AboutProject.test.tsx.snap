@@ -12,7 +12,7 @@ exports[`About project should render correctly 1`] = `
       <p
         class="chakra-text css-g5hezf"
       >
-        v0.4.0
+        v0.5.0
       </p>
     </h2>
     <div

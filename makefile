@@ -31,7 +31,7 @@ commit: ## Uses staged files and some questions to help you write commit message
 		git status --short | grep '^[MARCDT]' && \
 		echo "${RESET}" && \
 		export PS3="${BLUE}Tag? ${RESET}" && \
-		export tags=(fix docs feat refactor test process) && \
+		export tags=(fix docs feat refactor test build chore) && \
 		select tag in "$${tags[@]}"; do \
 			if [[ " $${tags[@]} " =~ " $$tag " ]]; then \
 				export TAG=$$tag && break; \
